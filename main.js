@@ -285,7 +285,7 @@ window.showBuyerDetails = function(itemName, type = null) {
                     <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
                 </div>
             </div>
-        `).join('');
+        `}).join('');
     }
 
     modal.classList.add('active');
@@ -567,12 +567,10 @@ function initializeHouseSearch() {
 
         // エリア検索
         if (pref && city) {
-            // パスを構築: data/house/area/{prefecture}/{city}.json
             jsonPath = `./data/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
         }
         // 駅検索
         else if (railway && station) {
-            // パスを構築: data/house/station/{railway}/{line}/{station}.json
             jsonPath = `./data/house/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
         } else {
             alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
@@ -580,7 +578,6 @@ function initializeHouseSearch() {
         }
 
         try {
-            // JSONファイルを読み込む
             const response = await fetch(jsonPath);
             if (!response.ok) {
                 throw new Error('ファイルが見つかりません');
@@ -592,7 +589,6 @@ function initializeHouseSearch() {
                 return;
             }
 
-            // モーダルを表示
             const modal = document.getElementById('buyerModal');
             const title = document.getElementById('modalTitle');
             const subtitle = document.getElementById('modalSubtitle');
@@ -656,7 +652,6 @@ function initializeHouseSearch() {
 
             modal.classList.add('active');
 
-            // スマホ用フッターを表示
             const footer = document.getElementById('buyerFooter');
             if (footer && window.innerWidth <= 768) {
                 footer.style.display = 'block';
@@ -683,12 +678,10 @@ function initializeLandSearch() {
 
         // エリア検索
         if (pref && city) {
-            // パスを構築: data/land/area/{prefecture}/{city}.json
             jsonPath = `./data/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
         }
         // 駅検索
         else if (railway && station) {
-            // パスを構築: data/land/station/{railway}/{line}/{station}.json
             jsonPath = `./data/land/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
         } else {
             alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
@@ -696,7 +689,6 @@ function initializeLandSearch() {
         }
 
         try {
-            // JSONファイルを読み込む
             const response = await fetch(jsonPath);
             if (!response.ok) {
                 throw new Error('ファイルが見つかりません');
@@ -708,7 +700,6 @@ function initializeLandSearch() {
                 return;
             }
 
-            // モーダルを表示
             const modal = document.getElementById('buyerModal');
             const title = document.getElementById('modalTitle');
             const subtitle = document.getElementById('modalSubtitle');
@@ -766,12 +757,12 @@ function initializeLandSearch() {
                             <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
                         </div>
                     </div>
-                `).join('');
+                `;
+                }).join('');
             }
 
             modal.classList.add('active');
 
-            // スマホ用フッターを表示
             const footer = document.getElementById('buyerFooter');
             if (footer && window.innerWidth <= 768) {
                 footer.style.display = 'block';
@@ -828,7 +819,6 @@ function initializeImageSlider() {
         isUserScrolling = true;
         clearTimeout(scrollTimeout);
 
-        // スクロールが止まってから1秒後に自動スライドを再開
         scrollTimeout = setTimeout(() => {
             isUserScrolling = false;
             updateCurrentIndex();

@@ -3,6 +3,19 @@ import { MANSION_DB } from './mansion_db.js';
 import { HOUSE_DB } from './house_db.js';
 import { LAND_DB } from './land_db.js';
 
+// グローバルエラーハンドラー
+window.addEventListener('error', (event) => {
+    console.error('グローバルエラー:', event.error);
+    if (event.error && event.error.message && event.error.message.includes('Failed to fetch')) {
+        console.error('モジュールの読み込みに失敗しました。サーバー経由でアクセスしているか確認してください。');
+    }
+});
+
+// 未処理のPromise拒否をキャッチ
+window.addEventListener('unhandledrejection', (event) => {
+    console.error('未処理のPromise拒否:', event.reason);
+});
+
 // グローバル変数
 let railwayData = {};
 let areaData = {};
@@ -19,26 +32,54 @@ const statsData = {
 
 // 初期化
 document.addEventListener('DOMContentLoaded', async () => {
-    mansionDatabase = MANSION_DB;
-    houseDatabase = HOUSE_DB;
-    landDatabase = LAND_DB;
-    console.log('読み込まれたマンション数:', mansionDatabase.length);
-    console.log('読み込まれた戸建数:', houseDatabase.length);
-    console.log('読み込まれた土地数:', landDatabase.length);
-    const totalBuyers = mansionDatabase.reduce((sum, m) => sum + (m.buyers?.length || 0), 0);
-    console.log('読み込まれた購入希望者数:', totalBuyers);
-    updateStats('mansion');
-    await loadExternalData();
-    setupSearchMethodToggle('house');
-    setupSearchMethodToggle('land');
-    setup3TierRailwaySelect('house');
-    setup3TierRailwaySelect('land');
-    initializeTabSwitching();
-    initializeMansionSearch();
-    initializeHouseSearch();
-    initializeLandSearch();
-    initializeImageSlider();
-    initializeSimulator();
+    try {
+        console.log('=== 初期化開始 ===');
+        console.log('MANSION_DB:', typeof MANSION_DB, Array.isArray(MANSION_DB) ? MANSION_DB.length : 'N/A');
+        console.log('HOUSE_DB:', typeof HOUSE_DB, Array.isArray(HOUSE_DB) ? HOUSE_DB.length : 'N/A');
+        console.log('LAND_DB:', typeof LAND_DB, Array.isArray(LAND_DB) ? LAND_DB.length : 'N/A');
+        
+        mansionDatabase = MANSION_DB || [];
+        houseDatabase = HOUSE_DB || [];
+        landDatabase = LAND_DB || [];
+        
+        console.log('読み込まれたマンション数:', mansionDatabase.length);
+        console.log('読み込まれた戸建数:', houseDatabase.length);
+        console.log('読み込まれた土地数:', landDatabase.length);
+        
+        if (mansionDatabase.length === 0 && houseDatabase.length === 0 && landDatabase.length === 0) {
+            console.error('警告: データベースが空です。データファイルを確認してください。');
+        }
+        
+        const totalBuyers = mansionDatabase.reduce((sum, m) => sum + (m.buyers?.length || 0), 0);
+        console.log('読み込まれた購入希望者数:', totalBuyers);
+        
+        // DOM要素の確認
+        const statBuyersEl = document.getElementById('statBuyers');
+        const statPropertiesEl = document.getElementById('statProperties');
+        console.log('DOM要素の確認:', {
+            statBuyers: !!statBuyersEl,
+            statProperties: !!statPropertiesEl
+        });
+        
+        updateStats('mansion');
+        await loadExternalData();
+        setupSearchMethodToggle('house');
+        setupSearchMethodToggle('land');
+        setup3TierRailwaySelect('house');
+        setup3TierRailwaySelect('land');
+        initializeTabSwitching();
+        initializeMansionSearch();
+        initializeHouseSearch();
+        initializeLandSearch();
+        initializeImageSlider();
+        initializeSimulator();
+        
+        console.log('=== 初期化完了 ===');
+    } catch (error) {
+        console.error('初期化エラー:', error);
+        console.error('エラーの詳細:', error.stack);
+        alert('データの読み込みに失敗しました。ページを再読み込みしてください。\n\nエラー: ' + error.message);
+    }
 });
 
 function updateStats(type) {
@@ -57,15 +98,25 @@ function updateStats(type) {
 
     totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);
     totalProperties = database.length;
+    
+    console.log(`updateStats(${type}): 購入希望者数=${totalBuyers}, 物件数=${totalProperties}`);
+    
     animateNumber('statBuyers', totalBuyers);
     animateNumber('statProperties', totalProperties);
-    document.getElementById('heroSubtitle').textContent =
-        `関西1,629社の不動産会社で探している${totalBuyers.toLocaleString()}組の購入希望者データベースから最適な買主を見つけます`;
+    
+    const heroSubtitle = document.getElementById('heroSubtitle');
+    if (heroSubtitle) {
+        heroSubtitle.textContent =
+            `関西1,629社の不動産会社で探している${totalBuyers.toLocaleString()}組の購入希望者データベースから最適な買主を見つけます`;
+    }
 }
 
 function animateNumber(elementId, targetNumber) {
     const el = document.getElementById(elementId);
-    if (!el) return;
+    if (!el) {
+        console.error(`要素が見つかりません: #${elementId}`);
+        return;
+    }
     let current = 0;
     const increment = Math.ceil(targetNumber / 50);
     const timer = setInterval(() => {
@@ -379,28 +430,49 @@ function initializeAreaSelects(prefix) {
 
 function initializeTabSwitching() {
     const tabs = document.querySelectorAll('.search-tabs button');
+    console.log('タブボタン数:', tabs.length);
+    
+    if (tabs.length === 0) {
+        console.error('タブボタンが見つかりません。HTMLを確認してください。');
+        return;
+    }
+    
     const contents = {
         mansion: document.getElementById('tab-mansion'),
         house: document.getElementById('tab-house'),
         land: document.getElementById('tab-land'),
     };
+    
+    console.log('タブコンテンツ:', {
+        mansion: !!contents.mansion,
+        house: !!contents.house,
+        land: !!contents.land
+    });
+    
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
             const selectedType = tab.id.replace('tab-', '').replace('-btn', '');
+            console.log('タブがクリックされました:', selectedType);
+            
             tabs.forEach(t => {
                 const isSelected = (t === tab);
                 t.classList.toggle('active', isSelected);
                 t.setAttribute('aria-selected', isSelected ? 'true' : 'false');
             });
             Object.entries(contents).forEach(([key, element]) => {
-                if (!element) return;
+                if (!element) {
+                    console.warn(`タブコンテンツが見つかりません: ${key}`);
+                    return;
+                }
                 element.style.display = (key === selectedType) ? 'block' : 'none';
             });
             updateStats(selectedType);
             const data = statsData[selectedType];
             if (data) {
-                document.getElementById('heroTitle').innerHTML = data.title;
-                document.getElementById('statSuccessRate').textContent = data.rate;
+                const heroTitle = document.getElementById('heroTitle');
+                const statSuccessRate = document.getElementById('statSuccessRate');
+                if (heroTitle) heroTitle.innerHTML = data.title;
+                if (statSuccessRate) statSuccessRate.textContent = data.rate;
             }
         });
     });
@@ -409,7 +481,20 @@ function initializeTabSwitching() {
 function initializeMansionSearch() {
     const inputMansion = document.getElementById('searchInputMansion');
     const suggestionsMansion = document.getElementById('suggestionsMansion');
-    if (!inputMansion || !suggestionsMansion) return;
+    
+    console.log('マンション検索の初期化:', {
+        input: !!inputMansion,
+        suggestions: !!suggestionsMansion,
+        databaseLength: mansionDatabase.length
+    });
+    
+    if (!inputMansion || !suggestionsMansion) {
+        console.error('マンション検索の要素が見つかりません:', {
+            input: !inputMansion,
+            suggestions: !suggestionsMansion
+        });
+        return;
+    }
     inputMansion.addEventListener('input', () => {
         const query = inputMansion.value.toLowerCase();
         suggestionsMansion.innerHTML = '';

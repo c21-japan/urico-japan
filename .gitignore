@@ -1,0 +1,19 @@
+.vercel
+client/
+
+# macOS
+.DS_Store
+
+# ログファイル
+*.log
+logs/
+
+# 自動生成ファイル
+out/
+jobs/
+src/generated/
+
+# ただし、ディレクトリ構造は保持
+!out/.gitkeep
+!jobs/.gitkeep
+!src/generated/.gitkeep

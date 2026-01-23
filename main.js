@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initializeHouseSearch();
     initializeLandSearch();
     initializeImageSlider();
+    initializeSimulator();
 });
 
 function updateStats(type) {
@@ -791,4 +792,78 @@ function initializeImageSlider() {
 
     // 初期化
     startAutoSlide();
+}
+
+// 売却費用シミュレーター初期化
+function initializeSimulator() {
+    const sellPriceSlider = document.getElementById('sell-price');
+    const sellPriceVal = document.getElementById('sell-price-val');
+    const feeResult = document.getElementById('fee-result');
+    const registryResult = document.getElementById('registry-result');
+    const stampResult = document.getElementById('stamp-result');
+    const totalResult = document.getElementById('total-result');
+
+    if (!sellPriceSlider) return;
+
+    function calcBrokerageFee(priceMan) {
+        const price = priceMan * 10000;
+        let fee = 0;
+
+        if (price <= 2000000) {
+            fee = price * 0.05;
+        } else if (price <= 4000000) {
+            fee = price * 0.04 + 20000;
+        } else {
+            fee = price * 0.03 + 60000;
+        }
+
+        return Math.floor(fee * 1.1);
+    }
+
+    function calcStampDuty(priceMan) {
+        const price = priceMan * 10000;
+
+        if (price <= 1000000) return 500;
+        if (price <= 5000000) return 1000;
+        if (price <= 10000000) return 5000;
+        if (price <= 50000000) return 10000;
+        if (price <= 100000000) return 30000;
+        if (price <= 500000000) return 60000;
+        if (price <= 1000000000) return 160000;
+        return 320000;
+    }
+
+    function formatMoney(yen) {
+        if (yen >= 10000) {
+            const man = Math.floor(yen / 10000);
+            const remainder = yen % 10000;
+            if (remainder === 0) {
+                return man.toLocaleString() + '万円';
+            } else {
+                return man.toLocaleString() + '万' + remainder.toLocaleString() + '円';
+            }
+        }
+        return yen.toLocaleString() + '円';
+    }
+
+    function updateCalculation() {
+        const priceMan = parseInt(sellPriceSlider.value);
+        sellPriceVal.textContent = priceMan.toLocaleString();
+
+        const fee = calcBrokerageFee(priceMan);
+        feeResult.textContent = formatMoney(fee);
+
+        registryResult.textContent = '約3〜6万円';
+
+        const stamp = calcStampDuty(priceMan);
+        stampResult.textContent = formatMoney(stamp);
+
+        const totalMin = fee + 30000 + stamp;
+        const totalMax = fee + 60000 + stamp;
+
+        totalResult.textContent = '約' + formatMoney(totalMin) + '〜' + formatMoney(totalMax);
+    }
+
+    sellPriceSlider.addEventListener('input', updateCalculation);
+    updateCalculation();
 }

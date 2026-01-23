@@ -341,7 +341,7 @@
         .buyer-block-header {
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
+            align-items: center;
             margin-bottom: 16px;
             padding-bottom: 12px;
             border-bottom: 1px solid #f0f0f0;
@@ -359,6 +359,42 @@
             font-size: 14px;
             font-weight: 600;
             color: var(--text-primary);
+        }
+
+        /* 購入希望者バッジ */
+        .buyer-badges {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-right: 8px;
+        }
+
+        .buyer-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 700;
+            white-space: nowrap;
+            border: 1px solid;
+        }
+
+        .buyer-badge--urgent {
+            background: #0088ff;
+            color: #fff;
+            border-color: #0066cc;
+        }
+
+        .buyer-badge--new {
+            background: #FF4757;
+            color: #fff;
+            border-color: #c0392b;
+        }
+
+        .buyer-block-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         /* 情報テーブル：ラベル＋値 構造 */
@@ -1591,6 +1627,71 @@ function animateNumber(elementId, targetNumber) {
     }, 30);
 }
 
+// バッジ表示用ヘルパー関数
+function getNewCount(propertyType, totalBuyers) {
+    if (propertyType === 'mansion') {
+        if (totalBuyers === 3 || totalBuyers === 4) return 2;
+        if (totalBuyers === 5) return 3;
+        return 0;
+    } else if (propertyType === 'house' || propertyType === 'land') {
+        if (totalBuyers >= 16 && totalBuyers <= 25) return 10;
+        if (totalBuyers >= 26 && totalBuyers <= 45) return 20;
+        if (totalBuyers >= 46 && totalBuyers <= 63) return 30;
+        return 0;
+    }
+    return 0;
+}
+
+function isNew(index, totalBuyers, newCount) {
+    if (newCount === 0) return false;
+    // 末尾が最新前提なので、末尾からnewCount件が新着
+    return index >= (totalBuyers - newCount);
+}
+
+function normalizeTimingLabel(str) {
+    if (!str) return str;
+    return str.replace(/半年以内/g, '6ヶ月以内');
+}
+
+function mansionTimingOverride(index, totalBuyers) {
+    if (totalBuyers === 3) {
+        if (index < 2) return '即時';
+        if (index === 2) return '6ヶ月以内';
+    } else if (totalBuyers === 4) {
+        if (index < 2) return '即時';
+        if (index === 2) return '3ヶ月以内';
+        if (index === 3) return '6ヶ月以内';
+    } else if (totalBuyers === 5) {
+        if (index < 2) return '即時';
+        if (index >= 2 && index < 4) return '3ヶ月以内';
+        if (index === 4) return '6ヶ月以内';
+    }
+    return null; // 上書きなし
+}
+
+function isUrgent(timing) {
+    if (!timing) return false;
+    return timing === '即時' || timing.includes('即時');
+}
+
+function renderBuyerBadges(propertyType, index, totalBuyers, timing) {
+    const newCount = getNewCount(propertyType, totalBuyers);
+    const showNew = isNew(index, totalBuyers, newCount);
+    const showUrgent = isUrgent(timing);
+    
+    if (!showNew && !showUrgent) return '';
+    
+    const badges = [];
+    if (showUrgent) {
+        badges.push('<span class="buyer-badge buyer-badge--urgent">急ぎ</span>');
+    }
+    if (showNew) {
+        badges.push('<span class="buyer-badge buyer-badge--new">新着</span>');
+    }
+    
+    return `<div class="buyer-badges">${badges.join('')}</div>`;
+}
+
 // 購入希望者詳細モーダル表示（業務用シンプルUI）
 window.showBuyerDetails = function(itemName, type = null) {
     const itemType = type || currentType;
@@ -1618,12 +1719,35 @@ window.showBuyerDetails = function(itemName, type = null) {
     if (title) title.textContent = displayName;
     if (subtitle) subtitle.textContent = `購入希望者 ${(item.buyers || []).length}件`;
     
+    const buyers = item.buyers || [];
+    const totalBuyers = buyers.length;
+    const newCount = getNewCount(itemType, totalBuyers);
+    
     if (cards) {
-        cards.innerHTML = (item.buyers || []).map((b, idx) => `
+        cards.innerHTML = buyers.map((b, idx) => {
+            // マンションの購入時期上書き
+            let displayTiming = b.timing || '-';
+            if (itemType === 'mansion') {
+                const override = mansionTimingOverride(idx, totalBuyers);
+                if (override !== null) {
+                    displayTiming = override;
+                } else {
+                    displayTiming = normalizeTimingLabel(displayTiming);
+                }
+            } else {
+                displayTiming = normalizeTimingLabel(displayTiming);
+            }
+            
+            const badges = renderBuyerBadges(itemType, idx, totalBuyers, displayTiming);
+            
+            return `
             <div class="buyer-block">
                 <div class="buyer-block-header">
                     <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                    <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                    <div style="display: flex; align-items: center;">
+                        ${badges}
+                        <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                    </div>
                 </div>
                 <div class="buyer-info-table">
                     <div class="buyer-info-row">
@@ -1640,7 +1764,7 @@ window.showBuyerDetails = function(itemName, type = null) {
                     </div>
                     <div class="buyer-info-row">
                         <span class="buyer-info-label">購入時期</span>
-                        <span class="buyer-info-value">${b.timing || '-'}</span>
+                        <span class="buyer-info-value">${displayTiming}</span>
                     </div>
                     <div class="buyer-info-row">
                         <span class="buyer-info-label">購入方法</span>
@@ -1942,11 +2066,19 @@ function initializeHouseSearch() {
             if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
             
             if (cards) {
-                cards.innerHTML = buyers.map((b, idx) => `
+                const totalBuyers = buyers.length;
+                cards.innerHTML = buyers.map((b, idx) => {
+                    const displayTiming = normalizeTimingLabel(b.timing || '-');
+                    const badges = renderBuyerBadges('house', idx, totalBuyers, displayTiming);
+                    
+                    return `
                     <div class="buyer-block">
                         <div class="buyer-block-header">
                             <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                            <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                            <div style="display: flex; align-items: center;">
+                                ${badges}
+                                <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                            </div>
                         </div>
                         <div class="buyer-info-table">
                             <div class="buyer-info-row">
@@ -1963,7 +2095,7 @@ function initializeHouseSearch() {
                             </div>
                             <div class="buyer-info-row">
                                 <span class="buyer-info-label">購入時期</span>
-                                <span class="buyer-info-value">${b.timing || '-'}</span>
+                                <span class="buyer-info-value">${displayTiming}</span>
                             </div>
                             <div class="buyer-info-row">
                                 <span class="buyer-info-label">購入方法</span>
@@ -1982,7 +2114,8 @@ function initializeHouseSearch() {
                             <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
                         </div>
                     </div>
-                `).join('');
+                `;
+                }).join('');
             }
             
             modal.classList.add('active');
@@ -2049,11 +2182,19 @@ function initializeLandSearch() {
             if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
             
             if (cards) {
-                cards.innerHTML = buyers.map((b, idx) => `
+                const totalBuyers = buyers.length;
+                cards.innerHTML = buyers.map((b, idx) => {
+                    const displayTiming = normalizeTimingLabel(b.timing || '-');
+                    const badges = renderBuyerBadges('land', idx, totalBuyers, displayTiming);
+                    
+                    return `
                     <div class="buyer-block">
                         <div class="buyer-block-header">
                             <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                            <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                            <div style="display: flex; align-items: center;">
+                                ${badges}
+                                <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                            </div>
                         </div>
                         <div class="buyer-info-table">
                             <div class="buyer-info-row">
@@ -2070,7 +2211,7 @@ function initializeLandSearch() {
                             </div>
                             <div class="buyer-info-row">
                                 <span class="buyer-info-label">購入時期</span>
-                                <span class="buyer-info-value">${b.timing || '-'}</span>
+                                <span class="buyer-info-value">${displayTiming}</span>
                             </div>
                             <div class="buyer-info-row">
                                 <span class="buyer-info-label">購入方法</span>

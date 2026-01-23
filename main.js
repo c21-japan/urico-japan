@@ -246,10 +246,7 @@ window.showBuyerDetails = function(itemName, type = null) {
             <div class="buyer-block">
                 <div class="buyer-block-header">
                     <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                    <div style="display: flex; align-items: center;">
-                        ${badges}
-                        <span class="buyer-price-value">${b.price || '価格応相談'}</span>
-                    </div>
+                    ${badges}
                 </div>
                 <div class="buyer-info-table">
                     <div class="buyer-info-row">
@@ -607,10 +604,7 @@ function initializeHouseSearch() {
                     <div class="buyer-block">
                         <div class="buyer-block-header">
                             <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                            <div style="display: flex; align-items: center;">
-                                ${badges}
-                                <span class="buyer-price-value">${b.price || '価格応相談'}</span>
-                            </div>
+                            ${badges}
                         </div>
                         <div class="buyer-info-table">
                             <div class="buyer-info-row">
@@ -718,10 +712,7 @@ function initializeLandSearch() {
                     <div class="buyer-block">
                         <div class="buyer-block-header">
                             <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                            <div style="display: flex; align-items: center;">
-                                ${badges}
-                                <span class="buyer-price-value">${b.price || '価格応相談'}</span>
-                            </div>
+                            ${badges}
                         </div>
                         <div class="buyer-info-table">
                             <div class="buyer-info-row">

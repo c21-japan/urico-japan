@@ -194,6 +194,33 @@ function renderBuyerBadges(propertyType, index, totalBuyers, timing) {
     return `<div class="buyer-badges">${badges.join('')}</div>`;
 }
 
+// バッジ優先度を計算（新着+急ぎ=3, 新着のみ=2, 急ぎのみ=1, なし=0）
+function getBadgePriority(propertyType, index, totalBuyers, timing) {
+    const newCount = getNewCount(propertyType, totalBuyers);
+    const showNew = isNew(index, totalBuyers, newCount);
+    const showUrgent = isUrgent(timing);
+
+    if (showNew && showUrgent) return 3;
+    if (showNew) return 2;
+    if (showUrgent) return 1;
+    return 0;
+}
+
+// 購入希望者をバッジ優先度でソート（元のインデックスも保持）
+function sortBuyersByBadges(buyers, propertyType) {
+    const totalBuyers = buyers.length;
+
+    // 元のインデックスを保持しながらソート
+    return buyers
+        .map((buyer, originalIndex) => ({ buyer, originalIndex }))
+        .sort((a, b) => {
+            const aPriority = getBadgePriority(propertyType, a.originalIndex, totalBuyers, a.buyer.timing);
+            const bPriority = getBadgePriority(propertyType, b.originalIndex, totalBuyers, b.buyer.timing);
+            return bPriority - aPriority; // 降順（優先度が高い順）
+        });
+    // { buyer, originalIndex } の配列を返す
+}
+
 // 購入希望者詳細モーダル表示（業務用シンプルUI）
 window.showBuyerDetails = function(itemName, type = null) {
     const itemType = type || currentType;
@@ -225,12 +252,15 @@ window.showBuyerDetails = function(itemName, type = null) {
     const totalBuyers = buyers.length;
     const newCount = getNewCount(itemType, totalBuyers);
 
+    // バッジ優先度でソート
+    const sortedBuyers = sortBuyersByBadges(buyers, itemType);
+
     if (cards) {
-        cards.innerHTML = buyers.map((b, idx) => {
-            // マンションの購入時期上書き
+        cards.innerHTML = sortedBuyers.map(({ buyer: b, originalIndex }, displayIdx) => {
+            // マンションの購入時期上書き（元のインデックスを使用）
             let displayTiming = b.timing || '-';
             if (itemType === 'mansion') {
-                const override = mansionTimingOverride(idx, totalBuyers);
+                const override = mansionTimingOverride(originalIndex, totalBuyers);
                 if (override !== null) {
                     displayTiming = override;
                 } else {
@@ -240,12 +270,13 @@ window.showBuyerDetails = function(itemName, type = null) {
                 displayTiming = normalizeTimingLabel(displayTiming);
             }
 
-            const badges = renderBuyerBadges(itemType, idx, totalBuyers, displayTiming);
+            // バッジ表示は元のインデックスを使用
+            const badges = renderBuyerBadges(itemType, originalIndex, totalBuyers, displayTiming);
 
             return `
             <div class="buyer-block">
                 <div class="buyer-block-header">
-                    <span class="buyer-number">購入希望者 #${idx + 1}</span>
+                    <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
                     ${badges}
                 </div>
                 <div class="buyer-info-table">
@@ -279,7 +310,7 @@ window.showBuyerDetails = function(itemName, type = null) {
                     </div>
                 </div>
                 <div class="buyer-action">
-                    <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
+                    <button class="contact-buyer-btn" onclick="contactBuyer(${displayIdx})">この購入希望者を紹介してほしい</button>
                 </div>
             </div>
         `}).join('');
@@ -596,14 +627,16 @@ function initializeHouseSearch() {
 
             if (cards) {
                 const totalBuyers = buyers.length;
-                cards.innerHTML = buyers.map((b, idx) => {
+                const sortedBuyers = sortBuyersByBadges(buyers, 'house');
+
+                cards.innerHTML = sortedBuyers.map(({ buyer: b, originalIndex }, displayIdx) => {
                     const displayTiming = normalizeTimingLabel(b.timing || '-');
-                    const badges = renderBuyerBadges('house', idx, totalBuyers, displayTiming);
+                    const badges = renderBuyerBadges('house', originalIndex, totalBuyers, displayTiming);
 
                     return `
                     <div class="buyer-block">
                         <div class="buyer-block-header">
-                            <span class="buyer-number">購入希望者 #${idx + 1}</span>
+                            <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
                             ${badges}
                         </div>
                         <div class="buyer-info-table">
@@ -617,7 +650,7 @@ function initializeHouseSearch() {
                             </div>
                         </div>
                         <div class="buyer-action">
-                            <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
+                            <button class="contact-buyer-btn" onclick="contactBuyer(${displayIdx})">この購入希望者を紹介してほしい</button>
                         </div>
                     </div>
                 `;
@@ -684,14 +717,16 @@ function initializeLandSearch() {
 
             if (cards) {
                 const totalBuyers = buyers.length;
-                cards.innerHTML = buyers.map((b, idx) => {
+                const sortedBuyers = sortBuyersByBadges(buyers, 'land');
+
+                cards.innerHTML = sortedBuyers.map(({ buyer: b, originalIndex }, displayIdx) => {
                     const displayTiming = normalizeTimingLabel(b.timing || '-');
-                    const badges = renderBuyerBadges('land', idx, totalBuyers, displayTiming);
+                    const badges = renderBuyerBadges('land', originalIndex, totalBuyers, displayTiming);
 
                     return `
                     <div class="buyer-block">
                         <div class="buyer-block-header">
-                            <span class="buyer-number">購入希望者 #${idx + 1}</span>
+                            <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
                             ${badges}
                         </div>
                         <div class="buyer-info-table">
@@ -705,7 +740,7 @@ function initializeLandSearch() {
                             </div>
                         </div>
                         <div class="buyer-action">
-                            <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
+                            <button class="contact-buyer-btn" onclick="contactBuyer(${displayIdx})">この購入希望者を紹介してほしい</button>
                         </div>
                     </div>
                 `;

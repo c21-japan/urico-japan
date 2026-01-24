@@ -8,7 +8,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0002",
@@ -19,7 +19,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0003",
@@ -30,7 +30,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KI-KK-0004",
@@ -41,7 +41,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0005",
@@ -52,7 +52,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0006",
@@ -63,7 +63,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0007",
@@ -74,7 +74,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0008",
@@ -85,7 +85,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KI-KK-0009",
@@ -96,7 +96,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0010",
@@ -107,7 +107,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0011",
@@ -118,7 +118,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0012",
@@ -129,7 +129,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0013",
@@ -140,7 +140,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KI-KK-0014",
@@ -151,7 +151,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0015",
@@ -162,7 +162,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0016",
@@ -173,7 +173,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0017",
@@ -184,7 +184,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0018",
@@ -195,7 +195,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KI-KK-0019",
@@ -206,7 +206,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0020",
@@ -217,7 +217,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0021",
@@ -228,7 +228,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0022",
@@ -239,7 +239,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0023",
@@ -250,7 +250,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KI-KK-0024",
@@ -261,7 +261,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0025",
@@ -272,7 +272,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0026",
@@ -283,7 +283,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0027",
@@ -294,7 +294,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0028",
@@ -305,7 +305,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KI-KK-0029",
@@ -316,7 +316,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0030",
@@ -327,7 +327,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0031",
@@ -338,7 +338,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0032",
@@ -349,7 +349,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0033",
@@ -360,7 +360,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KI-KK-0034",
@@ -371,7 +371,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0035",
@@ -382,7 +382,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0036",
@@ -393,7 +393,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0037",
@@ -404,7 +404,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0038",
@@ -415,7 +415,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KI-KK-0039",
@@ -426,7 +426,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0040",
@@ -437,7 +437,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KI-KK-0041",
@@ -448,7 +448,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KI-KK-0042",
@@ -459,7 +459,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KI-KK-0043",
@@ -470,6 +470,6 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "国際会館",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

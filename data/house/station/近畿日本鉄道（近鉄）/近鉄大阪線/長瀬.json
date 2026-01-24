@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-041",
@@ -448,7 +448,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-KINTETSU-OSAKA-NAGASE-042",
@@ -459,6 +459,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "長瀬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

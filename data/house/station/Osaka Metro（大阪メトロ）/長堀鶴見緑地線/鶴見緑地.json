@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-041",
@@ -448,7 +448,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-OMN-TSG-042",
@@ -459,7 +459,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-OMN-TSG-043",
@@ -470,7 +470,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-OMN-TSG-044",
@@ -481,6 +481,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "鶴見緑地",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

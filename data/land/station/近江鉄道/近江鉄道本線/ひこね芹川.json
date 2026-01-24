@@ -8,7 +8,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OMIH-HKS-002",
@@ -19,7 +19,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-003",
@@ -30,7 +30,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-004",
@@ -41,7 +41,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-005",
@@ -52,7 +52,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-006",
@@ -63,7 +63,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-007",
@@ -74,7 +74,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-008",
@@ -85,7 +85,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OMIH-HKS-009",
@@ -96,7 +96,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-010",
@@ -107,7 +107,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-011",
@@ -118,7 +118,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-012",
@@ -129,7 +129,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-013",
@@ -140,7 +140,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OMIH-HKS-014",
@@ -151,7 +151,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-015",
@@ -162,7 +162,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-016",
@@ -173,7 +173,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-017",
@@ -184,7 +184,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-018",
@@ -195,7 +195,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-019",
@@ -206,7 +206,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OMIH-HKS-020",
@@ -217,7 +217,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-021",
@@ -228,7 +228,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-022",
@@ -239,7 +239,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-023",
@@ -250,7 +250,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-024",
@@ -261,7 +261,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OMIH-HKS-025",
@@ -272,7 +272,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OMIH-HKS-026",
@@ -283,7 +283,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OMIH-HKS-027",
@@ -294,6 +294,6 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "ひこね芹川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KINTETSU-KYOTO-MUKAIJIMA-029",
@@ -316,6 +316,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "向島",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

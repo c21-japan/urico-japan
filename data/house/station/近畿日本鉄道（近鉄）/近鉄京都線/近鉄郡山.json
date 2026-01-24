@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672302",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672303",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672304",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672305",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672306",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672307",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672308",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672309",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672310",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672311",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672312",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672313",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672314",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672315",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672316",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672317",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672318",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672319",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672320",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672321",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672322",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672323",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672324",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672325",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672326",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672327",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672328",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672329",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672330",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672331",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672332",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672333",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672334",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672335",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672336",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672337",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672338",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-KK-672339",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-KK-672340",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-KK-672341",
@@ -448,7 +448,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-KK-672342",
@@ -459,6 +459,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "近鉄郡山",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

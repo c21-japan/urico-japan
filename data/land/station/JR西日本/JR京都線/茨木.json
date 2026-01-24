@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-STAT-JRK-IBA-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-STAT-JRK-IBA-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-STAT-JRK-IBA-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-STAT-JRK-IBA-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-STAT-JRK-IBA-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-STAT-JRK-IBA-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-STAT-JRK-IBA-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-STAT-JRK-IBA-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-STAT-JRK-IBA-042",
@@ -459,7 +459,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-STAT-JRK-IBA-043",
@@ -470,6 +470,6 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

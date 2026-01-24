@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-OMSK-EBISUCHO-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-OMSK-EBISUCHO-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-OMSK-EBISUCHO-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-OMSK-EBISUCHO-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-OMSK-EBISUCHO-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-OMSK-EBISUCHO-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-OMSK-EBISUCHO-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-OMSK-EBISUCHO-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-OMSK-EBISUCHO-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-OMSK-EBISUCHO-041",
@@ -448,6 +448,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "堺筋線",
     "station": "恵美須町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

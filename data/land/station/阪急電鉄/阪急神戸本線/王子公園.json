@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HK-KB-OJK-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HK-KB-OJK-042",
@@ -459,7 +459,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HK-KB-OJK-043",
@@ -470,6 +470,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急神戸本線",
     "station": "王子公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

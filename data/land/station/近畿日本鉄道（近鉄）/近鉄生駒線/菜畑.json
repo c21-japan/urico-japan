@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land-nabatake-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land-nabatake-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land-nabatake-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land-nabatake-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land-nabatake-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land-nabatake-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land-nabatake-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land-nabatake-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land-nabatake-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land-nabatake-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land-nabatake-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land-nabatake-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land-nabatake-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land-nabatake-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land-nabatake-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land-nabatake-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land-nabatake-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land-nabatake-041",
@@ -448,6 +448,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "菜畑",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

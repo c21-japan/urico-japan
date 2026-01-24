@@ -8,7 +8,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-002",
@@ -19,7 +19,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-003",
@@ -30,7 +30,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-004",
@@ -41,7 +41,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-005",
@@ -52,7 +52,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-006",
@@ -63,7 +63,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-007",
@@ -74,7 +74,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-008",
@@ -85,7 +85,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-009",
@@ -96,7 +96,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-010",
@@ -107,7 +107,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-011",
@@ -118,7 +118,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-012",
@@ -129,7 +129,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-013",
@@ -140,7 +140,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-014",
@@ -151,7 +151,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-015",
@@ -162,7 +162,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-016",
@@ -173,7 +173,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-017",
@@ -184,7 +184,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-018",
@@ -195,7 +195,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-019",
@@ -206,7 +206,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-020",
@@ -217,7 +217,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-021",
@@ -228,7 +228,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-022",
@@ -239,7 +239,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-023",
@@ -250,7 +250,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-024",
@@ -261,7 +261,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-025",
@@ -272,7 +272,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-026",
@@ -283,7 +283,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-027",
@@ -294,7 +294,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-028",
@@ -305,7 +305,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-029",
@@ -316,7 +316,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-030",
@@ -327,7 +327,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-031",
@@ -338,7 +338,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-032",
@@ -349,7 +349,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-033",
@@ -360,7 +360,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-034",
@@ -371,7 +371,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-035",
@@ -382,7 +382,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-036",
@@ -393,7 +393,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-037",
@@ -404,7 +404,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-038",
@@ -415,7 +415,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-039",
@@ -426,7 +426,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-ST-K-ISHIDA-040",
@@ -437,7 +437,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-041",
@@ -448,7 +448,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-ST-K-ISHIDA-042",
@@ -459,7 +459,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-ST-K-ISHIDA-043",
@@ -470,6 +470,6 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄東西線",
     "station": "石田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

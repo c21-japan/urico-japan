@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKR-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKR-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKR-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKR-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKR-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKR-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKR-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKR-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKR-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKR-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKR-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKR-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKR-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKR-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKR-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKR-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKR-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKR-041",
@@ -448,6 +448,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "嵐山",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

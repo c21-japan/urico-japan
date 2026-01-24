@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-042",
@@ -459,7 +459,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-043",
@@ -470,7 +470,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-044",
@@ -481,7 +481,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-045",
@@ -492,7 +492,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-046",
@@ -503,7 +503,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-047",
@@ -514,7 +514,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-048",
@@ -525,7 +525,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-TEN-049",
@@ -536,7 +536,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-050",
@@ -547,7 +547,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-TEN-051",
@@ -558,7 +558,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-TEN-052",
@@ -569,7 +569,7 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-TEN-053",
@@ -580,6 +580,6 @@
     "rail_company": "JR西日本",
     "line": "JR大和路線",
     "station": "天王寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

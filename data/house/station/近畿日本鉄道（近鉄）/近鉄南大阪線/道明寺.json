@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-S-KT-NMB-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-S-KT-NMB-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-S-KT-NMB-041",
@@ -448,6 +448,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "道明寺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

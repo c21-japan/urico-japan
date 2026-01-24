@@ -8,7 +8,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_002",
@@ -19,7 +19,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_003",
@@ -30,7 +30,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_004",
@@ -41,7 +41,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_005",
@@ -52,7 +52,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_006",
@@ -63,7 +63,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_007",
@@ -74,7 +74,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_008",
@@ -85,7 +85,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_009",
@@ -96,7 +96,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_010",
@@ -107,7 +107,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_011",
@@ -118,7 +118,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_012",
@@ -129,7 +129,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_013",
@@ -140,7 +140,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_014",
@@ -151,7 +151,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_015",
@@ -162,7 +162,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_016",
@@ -173,7 +173,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_017",
@@ -184,7 +184,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_018",
@@ -195,7 +195,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_019",
@@ -206,7 +206,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_020",
@@ -217,7 +217,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_021",
@@ -228,7 +228,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_022",
@@ -239,7 +239,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_023",
@@ -250,7 +250,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_024",
@@ -261,7 +261,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_025",
@@ -272,7 +272,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_026",
@@ -283,7 +283,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_027",
@@ -294,7 +294,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_028",
@@ -305,7 +305,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_029",
@@ -316,7 +316,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_030",
@@ -327,7 +327,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_031",
@@ -338,7 +338,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_032",
@@ -349,7 +349,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_033",
@@ -360,7 +360,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_034",
@@ -371,7 +371,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_035",
@@ -382,7 +382,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_036",
@@ -393,7 +393,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_037",
@@ -404,7 +404,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_038",
@@ -415,7 +415,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_039",
@@ -426,7 +426,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_040",
@@ -437,7 +437,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_041",
@@ -448,7 +448,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_keihan_nakanoshima_watanabebashi_042",
@@ -459,6 +459,6 @@
     "rail_company": "京阪電鉄",
     "line": "京阪中之島線",
     "station": "渡辺橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

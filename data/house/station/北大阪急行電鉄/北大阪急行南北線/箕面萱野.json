@@ -8,7 +8,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-002",
@@ -19,7 +19,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KMY-003",
@@ -30,7 +30,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KMY-004",
@@ -41,7 +41,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-005",
@@ -52,7 +52,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-006",
@@ -63,7 +63,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KMY-007",
@@ -74,7 +74,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-008",
@@ -85,7 +85,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KMY-009",
@@ -96,7 +96,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-010",
@@ -107,7 +107,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-011",
@@ -118,7 +118,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KMY-012",
@@ -129,7 +129,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KMY-013",
@@ -140,7 +140,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-014",
@@ -151,7 +151,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-015",
@@ -162,7 +162,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-016",
@@ -173,7 +173,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KMY-017",
@@ -184,7 +184,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KMY-018",
@@ -195,7 +195,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-019",
@@ -206,7 +206,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-020",
@@ -217,7 +217,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-021",
@@ -228,7 +228,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KMY-022",
@@ -239,7 +239,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KMY-023",
@@ -250,7 +250,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-024",
@@ -261,7 +261,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-025",
@@ -272,7 +272,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-026",
@@ -283,7 +283,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KMY-027",
@@ -294,7 +294,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KMY-028",
@@ -305,7 +305,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-029",
@@ -316,7 +316,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-030",
@@ -327,7 +327,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-031",
@@ -338,7 +338,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KMY-032",
@@ -349,7 +349,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KMY-033",
@@ -360,7 +360,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-034",
@@ -371,7 +371,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-035",
@@ -382,7 +382,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-036",
@@ -393,7 +393,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KMY-037",
@@ -404,7 +404,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KMY-038",
@@ -415,7 +415,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-039",
@@ -426,7 +426,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KMY-040",
@@ -437,7 +437,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KMY-041",
@@ -448,6 +448,6 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "箕面萱野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

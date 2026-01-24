@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-041",
@@ -448,7 +448,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-MS-DAIKOKUCHO-042",
@@ -459,6 +459,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "大国町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

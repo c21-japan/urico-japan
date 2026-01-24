@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE-HANKYU-ARASHIYAMA-KATSURA-042",
@@ -459,6 +459,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急嵐山線",
     "station": "桂",
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

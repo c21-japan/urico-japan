@@ -8,7 +8,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-002",
@@ -19,7 +19,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-003",
@@ -30,7 +30,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-004",
@@ -41,7 +41,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-005",
@@ -52,7 +52,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-006",
@@ -63,7 +63,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-007",
@@ -74,7 +74,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-008",
@@ -85,7 +85,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-009",
@@ -96,7 +96,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-010",
@@ -107,7 +107,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-011",
@@ -118,7 +118,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-012",
@@ -129,7 +129,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-013",
@@ -140,7 +140,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-014",
@@ -151,7 +151,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-015",
@@ -162,7 +162,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-016",
@@ -173,7 +173,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-017",
@@ -184,7 +184,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-018",
@@ -195,7 +195,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-019",
@@ -206,7 +206,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-020",
@@ -217,7 +217,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-021",
@@ -228,7 +228,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-022",
@@ -239,7 +239,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-023",
@@ -250,7 +250,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-024",
@@ -261,7 +261,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-025",
@@ -272,7 +272,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-026",
@@ -283,7 +283,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-027",
@@ -294,7 +294,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-028",
@@ -305,7 +305,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-029",
@@ -316,7 +316,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-030",
@@ -327,7 +327,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-031",
@@ -338,7 +338,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-032",
@@ -349,7 +349,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-033",
@@ -360,7 +360,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-034",
@@ -371,7 +371,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-035",
@@ -382,7 +382,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-036",
@@ -393,7 +393,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-037",
@@ -404,7 +404,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-038",
@@ -415,7 +415,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-NBC-039",
@@ -426,7 +426,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-NBC-040",
@@ -437,7 +437,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-NBC-041",
@@ -448,7 +448,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-NBC-042",
@@ -459,6 +459,6 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "中百舌鳥",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

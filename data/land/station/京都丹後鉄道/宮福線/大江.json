@@ -8,7 +8,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-002",
@@ -19,7 +19,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-003",
@@ -30,7 +30,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-004",
@@ -41,7 +41,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-005",
@@ -52,7 +52,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-006",
@@ -63,7 +63,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-007",
@@ -74,7 +74,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-008",
@@ -85,7 +85,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-009",
@@ -96,7 +96,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-010",
@@ -107,7 +107,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-011",
@@ -118,7 +118,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-012",
@@ -129,7 +129,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-013",
@@ -140,7 +140,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-014",
@@ -151,7 +151,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-015",
@@ -162,7 +162,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-016",
@@ -173,7 +173,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-017",
@@ -184,7 +184,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-018",
@@ -195,7 +195,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-019",
@@ -206,7 +206,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-020",
@@ -217,7 +217,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-021",
@@ -228,7 +228,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-022",
@@ -239,7 +239,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-023",
@@ -250,7 +250,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-024",
@@ -261,7 +261,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-025",
@@ -272,7 +272,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-026",
@@ -283,7 +283,7 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KYOTANGO-MIYAFUKU-OOE-027",
@@ -294,6 +294,6 @@
     "rail_company": "京都丹後鉄道",
     "line": "宮福線",
     "station": "大江",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

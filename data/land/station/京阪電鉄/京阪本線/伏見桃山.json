@@ -8,7 +8,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-002",
@@ -19,7 +19,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-003",
@@ -30,7 +30,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KB-FM-004",
@@ -41,7 +41,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-005",
@@ -52,7 +52,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-006",
@@ -63,7 +63,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-007",
@@ -74,7 +74,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-008",
@@ -85,7 +85,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KB-FM-009",
@@ -96,7 +96,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-010",
@@ -107,7 +107,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-011",
@@ -118,7 +118,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-012",
@@ -129,7 +129,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-013",
@@ -140,7 +140,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KB-FM-014",
@@ -151,7 +151,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-015",
@@ -162,7 +162,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-016",
@@ -173,7 +173,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-017",
@@ -184,7 +184,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-018",
@@ -195,7 +195,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KB-FM-019",
@@ -206,7 +206,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-020",
@@ -217,7 +217,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-021",
@@ -228,7 +228,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-022",
@@ -239,7 +239,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-023",
@@ -250,7 +250,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KB-FM-024",
@@ -261,7 +261,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-025",
@@ -272,7 +272,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-026",
@@ -283,7 +283,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-027",
@@ -294,7 +294,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-028",
@@ -305,7 +305,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KB-FM-029",
@@ -316,7 +316,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-030",
@@ -327,7 +327,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-031",
@@ -338,7 +338,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-032",
@@ -349,7 +349,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-033",
@@ -360,7 +360,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KB-FM-034",
@@ -371,7 +371,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-035",
@@ -382,7 +382,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-036",
@@ -393,7 +393,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-037",
@@ -404,7 +404,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-038",
@@ -415,7 +415,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KB-FM-039",
@@ -426,7 +426,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-040",
@@ -437,7 +437,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KB-FM-041",
@@ -448,7 +448,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KB-FM-042",
@@ -459,7 +459,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KB-FM-043",
@@ -470,6 +470,6 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "伏見桃山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

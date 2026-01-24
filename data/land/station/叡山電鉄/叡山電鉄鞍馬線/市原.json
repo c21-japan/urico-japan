@@ -8,7 +8,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-002",
@@ -19,7 +19,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-003",
@@ -30,7 +30,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-E-KU-I-004",
@@ -41,7 +41,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-005",
@@ -52,7 +52,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-006",
@@ -63,7 +63,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-007",
@@ -74,7 +74,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-008",
@@ -85,7 +85,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-E-KU-I-009",
@@ -96,7 +96,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-010",
@@ -107,7 +107,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-011",
@@ -118,7 +118,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-012",
@@ -129,7 +129,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-013",
@@ -140,7 +140,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-E-KU-I-014",
@@ -151,7 +151,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-015",
@@ -162,7 +162,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-016",
@@ -173,7 +173,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-017",
@@ -184,7 +184,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-018",
@@ -195,7 +195,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-E-KU-I-019",
@@ -206,7 +206,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-020",
@@ -217,7 +217,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-021",
@@ -228,7 +228,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-022",
@@ -239,7 +239,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-023",
@@ -250,7 +250,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-E-KU-I-024",
@@ -261,7 +261,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-025",
@@ -272,7 +272,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-026",
@@ -283,7 +283,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-027",
@@ -294,7 +294,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-028",
@@ -305,7 +305,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-E-KU-I-029",
@@ -316,7 +316,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-030",
@@ -327,7 +327,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-031",
@@ -338,7 +338,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-032",
@@ -349,7 +349,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-033",
@@ -360,7 +360,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-E-KU-I-034",
@@ -371,7 +371,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-035",
@@ -382,7 +382,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-036",
@@ -393,7 +393,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-037",
@@ -404,7 +404,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-038",
@@ -415,7 +415,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-E-KU-I-039",
@@ -426,7 +426,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-E-KU-I-040",
@@ -437,7 +437,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-E-KU-I-041",
@@ -448,7 +448,7 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-E-KU-I-042",
@@ -459,6 +459,6 @@
     "rail_company": "叡山電鉄",
     "line": "叡山電鉄鞍馬線",
     "station": "市原",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-042",
@@ -459,7 +459,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-043",
@@ -470,7 +470,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-044",
@@ -481,7 +481,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-045",
@@ -492,7 +492,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-046",
@@ -503,7 +503,7 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRWS-SHIOSAKA-047",
@@ -514,6 +514,6 @@
     "rail_company": "JR西日本",
     "line": "JR京都線",
     "station": "新大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

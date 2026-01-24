@@ -8,7 +8,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28002",
@@ -19,7 +19,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28003",
@@ -30,7 +30,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28004",
@@ -41,7 +41,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28005",
@@ -52,7 +52,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28006",
@@ -63,7 +63,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKH28007",
@@ -74,7 +74,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28008",
@@ -85,7 +85,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28009",
@@ -96,7 +96,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKH28010",
@@ -107,7 +107,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28011",
@@ -118,7 +118,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28012",
@@ -129,7 +129,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28013",
@@ -140,7 +140,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKH28014",
@@ -151,7 +151,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28015",
@@ -162,7 +162,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28016",
@@ -173,7 +173,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28017",
@@ -184,7 +184,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKH28018",
@@ -195,7 +195,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28019",
@@ -206,7 +206,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKH28020",
@@ -217,7 +217,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28021",
@@ -228,7 +228,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28022",
@@ -239,7 +239,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28023",
@@ -250,7 +250,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28024",
@@ -261,7 +261,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKH28025",
@@ -272,7 +272,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28026",
@@ -283,7 +283,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28027",
@@ -294,7 +294,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKH28028",
@@ -305,7 +305,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28029",
@@ -316,7 +316,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28030",
@@ -327,7 +327,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28031",
@@ -338,7 +338,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28032",
@@ -349,7 +349,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKH28033",
@@ -360,7 +360,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28034",
@@ -371,7 +371,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKH28035",
@@ -382,7 +382,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28036",
@@ -393,7 +393,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28037",
@@ -404,7 +404,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28038",
@@ -415,7 +415,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKH28039",
@@ -426,7 +426,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKH28040",
@@ -437,7 +437,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKH28041",
@@ -448,7 +448,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKH28042",
@@ -459,7 +459,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKH28043",
@@ -470,6 +470,6 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_041",
@@ -448,7 +448,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_042",
@@ -459,7 +459,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hankyukyoto_aigawa_043",
@@ -470,6 +470,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "相川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

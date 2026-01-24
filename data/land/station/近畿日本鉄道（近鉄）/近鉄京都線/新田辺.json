@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-041",
@@ -448,7 +448,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-ST-KINTETSU-KYOTO-SHINDENTABE-042",
@@ -459,6 +459,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "新田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

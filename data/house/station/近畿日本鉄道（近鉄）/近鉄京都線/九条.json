@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_041",
@@ -448,7 +448,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_kintetsu_kyoto_kujo_042",
@@ -459,6 +459,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄京都線",
     "station": "九条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

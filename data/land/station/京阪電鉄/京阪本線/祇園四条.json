@@ -8,7 +8,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G402",
@@ -19,7 +19,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G403",
@@ -30,7 +30,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-KH-G404",
@@ -41,7 +41,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G405",
@@ -52,7 +52,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G406",
@@ -63,7 +63,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G407",
@@ -74,7 +74,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G408",
@@ -85,7 +85,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-KH-G409",
@@ -96,7 +96,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G410",
@@ -107,7 +107,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G411",
@@ -118,7 +118,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G412",
@@ -129,7 +129,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-KH-G413",
@@ -140,7 +140,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G414",
@@ -151,7 +151,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G415",
@@ -162,7 +162,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G416",
@@ -173,7 +173,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G417",
@@ -184,7 +184,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-KH-G418",
@@ -195,7 +195,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G419",
@@ -206,7 +206,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G420",
@@ -217,7 +217,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G421",
@@ -228,7 +228,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G422",
@@ -239,7 +239,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-KH-G423",
@@ -250,7 +250,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G424",
@@ -261,7 +261,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G425",
@@ -272,7 +272,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G426",
@@ -283,7 +283,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G427",
@@ -294,7 +294,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-KH-G428",
@@ -305,7 +305,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G429",
@@ -316,7 +316,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G430",
@@ -327,7 +327,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G431",
@@ -338,7 +338,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G432",
@@ -349,7 +349,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-KH-G433",
@@ -360,7 +360,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G434",
@@ -371,7 +371,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G435",
@@ -382,7 +382,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G436",
@@ -393,7 +393,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G437",
@@ -404,7 +404,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-KH-G438",
@@ -415,7 +415,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G439",
@@ -426,7 +426,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-KH-G440",
@@ -437,7 +437,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-KH-G441",
@@ -448,7 +448,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-KH-G442",
@@ -459,6 +459,6 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "祇園四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

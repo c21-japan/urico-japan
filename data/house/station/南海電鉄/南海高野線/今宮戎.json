@@ -8,7 +8,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-002",
@@ -19,7 +19,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-003",
@@ -30,7 +30,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-004",
@@ -41,7 +41,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-005",
@@ -52,7 +52,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-006",
@@ -63,7 +63,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-007",
@@ -74,7 +74,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-008",
@@ -85,7 +85,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-009",
@@ -96,7 +96,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-010",
@@ -107,7 +107,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-011",
@@ -118,7 +118,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-012",
@@ -129,7 +129,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-013",
@@ -140,7 +140,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-014",
@@ -151,7 +151,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-015",
@@ -162,7 +162,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-016",
@@ -173,7 +173,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-017",
@@ -184,7 +184,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-018",
@@ -195,7 +195,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-019",
@@ -206,7 +206,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-020",
@@ -217,7 +217,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-021",
@@ -228,7 +228,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-022",
@@ -239,7 +239,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-023",
@@ -250,7 +250,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-024",
@@ -261,7 +261,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-025",
@@ -272,7 +272,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-026",
@@ -283,7 +283,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-027",
@@ -294,7 +294,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-028",
@@ -305,7 +305,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-029",
@@ -316,7 +316,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-030",
@@ -327,7 +327,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-031",
@@ -338,7 +338,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-032",
@@ -349,7 +349,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-033",
@@ -360,7 +360,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-034",
@@ -371,7 +371,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-035",
@@ -382,7 +382,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-036",
@@ -393,7 +393,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-037",
@@ -404,7 +404,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-038",
@@ -415,7 +415,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-039",
@@ -426,7 +426,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOS-NKMDT-NGY-040",
@@ -437,7 +437,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOS-NKMDT-NGY-041",
@@ -448,7 +448,7 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOS-NKMDT-NGY-042",
@@ -459,6 +459,6 @@
     "rail_company": "南海電鉄",
     "line": "南海高野線",
     "station": "今宮戎",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

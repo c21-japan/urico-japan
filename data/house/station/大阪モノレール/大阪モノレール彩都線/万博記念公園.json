@@ -8,7 +8,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_002",
@@ -19,7 +19,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_003",
@@ -30,7 +30,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_004",
@@ -41,7 +41,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_005",
@@ -52,7 +52,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_006",
@@ -63,7 +63,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_007",
@@ -74,7 +74,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_008",
@@ -85,7 +85,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_009",
@@ -96,7 +96,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_010",
@@ -107,7 +107,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_011",
@@ -118,7 +118,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_012",
@@ -129,7 +129,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_013",
@@ -140,7 +140,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_014",
@@ -151,7 +151,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_015",
@@ -162,7 +162,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_016",
@@ -173,7 +173,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_017",
@@ -184,7 +184,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_018",
@@ -195,7 +195,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_019",
@@ -206,7 +206,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_020",
@@ -217,7 +217,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_021",
@@ -228,7 +228,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_022",
@@ -239,7 +239,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_023",
@@ -250,7 +250,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_024",
@@ -261,7 +261,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_025",
@@ -272,7 +272,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_026",
@@ -283,7 +283,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_027",
@@ -294,7 +294,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_028",
@@ -305,7 +305,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_029",
@@ -316,7 +316,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_030",
@@ -327,7 +327,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_031",
@@ -338,7 +338,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_032",
@@ -349,7 +349,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_033",
@@ -360,7 +360,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_034",
@@ -371,7 +371,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_035",
@@ -382,7 +382,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_036",
@@ -393,7 +393,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_037",
@@ -404,7 +404,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_038",
@@ -415,7 +415,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_039",
@@ -426,7 +426,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_040",
@@ -437,7 +437,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_station_osaka-monorail-saito_bampakukinenkoen_041",
@@ -448,6 +448,6 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール彩都線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-ENV-OSK-042",
@@ -459,7 +459,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-043",
@@ -470,7 +470,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-ENV-OSK-044",
@@ -481,7 +481,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-ENV-OSK-045",
@@ -492,6 +492,6 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "大阪",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

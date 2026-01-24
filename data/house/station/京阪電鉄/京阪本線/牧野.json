@@ -8,7 +8,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H002",
@@ -19,7 +19,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H003",
@@ -30,7 +30,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-MK-H004",
@@ -41,7 +41,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H005",
@@ -52,7 +52,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H006",
@@ -63,7 +63,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H007",
@@ -74,7 +74,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H008",
@@ -85,7 +85,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-MK-H009",
@@ -96,7 +96,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H010",
@@ -107,7 +107,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H011",
@@ -118,7 +118,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H012",
@@ -129,7 +129,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-MK-H013",
@@ -140,7 +140,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H014",
@@ -151,7 +151,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H015",
@@ -162,7 +162,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H016",
@@ -173,7 +173,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H017",
@@ -184,7 +184,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-MK-H018",
@@ -195,7 +195,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H019",
@@ -206,7 +206,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H020",
@@ -217,7 +217,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H021",
@@ -228,7 +228,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H022",
@@ -239,7 +239,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-MK-H023",
@@ -250,7 +250,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H024",
@@ -261,7 +261,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H025",
@@ -272,7 +272,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H026",
@@ -283,7 +283,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H027",
@@ -294,7 +294,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-MK-H028",
@@ -305,7 +305,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H029",
@@ -316,7 +316,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H030",
@@ -327,7 +327,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H031",
@@ -338,7 +338,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H032",
@@ -349,7 +349,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-MK-H033",
@@ -360,7 +360,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H034",
@@ -371,7 +371,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H035",
@@ -382,7 +382,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H036",
@@ -393,7 +393,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H037",
@@ -404,7 +404,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KB-MK-H038",
@@ -415,7 +415,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H039",
@@ -426,7 +426,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KB-MK-H040",
@@ -437,7 +437,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KB-MK-H041",
@@ -448,7 +448,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KB-MK-H042",
@@ -459,6 +459,6 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "牧野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

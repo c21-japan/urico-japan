@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KT-HRT-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KT-HRT-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KT-HRT-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KT-HRT-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KT-HRT-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KT-HRT-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KT-HRT-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KT-HRT-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KT-HRT-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KT-HRT-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KT-HRT-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KT-HRT-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KT-HRT-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KT-HRT-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KT-HRT-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KT-HRT-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KT-HRT-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KT-HRT-028",
@@ -305,6 +305,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄天理線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

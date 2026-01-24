@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKB-SAIN-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKB-SAIN-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKB-SAIN-042",
@@ -459,6 +459,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急京都本線",
     "station": "西院",
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

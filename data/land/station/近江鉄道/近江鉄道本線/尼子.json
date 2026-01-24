@@ -8,7 +8,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-002",
@@ -19,7 +19,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-003",
@@ -30,7 +30,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-004",
@@ -41,7 +41,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-005",
@@ -52,7 +52,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-006",
@@ -63,7 +63,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-007",
@@ -74,7 +74,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-008",
@@ -85,7 +85,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-009",
@@ -96,7 +96,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-010",
@@ -107,7 +107,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-011",
@@ -118,7 +118,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-012",
@@ -129,7 +129,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-013",
@@ -140,7 +140,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-014",
@@ -151,7 +151,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-015",
@@ -162,7 +162,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-016",
@@ -173,7 +173,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-017",
@@ -184,7 +184,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-018",
@@ -195,7 +195,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-019",
@@ -206,7 +206,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-020",
@@ -217,7 +217,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-021",
@@ -228,7 +228,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-022",
@@ -239,7 +239,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-023",
@@ -250,7 +250,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-024",
@@ -261,7 +261,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-025",
@@ -272,7 +272,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-026",
@@ -283,7 +283,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-027",
@@ -294,7 +294,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-028",
@@ -305,7 +305,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-029",
@@ -316,7 +316,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-030",
@@ -327,7 +327,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-031",
@@ -338,7 +338,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-032",
@@ -349,7 +349,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-033",
@@ -360,7 +360,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-034",
@@ -371,7 +371,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-035",
@@ -382,7 +382,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-036",
@@ -393,7 +393,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-037",
@@ -404,7 +404,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-038",
@@ -415,7 +415,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-039",
@@ -426,7 +426,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-040",
@@ -437,7 +437,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OmiTetsudo-Amago-041",
@@ -448,7 +448,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OmiTetsudo-Amago-042",
@@ -459,7 +459,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OmiTetsudo-Amago-043",
@@ -470,6 +470,6 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "尼子",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

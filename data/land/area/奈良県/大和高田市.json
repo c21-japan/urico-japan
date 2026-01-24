@@ -8,7 +8,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_nara_yamatotakada_002",
@@ -19,7 +19,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_003",
@@ -30,7 +30,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_004",
@@ -41,7 +41,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_005",
@@ -52,7 +52,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_006",
@@ -63,7 +63,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_nara_yamatotakada_007",
@@ -74,7 +74,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_008",
@@ -85,7 +85,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_009",
@@ -96,7 +96,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_010",
@@ -107,7 +107,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_011",
@@ -118,7 +118,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_nara_yamatotakada_012",
@@ -129,7 +129,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_013",
@@ -140,7 +140,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_014",
@@ -151,7 +151,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_015",
@@ -162,7 +162,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_016",
@@ -173,7 +173,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_nara_yamatotakada_017",
@@ -184,7 +184,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_018",
@@ -195,7 +195,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_019",
@@ -206,7 +206,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_020",
@@ -217,7 +217,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_021",
@@ -228,7 +228,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_nara_yamatotakada_022",
@@ -239,7 +239,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_023",
@@ -250,7 +250,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_024",
@@ -261,7 +261,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_025",
@@ -272,7 +272,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_nara_yamatotakada_026",
@@ -283,7 +283,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_nara_yamatotakada_027",
@@ -294,7 +294,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_nara_yamatotakada_028",
@@ -305,6 +305,6 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

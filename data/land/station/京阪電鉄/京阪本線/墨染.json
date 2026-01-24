@@ -8,7 +8,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_002",
@@ -19,7 +19,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_003",
@@ -30,7 +30,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_004",
@@ -41,7 +41,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_005",
@@ -52,7 +52,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_006",
@@ -63,7 +63,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_007",
@@ -74,7 +74,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_008",
@@ -85,7 +85,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_009",
@@ -96,7 +96,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_010",
@@ -107,7 +107,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_011",
@@ -118,7 +118,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_012",
@@ -129,7 +129,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_013",
@@ -140,7 +140,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_014",
@@ -151,7 +151,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_015",
@@ -162,7 +162,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_016",
@@ -173,7 +173,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_017",
@@ -184,7 +184,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_018",
@@ -195,7 +195,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_019",
@@ -206,7 +206,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_020",
@@ -217,7 +217,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_021",
@@ -228,7 +228,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_022",
@@ -239,7 +239,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_023",
@@ -250,7 +250,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_024",
@@ -261,7 +261,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_025",
@@ -272,7 +272,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_026",
@@ -283,7 +283,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_027",
@@ -294,7 +294,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_028",
@@ -305,7 +305,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_029",
@@ -316,7 +316,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_030",
@@ -327,7 +327,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_031",
@@ -338,7 +338,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_032",
@@ -349,7 +349,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_033",
@@ -360,7 +360,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_034",
@@ -371,7 +371,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_035",
@@ -382,7 +382,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_036",
@@ -393,7 +393,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_037",
@@ -404,7 +404,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_038",
@@ -415,7 +415,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_039",
@@ -426,7 +426,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_040",
@@ -437,7 +437,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "land_kyoto_sumi_041",
@@ -448,7 +448,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "land_kyoto_sumi_042",
@@ -459,7 +459,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "land_kyoto_sumi_043",
@@ -470,6 +470,6 @@
     "rail_company": "京阪電鉄",
     "line": "京阪本線",
     "station": "墨染",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-GKT-NYKW-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-GKT-NYKW-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-GKT-NYKW-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "学研都市線",
     "station": "寝屋川公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

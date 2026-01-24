@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KT-TAJIMA-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KT-TAJIMA-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KT-TAJIMA-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KT-TAJIMA-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KT-TAJIMA-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KT-TAJIMA-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KT-TAJIMA-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KT-TAJIMA-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KT-TAJIMA-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KT-TAJIMA-041",
@@ -448,6 +448,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄田原本線",
     "station": "但馬",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

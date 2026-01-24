@@ -8,7 +8,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KOBE-ARIMA-002",
@@ -19,7 +19,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-003",
@@ -30,7 +30,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-004",
@@ -41,7 +41,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-005",
@@ -52,7 +52,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-006",
@@ -63,7 +63,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KOBE-ARIMA-007",
@@ -74,7 +74,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-008",
@@ -85,7 +85,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-009",
@@ -96,7 +96,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-010",
@@ -107,7 +107,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-011",
@@ -118,7 +118,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KOBE-ARIMA-012",
@@ -129,7 +129,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-013",
@@ -140,7 +140,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-014",
@@ -151,7 +151,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-015",
@@ -162,7 +162,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-016",
@@ -173,7 +173,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KOBE-ARIMA-017",
@@ -184,7 +184,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-018",
@@ -195,7 +195,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-019",
@@ -206,7 +206,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-020",
@@ -217,7 +217,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-021",
@@ -228,7 +228,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KOBE-ARIMA-022",
@@ -239,7 +239,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-023",
@@ -250,7 +250,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-024",
@@ -261,7 +261,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-025",
@@ -272,7 +272,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KOBE-ARIMA-026",
@@ -283,7 +283,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KOBE-ARIMA-027",
@@ -294,7 +294,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KOBE-ARIMA-028",
@@ -305,6 +305,6 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "有馬温泉",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

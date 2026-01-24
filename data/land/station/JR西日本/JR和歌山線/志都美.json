@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-WAKA-SHUTOMI-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "志都美",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

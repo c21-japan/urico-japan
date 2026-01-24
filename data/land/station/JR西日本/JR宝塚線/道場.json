@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-TKR-DOJO-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "道場",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

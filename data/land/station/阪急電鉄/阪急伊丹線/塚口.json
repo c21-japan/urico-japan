@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-042",
@@ -459,7 +459,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-043",
@@ -470,7 +470,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-044",
@@ -481,7 +481,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-HANKYU-ITAMI-TSUKAGUCHI-045",
@@ -492,6 +492,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急伊丹線",
     "station": "塚口",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

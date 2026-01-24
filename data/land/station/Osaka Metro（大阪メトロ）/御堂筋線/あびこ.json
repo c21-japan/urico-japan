@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-OS-MD-ABK-041",
@@ -448,7 +448,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-OS-MD-ABK-042",
@@ -459,7 +459,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-OS-MD-ABK-043",
@@ -470,6 +470,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "御堂筋線",
     "station": "あびこ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

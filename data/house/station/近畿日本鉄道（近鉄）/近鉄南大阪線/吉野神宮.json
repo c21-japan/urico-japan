@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-KINTETSU-MINAMIOSAKA-YOSHINOJINGU-027",
@@ -294,6 +294,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄南大阪線",
     "station": "吉野神宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

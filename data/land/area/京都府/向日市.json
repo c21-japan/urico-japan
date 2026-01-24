@@ -8,7 +8,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-002",
@@ -19,7 +19,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-003",
@@ -30,7 +30,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KYOTO-MUKOH-004",
@@ -41,7 +41,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-005",
@@ -52,7 +52,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-006",
@@ -63,7 +63,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-007",
@@ -74,7 +74,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-008",
@@ -85,7 +85,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KYOTO-MUKOH-009",
@@ -96,7 +96,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-010",
@@ -107,7 +107,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-011",
@@ -118,7 +118,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-012",
@@ -129,7 +129,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-013",
@@ -140,7 +140,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-014",
@@ -151,7 +151,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KYOTO-MUKOH-015",
@@ -162,7 +162,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-016",
@@ -173,7 +173,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-017",
@@ -184,7 +184,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-018",
@@ -195,7 +195,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-019",
@@ -206,7 +206,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-020",
@@ -217,7 +217,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KYOTO-MUKOH-021",
@@ -228,7 +228,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-022",
@@ -239,7 +239,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-023",
@@ -250,7 +250,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-024",
@@ -261,7 +261,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-025",
@@ -272,7 +272,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KYOTO-MUKOH-026",
@@ -283,7 +283,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-027",
@@ -294,7 +294,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-028",
@@ -305,7 +305,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-029",
@@ -316,7 +316,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-030",
@@ -327,7 +327,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-031",
@@ -338,7 +338,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KYOTO-MUKOH-032",
@@ -349,7 +349,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-033",
@@ -360,7 +360,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-034",
@@ -371,7 +371,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-035",
@@ -382,7 +382,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-036",
@@ -393,7 +393,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-037",
@@ -404,7 +404,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KYOTO-MUKOH-038",
@@ -415,7 +415,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-039",
@@ -426,7 +426,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KYOTO-MUKOH-040",
@@ -437,7 +437,7 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KYOTO-MUKOH-041",
@@ -448,6 +448,6 @@
     "rail_company": null,
     "line": null,
     "station": null,
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-002",
@@ -19,7 +19,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-003",
@@ -30,7 +30,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-004",
@@ -41,7 +41,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-005",
@@ -52,7 +52,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-006",
@@ -63,7 +63,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-007",
@@ -74,7 +74,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-008",
@@ -85,7 +85,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-009",
@@ -96,7 +96,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-010",
@@ -107,7 +107,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-011",
@@ -118,7 +118,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-012",
@@ -129,7 +129,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-013",
@@ -140,7 +140,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-014",
@@ -151,7 +151,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-015",
@@ -162,7 +162,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-016",
@@ -173,7 +173,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-017",
@@ -184,7 +184,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-018",
@@ -195,7 +195,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-019",
@@ -206,7 +206,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-020",
@@ -217,7 +217,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-021",
@@ -228,7 +228,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-022",
@@ -239,7 +239,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-023",
@@ -250,7 +250,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-024",
@@ -261,7 +261,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-025",
@@ -272,7 +272,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-026",
@@ -283,7 +283,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-027",
@@ -294,7 +294,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-028",
@@ -305,7 +305,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-029",
@@ -316,7 +316,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-030",
@@ -327,7 +327,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-031",
@@ -338,7 +338,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-032",
@@ -349,7 +349,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-033",
@@ -360,7 +360,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-034",
@@ -371,7 +371,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-035",
@@ -382,7 +382,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-036",
@@ -393,7 +393,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-037",
@@ -404,7 +404,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-038",
@@ -415,7 +415,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h-mk-sb-039",
@@ -426,7 +426,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-040",
@@ -437,7 +437,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h-mk-sb-041",
@@ -448,7 +448,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h-mk-sb-042",
@@ -459,7 +459,7 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h-mk-sb-043",
@@ -470,6 +470,6 @@
     "rail_company": "南海電鉄",
     "line": "南海本線",
     "station": "春木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

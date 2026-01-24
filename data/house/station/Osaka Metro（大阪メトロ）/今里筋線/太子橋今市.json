@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010902",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010903",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010904",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010905",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010906",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010907",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010908",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010909",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010910",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010911",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010912",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010913",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010914",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010915",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010916",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010917",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010918",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010919",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010920",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010921",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010922",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010923",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010924",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010925",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010926",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010927",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010928",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010929",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010930",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010931",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010932",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010933",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010934",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010935",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-TM-24010936",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-TM-24010937",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-TM-24010938",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-TM-24010939",
@@ -426,6 +426,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "今里筋線",
     "station": "太子橋今市",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

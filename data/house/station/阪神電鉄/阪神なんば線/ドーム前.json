@@ -8,7 +8,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HANSHIN-NAMBA-DOME-042",
@@ -459,6 +459,6 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "ドーム前",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

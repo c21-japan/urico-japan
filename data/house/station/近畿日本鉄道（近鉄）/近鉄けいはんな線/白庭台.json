@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-041",
@@ -448,7 +448,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-ST-KEIHANNA-SHIRANIWADAI-042",
@@ -459,6 +459,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄けいはんな線",
     "station": "白庭台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

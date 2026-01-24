@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KN-NR-SHIN039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KN-NR-SHIN041",
@@ -448,7 +448,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KN-NR-SHIN042",
@@ -459,6 +459,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "新大宮",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

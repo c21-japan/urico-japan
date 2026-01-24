@@ -8,7 +8,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-002",
@@ -19,7 +19,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-003",
@@ -30,7 +30,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-004",
@@ -41,7 +41,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-005",
@@ -52,7 +52,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-006",
@@ -63,7 +63,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-007",
@@ -74,7 +74,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-008",
@@ -85,7 +85,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-009",
@@ -96,7 +96,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-010",
@@ -107,7 +107,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-011",
@@ -118,7 +118,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-012",
@@ -129,7 +129,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-013",
@@ -140,7 +140,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-014",
@@ -151,7 +151,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-015",
@@ -162,7 +162,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-016",
@@ -173,7 +173,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-017",
@@ -184,7 +184,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-018",
@@ -195,7 +195,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-019",
@@ -206,7 +206,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-020",
@@ -217,7 +217,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-021",
@@ -228,7 +228,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-022",
@@ -239,7 +239,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-023",
@@ -250,7 +250,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-024",
@@ -261,7 +261,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-025",
@@ -272,7 +272,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-026",
@@ -283,7 +283,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-027",
@@ -294,7 +294,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-028",
@@ -305,7 +305,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-029",
@@ -316,7 +316,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-030",
@@ -327,7 +327,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-031",
@@ -338,7 +338,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-032",
@@ -349,7 +349,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-033",
@@ -360,7 +360,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-034",
@@ -371,7 +371,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-035",
@@ -382,7 +382,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-036",
@@ -393,7 +393,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-037",
@@ -404,7 +404,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-038",
@@ -415,7 +415,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-MONORAIL-MIM-039",
@@ -426,7 +426,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-040",
@@ -437,7 +437,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-MONORAIL-MIM-041",
@@ -448,7 +448,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-MONORAIL-MIM-042",
@@ -459,6 +459,6 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "南茨木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

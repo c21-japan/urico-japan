@@ -8,7 +8,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-NARUT-002",
@@ -19,7 +19,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-NARUT-003",
@@ -30,7 +30,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-NARUT-004",
@@ -41,7 +41,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-005",
@@ -52,7 +52,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-006",
@@ -63,7 +63,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-NARUT-007",
@@ -74,7 +74,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-NARUT-008",
@@ -85,7 +85,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-NARUT-009",
@@ -96,7 +96,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-010",
@@ -107,7 +107,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-011",
@@ -118,7 +118,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-NARUT-012",
@@ -129,7 +129,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-NARUT-013",
@@ -140,7 +140,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-NARUT-014",
@@ -151,7 +151,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-015",
@@ -162,7 +162,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-016",
@@ -173,7 +173,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-NARUT-017",
@@ -184,7 +184,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-NARUT-018",
@@ -195,7 +195,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-NARUT-019",
@@ -206,7 +206,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-020",
@@ -217,7 +217,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-021",
@@ -228,7 +228,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-NARUT-022",
@@ -239,7 +239,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-NARUT-023",
@@ -250,7 +250,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-NARUT-024",
@@ -261,7 +261,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-025",
@@ -272,7 +272,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-026",
@@ -283,7 +283,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-NARUT-027",
@@ -294,7 +294,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-NARUT-028",
@@ -305,7 +305,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-NARUT-029",
@@ -316,7 +316,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-030",
@@ -327,7 +327,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-031",
@@ -338,7 +338,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-NARUT-032",
@@ -349,7 +349,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-NARUT-033",
@@ -360,7 +360,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-NARUT-034",
@@ -371,7 +371,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-035",
@@ -382,7 +382,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-NARUT-036",
@@ -393,7 +393,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-NARUT-037",
@@ -404,7 +404,7 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-NARUT-038",
@@ -415,6 +415,6 @@
     "rail_company": "京福電鉄（嵐電）",
     "line": "嵐電北野線",
     "station": "鳴滝",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

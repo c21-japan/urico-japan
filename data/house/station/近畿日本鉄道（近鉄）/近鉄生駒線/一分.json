@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-IBUN-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-IBUN-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-IBUN-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-IBUN-041",
@@ -448,6 +448,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄生駒線",
     "station": "一分",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

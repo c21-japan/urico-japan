@@ -8,7 +8,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-002",
@@ -19,7 +19,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-003",
@@ -30,7 +30,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-004",
@@ -41,7 +41,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-005",
@@ -52,7 +52,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-006",
@@ -63,7 +63,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-007",
@@ -74,7 +74,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-008",
@@ -85,7 +85,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-009",
@@ -96,7 +96,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-010",
@@ -107,7 +107,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-011",
@@ -118,7 +118,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-012",
@@ -129,7 +129,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-013",
@@ -140,7 +140,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-014",
@@ -151,7 +151,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-015",
@@ -162,7 +162,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-016",
@@ -173,7 +173,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-017",
@@ -184,7 +184,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-018",
@@ -195,7 +195,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-019",
@@ -206,7 +206,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-020",
@@ -217,7 +217,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-021",
@@ -228,7 +228,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-022",
@@ -239,7 +239,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-023",
@@ -250,7 +250,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-024",
@@ -261,7 +261,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-025",
@@ -272,7 +272,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-026",
@@ -283,7 +283,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-027",
@@ -294,7 +294,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-028",
@@ -305,7 +305,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-029",
@@ -316,7 +316,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-030",
@@ -327,7 +327,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-031",
@@ -338,7 +338,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-032",
@@ -349,7 +349,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-033",
@@ -360,7 +360,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-034",
@@ -371,7 +371,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-035",
@@ -382,7 +382,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-036",
@@ -393,7 +393,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-037",
@@ -404,7 +404,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-038",
@@ -415,7 +415,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-039",
@@ -426,7 +426,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-040",
@@ -437,7 +437,7 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KD-KITAOSAKA-MOMOYAMADAI-041",
@@ -448,6 +448,6 @@
     "rail_company": "北大阪急行電鉄",
     "line": "北大阪急行南北線",
     "station": "桃山台",
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

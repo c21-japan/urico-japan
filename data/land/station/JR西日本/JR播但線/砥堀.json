@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-BAN-TOH-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-BAN-TOH-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-BAN-TOH-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-BAN-TOH-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-BAN-TOH-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-BAN-TOH-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-BAN-TOH-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-BAN-TOH-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-BAN-TOH-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-BAN-TOH-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-BAN-TOH-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-BAN-TOH-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-BAN-TOH-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-BAN-TOH-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-BAN-TOH-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-BAN-TOH-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-BAN-TOH-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-BAN-TOH-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-BAN-TOH-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-BAN-TOH-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-BAN-TOH-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-BAN-TOH-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-BAN-TOH-024",
@@ -261,6 +261,6 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "砥堀",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

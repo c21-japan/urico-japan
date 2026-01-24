@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-OSK-ASHARA-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-OSK-ASHARA-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-OSK-ASHARA-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-OSK-ASHARA-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-OSK-ASHARA-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-OSK-ASHARA-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-OSK-ASHARA-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-OSK-ASHARA-028",
@@ -305,6 +305,6 @@
     "rail_company": "JR西日本",
     "line": "JR大阪環状線",
     "station": "芦原橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

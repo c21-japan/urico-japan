@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-KOSEI-KYOTO-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

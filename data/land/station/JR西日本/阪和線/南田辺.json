@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-HNW-MTAB-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

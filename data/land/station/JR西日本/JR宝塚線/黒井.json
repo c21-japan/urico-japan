@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKR-KRI-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKR-KRI-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKR-KRI-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKR-KRI-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKR-KRI-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKR-KRI-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKR-KRI-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKR-KRI-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKR-KRI-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKR-KRI-038",
@@ -415,6 +415,6 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "黒井",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

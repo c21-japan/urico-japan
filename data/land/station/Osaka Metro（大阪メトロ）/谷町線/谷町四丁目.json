@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-TN-TM4-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-TN-TM4-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-TN-TM4-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-TN-TM4-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-TN-TM4-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-TN-TM4-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-TN-TM4-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-TN-TM4-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-TN-TM4-041",
@@ -448,7 +448,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-TN-TM4-042",
@@ -459,7 +459,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-TN-TM4-043",
@@ -470,6 +470,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "谷町四丁目",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

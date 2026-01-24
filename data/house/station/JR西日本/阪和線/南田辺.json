@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "house-hanwa-minamitanabe-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "house-hanwa-minamitanabe-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "house-hanwa-minamitanabe-041",
@@ -448,6 +448,6 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "南田辺",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-002",
@@ -19,7 +19,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-003",
@@ -30,7 +30,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-004",
@@ -41,7 +41,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-005",
@@ -52,7 +52,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-006",
@@ -63,7 +63,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-007",
@@ -74,7 +74,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-008",
@@ -85,7 +85,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-009",
@@ -96,7 +96,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-010",
@@ -107,7 +107,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-011",
@@ -118,7 +118,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-012",
@@ -129,7 +129,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-013",
@@ -140,7 +140,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-014",
@@ -151,7 +151,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-015",
@@ -162,7 +162,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-016",
@@ -173,7 +173,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-017",
@@ -184,7 +184,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-018",
@@ -195,7 +195,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-019",
@@ -206,7 +206,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-020",
@@ -217,7 +217,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-021",
@@ -228,7 +228,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-022",
@@ -239,7 +239,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-023",
@@ -250,7 +250,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-024",
@@ -261,7 +261,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-025",
@@ -272,7 +272,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-026",
@@ -283,7 +283,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-027",
@@ -294,7 +294,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-028",
@@ -305,7 +305,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-029",
@@ -316,7 +316,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-030",
@@ -327,7 +327,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-031",
@@ -338,7 +338,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-032",
@@ -349,7 +349,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-033",
@@ -360,7 +360,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-034",
@@ -371,7 +371,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-035",
@@ -382,7 +382,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-036",
@@ -393,7 +393,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-037",
@@ -404,7 +404,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-038",
@@ -415,7 +415,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-039",
@@ -426,7 +426,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-040",
@@ -437,7 +437,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-KB-ARM-HNY-041",
@@ -448,7 +448,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-KB-ARM-HNY-042",
@@ -459,7 +459,7 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-KB-ARM-HNY-043",
@@ -470,6 +470,6 @@
     "rail_company": "神戸電鉄",
     "line": "神戸電鉄有馬線",
     "station": "花山",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

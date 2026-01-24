@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-OMN-IFT-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-OMN-IFT-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-OMN-IFT-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-OMN-IFT-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-OMN-IFT-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-OMN-IFT-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-OMN-IFT-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-OMN-IFT-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-OMN-IFT-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-OMN-IFT-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-OMN-IFT-039",
@@ -426,6 +426,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "今福鶴見",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

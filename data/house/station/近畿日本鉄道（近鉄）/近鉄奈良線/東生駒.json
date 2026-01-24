@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KK-HIGASHIIKOMA-041",
@@ -448,7 +448,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KK-HIGASHIIKOMA-042",
@@ -459,7 +459,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KK-HIGASHIIKOMA-043",
@@ -470,6 +470,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄奈良線",
     "station": "東生駒",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

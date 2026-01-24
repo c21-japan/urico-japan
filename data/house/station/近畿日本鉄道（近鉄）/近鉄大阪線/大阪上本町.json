@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDB-HOT-ST-OS-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDB-HOT-ST-OS-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDB-HOT-ST-OS-041",
@@ -448,6 +448,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄大阪線",
     "station": "大阪上本町",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

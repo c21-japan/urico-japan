@@ -8,7 +8,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-002",
@@ -19,7 +19,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-003",
@@ -30,7 +30,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KEIS-SHIGASATO-004",
@@ -41,7 +41,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-005",
@@ -52,7 +52,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-006",
@@ -63,7 +63,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-007",
@@ -74,7 +74,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-008",
@@ -85,7 +85,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KEIS-SHIGASATO-009",
@@ -96,7 +96,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-010",
@@ -107,7 +107,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-011",
@@ -118,7 +118,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-012",
@@ -129,7 +129,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-013",
@@ -140,7 +140,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KEIS-SHIGASATO-014",
@@ -151,7 +151,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-015",
@@ -162,7 +162,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-016",
@@ -173,7 +173,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-017",
@@ -184,7 +184,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-018",
@@ -195,7 +195,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KEIS-SHIGASATO-019",
@@ -206,7 +206,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-020",
@@ -217,7 +217,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-021",
@@ -228,7 +228,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-022",
@@ -239,7 +239,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KEIS-SHIGASATO-023",
@@ -250,7 +250,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-024",
@@ -261,7 +261,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KEIS-SHIGASATO-025",
@@ -272,7 +272,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-026",
@@ -283,7 +283,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KEIS-SHIGASATO-027",
@@ -294,7 +294,7 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KEIS-SHIGASATO-028",
@@ -305,6 +305,6 @@
     "rail_company": "京阪電鉄",
     "line": "京阪石山坂本線",
     "station": "滋賀里",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

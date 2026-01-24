@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-TN-HIGASHIUMEDA-041",
@@ -448,6 +448,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "東梅田",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

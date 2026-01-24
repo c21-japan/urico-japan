@@ -8,7 +8,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_002",
@@ -19,7 +19,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_003",
@@ -30,7 +30,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_004",
@@ -41,7 +41,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_005",
@@ -52,7 +52,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_006",
@@ -63,7 +63,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_007",
@@ -74,7 +74,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_008",
@@ -85,7 +85,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_009",
@@ -96,7 +96,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_010",
@@ -107,7 +107,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_011",
@@ -118,7 +118,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_012",
@@ -129,7 +129,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_013",
@@ -140,7 +140,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_014",
@@ -151,7 +151,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_015",
@@ -162,7 +162,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_016",
@@ -173,7 +173,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_017",
@@ -184,7 +184,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_018",
@@ -195,7 +195,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_019",
@@ -206,7 +206,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_020",
@@ -217,7 +217,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_021",
@@ -228,7 +228,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_022",
@@ -239,7 +239,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_023",
@@ -250,7 +250,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_024",
@@ -261,7 +261,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_025",
@@ -272,7 +272,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_026",
@@ -283,7 +283,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_027",
@@ -294,7 +294,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_028",
@@ -305,7 +305,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_029",
@@ -316,7 +316,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_030",
@@ -327,7 +327,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_031",
@@ -338,7 +338,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_032",
@@ -349,7 +349,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_033",
@@ -360,7 +360,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_034",
@@ -371,7 +371,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_035",
@@ -382,7 +382,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_036",
@@ -393,7 +393,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_037",
@@ -404,7 +404,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_038",
@@ -415,7 +415,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_039",
@@ -426,7 +426,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_040",
@@ -437,7 +437,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_041",
@@ -448,7 +448,7 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "h_station_nankai_senboku_izumichuo_042",
@@ -459,6 +459,6 @@
     "rail_company": "南海電鉄",
     "line": "泉北高速鉄道線",
     "station": "和泉中央",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

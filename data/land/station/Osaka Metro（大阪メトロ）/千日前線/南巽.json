@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-SNT-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-SNT-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-SNT-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-SNT-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-SNT-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-SNT-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-SNT-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-SNT-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-SNT-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-SNT-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-SNT-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-SNT-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-SNT-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-SNT-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-SNT-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-SNT-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-SNT-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-SNT-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-SNT-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-SNT-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-SNT-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-SNT-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-SNT-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-SNT-038",
@@ -415,6 +415,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "千日前線",
     "station": "南巽",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

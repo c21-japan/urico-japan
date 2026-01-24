@@ -8,7 +8,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-002",
@@ -19,7 +19,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-003",
@@ -30,7 +30,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-004",
@@ -41,7 +41,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-005",
@@ -52,7 +52,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-006",
@@ -63,7 +63,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-007",
@@ -74,7 +74,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-008",
@@ -85,7 +85,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-009",
@@ -96,7 +96,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-010",
@@ -107,7 +107,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-011",
@@ -118,7 +118,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-012",
@@ -129,7 +129,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-013",
@@ -140,7 +140,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-014",
@@ -151,7 +151,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-015",
@@ -162,7 +162,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-016",
@@ -173,7 +173,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-017",
@@ -184,7 +184,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-018",
@@ -195,7 +195,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-019",
@@ -206,7 +206,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-020",
@@ -217,7 +217,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-021",
@@ -228,7 +228,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-022",
@@ -239,7 +239,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-023",
@@ -250,7 +250,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-024",
@@ -261,7 +261,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-025",
@@ -272,7 +272,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-026",
@@ -283,7 +283,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-027",
@@ -294,7 +294,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-028",
@@ -305,7 +305,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-029",
@@ -316,7 +316,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-030",
@@ -327,7 +327,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-031",
@@ -338,7 +338,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-032",
@@ -349,7 +349,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-033",
@@ -360,7 +360,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-034",
@@ -371,7 +371,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-035",
@@ -382,7 +382,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-036",
@@ -393,7 +393,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-037",
@@ -404,7 +404,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-038",
@@ -415,7 +415,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-039",
@@ -426,7 +426,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-040",
@@ -437,7 +437,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-KM-SHIJO-041",
@@ -448,7 +448,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-KM-SHIJO-042",
@@ -459,7 +459,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-KM-SHIJO-043",
@@ -470,6 +470,6 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "四条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-041",
@@ -448,7 +448,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-TNM-NKZ-042",
@@ -459,7 +459,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-TNM-NKZ-043",
@@ -470,7 +470,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-TNM-NKZ-044",
@@ -481,6 +481,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "中崎町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

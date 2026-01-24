@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HKD-HW-IZB-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HKD-HW-IZB-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HKD-HW-IZB-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "和泉橋本",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

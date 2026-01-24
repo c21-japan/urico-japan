@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRW-TKRZ-ICHIJIMA-023",
@@ -250,6 +250,6 @@
     "rail_company": "JR西日本",
     "line": "JR宝塚線",
     "station": "市島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

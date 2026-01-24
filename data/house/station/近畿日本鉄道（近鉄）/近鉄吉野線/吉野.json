@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KYO-20250122-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KYO-20250122-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KYO-20250122-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KYO-20250122-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KYO-20250122-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KYO-20250122-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KYO-20250122-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KYO-20250122-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KYO-20250122-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KYO-20250122-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KYO-20250122-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KYO-20250122-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KYO-20250122-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-KYO-20250122-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-KYO-20250122-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-KYO-20250122-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-KYO-20250122-027",
@@ -294,6 +294,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄吉野線",
     "station": "吉野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HOUSE_ST_JRW_WAKAYAMA_YOSHINOGUCHI_042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "吉野口",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

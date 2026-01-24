@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-JRW-SAG-YST-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-JRW-SAG-YST-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-JRW-SAG-YST-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "JR嵯峨野線",
     "station": "吉富",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate-hirohata-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate-hirohata-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate-hirohata-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate-hirohata-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate-hirohata-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate-hirohata-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate-hirohata-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate-hirohata-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate-hirohata-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate-hirohata-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate-hirohata-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate-hirohata-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate-hirohata-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate-hirohata-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate-hirohata-037",
@@ -404,7 +404,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-038",
@@ -415,7 +415,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate-hirohata-039",
@@ -426,7 +426,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate-hirohata-040",
@@ -437,7 +437,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate-hirohata-041",
@@ -448,6 +448,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄橿原線",
     "station": "平端",
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

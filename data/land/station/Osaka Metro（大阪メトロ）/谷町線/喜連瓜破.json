@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-TM-KRU-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-TM-KRU-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-TM-KRU-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-TM-KRU-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-TM-KRU-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-TM-KRU-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-TM-KRU-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-TM-KRU-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-TM-KRU-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-TM-KRU-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-TM-KRU-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-TM-KRU-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-TM-KRU-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-TM-KRU-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-TM-KRU-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-TM-KRU-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-TM-KRU-041",
@@ -448,7 +448,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-TM-KRU-042",
@@ -459,6 +459,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "谷町線",
     "station": "喜連瓜破",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

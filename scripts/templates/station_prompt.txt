@@ -32,7 +32,7 @@ id,type,scope,area,city,rail_company,line,station,timing
 - line="{{LINE}}"（全件固定）
 - station="{{STATION}}"（全件固定）
 - area=null, city=null（全件固定）
-- timing: "即入居希望","3ヶ月以内","半年以内","1年以内","時期未定"
+- timing: "即時","1ヶ月後","3ヶ月後","6ヶ月後","相談"
 
 # 参照一覧（この中からのみ選べ：表記揺れ禁止）
 {{ALLOWED_STATION_LIST_FOR_THIS_LINE_ONLY}}

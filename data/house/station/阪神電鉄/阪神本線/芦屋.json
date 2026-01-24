@@ -8,7 +8,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-042",
@@ -459,7 +459,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-043",
@@ -470,7 +470,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-044",
@@ -481,7 +481,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-045",
@@ -492,7 +492,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-046",
@@ -503,7 +503,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-047",
@@ -514,7 +514,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-048",
@@ -525,7 +525,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-049",
@@ -536,7 +536,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-050",
@@ -547,7 +547,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-051",
@@ -558,7 +558,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-052",
@@ -569,7 +569,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "HSN-AS-H-053",
@@ -580,7 +580,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "HSN-AS-H-054",
@@ -591,7 +591,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-055",
@@ -602,7 +602,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "HSN-AS-H-056",
@@ -613,7 +613,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "HSN-AS-H-057",
@@ -624,6 +624,6 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "芦屋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

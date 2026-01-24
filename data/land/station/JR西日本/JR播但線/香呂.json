@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KORO-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KORO-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KORO-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KORO-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KORO-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KORO-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KORO-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KORO-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KORO-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KORO-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KORO-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KORO-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KORO-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KORO-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KORO-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KORO-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KORO-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KORO-028",
@@ -305,6 +305,6 @@
     "rail_company": "JR西日本",
     "line": "JR播但線",
     "station": "香呂",
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

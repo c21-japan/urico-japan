@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-042",
@@ -459,7 +459,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-043",
@@ -470,7 +470,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-044",
@@ -481,7 +481,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-045",
@@ -492,7 +492,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-HKT-OKM-046",
@@ -503,7 +503,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-HKT-OKM-047",
@@ -514,7 +514,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-HKT-OKM-048",
@@ -525,6 +525,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急宝塚本線",
     "station": "岡町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

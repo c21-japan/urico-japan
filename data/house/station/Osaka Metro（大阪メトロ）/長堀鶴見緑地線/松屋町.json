@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-038",
@@ -415,7 +415,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-039",
@@ -426,7 +426,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-040",
@@ -437,7 +437,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-041",
@@ -448,7 +448,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KODATE-NAGAHORI-MATSUYAMACHI-042",
@@ -459,6 +459,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "松屋町",
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

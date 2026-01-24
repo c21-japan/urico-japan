@@ -8,7 +8,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-02",
@@ -19,7 +19,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-03",
@@ -30,7 +30,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYT-04",
@@ -41,7 +41,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-05",
@@ -52,7 +52,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-06",
@@ -63,7 +63,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-07",
@@ -74,7 +74,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-08",
@@ -85,7 +85,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYT-09",
@@ -96,7 +96,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-10",
@@ -107,7 +107,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-11",
@@ -118,7 +118,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-12",
@@ -129,7 +129,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-13",
@@ -140,7 +140,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYT-14",
@@ -151,7 +151,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-15",
@@ -162,7 +162,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-16",
@@ -173,7 +173,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-17",
@@ -184,7 +184,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-18",
@@ -195,7 +195,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYT-19",
@@ -206,7 +206,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-20",
@@ -217,7 +217,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-21",
@@ -228,7 +228,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-22",
@@ -239,7 +239,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-23",
@@ -250,7 +250,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYT-24",
@@ -261,7 +261,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-25",
@@ -272,7 +272,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-26",
@@ -283,7 +283,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-27",
@@ -294,7 +294,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-28",
@@ -305,7 +305,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYT-29",
@@ -316,7 +316,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-30",
@@ -327,7 +327,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-31",
@@ -338,7 +338,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-32",
@@ -349,7 +349,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-33",
@@ -360,7 +360,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYT-34",
@@ -371,7 +371,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-35",
@@ -382,7 +382,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-36",
@@ -393,7 +393,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-37",
@@ -404,7 +404,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-38",
@@ -415,7 +415,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYT-39",
@@ -426,7 +426,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-40",
@@ -437,7 +437,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYT-41",
@@ -448,7 +448,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYT-42",
@@ -459,7 +459,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYT-43",
@@ -470,6 +470,6 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "京都",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

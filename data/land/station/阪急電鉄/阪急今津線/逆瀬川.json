@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HKT-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HKT-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HKT-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-042",
@@ -459,7 +459,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HKT-043",
@@ -470,6 +470,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "逆瀬川",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

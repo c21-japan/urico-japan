@@ -8,7 +8,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "K-HKT-HSIN-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "K-HKT-HSIN-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "K-HKT-HSIN-042",
@@ -459,6 +459,6 @@
     "rail_company": "阪急電鉄",
     "line": "阪急今津線",
     "station": "阪神国道",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

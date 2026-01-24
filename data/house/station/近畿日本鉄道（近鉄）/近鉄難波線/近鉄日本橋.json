@@ -8,7 +8,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-002",
@@ -19,7 +19,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-003",
@@ -30,7 +30,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-004",
@@ -41,7 +41,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-005",
@@ -52,7 +52,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-006",
@@ -63,7 +63,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-007",
@@ -74,7 +74,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-008",
@@ -85,7 +85,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-009",
@@ -96,7 +96,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-010",
@@ -107,7 +107,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-011",
@@ -118,7 +118,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-012",
@@ -129,7 +129,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-013",
@@ -140,7 +140,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-014",
@@ -151,7 +151,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-015",
@@ -162,7 +162,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-016",
@@ -173,7 +173,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-017",
@@ -184,7 +184,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-018",
@@ -195,7 +195,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-019",
@@ -206,7 +206,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-020",
@@ -217,7 +217,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-021",
@@ -228,7 +228,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-022",
@@ -239,7 +239,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-023",
@@ -250,7 +250,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-024",
@@ -261,7 +261,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-025",
@@ -272,7 +272,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-026",
@@ -283,7 +283,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-027",
@@ -294,7 +294,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-028",
@@ -305,7 +305,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-029",
@@ -316,7 +316,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-030",
@@ -327,7 +327,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-031",
@@ -338,7 +338,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-032",
@@ -349,7 +349,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-033",
@@ -360,7 +360,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-034",
@@ -371,7 +371,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-035",
@@ -382,7 +382,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-036",
@@ -393,7 +393,7 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "k-kintetsu-namba-line-kintetsu-nipponbashi-037",
@@ -404,6 +404,6 @@
     "rail_company": "近畿日本鉄道（近鉄）",
     "line": "近鉄難波線",
     "station": "近鉄日本橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

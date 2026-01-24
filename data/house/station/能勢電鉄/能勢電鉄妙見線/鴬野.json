@@ -8,7 +8,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NS-UG-002",
@@ -19,7 +19,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NS-UG-003",
@@ -30,7 +30,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NS-UG-004",
@@ -41,7 +41,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-005",
@@ -52,7 +52,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-006",
@@ -63,7 +63,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NS-UG-007",
@@ -74,7 +74,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NS-UG-008",
@@ -85,7 +85,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NS-UG-009",
@@ -96,7 +96,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-010",
@@ -107,7 +107,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NS-UG-011",
@@ -118,7 +118,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NS-UG-012",
@@ -129,7 +129,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-013",
@@ -140,7 +140,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NS-UG-014",
@@ -151,7 +151,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-015",
@@ -162,7 +162,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NS-UG-016",
@@ -173,7 +173,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NS-UG-017",
@@ -184,7 +184,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-018",
@@ -195,7 +195,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NS-UG-019",
@@ -206,7 +206,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-020",
@@ -217,7 +217,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NS-UG-021",
@@ -228,7 +228,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NS-UG-022",
@@ -239,7 +239,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-023",
@@ -250,7 +250,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NS-UG-024",
@@ -261,7 +261,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NS-UG-025",
@@ -272,7 +272,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NS-UG-026",
@@ -283,7 +283,7 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NS-UG-027",
@@ -294,6 +294,6 @@
     "rail_company": "能勢電鉄",
     "line": "能勢電鉄妙見線",
     "station": "鴬野",
-    "timing": "時期未定"
+    "timing": "相談"
   }
 ]

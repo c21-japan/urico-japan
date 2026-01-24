@@ -8,7 +8,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-HS-DEY-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-HS-DEY-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-HS-DEY-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-HS-DEY-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-HS-DEY-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-HS-DEY-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-HS-DEY-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LD-HS-DEY-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LD-HS-DEY-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LD-HS-DEY-042",
@@ -459,7 +459,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LD-HS-DEY-043",
@@ -470,6 +470,6 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "出屋敷",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

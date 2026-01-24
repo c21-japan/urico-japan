@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND-ST-JRW-KS-OMC-039",
@@ -426,6 +426,6 @@
     "rail_company": "JR西日本",
     "line": "JR湖西線",
     "station": "近江中庄",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

@@ -8,7 +8,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-002",
@@ -19,7 +19,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-003",
@@ -30,7 +30,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-004",
@@ -41,7 +41,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-005",
@@ -52,7 +52,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-006",
@@ -63,7 +63,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-007",
@@ -74,7 +74,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-008",
@@ -85,7 +85,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-009",
@@ -96,7 +96,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-010",
@@ -107,7 +107,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-011",
@@ -118,7 +118,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-012",
@@ -129,7 +129,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-013",
@@ -140,7 +140,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-014",
@@ -151,7 +151,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-015",
@@ -162,7 +162,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-016",
@@ -173,7 +173,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-017",
@@ -184,7 +184,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-018",
@@ -195,7 +195,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-019",
@@ -206,7 +206,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-020",
@@ -217,7 +217,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-021",
@@ -228,7 +228,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-022",
@@ -239,7 +239,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-023",
@@ -250,7 +250,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-024",
@@ -261,7 +261,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-025",
@@ -272,7 +272,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-026",
@@ -283,7 +283,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-027",
@@ -294,7 +294,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-028",
@@ -305,7 +305,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-029",
@@ -316,7 +316,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-030",
@@ -327,7 +327,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-031",
@@ -338,7 +338,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-032",
@@ -349,7 +349,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-033",
@@ -360,7 +360,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-034",
@@ -371,7 +371,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-035",
@@ -382,7 +382,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-036",
@@ -393,7 +393,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-037",
@@ -404,7 +404,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-038",
@@ -415,7 +415,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-039",
@@ -426,7 +426,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-040",
@@ -437,7 +437,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-041",
@@ -448,7 +448,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-042",
@@ -459,7 +459,7 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-KYOTO-KARASUMA-JUJO-043",
@@ -470,6 +470,6 @@
     "rail_company": "京都市営地下鉄",
     "line": "京都市営地下鉄烏丸線",
     "station": "十条",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

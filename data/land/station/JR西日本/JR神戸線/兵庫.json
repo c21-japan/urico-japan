@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_042",
@@ -459,7 +459,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_043",
@@ -470,7 +470,7 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LAND_JRW_KOBE_HYOGO_044",
@@ -481,6 +481,6 @@
     "rail_company": "JR西日本",
     "line": "JR神戸線",
     "station": "兵庫",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

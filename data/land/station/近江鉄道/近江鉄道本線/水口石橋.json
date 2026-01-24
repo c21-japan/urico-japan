@@ -8,7 +8,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OMST-MZS-002",
@@ -19,7 +19,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-003",
@@ -30,7 +30,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-004",
@@ -41,7 +41,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-005",
@@ -52,7 +52,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-006",
@@ -63,7 +63,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OMST-MZS-007",
@@ -74,7 +74,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-008",
@@ -85,7 +85,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-009",
@@ -96,7 +96,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-010",
@@ -107,7 +107,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-011",
@@ -118,7 +118,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OMST-MZS-012",
@@ -129,7 +129,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-013",
@@ -140,7 +140,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-014",
@@ -151,7 +151,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-015",
@@ -162,7 +162,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-016",
@@ -173,7 +173,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OMST-MZS-017",
@@ -184,7 +184,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-018",
@@ -195,7 +195,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-019",
@@ -206,7 +206,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-020",
@@ -217,7 +217,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-021",
@@ -228,7 +228,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OMST-MZS-022",
@@ -239,7 +239,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-023",
@@ -250,7 +250,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-024",
@@ -261,7 +261,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-025",
@@ -272,7 +272,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-026",
@@ -283,7 +283,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OMST-MZS-027",
@@ -294,7 +294,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-028",
@@ -305,7 +305,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-029",
@@ -316,7 +316,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-030",
@@ -327,7 +327,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-031",
@@ -338,7 +338,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OMST-MZS-032",
@@ -349,7 +349,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-033",
@@ -360,7 +360,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-034",
@@ -371,7 +371,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-035",
@@ -382,7 +382,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "LND-OMST-MZS-036",
@@ -393,7 +393,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "LND-OMST-MZS-037",
@@ -404,7 +404,7 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "LND-OMST-MZS-038",
@@ -415,6 +415,6 @@
     "rail_company": "近江鉄道",
     "line": "近江鉄道本線",
     "station": "水口石橋",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

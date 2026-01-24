@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KDT-JRW-WAK-KTU-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KDT-JRW-WAK-KTU-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KDT-JRW-WAK-KTU-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "JR和歌山線",
     "station": "北宇智",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   }
 ]

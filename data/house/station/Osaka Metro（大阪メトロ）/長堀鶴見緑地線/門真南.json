@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NAGAHORI-KADOMA-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NAGAHORI-KADOMA-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NAGAHORI-KADOMA-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NAGAHORI-KADOMA-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NAGAHORI-KADOMA-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NAGAHORI-KADOMA-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-028",
@@ -305,7 +305,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-029",
@@ -316,7 +316,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-030",
@@ -327,7 +327,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-031",
@@ -338,7 +338,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NAGAHORI-KADOMA-032",
@@ -349,7 +349,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-033",
@@ -360,7 +360,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-034",
@@ -371,7 +371,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-035",
@@ -382,7 +382,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "H-NAGAHORI-KADOMA-036",
@@ -393,7 +393,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "H-NAGAHORI-KADOMA-037",
@@ -404,7 +404,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "H-NAGAHORI-KADOMA-038",
@@ -415,6 +415,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "長堀鶴見緑地線",
     "station": "門真南",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

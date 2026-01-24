@@ -8,7 +8,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-002",
@@ -19,7 +19,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-003",
@@ -30,7 +30,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HAN-AOK-004",
@@ -41,7 +41,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-005",
@@ -52,7 +52,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-006",
@@ -63,7 +63,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-007",
@@ -74,7 +74,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-008",
@@ -85,7 +85,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HAN-AOK-009",
@@ -96,7 +96,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-010",
@@ -107,7 +107,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-011",
@@ -118,7 +118,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-012",
@@ -129,7 +129,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-013",
@@ -140,7 +140,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HAN-AOK-014",
@@ -151,7 +151,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-015",
@@ -162,7 +162,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-016",
@@ -173,7 +173,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-017",
@@ -184,7 +184,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-018",
@@ -195,7 +195,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HAN-AOK-019",
@@ -206,7 +206,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-020",
@@ -217,7 +217,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-021",
@@ -228,7 +228,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-022",
@@ -239,7 +239,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-023",
@@ -250,7 +250,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HAN-AOK-024",
@@ -261,7 +261,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-025",
@@ -272,7 +272,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-026",
@@ -283,7 +283,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-027",
@@ -294,7 +294,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-028",
@@ -305,7 +305,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HAN-AOK-029",
@@ -316,7 +316,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-030",
@@ -327,7 +327,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-031",
@@ -338,7 +338,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-032",
@@ -349,7 +349,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-033",
@@ -360,7 +360,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HAN-AOK-034",
@@ -371,7 +371,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-035",
@@ -382,7 +382,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-036",
@@ -393,7 +393,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-037",
@@ -404,7 +404,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-038",
@@ -415,7 +415,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-HAN-AOK-039",
@@ -426,7 +426,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-040",
@@ -437,7 +437,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-HAN-AOK-041",
@@ -448,7 +448,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-HAN-AOK-042",
@@ -459,7 +459,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-HAN-AOK-043",
@@ -470,6 +470,6 @@
     "rail_company": "阪神電鉄",
     "line": "阪神本線",
     "station": "青木",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

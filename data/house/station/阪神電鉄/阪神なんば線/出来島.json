@@ -8,7 +8,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_002",
@@ -19,7 +19,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_003",
@@ -30,7 +30,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_004",
@@ -41,7 +41,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_005",
@@ -52,7 +52,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_006",
@@ -63,7 +63,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_007",
@@ -74,7 +74,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_008",
@@ -85,7 +85,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_009",
@@ -96,7 +96,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_010",
@@ -107,7 +107,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_011",
@@ -118,7 +118,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_012",
@@ -129,7 +129,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_013",
@@ -140,7 +140,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_014",
@@ -151,7 +151,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_015",
@@ -162,7 +162,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_016",
@@ -173,7 +173,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_017",
@@ -184,7 +184,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_018",
@@ -195,7 +195,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_019",
@@ -206,7 +206,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_020",
@@ -217,7 +217,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_021",
@@ -228,7 +228,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_022",
@@ -239,7 +239,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_023",
@@ -250,7 +250,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_024",
@@ -261,7 +261,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_025",
@@ -272,7 +272,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_026",
@@ -283,7 +283,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_027",
@@ -294,7 +294,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_028",
@@ -305,7 +305,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_029",
@@ -316,7 +316,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_030",
@@ -327,7 +327,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_031",
@@ -338,7 +338,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_032",
@@ -349,7 +349,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_033",
@@ -360,7 +360,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_034",
@@ -371,7 +371,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_035",
@@ -382,7 +382,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_036",
@@ -393,7 +393,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_037",
@@ -404,7 +404,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_038",
@@ -415,7 +415,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_039",
@@ -426,7 +426,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_040",
@@ -437,7 +437,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_041",
@@ -448,7 +448,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_042",
@@ -459,7 +459,7 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "kodate_hanshin_namba_dekijima_043",
@@ -470,6 +470,6 @@
     "rail_company": "阪神電鉄",
     "line": "阪神なんば線",
     "station": "出来島",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

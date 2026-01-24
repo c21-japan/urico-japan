@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRY-UC-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRY-UC-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRY-UC-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRY-UC-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRY-UC-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRY-UC-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRY-UC-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRY-UC-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRY-UC-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRY-UC-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRY-UC-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRY-UC-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRY-UC-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRY-UC-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-JRY-UC-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-JRY-UC-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-JRY-UC-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-JRY-UC-028",
@@ -305,6 +305,6 @@
     "rail_company": "JR西日本",
     "line": "JRゆめ咲線",
     "station": "ユニバーサルシティ",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

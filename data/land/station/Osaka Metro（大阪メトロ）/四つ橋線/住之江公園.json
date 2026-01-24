@@ -8,7 +8,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-SM-YO-240122-002",
@@ -19,7 +19,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-003",
@@ -30,7 +30,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-004",
@@ -41,7 +41,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-005",
@@ -52,7 +52,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-006",
@@ -63,7 +63,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-SM-YO-240122-007",
@@ -74,7 +74,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-008",
@@ -85,7 +85,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-009",
@@ -96,7 +96,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-010",
@@ -107,7 +107,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-011",
@@ -118,7 +118,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-SM-YO-240122-012",
@@ -129,7 +129,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-013",
@@ -140,7 +140,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-014",
@@ -151,7 +151,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-015",
@@ -162,7 +162,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-016",
@@ -173,7 +173,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-SM-YO-240122-017",
@@ -184,7 +184,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-018",
@@ -195,7 +195,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-019",
@@ -206,7 +206,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-020",
@@ -217,7 +217,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-021",
@@ -228,7 +228,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-SM-YO-240122-022",
@@ -239,7 +239,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-023",
@@ -250,7 +250,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-024",
@@ -261,7 +261,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-025",
@@ -272,7 +272,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "L-SM-YO-240122-026",
@@ -283,7 +283,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "L-SM-YO-240122-027",
@@ -294,7 +294,7 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "L-SM-YO-240122-028",
@@ -305,6 +305,6 @@
     "rail_company": "Osaka Metro（大阪メトロ）",
     "line": "四つ橋線",
     "station": "住之江公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   }
 ]

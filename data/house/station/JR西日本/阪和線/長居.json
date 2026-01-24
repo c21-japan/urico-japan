@@ -8,7 +8,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-002",
@@ -19,7 +19,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-003",
@@ -30,7 +30,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-004",
@@ -41,7 +41,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-005",
@@ -52,7 +52,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-006",
@@ -63,7 +63,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-007",
@@ -74,7 +74,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-008",
@@ -85,7 +85,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-009",
@@ -96,7 +96,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-010",
@@ -107,7 +107,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-011",
@@ -118,7 +118,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-012",
@@ -129,7 +129,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-013",
@@ -140,7 +140,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-014",
@@ -151,7 +151,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-015",
@@ -162,7 +162,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-016",
@@ -173,7 +173,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-017",
@@ -184,7 +184,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-018",
@@ -195,7 +195,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-019",
@@ -206,7 +206,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-020",
@@ -217,7 +217,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-021",
@@ -228,7 +228,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-022",
@@ -239,7 +239,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-023",
@@ -250,7 +250,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-024",
@@ -261,7 +261,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-025",
@@ -272,7 +272,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-026",
@@ -283,7 +283,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-027",
@@ -294,7 +294,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-028",
@@ -305,7 +305,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-029",
@@ -316,7 +316,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-030",
@@ -327,7 +327,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-031",
@@ -338,7 +338,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-032",
@@ -349,7 +349,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-033",
@@ -360,7 +360,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-034",
@@ -371,7 +371,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-035",
@@ -382,7 +382,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-036",
@@ -393,7 +393,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-037",
@@ -404,7 +404,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KOD-HW-NAG-038",
@@ -415,7 +415,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-039",
@@ -426,7 +426,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-040",
@@ -437,7 +437,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KOD-HW-NAG-041",
@@ -448,7 +448,7 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KOD-HW-NAG-042",
@@ -459,6 +459,6 @@
     "rail_company": "JR西日本",
     "line": "阪和線",
     "station": "長居",
-    "timing": "即入居希望"
+    "timing": "即時"
   }
 ]

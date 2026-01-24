@@ -8,7 +8,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-002",
@@ -19,7 +19,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-003",
@@ -30,7 +30,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-004",
@@ -41,7 +41,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-005",
@@ -52,7 +52,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-006",
@@ -63,7 +63,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-007",
@@ -74,7 +74,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-008",
@@ -85,7 +85,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-009",
@@ -96,7 +96,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-010",
@@ -107,7 +107,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-011",
@@ -118,7 +118,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-012",
@@ -129,7 +129,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-013",
@@ -140,7 +140,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-014",
@@ -151,7 +151,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-015",
@@ -162,7 +162,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-016",
@@ -173,7 +173,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-017",
@@ -184,7 +184,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-018",
@@ -195,7 +195,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-019",
@@ -206,7 +206,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-020",
@@ -217,7 +217,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-021",
@@ -228,7 +228,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-022",
@@ -239,7 +239,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-023",
@@ -250,7 +250,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-024",
@@ -261,7 +261,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-025",
@@ -272,7 +272,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-026",
@@ -283,7 +283,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-027",
@@ -294,7 +294,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-028",
@@ -305,7 +305,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-029",
@@ -316,7 +316,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-030",
@@ -327,7 +327,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-031",
@@ -338,7 +338,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-032",
@@ -349,7 +349,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-033",
@@ -360,7 +360,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-034",
@@ -371,7 +371,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-035",
@@ -382,7 +382,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-036",
@@ -393,7 +393,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-037",
@@ -404,7 +404,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-038",
@@ -415,7 +415,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "時期未定"
+    "timing": "相談"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-039",
@@ -426,7 +426,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "即入居希望"
+    "timing": "即時"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-040",
@@ -437,7 +437,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "3ヶ月以内"
+    "timing": "3ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-041",
@@ -448,7 +448,7 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "半年以内"
+    "timing": "6ヶ月後"
   },
   {
     "id": "KH-MONORAIL-BANPAKU-042",
@@ -459,6 +459,6 @@
     "rail_company": "大阪モノレール",
     "line": "大阪モノレール本線",
     "station": "万博記念公園",
-    "timing": "1年以内"
+    "timing": "相談"
   }
 ]

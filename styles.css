@@ -326,9 +326,31 @@ button.search-btn-fullwidth:hover { background-color: #e65555; }
     padding: 20px 24px;
 }
 
-/* 急ぎ＋新着バッジが両方あるカードのハイライト */
+/* 急ぎ＋新着バッジが両方あるカードのハイライト（外枠のみ黄色、内側は白） */
 .buyer-block.highlight-card {
-    background-color: #fff9c4;
+    position: relative;
+    background: #fff9c4;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* 内側コンテンツ領域を白背景で包む */
+.buyer-block.highlight-card::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 0;
+}
+
+/* コンテンツを前面に表示 */
+.buyer-block.highlight-card > * {
+    position: relative;
+    z-index: 1;
 }
 
 .buyer-block:last-child {

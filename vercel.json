@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "buildCommand": null,
-  "outputDirectory": ".",
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
   "public": true,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*)",

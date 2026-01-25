@@ -5,6 +5,7 @@
   "description": "購入希望者情報自動生成システム",
   "scripts": {
     "start": "npx serve . -l 3000",
+    "start:static": "npx serve public -l 3000",
     "dev": "npx serve . -l 3000",
     "generate:jobs": "node scripts/generate_jobs.js",
     "generate:run": "node scripts/run_parallel.js",
@@ -12,7 +13,9 @@
     "generate:run:prefecture": "./scripts/run_by_prefecture.sh",
     "generate:convert": "node scripts/convert_to_js.js",
     "generate:update": "node scripts/update_main_files.js",
-    "generate:all": "npm run generate:jobs && npm run generate:run && npm run generate:convert && npm run generate:update"
+    "generate:all": "npm run generate:jobs && npm run generate:run && npm run generate:convert && npm run generate:update",
+    "generate:static": "node scripts/generate_static_pages.mjs",
+    "build": "node scripts/generate_static_pages.mjs"
   },
   "keywords": [],
   "author": "",

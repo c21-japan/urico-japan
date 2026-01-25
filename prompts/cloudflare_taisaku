@@ -1,0 +1,426 @@
+milk@MacBook-Air-2 urico-kansai % rclone version
+zsh: command not found: rclone
+milk@MacBook-Air-2 urico-kansai % brew install rclone
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+durdraw: Versatile ASCII and ANSI Art text editor for drawing in the terminal
+libigloo: Generic C framework used and developed by the Icecast project
+wik: View Wikipedia pages from your terminal
+==> New Casks
+appvolume: Per-application volume control
+captains-deck: Dual-pane file manager inspired by Norton Commander
+clawdbot: Personal AI assistant
+finetune: Per-application volume mixer, equalizer, and audio router
+font-playwrite-nz-basic
+font-playwrite-nz-basic-guides
+monologue: AI voice dictation that adapts to your writing style
+superset: Terminal for orchestrating agents
+transmission@beta: Open-source BitTorrent client
+
+You have 24 outdated formulae and 2 outdated casks installed.
+
+==> Fetching downloads for: rclone
+✔︎ Bottle Manifest rclone (1.72.1)   Downloaded    7.4KB/  7.4KB
+✔︎ Bottle rclone (1.72.1)            Downloaded   26.7MB/ 26.7MB
+==> Pouring rclone--1.72.1.arm64_tahoe.bottle.tar.gz
+==> Caveats
+Homebrew's installation does not include the `mount` subcommand on macOS which depends on FUSE, use `nfsmount` instead.
+==> Summary
+🍺  /opt/homebrew/Cellar/rclone/1.72.1: 11 files, 79.9MB
+==> Running `brew cleanup rclone`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+milk@MacBook-Air-2 urico-kansai % rclone config
+2026/01/25 17:33:37 NOTICE: Config file "/Users/milk/.config/rclone/rclone.conf" not found - using defaults
+No remotes found, make a new one?
+n) New remote
+s) Set configuration password
+q) Quit config
+n/s/q> n
+
+Enter name for new remote.
+name> access_key_id>3ffd776a26ce7a2d1dcf71a79f2c11d1
+Can't use "access_key_id>3ffd776a26ce7a2d1dcf71a79f2c11d1" as config name contains invalid characters - may only contain numbers, letters, `_`, `-`, `.`, `+`, `@` and space, while not start with `-` or space, and not end with space.
+Enter name for new remote.
+name> r2
+
+Option Storage.
+Type of storage to configure.
+Choose a number from below, or type in your own value.
+ 1 / 1Fichier
+   \ (fichier)
+ 2 / Akamai NetStorage
+   \ (netstorage)
+ 3 / Alias for an existing remote
+   \ (alias)
+ 4 / Amazon S3 Compliant Storage Providers including AWS, Alibaba, ArvanCloud, Ceph, ChinaMobile, Cloudflare, Cubbit, DigitalOcean, Dreamhost, Exaba, FileLu, FlashBlade, GCS, Hetzner, HuaweiOBS, IBMCOS, IDrive, Intercolo, IONOS, Leviia, Liara, Linode, LyveCloud, Magalu, Mega, Minio, Netease, Outscale, OVHcloud, Petabox, Qiniu, Rabata, RackCorp, Rclone, Scaleway, SeaweedFS, Selectel, Servercore, SpectraLogic, StackPath, Storj, Synology, TencentCOS, Wasabi, Zata, Other
+   \ (s3)
+ 5 / Backblaze B2
+   \ (b2)
+ 6 / Better checksums for other remotes
+   \ (hasher)
+ 7 / Box
+   \ (box)
+ 8 / Cache a remote
+   \ (cache)
+ 9 / Citrix Sharefile
+   \ (sharefile)
+10 / Cloudinary
+   \ (cloudinary)
+11 / Combine several remotes into one
+   \ (combine)
+12 / Compress a remote
+   \ (compress)
+13 / DOI datasets
+   \ (doi)
+14 / Dropbox
+   \ (dropbox)
+15 / Encrypt/Decrypt a remote
+   \ (crypt)
+16 / Enterprise File Fabric
+   \ (filefabric)
+17 / FTP
+   \ (ftp)
+18 / FileLu Cloud Storage
+   \ (filelu)
+19 / Files.com
+   \ (filescom)
+20 / Gofile
+   \ (gofile)
+21 / Google Cloud Storage (this is not Google Drive)
+   \ (google cloud storage)
+22 / Google Drive
+   \ (drive)
+23 / Google Photos
+   \ (google photos)
+24 / HTTP
+   \ (http)
+25 / Hadoop distributed file system
+   \ (hdfs)
+26 / HiDrive
+   \ (hidrive)
+27 / ImageKit.io
+   \ (imagekit)
+28 / In memory object storage system.
+   \ (memory)
+29 / Internet Archive
+   \ (internetarchive)
+30 / Jottacloud
+   \ (jottacloud)
+31 / Koofr, Digi Storage and other Koofr-compatible storage providers
+   \ (koofr)
+32 / Linkbox
+   \ (linkbox)
+33 / Local Disk
+   \ (local)
+34 / Mail.ru Cloud
+   \ (mailru)
+35 / Mega
+   \ (mega)
+36 / Microsoft Azure Blob Storage
+   \ (azureblob)
+37 / Microsoft Azure Files
+   \ (azurefiles)
+38 / Microsoft OneDrive
+   \ (onedrive)
+39 / OpenDrive
+   \ (opendrive)
+40 / OpenStack Swift (Rackspace Cloud Files, Blomp Cloud Storage, Memset Memstore, OVH)
+   \ (swift)
+41 / Oracle Cloud Infrastructure Object Storage
+   \ (oracleobjectstorage)
+42 / Pcloud
+   \ (pcloud)
+43 / PikPak
+   \ (pikpak)
+44 / Pixeldrain Filesystem
+   \ (pixeldrain)
+45 / Proton Drive
+   \ (protondrive)
+46 / Put.io
+   \ (putio)
+47 / QingCloud Object Storage
+   \ (qingstor)
+48 / Quatrix by Maytech
+   \ (quatrix)
+49 / Read archives
+   \ (archive)
+50 / SMB / CIFS
+   \ (smb)
+51 / SSH/SFTP
+   \ (sftp)
+52 / Sia Decentralized Cloud
+   \ (sia)
+53 / Storj Decentralized Cloud Storage
+   \ (storj)
+54 / Sugarsync
+   \ (sugarsync)
+55 / Transparently chunk/split large files
+   \ (chunker)
+56 / Uloz.to
+   \ (ulozto)
+57 / Union merges the contents of several upstream fs
+   \ (union)
+58 / Uptobox
+   \ (uptobox)
+59 / WebDAV
+   \ (webdav)
+60 / Yandex Disk
+   \ (yandex)
+61 / Zoho
+   \ (zoho)
+62 / iCloud Drive
+   \ (iclouddrive)
+63 / premiumize.me
+   \ (premiumizeme)
+64 / seafile
+   \ (seafile)
+Storage> s3
+
+Option provider.
+Choose your S3 provider.
+Choose a number from below, or type in your own value.
+Press Enter to leave empty.
+ 1 / Amazon Web Services (AWS) S3
+   \ (AWS)
+ 2 / Alibaba Cloud Object Storage System (OSS) formerly Aliyun
+   \ (Alibaba)
+ 3 / Arvan Cloud Object Storage (AOS)
+   \ (ArvanCloud)
+ 4 / Ceph Object Storage
+   \ (Ceph)
+ 5 / China Mobile Ecloud Elastic Object Storage (EOS)
+   \ (ChinaMobile)
+ 6 / Cloudflare R2 Storage
+   \ (Cloudflare)
+ 7 / Cubbit DS3 Object Storage
+   \ (Cubbit)
+ 8 / DigitalOcean Spaces
+   \ (DigitalOcean)
+ 9 / Dreamhost DreamObjects
+   \ (Dreamhost)
+10 / Exaba Object Storage
+   \ (Exaba)
+11 / FileLu S5 (S3-Compatible Object Storage)
+   \ (FileLu)
+12 / Pure Storage FlashBlade Object Storage
+   \ (FlashBlade)
+13 / Google Cloud Storage
+   \ (GCS)
+14 / Hetzner Object Storage
+   \ (Hetzner)
+15 / Huawei Object Storage Service
+   \ (HuaweiOBS)
+16 / IBM COS S3
+   \ (IBMCOS)
+17 / IDrive e2
+   \ (IDrive)
+18 / Intercolo Object Storage
+   \ (Intercolo)
+19 / IONOS Cloud
+   \ (IONOS)
+20 / Leviia Object Storage
+   \ (Leviia)
+21 / Liara Object Storage
+   \ (Liara)
+22 / Linode Object Storage
+   \ (Linode)
+23 / Seagate Lyve Cloud
+   \ (LyveCloud)
+24 / Magalu Object Storage
+   \ (Magalu)
+25 / MEGA S4 Object Storage
+   \ (Mega)
+26 / Minio Object Storage
+   \ (Minio)
+27 / Netease Object Storage (NOS)
+   \ (Netease)
+28 / OUTSCALE Object Storage (OOS)
+   \ (Outscale)
+29 / OVHcloud Object Storage
+   \ (OVHcloud)
+30 / Petabox Object Storage
+   \ (Petabox)
+31 / Qiniu Object Storage (Kodo)
+   \ (Qiniu)
+32 / Rabata Cloud Storage
+   \ (Rabata)
+33 / RackCorp Object Storage
+   \ (RackCorp)
+34 / Rclone S3 Server
+   \ (Rclone)
+35 / Scaleway Object Storage
+   \ (Scaleway)
+36 / SeaweedFS S3
+   \ (SeaweedFS)
+37 / Selectel Object Storage
+   \ (Selectel)
+38 / Servercore Object Storage
+   \ (Servercore)
+39 / Spectra Logic Black Pearl
+   \ (SpectraLogic)
+40 / StackPath Object Storage
+   \ (StackPath)
+41 / Storj (S3 Compatible Gateway)
+   \ (Storj)
+42 / Synology C2 Object Storage
+   \ (Synology)
+43 / Tencent Cloud Object Storage (COS)
+   \ (TencentCOS)
+44 / Wasabi Object Storage
+   \ (Wasabi)
+45 / Zata (S3 compatible Gateway)
+   \ (Zata)
+46 / Any other S3 compatible provider
+   \ (Other)
+provider> Cloudflare
+
+Option env_auth.
+Get AWS credentials from runtime (environment variables or EC2/ECS meta data if no env vars).
+Only applies if access_key_id and secret_access_key is blank.
+Choose a number from below, or type in your own boolean value (true or false).
+Press Enter for the default (false).
+ 1 / Enter AWS credentials in the next step.
+   \ (false)
+ 2 / Get AWS credentials from the environment (env vars or IAM).
+   \ (true)
+env_auth> 
+
+Option access_key_id.
+AWS Access Key ID.
+Leave blank for anonymous access or runtime credentials.
+Enter a value. Press Enter to leave empty.
+access_key_id> 3ffd776a26ce7a2d1dcf71a79f2c11d1
+
+Option secret_access_key.
+AWS Secret Access Key (password).
+Leave blank for anonymous access or runtime credentials.
+Enter a value. Press Enter to leave empty.
+secret_access_key> fc29deb45f90d62ef3f45c0e6229b3d5e45447d2a6af0aec665384e10e58827c
+
+Option region.
+Region to connect to.
+Leave blank if you are using an S3 clone and you don't have a region.
+Choose a number from below, or type in your own value.
+Press Enter to leave empty.
+ 1 / R2 buckets are automatically distributed across Cloudflare's data centers for low latency.
+   \ (auto)
+region> auto
+
+Option endpoint.
+Endpoint for S3 API.
+Required when using an S3 clone.
+Enter a value. Press Enter to leave empty.
+endpoint> https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com
+
+Edit advanced config?
+y) Yes
+n) No (default)
+y/n> n
+
+Configuration complete.
+Options:
+- type: s3
+- provider: Cloudflare
+- access_key_id: 3ffd776a26ce7a2d1dcf71a79f2c11d1
+- secret_access_key: fc29deb45f90d62ef3f45c0e6229b3d5e45447d2a6af0aec665384e10e58827c
+- region: auto
+- endpoint: https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com
+Keep this "r2" remote?
+y) Yes this is OK (default)
+e) Edit this remote
+d) Delete this remote
+y/e/d> y
+
+Current remotes:
+
+Name                 Type
+====                 ====
+r2                   s3
+
+e) Edit existing remote
+n) New remote
+d) Delete remote
+r) Rename remote
+c) Copy remote
+s) Set configuration password
+q) Quit config
+e/n/d/r/c/s/q> q
+milk@MacBook-Air-2 urico-kansai % rclone listremotes
+r2:
+milk@MacBook-Air-2 urico-kansai % rclone sync ./data r2:urico-buyers-data/data --progress
+2026/01/25 17:42:08 CRITICAL: Failed to create file system for "r2:urico-buyers-data/data": operation error S3: HeadObject, exceeded maximum number of attempts, 10, https response error StatusCode: 0, RequestID: , HostID: , request send failed, Head "https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com/urico-buyers-data/data": remote error: tls: handshake failure
+milk@MacBook-Air-2 urico-kansai % rclone lsd r2: --s3-no-check-bucket --s3-no-head --log-level DEBUG
+2026/01/25 17:43:05 DEBUG : rclone: Version "v1.72.1" starting with parameters ["rclone" "lsd" "r2:" "--s3-no-check-bucket" "--s3-no-head" "--log-level" "DEBUG"]
+2026/01/25 17:43:05 DEBUG : Creating backend with remote "r2:"
+2026/01/25 17:43:05 DEBUG : Using config file from "/Users/milk/.config/rclone/rclone.conf"
+2026/01/25 17:43:05 DEBUG : r2: detected overridden config - adding "{Xcof1}" suffix to name
+2026/01/25 17:43:05 DEBUG : fs cache: renaming cache item "r2:" to be canonical "r2{Xcof1}:"
+^C
+milk@MacBook-Air-2 urico-kansai % rclone lsd r2: \
+  --s3-no-check-bucket \
+  --s3-no-head \
+  --s3-disable-checksum \
+  --log-level INFO
+2026/01/25 17:46:03 ERROR : error listing: operation error S3: ListBuckets, exceeded maximum number of attempts, 10, https response error StatusCode: 0, RequestID: , HostID: , request send failed, Get "https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com/?x-id=ListBuckets": remote error: tls: handshake failure
+2026/01/25 17:46:03 NOTICE: Failed to lsd with 2 errors: last error was: operation error S3: ListBuckets, exceeded maximum number of attempts, 10, https response error StatusCode: 0, RequestID: , HostID: , request send failed, Get "https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com/?x-id=ListBuckets": remote error: tls: handshake failure
+milk@MacBook-Air-2 urico-kansai % curl -Iv https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com
+* Host 315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com:443 was resolved.
+* IPv6: 2606:4700:2ff9::1
+* IPv4: 172.64.66.1
+*   Trying [2606:4700:2ff9::1]:443...
+* Connected to 315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com (2606:4700:2ff9::1) port 443
+* ALPN: curl offers h2,http/1.1
+* (304) (OUT), TLS handshake, Client hello (1):
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+* Closing connection
+curl: (35) LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+milk@MacBook-Air-2 urico-kansai % curl -4Iv https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com
+* Host 315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com:443 was resolved.
+* IPv6: (none)
+* IPv4: 172.64.66.1
+*   Trying 172.64.66.1:443...
+* Connected to 315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com (172.64.66.1) port 443
+* ALPN: curl offers h2,http/1.1
+* (304) (OUT), TLS handshake, Client hello (1):
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+* Closing connection
+curl: (35) LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+milk@MacBook-Air-2 urico-kansai % curl -Iv https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com
+* Host 315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com:443 was resolved.
+* IPv6: 2606:4700:2ff9::1
+* IPv4: 172.64.66.1
+*   Trying [2606:4700:2ff9::1]:443...
+* Connected to 315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com (2606:4700:2ff9::1) port 443
+* ALPN: curl offers h2,http/1.1
+* (304) (OUT), TLS handshake, Client hello (1):
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+* Closing connection
+curl: (35) LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+milk@MacBook-Air-2 urico-kansai % curl -Iv https://315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com
+* Host 315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com:443 was resolved.
+* IPv6: 2606:4700:2ff9::1
+* IPv4: 172.64.66.1
+*   Trying [2606:4700:2ff9::1]:443...
+* Connected to 315f47f5603f6a03e37c5ca6098667c.r2.cloudflarestorage.com (2606:4700:2ff9::1) port 443
+* ALPN: curl offers h2,http/1.1
+* (304) (OUT), TLS handshake, Client hello (1):
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+* Closing connection
+curl: (35) LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+milk@MacBook-Air-2 urico-kansai % 

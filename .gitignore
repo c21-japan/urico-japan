@@ -48,8 +48,8 @@ client/
 data/house/part*.js
 data/land/part*.js
 
-# 生成された静的ページ（Vercelでビルド時に生成）
-public/
+# 生成された静的ページ（gitにコミットして配信）
+# public/
 
 # 一時ファイル
 gemini.js

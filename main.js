@@ -839,8 +839,44 @@ function initializeLandSearch() {
                         </div>
                         <div class="buyer-info-table">
                             <div class="buyer-info-row">
+                                <span class="buyer-info-label">家族構成</span>
+                                <span class="buyer-info-value">${b.family || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">年齢</span>
+                                <span class="buyer-info-value">${b.age || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">職業</span>
+                                <span class="buyer-info-value">${b.occupation || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
                                 <span class="buyer-info-label">購入時期</span>
                                 <span class="buyer-info-value">${displayTiming}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入方法</span>
+                                <span class="buyer-info-value">${b.method || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入理由</span>
+                                <span class="buyer-info-value">${b.reason || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">利用目的</span>
+                                <span class="buyer-info-value">${b.purpose || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">希望土地面積</span>
+                                <span class="buyer-info-value">${b.landArea || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">駅徒歩</span>
+                                <span class="buyer-info-value">${b.walkingDistance || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">NG条件</span>
+                                <span class="buyer-info-value">${b.ng || '-'}</span>
                             </div>
                             <div class="buyer-info-row">
                                 <span class="buyer-info-label">ID</span>

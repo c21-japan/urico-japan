@@ -786,12 +786,36 @@ function initializeMansionSearch() {
 
 function initializeHouseSearch() {
     const searchButton = document.getElementById('searchButtonHouse');
-    if (!searchButton) return;
+    console.log('戸建検索ボタン:', searchButton);
+
+    if (!searchButton) {
+        console.error('戸建検索ボタンが見つかりません');
+        return;
+    }
 
     searchButton.addEventListener('click', () => {
+        console.log('戸建検索ボタンがクリックされました');
+
+        // エリア検索と駅検索のどちらが表示されているか確認
+        const areaSearch = document.getElementById('house-area-search');
+        const stationSearch = document.getElementById('house-station-search');
+        const isAreaSearch = areaSearch && areaSearch.style.display !== 'none';
+        const isStationSearch = stationSearch && stationSearch.style.display !== 'none';
+
+        console.log('エリア検索:', isAreaSearch, '駅検索:', isStationSearch);
+
+        if (isStationSearch) {
+            // 駅から探す場合
+            alert('駅から探す機能は近日公開予定です。現在は「エリアから探す」をご利用ください。');
+            return;
+        }
+
+        // エリアから探す場合
         const pref = document.getElementById('house-prefecture')?.value.trim();
         const city = document.getElementById('house-city')?.value.trim();
         const town = document.getElementById('house-town')?.value.trim();
+
+        console.log('選択された値:', {pref, city, town});
 
         if (!pref || !city || !town) {
             alert('都道府県、市区町村、町名を選択してください。');
@@ -800,8 +824,11 @@ function initializeHouseSearch() {
 
         // R2のHTMLページにリダイレクト
         const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        console.log('リダイレクト先:', url);
         window.location.href = url;
     });
+
+    console.log('戸建検索ボタンのイベントリスナー設定完了');
 }
 
 // Perform area search for house/land
@@ -1145,12 +1172,36 @@ function displayBuyerResults(buyers, title, type) {
 
 function initializeLandSearch() {
     const searchButton = document.getElementById('searchButtonLand');
-    if (!searchButton) return;
+    console.log('土地検索ボタン:', searchButton);
+
+    if (!searchButton) {
+        console.error('土地検索ボタンが見つかりません');
+        return;
+    }
 
     searchButton.addEventListener('click', () => {
+        console.log('土地検索ボタンがクリックされました');
+
+        // エリア検索と駅検索のどちらが表示されているか確認
+        const areaSearch = document.getElementById('land-area-search');
+        const stationSearch = document.getElementById('land-station-search');
+        const isAreaSearch = areaSearch && areaSearch.style.display !== 'none';
+        const isStationSearch = stationSearch && stationSearch.style.display !== 'none';
+
+        console.log('エリア検索:', isAreaSearch, '駅検索:', isStationSearch);
+
+        if (isStationSearch) {
+            // 駅から探す場合
+            alert('駅から探す機能は近日公開予定です。現在は「エリアから探す」をご利用ください。');
+            return;
+        }
+
+        // エリアから探す場合
         const pref = document.getElementById('land-prefecture')?.value.trim();
         const city = document.getElementById('land-city')?.value.trim();
         const town = document.getElementById('land-town')?.value.trim();
+
+        console.log('選択された値:', {pref, city, town});
 
         if (!pref || !city || !town) {
             alert('都道府県、市区町村、町名を選択してください。');
@@ -1159,8 +1210,11 @@ function initializeLandSearch() {
 
         // R2のHTMLページにリダイレクト
         const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        console.log('リダイレクト先:', url);
         window.location.href = url;
     });
+
+    console.log('土地検索ボタンのイベントリスナー設定完了');
 }
 
 // 画像スライダー初期化

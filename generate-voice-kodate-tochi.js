@@ -177,25 +177,25 @@ function generateLandVoice(index) {
 
 console.log('お客様の声を生成中...\n');
 
-// 戸建200件生成
-console.log('【戸建】200件生成中...');
+// 戸建1000件生成
+console.log('【戸建】1000件生成中...');
 let houseContent = '';
-for (let i = 1; i <= 200; i++) {
+for (let i = 1; i <= 1000; i++) {
   houseContent += generateHouseVoice(i) + '\n\n';
-  if (i % 50 === 0) console.log(`  ${i}件完了`);
+  if (i % 100 === 0) console.log(`  ${i}件完了`);
 }
 fs.writeFileSync('./voice-kodate-content.html', houseContent, 'utf-8');
-console.log('✓ 戸建200件完了: voice-kodate-content.html\n');
+console.log('✓ 戸建1000件完了: voice-kodate-content.html\n');
 
-// 土地200件生成
-console.log('【土地】200件生成中...');
+// 土地1000件生成
+console.log('【土地】1000件生成中...');
 let landContent = '';
-for (let i = 1; i <= 200; i++) {
+for (let i = 1; i <= 1000; i++) {
   landContent += generateLandVoice(i) + '\n\n';
-  if (i % 50 === 0) console.log(`  ${i}件完了`);
+  if (i % 100 === 0) console.log(`  ${i}件完了`);
 }
 fs.writeFileSync('./voice-tochi-content.html', landContent, 'utf-8');
-console.log('✓ 土地200件完了: voice-tochi-content.html\n');
+console.log('✓ 土地1000件完了: voice-tochi-content.html\n');
 
 console.log('=== 全て完了 ===');
 console.log('戸建: voice-kodate-content.html');

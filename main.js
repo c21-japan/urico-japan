@@ -1283,15 +1283,14 @@ function initializeSimulator() {
         const fee = calcBrokerageFee(priceMan);
         feeResult.textContent = formatMoney(fee);
 
-        registryResult.textContent = '約3〜6万円';
+        registryResult.textContent = '約6万円';
 
         const stamp = calcStampDuty(priceMan);
         stampResult.textContent = formatMoney(stamp);
 
-        const totalMin = fee + 30000 + stamp;
-        const totalMax = fee + 60000 + stamp;
+        const total = fee + 60000 + stamp;
 
-        totalResult.textContent = '約' + formatMoney(totalMin) + '〜' + formatMoney(totalMax);
+        totalResult.textContent = '約' + formatMoney(total);
     }
 
     sellPriceSlider.addEventListener('input', updateCalculation);

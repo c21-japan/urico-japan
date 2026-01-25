@@ -1,19 +1,50 @@
-.vercel
+# ============================================================
+# URICO Git管理ポリシー
+# - 設計図と成果物のみを追跡
+# - 中間生成物・大量データは追跡しない
+# - 再生成可能な設計をURICOの価値とする
+# ============================================================
+
+# ============================================================
+# 中間生成データ（再生成可能・大量）
+# ============================================================
+# 戸建・土地のエリア別生成データ
+data/house/area/
+data/land/area/
+
+# 駅別生成データ（全物件タイプ）
+data/*/station/
+
+# その他生成データ
+data/generated/
+
+# ============================================================
+# 実行環境・一時物
+# ============================================================
+# Node.js
+node_modules/
+
+# Vercel
+.vercel/
+
+# ビルド出力
+out/
+
+# ジョブ・ログ
+jobs/
+logs/
+*.log
+
+# システムファイル
+.DS_Store
+.cursor/
+
+# Client (legacy)
 client/
 
-# macOS
-.DS_Store
-
-# ログファイル
-*.log
-logs/
-
-# 自動生成ファイル
-out/
-jobs/
-src/generated/
-
-# ただし、ディレクトリ構造は保持
-!out/.gitkeep
-!jobs/.gitkeep
-!src/generated/.gitkeep
+# ============================================================
+# 以下は追跡する（明示的にコメント）
+# ============================================================
+# コード・アプリ: index.html, main.js, mansion_app.js, styles.css, public/, lib/, src/, scripts/
+# 生成ルール: README_*.md, CLAUDE_CLI_USAGE.md, genspark_prompts.md, REWRITE_PROMPT.md, SITE_DESCRIPTION_PROMPT.md, prompts/
+# 確定データ: mansion_db.js, house_db.js, land_db.js, data/*/part*.js, area_data.json, area_town_data.json, station_town_mapping.json, occupation_list.json, data/area_registered*.csv, kinki_master.json

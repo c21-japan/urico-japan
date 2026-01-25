@@ -88,22 +88,30 @@ function updateStats(type) {
 
     if (type === 'mansion') {
         database = mansionDatabase;
+        // マンションは物件ベース（各物件にbuyersがある）
+        totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);
+        totalProperties = database.length;
     } else if (type === 'house') {
         database = houseDatabase;
+        // 戸建は購入希望者ベース（各要素が購入希望者）
+        totalBuyers = database.length;
+        totalProperties = database.length; // 購入希望者数と同じ
     } else if (type === 'land') {
         database = landDatabase;
+        // 土地は購入希望者ベース（各要素が購入希望者）
+        totalBuyers = database.length;
+        totalProperties = database.length; // 購入希望者数と同じ
     } else {
         database = mansionDatabase;
+        totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);
+        totalProperties = database.length;
     }
 
-    totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);
-    totalProperties = database.length;
-    
     console.log(`updateStats(${type}): 購入希望者数=${totalBuyers}, 物件数=${totalProperties}`);
-    
+
     animateNumber('statBuyers', totalBuyers);
     animateNumber('statProperties', totalProperties);
-    
+
     const heroSubtitle = document.getElementById('heroSubtitle');
     if (heroSubtitle) {
         heroSubtitle.textContent =
@@ -641,12 +649,48 @@ function initializeHouseSearch() {
                         </div>
                         <div class="buyer-info-table">
                             <div class="buyer-info-row">
+                                <span class="buyer-info-label">家族構成</span>
+                                <span class="buyer-info-value">${b.family || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">年齢</span>
+                                <span class="buyer-info-value">${b.age || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">職業</span>
+                                <span class="buyer-info-value">${b.occupation || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
                                 <span class="buyer-info-label">購入時期</span>
                                 <span class="buyer-info-value">${displayTiming}</span>
                             </div>
                             <div class="buyer-info-row">
-                                <span class="buyer-info-label">ID</span>
-                                <span class="buyer-info-value">${b.id || '-'}</span>
+                                <span class="buyer-info-label">購入方法</span>
+                                <span class="buyer-info-value">${b.method || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入理由</span>
+                                <span class="buyer-info-value">${b.reason || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">希望築年数</span>
+                                <span class="buyer-info-value">${b.buildingAge || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">希望間取り</span>
+                                <span class="buyer-info-value">${b.layout || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">希望土地面積</span>
+                                <span class="buyer-info-value">${b.landArea || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">駅徒歩</span>
+                                <span class="buyer-info-value">${b.walkingDistance || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
+                                <span class="buyer-info-label">NG条件</span>
+                                <span class="buyer-info-value">${b.ng || '特になし'}</span>
                             </div>
                         </div>
                         <div class="buyer-action">

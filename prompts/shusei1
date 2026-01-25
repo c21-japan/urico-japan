@@ -1,0 +1,920 @@
+
+
+<span class="number" id="statBuyers">0</span>
+
+<span class="number" id="statProperties">40,681</span>
+
+の数字がおかしくなってるのと
+
+
+<div class="modal-content">
+            <div class="modal-header">
+                <button class="modal-close" onclick="closeModal()">×</button>
+                <h2 id="modalTitle">京都府 京都市左京区 の戸建</h2>
+                <p id="modalSubtitle">購入希望者 45件</p>
+            </div>
+            <div class="modal-body" id="buyerCards">
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #1</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00618</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(0)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #2</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00623</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(1)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #3</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00627</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(2)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #4</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00632</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(3)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #5</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00615</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(4)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #6</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00616</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(5)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #7</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00617</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(6)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #8</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00619</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(7)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #9</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00620</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(8)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #10</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00621</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(9)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #11</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00622</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(10)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #12</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00624</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(11)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #13</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00625</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(12)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #14</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00626</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(13)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #15</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00628</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(14)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #16</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00629</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(15)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #17</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00630</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(16)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #18</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00631</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(17)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #19</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00633</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(18)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #20</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--new">新着</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00634</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(19)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #21</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00590</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(20)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #22</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00594</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(21)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #23</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00599</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(22)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #24</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00604</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(23)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #25</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00609</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(24)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #26</span>
+                            <div class="buyer-badges"><span class="buyer-badge buyer-badge--urgent">急ぎ</span></div>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">即時</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00613</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(25)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #27</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00591</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(26)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #28</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00592</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(27)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #29</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00593</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(28)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #30</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00595</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(29)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #31</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00596</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(30)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #32</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00597</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(31)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #33</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00598</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(32)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #34</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00600</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(33)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #35</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00601</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(34)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #36</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00602</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(35)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #37</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00603</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(36)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #38</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00605</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(37)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #39</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00606</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(38)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #40</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00607</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(39)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #41</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00608</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(40)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #42</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00610</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(41)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #43</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">6ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00611</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(42)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #44</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">良い物件があれば</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00612</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(43)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #45</span>
+                            
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">3ヶ月以内</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">ID</span>
+                                <span class="buyer-info-value">KO-00614</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(44)">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+実際に反映されてる購入希望者情報を見ると、内容が反映されていない

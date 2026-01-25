@@ -1,0 +1,855 @@
+
+---
+
+# 【完全版・修正版】土地購入希望者情報 生成プロンプト（Claude CLI用）
+
+## 実行概要
+URICOサイトの土地購入希望者情報を、詳細なマッチング条件付きで生成する。既存の`data/land/area/`および`data/land/station/`配下のJSONファイルを読み込み、各購入希望者に完全なプロフィールと希望条件を追加して上書き保存する。
+
+---
+
+## タスク
+既存の土地購入希望者JSONファイルを読み込み、以下のフィールドを追加・更新してファイルを上書き保存せよ。
+
+---
+
+## データ構造定義
+
+### 入力データ（現在の形式）
+```json
+[
+  {
+    "timing": "購入時期",
+    "id": "旧形式の簡易ID"
+  }
+]
+```
+
+### 出力データ（新形式）
+```json
+[
+  {
+    "id": "TO-00001",
+    "family": "夫婦+子供2人",
+    "age": "38歳",
+    "occupation": "会社員（一般職）",
+    "timing": "6ヶ月以内",
+    "method": "住宅ローン",
+    "reason": "新築戸建を建てたい",
+    "ng": "特になし",
+    "purpose": "戸建住宅",
+    "landArea": "151〜300㎡",
+    "walkingDistance": "駅徒歩10分以内"
+  }
+]
+```
+
+**注**: budgetフィールドは削除（物件価格のバラつきによる機会損失を防ぐため）
+
+---
+
+## フィールド生成ルール
+
+### 1. id（購入希望者ID）
+- **形式**: `TO-{5桁の連番}`（TO = Tochi（土地））
+- **例**: `TO-00001`, `TO-00234`, `TO-12345`
+- **ルール**: 
+  - エリアごとにユニークなIDを付与
+  - 全国で重複しないようグローバルカウンターで管理
+  - 生成時に既存IDがあれば新規採番
+
+---
+
+### 2. family（家族構成）
+
+#### 選択肢
+- 単身
+- 夫婦
+- 夫婦+子供1人
+- 夫婦+子供2人
+- 夫婦+子供3人
+- 三世代同居希望
+- 親との同居予定
+
+#### 比率
+```json
+{
+  "単身": 8,
+  "夫婦": 12,
+  "夫婦+子供1人": 25,
+  "夫婦+子供2人": 32,
+  "夫婦+子供3人": 12,
+  "三世代同居希望": 6,
+  "親との同居予定": 5
+}
+```
+
+**注**: 土地購入は戸建購入より家族向けが多いため、子供ありの比率を高めに設定
+
+---
+
+### 3. age（年齢）
+
+#### 家族構成別の年齢範囲
+```javascript
+{
+  "単身": [28, 45],
+  "夫婦": [30, 55],
+  "夫婦+子供1人": [30, 50],
+  "夫婦+子供2人": [32, 52],
+  "夫婦+子供3人": [33, 53],
+  "三世代同居希望": [35, 60],
+  "親との同居予定": [35, 60]
+}
+```
+
+#### 表記形式
+- `"{年齢}歳"` 例: `"35歳"`, `"42歳"`
+
+---
+
+### 4. occupation（職業）
+
+#### データソース
+**必須**: `prompts/occupation_list.json`ファイルを読み込み、このリストから職業を選択すること
+
+#### 年齢制限付き職業
+- **ID 49（パート・アルバイト）**: 57歳以上のみ選択可能
+- **ID 50（無職）**: 67歳以上のみ選択可能
+
+#### 選択ロジック
+```javascript
+function selectOccupation(age, family, purpose) {
+  // occupation_list.jsonを読み込む
+  const occupationList = readJSON("prompts/occupation_list.json");
+  
+  // 年齢によるフィルタリング
+  let availableOccupations = occupationList.filter(occ => {
+    if (occ.id === 49 && age < 57) return false; // パート・アルバイト
+    if (occ.id === 50 && age < 67) return false; // 無職
+    return true;
+  });
+  
+  // 土地購入は高額投資のため、安定収入職業の比率を高める（80%）
+  const stableIncomeIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 16, 17, 28, 29, 31, 32, 33]; // 会社員、公務員、医師、IT系、経営者、建設業等
+  
+  // 事業用地・投資用地の場合は経営者・自営業・不動産業を優先（60%）
+  if (purpose === "事業用地" || purpose === "投資用地") {
+    const businessOwnerIds = [26, 27, 28, 29, 31, 32, 33]; // 自営業、個人事業主、経営者、不動産業、建設業等
+    if (Math.random() < 0.6) {
+      availableOccupations = availableOccupations.filter(occ => businessOwnerIds.includes(occ.id));
+    }
+  } else {
+    // 住宅用地の場合は安定収入職業を優先（80%）
+    if (Math.random() < 0.8) {
+      availableOccupations = availableOccupations.filter(occ => stableIncomeIds.includes(occ.id));
+    }
+  }
+  
+  // ランダム選択
+  return availableOccupations[Math.floor(Math.random() * availableOccupations.length)].name;
+}
+```
+
+#### 職業別比率の目安（土地購入者向け）
+- 会社員系: 30%
+- 公務員・教員系: 18%
+- 医療・福祉系: 10%
+- IT・技術系: 8%
+- 経営・自営業系: 20%（戸建より高め）
+- 建設業・不動産業: 8%（土地購入に精通）
+- その他: 6%
+
+---
+
+### 5. timing（購入時期）
+
+#### 選択肢と比率
+```json
+{
+  "即時": 15,
+  "3ヶ月以内": 20,
+  "6ヶ月以内": 30,
+  "1年以内": 20,
+  "良い物件があれば": 15
+}
+```
+
+**注**: 土地購入は計画性が高いため「6ヶ月以内〜1年以内」の比率を高めに設定
+
+---
+
+### 6. method（購入方法）
+
+#### 選択肢と基本比率
+```json
+{
+  "現金購入": 25,
+  "住宅ローン": 50,
+  "親族の援助あり": 15,
+  "買い替え": 10
+}
+```
+
+**注**: 土地購入は戸建より現金購入比率が高い（建築費用も考慮するため）
+
+#### 職業による調整
+```javascript
+function selectMethod(occupation, purpose) {
+  // 高所得職業（医師、歯科医師、経営者・役員等）
+  const highIncomeOccupations = ["医師", "歯科医師", "経営者・役員", "不動産業", "建設業"];
+  if (highIncomeOccupations.includes(occupation)) {
+    // 現金購入: 50%, 住宅ローン: 30%, 親族の援助: 15%, 買い替え: 5%
+    const rand = Math.random();
+    if (rand < 0.50) return "現金購入";
+    if (rand < 0.80) return "住宅ローン";
+    if (rand < 0.95) return "親族の援助あり";
+    return "買い替え";
+  }
+  
+  // 事業用地・投資用地の場合は現金購入率をさらに高める
+  if (purpose === "事業用地" || purpose === "投資用地") {
+    const rand = Math.random();
+    if (rand < 0.60) return "現金購入";
+    if (rand < 0.85) return "住宅ローン";
+    if (rand < 0.95) return "親族の援助あり";
+    return "買い替え";
+  }
+  
+  // 安定職業（公務員、教員、大手会社員等）
+  const stableOccupations = ["公務員（国家公務員）", "公務員（地方公務員）", "教員（小・中・高校）", "会社員（管理職）"];
+  if (stableOccupations.includes(occupation)) {
+    // 住宅ローン: 60%, 親族の援助: 20%, 現金購入: 15%, 買い替え: 5%
+    const rand = Math.random();
+    if (rand < 0.60) return "住宅ローン";
+    if (rand < 0.80) return "親族の援助あり";
+    if (rand < 0.95) return "現金購入";
+    return "買い替え";
+  }
+  
+  // デフォルト（基本比率）
+  const rand = Math.random();
+  if (rand < 0.25) return "現金購入";
+  if (rand < 0.75) return "住宅ローン";
+  if (rand < 0.90) return "親族の援助あり";
+  return "買い替え";
+}
+```
+
+---
+
+### 7. reason（購入理由）
+
+#### 選択肢（土地購入特有の理由を含む）
+```json
+[
+  "新築戸建を建てたい",
+  "注文住宅を建てたい",
+  "二世帯住宅を建てたい",
+  "子供の学区",
+  "実家の近く",
+  "広い家を建てたい",
+  "庭付きの家を建てたい",
+  "資産形成",
+  "静かな環境",
+  "駐車場が必要",
+  "ペットを飼いたい",
+  "リモートワーク環境",
+  "将来的な転売",
+  "事業用地として",
+  "投資用地として"
+]
+```
+
+#### 比率
+```json
+{
+  "新築戸建を建てたい": 25,
+  "注文住宅を建てたい": 20,
+  "二世帯住宅を建てたい": 8,
+  "子供の学区": 10,
+  "実家の近く": 8,
+  "広い家を建てたい": 8,
+  "庭付きの家を建てたい": 6,
+  "資産形成": 5,
+  "静かな環境": 3,
+  "駐車場が必要": 2,
+  "ペットを飼いたい": 2,
+  "リモートワーク環境": 1,
+  "将来的な転売": 1,
+  "事業用地として": 0.5,
+  "投資用地として": 0.5
+}
+```
+
+---
+
+### 8. ng（NG条件）
+
+#### 選択肢と比率
+```json
+{
+  "特になし": 45,
+  "再建築不可": 8,
+  "接道不良": 8,
+  "市街化調整区域": 6,
+  "隣地との境界未確定": 7,
+  "傾斜地": 6,
+  "地盤が弱い": 5,
+  "水害リスクエリア": 6,
+  "墓地や葬儀場の近く": 4,
+  "高圧線下": 3,
+  "不整形地": 2
+}
+```
+
+**注**: 土地特有のNG条件（再建築不可、接道不良、市街化調整区域等）を重視
+
+---
+
+### 9. purpose（土地の利用目的）- **土地特有フィールド**
+
+#### 選択肢と比率
+```json
+{
+  "戸建住宅": 70,
+  "二世帯住宅": 12,
+  "賃貸併用住宅": 5,
+  "事業用地": 3,
+  "投資用地": 2,
+  "駐車場用地": 3,
+  "その他": 5
+}
+```
+
+#### 表記形式
+- `"戸建住宅"`
+- `"二世帯住宅"`
+- `"賃貸併用住宅"`
+- `"事業用地"`
+- `"投資用地"`
+- `"駐車場用地"`
+- `"その他"`
+
+#### 家族構成との整合性
+```javascript
+function selectPurpose(family, reason) {
+  // 二世帯住宅を建てたい場合は「二世帯住宅」を優先
+  if (reason === "二世帯住宅を建てたい") {
+    return "二世帯住宅";
+  }
+  
+  // 事業用地・投資用地の理由がある場合
+  if (reason === "事業用地として") return "事業用地";
+  if (reason === "投資用地として") return "投資用地";
+  
+  // 三世代同居希望の場合は「二世帯住宅」の確率を高める（60%）
+  if (family === "三世代同居希望" || family === "親との同居予定") {
+    if (Math.random() < 0.6) return "二世帯住宅";
+  }
+  
+  // デフォルト（基本比率）
+  const rand = Math.random();
+  if (rand < 0.70) return "戸建住宅";
+  if (rand < 0.82) return "二世帯住宅";
+  if (rand < 0.87) return "賃貸併用住宅";
+  if (rand < 0.90) return "事業用地";
+  if (rand < 0.92) return "投資用地";
+  if (rand < 0.95) return "駐車場用地";
+  return "その他";
+}
+```
+
+---
+
+### 10. landArea（希望土地面積）
+
+#### 選択肢と基本比率
+```json
+{
+  "〜50㎡": 5,
+  "51〜150㎡": 25,
+  "151〜300㎡": 45,
+  "301㎡以上": 25
+}
+```
+
+**注**: 土地購入は広めを希望する傾向が強いため、151㎡以上を70%に設定
+
+#### 家族構成・利用目的による整合性調整
+```javascript
+function selectLandArea(family, purpose, reason) {
+  // 駐車場用地・事業用地の場合
+  if (purpose === "駐車場用地") {
+    // 51〜150㎡(40%), 151〜300㎡(50%), 301㎡以上(10%)
+    const rand = Math.random();
+    if (rand < 0.40) return "51〜150㎡";
+    if (rand < 0.90) return "151〜300㎡";
+    return "301㎡以上";
+  }
+  
+  if (purpose === "事業用地" || purpose === "投資用地") {
+    // 151〜300㎡(40%), 301㎡以上(60%)
+    const rand = Math.random();
+    if (rand < 0.40) return "151〜300㎡";
+    return "301㎡以上";
+  }
+  
+  // 二世帯住宅・三世代同居の場合は大規模優先
+  if (purpose === "二世帯住宅" || family === "三世代同居希望" || family.includes("子供3人")) {
+    // 151〜300㎡(50%), 301㎡以上(50%)
+    const rand = Math.random();
+    if (rand < 0.50) return "151〜300㎡";
+    return "301㎡以上";
+  }
+  
+  // 単身・夫婦の場合
+  if (family === "単身" || family === "夫婦") {
+    // 〜50㎡(10%), 51〜150㎡(40%), 151〜300㎡(40%), 301㎡以上(10%)
+    const rand = Math.random();
+    if (rand < 0.10) return "〜50㎡";
+    if (rand < 0.50) return "51〜150㎡";
+    if (rand < 0.90) return "151〜300㎡";
+    return "301㎡以上";
+  }
+  
+  // 購入理由による調整
+  if (reason === "庭付きの家を建てたい" || reason === "ペットを飼いたい" || reason === "広い家を建てたい") {
+    // 151㎡以上を90%
+    const rand = Math.random();
+    if (rand < 0.90) {
+      return Math.random() < 0.6 ? "151〜300㎡" : "301㎡以上";
+    }
+  }
+  
+  // デフォルト（基本比率）
+  const rand = Math.random();
+  if (rand < 0.05) return "〜50㎡";
+  if (rand < 0.30) return "51〜150㎡";
+  if (rand < 0.75) return "151〜300㎡";
+  return "301㎡以上";
+}
+```
+
+---
+
+### 11. walkingDistance（駅徒歩）
+
+#### 選択肢と比率（完全均等）
+```json
+{
+  "駅徒歩10分以内": 25,
+  "駅徒歩11〜15分": 25,
+  "駅徒歩16〜20分": 25,
+  "駅徒歩21分以上": 25
+}
+```
+
+#### 購入理由・利用目的による調整
+```javascript
+function selectWalkingDistance(reason, purpose) {
+  // 事業用地・駐車場用地は駅近重視
+  if (purpose === "事業用地" || purpose === "駐車場用地") {
+    // 駅徒歩15分以内: 70%
+    const rand = Math.random();
+    if (rand < 0.40) return "駅徒歩10分以内";
+    if (rand < 0.70) return "駅徒歩11〜15分";
+    if (rand < 0.85) return "駅徒歩16〜20分";
+    return "駅徒歩21分以上";
+  }
+  
+  // 「子供の学区」「実家の近く」の場合は駅距離は重視しない
+  if (reason === "子供の学区" || reason === "実家の近く") {
+    // 均等分布
+    const rand = Math.random();
+    if (rand < 0.25) return "駅徒歩10分以内";
+    if (rand < 0.50) return "駅徒歩11〜15分";
+    if (rand < 0.75) return "駅徒歩16〜20分";
+    return "駅徒歩21分以上";
+  }
+  
+  // 「静かな環境」の場合は駅から離れた立地を好む
+  if (reason === "静かな環境") {
+    const rand = Math.random();
+    if (rand < 0.15) return "駅徒歩10分以内";
+    if (rand < 0.35) return "駅徒歩11〜15分";
+    if (rand < 0.60) return "駅徒歩16〜20分";
+    return "駅徒歩21分以上";
+  }
+  
+  // デフォルト（完全均等）
+  const rand = Math.random();
+  if (rand < 0.25) return "駅徒歩10分以内";
+  if (rand < 0.50) return "駅徒歩11〜15分";
+  if (rand < 0.75) return "駅徒歩16〜20分";
+  return "駅徒歩21分以上";
+}
+```
+
+---
+
+## 生成フロー（完全版）
+
+### Step 1: ファイル読み込み
+```javascript
+// 1. occupation_list.jsonを読み込む
+const occupationList = readJSON("prompts/occupation_list.json");
+
+// 2. 対象ファイルリストを取得
+const areaFiles = glob("data/land/area/**/*.json");
+const stationFiles = glob("data/land/station/**/*.json");
+const allFiles = [...areaFiles, ...stationFiles];
+
+// 3. グローバルIDカウンターを初期化（土地用）
+let globalIdCounter = 1;
+```
+
+### Step 2: 各ファイルを処理
+```javascript
+for (const filePath of allFiles) {
+  // 既存データを読み込む
+  const existingData = readJSON(filePath);
+  const totalBuyers = existingData.length;
+  
+  // 新しいデータ配列を作成
+  const newBuyers = [];
+  
+  // 比率計算（各条件の件数を事前計算）
+  const purposeDistribution = calculateDistribution(totalBuyers, [70, 12, 5, 3, 2, 3, 5]); // 戸建70%, 二世帯12%, 賃貸併用5%, 事業3%, 投資2%, 駐車場3%, その他5%
+  const landAreaDistribution = calculateDistribution(totalBuyers, [5, 25, 45, 25]); // 〜50㎡5%, 51-150㎡25%, 151-300㎡45%, 301㎡以上25%
+  const walkingDistanceDistribution = calculateDistribution(totalBuyers, [25, 25, 25, 25]); // 各25%
+  
+  // 配列をシャッフル（ランダム配置）
+  const purposeOptions = shuffleArray(expandByDistribution(["戸建住宅", "二世帯住宅", "賃貸併用住宅", "事業用地", "投資用地", "駐車場用地", "その他"], purposeDistribution));
+  const landAreaOptions = shuffleArray(expandByDistribution(["〜50㎡", "51〜150㎡", "151〜300㎡", "301㎡以上"], landAreaDistribution));
+  const walkingDistanceOptions = shuffleArray(expandByDistribution(["駅徒歩10分以内", "駅徒歩11〜15分", "駅徒歩16〜20分", "駅徒歩21分以上"], walkingDistanceDistribution));
+  
+  // 各購入希望者を生成
+  for (let i = 0; i < totalBuyers; i++) {
+    // 1. 利用目的を割り当て（事前計算済み）
+    const purpose = purposeOptions[i];
+    
+    // 2. 購入理由を選択（利用目的と整合性を持たせる）
+    const reason = selectReasonByPurpose(purpose);
+    
+    // 3. 家族構成を選択（利用目的と整合性を持たせる）
+    const family = selectFamilyByPurpose(purpose, reason);
+    
+    // 4. 年齢を生成
+    const age = generateAge(family);
+    
+    // 5. 職業を選択（年齢制限・利用目的を考慮）
+    const occupation = selectOccupation(age, family, purpose, occupationList);
+    
+    // 6. 購入時期を選択
+    const timing = selectTimingByRatio();
+    
+    // 7. 購入方法を選択（職業・利用目的による調整）
+    const method = selectMethod(occupation, purpose);
+    
+    // 8. NG条件を選択
+    const ng = selectNGByRatio();
+    
+    // 9. 希望土地面積を割り当て（家族構成・利用目的との整合性チェック）
+    let landArea = landAreaOptions[i];
+    if (!isLandAreaCompatible(family, purpose, landArea)) {
+      landArea = adjustLandAreaForPurpose(family, purpose, reason);
+    }
+    
+    // 10. 駅徒歩を割り当て（購入理由・利用目的による調整）
+    let walkingDistance = walkingDistanceOptions[i];
+    if (shouldAdjustWalkingDistance(reason, purpose)) {
+      walkingDistance = adjustWalkingDistanceForReason(reason, purpose);
+    }
+    
+    // 11. IDを生成
+    const id = `TO-${String(globalIdCounter).padStart(5, '0')}`;
+    globalIdCounter++;
+    
+    // 購入希望者オブジェクトを作成
+    newBuyers.push({
+      id,
+      family,
+      age: `${age}歳`,
+      occupation,
+      timing,
+      method,
+      reason,
+      ng,
+      purpose,
+      landArea,
+      walkingDistance
+    });
+  }
+  
+  // ファイルに上書き保存
+  writeJSON(filePath, newBuyers);
+  console.log(`処理完了: ${filePath} (${totalBuyers}件)`);
+}
+```
+
+---
+
+## バリデーションルール
+
+### 必須チェック項目
+
+#### 1. 年齢制限の遵守
+```javascript
+function validateAgeRestriction(buyer) {
+  const age = parseInt(buyer.age);
+  
+  if (buyer.occupation === "パート・アルバイト" && age < 57) {
+    throw new Error(`パート・アルバイトは57歳以上のみ: ${buyer.id} (${age}歳)`);
+  }
+  
+  if (buyer.occupation === "無職" && age < 67) {
+    throw new Error(`無職は67歳以上のみ: ${buyer.id} (${age}歳)`);
+  }
+}
+```
+
+#### 2. 比率の確認
+```javascript
+function validateDistribution(buyers, field, expectedRatios) {
+  const counts = {};
+  buyers.forEach(b => {
+    counts[b[field]] = (counts[b[field]] || 0) + 1;
+  });
+  
+  const total = buyers.length;
+  for (const [value, expectedRatio] of Object.entries(expectedRatios)) {
+    const actualRatio = (counts[value] || 0) / total * 100;
+    const diff = Math.abs(actualRatio - expectedRatio);
+    
+    if (diff > 5) { // ±5%以内の誤差を許容
+      console.warn(`${field}の比率がずれています: ${value} - 期待値${expectedRatio}%, 実際${actualRatio.toFixed(1)}%`);
+    }
+  }
+}
+```
+
+#### 3. 利用目的と家族構成の整合性
+```javascript
+function validatePurposeCompatibility(buyers) {
+  const incompatible = buyers.filter(b => {
+    // 単身で二世帯住宅はおかしい
+    if (b.family === "単身" && b.purpose === "二世帯住宅") {
+      return true;
+    }
+    // 三世代同居希望で駐車場用地はおかしい
+    if (b.family === "三世代同居希望" && b.purpose === "駐車場用地") {
+      return true;
+    }
+    return false;
+  });
+  
+  if (incompatible.length > 0) {
+    console.warn(`利用目的と家族構成の不整合: ${incompatible.length}件`);
+  }
+}
+```
+
+#### 4. ID重複チェック
+```javascript
+function validateUniqueIds(allBuyers) {
+  const ids = allBuyers.map(b => b.id);
+  const uniqueIds = new Set(ids);
+  
+  if (ids.length !== uniqueIds.size) {
+    throw new Error(`ID重複が検出されました: ${ids.length}件中${uniqueIds.size}件がユニーク`);
+  }
+}
+```
+
+---
+
+## 出力例
+
+### エリアファイルの例: `data/land/area/奈良県/奈良市.json`
+```json
+[
+  {
+    "id": "TO-00001",
+    "family": "夫婦+子供2人",
+    "age": "38歳",
+    "occupation": "会社員（管理職）",
+    "timing": "6ヶ月以内",
+    "method": "住宅ローン",
+    "reason": "新築戸建を建てたい",
+    "ng": "特になし",
+    "purpose": "戸建住宅",
+    "landArea": "151〜300㎡",
+    "walkingDistance": "駅徒歩10分以内"
+  },
+  {
+    "id": "TO-00002",
+    "family": "夫婦+子供1人",
+    "age": "35歳",
+    "occupation": "公務員（地方公務員）",
+    "timing": "1年以内",
+    "method": "住宅ローン",
+    "reason": "子供の学区",
+    "ng": "接道不良",
+    "purpose": "戸建住宅",
+    "landArea": "151〜300㎡",
+    "walkingDistance": "駅徒歩16〜20分"
+  },
+  {
+    "id": "TO-00003",
+    "family": "三世代同居希望",
+    "age": "52歳",
+    "occupation": "医師",
+    "timing": "即時",
+    "method": "現金購入",
+    "reason": "二世帯住宅を建てたい",
+    "ng": "特になし",
+    "purpose": "二世帯住宅",
+    "landArea": "301㎡以上",
+    "walkingDistance": "駅徒歩11〜15分"
+  },
+  {
+    "id": "TO-00004",
+    "family": "夫婦",
+    "age": "45歳",
+    "occupation": "経営者・役員",
+    "timing": "良い物件があれば",
+    "method": "現金購入",
+    "reason": "投資用地として",
+    "ng": "市街化調整区域",
+    "purpose": "投資用地",
+    "landArea": "301㎡以上",
+    "walkingDistance": "駅徒歩10分以内"
+  },
+  {
+    "id": "TO-00005",
+    "family": "夫婦+子供3人",
+    "age": "42歳",
+    "occupation": "建設業",
+    "timing": "3ヶ月以内",
+    "method": "住宅ローン",
+    "reason": "注文住宅を建てたい",
+    "ng": "傾斜地",
+    "purpose": "戸建住宅",
+    "landArea": "301㎡以上",
+    "walkingDistance": "駅徒歩21分以上"
+  },
+  {
+    "id": "TO-00006",
+    "family": "単身",
+    "age": "35歳",
+    "occupation": "ITエンジニア",
+    "timing": "6ヶ月以内",
+    "method": "住宅ローン",
+    "reason": "新築戸建を建てたい",
+    "ng": "特になし",
+    "purpose": "戸建住宅",
+    "landArea": "51〜150㎡",
+    "walkingDistance": "駅徒歩11〜15分"
+  },
+  {
+    "id": "TO-00007",
+    "family": "夫婦",
+    "age": "58歳",
+    "occupation": "パート・アルバイト",
+    "timing": "1年以内",
+    "method": "親族の援助あり",
+    "reason": "実家の近く",
+    "ng": "特になし",
+    "purpose": "戸建住宅",
+    "landArea": "51〜150㎡",
+    "walkingDistance": "駅徒歩16〜20分"
+  },
+  {
+    "id": "TO-00008",
+    "family": "夫婦",
+    "age": "68歳",
+    "occupation": "無職",
+    "timing": "良い物件があれば",
+    "method": "現金購入",
+    "reason": "静かな環境",
+    "ng": "水害リスクエリア",
+    "purpose": "戸建住宅",
+    "landArea": "151〜300㎡",
+    "walkingDistance": "駅徒歩21分以上"
+  },
+  {
+    "id": "TO-00009",
+    "family": "夫婦+子供2人",
+    "age": "40歳",
+    "occupation": "不動産業",
+    "timing": "即時",
+    "method": "現金購入",
+    "reason": "事業用地として",
+    "ng": "再建築不可",
+    "purpose": "事業用地",
+    "landArea": "301㎡以上",
+    "walkingDistance": "駅徒歩10分以内"
+  }
+]
+```
+
+---
+
+## 実装の注意事項
+
+### 1. 並列処理の推奨
+- ファイル数が多いため、Claude CLIの並列処理機能を活用すること
+- エリアファイルと駅ファイルを同時に処理して効率化
+
+### 2. エラーハンドリング
+- ファイル読み込みエラー時は該当ファイルをスキップしてログに記録
+- データ生成エラー時は該当購入希望者をスキップして続行
+- 最終的に処理結果サマリーを出力
+
+### 3. ログ出力
+```
+処理開始: 2024-01-24 10:00:00
+対象ファイル数: 1,156件
+---
+処理中: data/land/area/奈良県/奈良市.json (38件) ✓
+処理中: data/land/area/奈良県/生駒市.json (25件) ✓
+処理中: data/land/station/JR西日本/大和路線/奈良駅.json (32件) ✓
+...
+---
+処理完了: 1,156ファイル / 42,350件の購入希望者
+エラー: 0件
+警告: 2件（比率のずれ）
+処理時間: 14分18秒
+```
+
+### 4. バックアップ
+- 処理前に既存データのバックアップを作成すること
+- `data/land_backup_{timestamp}/`にコピー
+
+---
+
+## 完了条件
+
+以下がすべて満たされた場合、タスク完了とする:
+
+1. ✅ すべてのエリアファイル・駅ファイルが処理済み
+2. ✅ 各購入希望者に11個のフィールド（budgetを除く）がすべて入力済み
+3. ✅ ID重複なし
+4. ✅ 年齢制限（パート・アルバイト、無職）が遵守されている
+5. ✅ 各フィールドの比率が±5%以内の誤差
+6. ✅ 家族構成と利用目的・土地面積の整合性が確保されている
+7. ✅ すべてのファイルが正常にJSON形式で保存されている
+
+---
+
+## 戸建との違いまとめ
+
+| 項目 | 戸建（KO-） | 土地（TO-） |
+|------|------------|------------|
+| **IDプレフィックス** | KO-（Kodate） | TO-（Tochi） |
+| **独自フィールド** | buildingAge（希望築年数） | purpose（利用目的） |
+| **削除フィールド** | なし | budget（削除：機会損失防止のため） |
+| **フィールド数** | 12個 | 11個 |
+| **家族構成比率** | 子供あり: 65% | 子供あり: 69%（より家族向け） |
+| **職業傾向** | 一般的な分布 | 経営者・建設業の比率高め |
+| **購入方法** | 現金購入: 15% | 現金購入: 25%（土地は現金比率高） |
+| **土地面積** | 151㎡以上: 60% | 151㎡以上: 70%（広めを希望） |
+| **購入理由** | 既存戸建に関する理由 | 「建てたい」系の理由が中心 |
+
+---

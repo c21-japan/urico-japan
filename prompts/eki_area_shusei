@@ -1,0 +1,960 @@
+# 【UI改善版】戸建・土地 検索機能改善プロンプト（フロントエンド開発用）
+
+## 概要
+URICOサイトの戸建・土地検索機能において、「駅から探す」検索方法を改善する。複数路線が利用可能なエリアに対応するため、第1〜第3路線会社の検索条件を追加し、土地面積・駅徒歩の詳細検索を実装する。
+
+---
+
+## 改善要件
+
+### 1. 現状の課題
+- **単一路線のみの検索**: 現在は1つの路線会社・沿線・駅しか選択できない
+- **複数路線利用者への対応不足**: 実際には複数の駅を利用している売主が、該当する購入希望者を見逃す可能性がある
+- **詳細条件の不足**: 土地面積や駅徒歩の条件で絞り込みができない
+
+### 2. 改善後の仕様
+
+#### A. 複数路線対応（第1〜第3路線会社）
+- **第1路線会社**: 常に表示（必須項目）
+  - 路線会社名 → 沿線名 → 駅名の3階層プルダウン
+- **第2路線会社**: 「開くボタン」で展開（任意項目）
+  - デフォルトは非表示
+  - 開くと第1と同じ構造のプルダウンが表示
+- **第3路線会社**: 「開くボタン」で展開（任意項目）
+  - デフォルトは非表示
+  - 開くと第1と同じ構造のプルダウンが表示
+
+#### B. 詳細検索条件（必須項目）
+- **土地面積**: プルダウンで選択（必須）
+  - 選択肢: 〜50㎡ / 51〜150㎡ / 151〜300㎡ / 301㎡以上
+- **駅徒歩**: プルダウンで選択（必須）
+  - 選択肢: 10分以内 / 11〜15分 / 16〜20分 / 21分以上
+
+---
+
+## UI設計
+
+### レイアウト構成
+
+```
+┌─────────────────────────────────────────────┐
+│ 【駅から探す】タブ                              │
+├─────────────────────────────────────────────┤
+│                                               │
+│ ■ 第1路線会社（必須）                          │
+│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
+│ │路線会社を選択 ▼│ │沿線を選択    ▼│ │駅を選択     ▼│ │
+│ └─────────────┘ └─────────────┘ └─────────────┘ │
+│                                               │
+│ [+ 第2路線会社を追加]  ← 開くボタン              │
+│                                               │
+│ ■ 詳細条件（必須）                             │
+│ ┌─────────────┐ ┌─────────────┐              │
+│ │土地面積を選択 ▼│ │駅徒歩を選択  ▼│              │
+│ └─────────────┘ └─────────────┘              │
+│                                               │
+│          [検索する]                            │
+│                                               │
+└─────────────────────────────────────────────┘
+
+【第2路線会社を開いた状態】
+┌─────────────────────────────────────────────┐
+│ ■ 第1路線会社（必須）                          │
+│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
+│ │JR西日本      ▼│ │大和路線     ▼│ │奈良駅       ▼│ │
+│ └─────────────┘ └─────────────┘ └─────────────┘ │
+│                                               │
+│ ■ 第2路線会社（任意）              [− 閉じる]   │
+│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
+│ │近鉄         ▼│ │奈良線       ▼│ │新大宮駅     ▼│ │
+│ └─────────────┘ └─────────────┘ └─────────────┘ │
+│                                               │
+│ [+ 第3路線会社を追加]  ← 開くボタン              │
+│                                               │
+│ ■ 詳細条件（必須）                             │
+│ ┌─────────────┐ ┌─────────────┐              │
+│ │151〜300㎡    ▼│ │10分以内     ▼│              │
+│ └─────────────┘ └─────────────┘              │
+│                                               │
+│          [検索する]                            │
+│                                               │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+## HTML構造
+
+### 戸建の「駅から探す」タブ内容（HTML）
+
+```html
+<!-- 戸建タブ内の「駅から探す」セクション -->
+<div id="house-station-search" class="search-section" style="display: none;">
+  
+  <!-- 第1路線会社（必須） -->
+  <div class="railway-group railway-primary">
+    <h3 class="railway-title">
+      <span class="required-badge">必須</span>
+      第1路線会社
+    </h3>
+    
+    <div class="railway-selects">
+      <select id="house-railway1-company" class="form-select" required>
+        <option value="">路線会社を選択</option>
+        <!-- railway_data.jsonから動的に生成 -->
+      </select>
+      
+      <select id="house-railway1-line" class="form-select" disabled required>
+        <option value="">沿線を選択</option>
+      </select>
+      
+      <select id="house-railway1-station" class="form-select" disabled required>
+        <option value="">駅を選択</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- 第2路線会社の開閉ボタン -->
+  <div class="railway-toggle">
+    <button type="button" id="house-railway2-toggle" class="btn-toggle">
+      <span class="icon-plus">+</span>
+      第2路線会社を追加
+    </button>
+  </div>
+  
+  <!-- 第2路線会社（任意・初期非表示） -->
+  <div id="house-railway2-group" class="railway-group railway-secondary" style="display: none;">
+    <h3 class="railway-title">
+      <span class="optional-badge">任意</span>
+      第2路線会社
+      <button type="button" class="btn-close-railway" onclick="closeRailway('house', 2)">
+        <span class="icon-minus">−</span>
+        閉じる
+      </button>
+    </h3>
+    
+    <div class="railway-selects">
+      <select id="house-railway2-company" class="form-select">
+        <option value="">路線会社を選択</option>
+      </select>
+      
+      <select id="house-railway2-line" class="form-select" disabled>
+        <option value="">沿線を選択</option>
+      </select>
+      
+      <select id="house-railway2-station" class="form-select" disabled>
+        <option value="">駅を選択</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- 第3路線会社の開閉ボタン -->
+  <div id="house-railway3-toggle-wrapper" class="railway-toggle" style="display: none;">
+    <button type="button" id="house-railway3-toggle" class="btn-toggle">
+      <span class="icon-plus">+</span>
+      第3路線会社を追加
+    </button>
+  </div>
+  
+  <!-- 第3路線会社（任意・初期非表示） -->
+  <div id="house-railway3-group" class="railway-group railway-secondary" style="display: none;">
+    <h3 class="railway-title">
+      <span class="optional-badge">任意</span>
+      第3路線会社
+      <button type="button" class="btn-close-railway" onclick="closeRailway('house', 3)">
+        <span class="icon-minus">−</span>
+        閉じる
+      </button>
+    </h3>
+    
+    <div class="railway-selects">
+      <select id="house-railway3-company" class="form-select">
+        <option value="">路線会社を選択</option>
+      </select>
+      
+      <select id="house-railway3-line" class="form-select" disabled>
+        <option value="">沿線を選択</option>
+      </select>
+      
+      <select id="house-railway3-station" class="form-select" disabled>
+        <option value="">駅を選択</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- 詳細条件（必須） -->
+  <div class="detail-conditions">
+    <h3 class="detail-title">
+      <span class="required-badge">必須</span>
+      詳細条件
+    </h3>
+    
+    <div class="detail-selects">
+      <!-- 土地面積 -->
+      <div class="form-group">
+        <label for="house-land-area">土地面積</label>
+        <select id="house-land-area" class="form-select" required>
+          <option value="">選択してください</option>
+          <option value="〜50㎡">〜50㎡</option>
+          <option value="51〜150㎡">51〜150㎡</option>
+          <option value="151〜300㎡">151〜300㎡</option>
+          <option value="301㎡以上">301㎡以上</option>
+        </select>
+      </div>
+      
+      <!-- 駅徒歩 -->
+      <div class="form-group">
+        <label for="house-walking-distance">駅徒歩</label>
+        <select id="house-walking-distance" class="form-select" required>
+          <option value="">選択してください</option>
+          <option value="駅徒歩10分以内">10分以内</option>
+          <option value="駅徒歩11〜15分">11〜15分</option>
+          <option value="駅徒歩16〜20分">16〜20分</option>
+          <option value="駅徒歩21分以上">21分以上</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 検索ボタン -->
+  <div class="search-button-wrapper">
+    <button type="button" id="house-station-search-btn" class="btn-primary btn-search">
+      検索する
+    </button>
+  </div>
+  
+</div>
+```
+
+### 土地の「駅から探す」タブ内容（HTML）
+
+```html
+<!-- 土地タブ内の「駅から探す」セクション -->
+<div id="land-station-search" class="search-section" style="display: none;">
+  
+  <!-- 第1路線会社（必須） -->
+  <div class="railway-group railway-primary">
+    <h3 class="railway-title">
+      <span class="required-badge">必須</span>
+      第1路線会社
+    </h3>
+    
+    <div class="railway-selects">
+      <select id="land-railway1-company" class="form-select" required>
+        <option value="">路線会社を選択</option>
+      </select>
+      
+      <select id="land-railway1-line" class="form-select" disabled required>
+        <option value="">沿線を選択</option>
+      </select>
+      
+      <select id="land-railway1-station" class="form-select" disabled required>
+        <option value="">駅を選択</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- 第2路線会社の開閉ボタン -->
+  <div class="railway-toggle">
+    <button type="button" id="land-railway2-toggle" class="btn-toggle">
+      <span class="icon-plus">+</span>
+      第2路線会社を追加
+    </button>
+  </div>
+  
+  <!-- 第2路線会社（任意・初期非表示） -->
+  <div id="land-railway2-group" class="railway-group railway-secondary" style="display: none;">
+    <h3 class="railway-title">
+      <span class="optional-badge">任意</span>
+      第2路線会社
+      <button type="button" class="btn-close-railway" onclick="closeRailway('land', 2)">
+        <span class="icon-minus">−</span>
+        閉じる
+      </button>
+    </h3>
+    
+    <div class="railway-selects">
+      <select id="land-railway2-company" class="form-select">
+        <option value="">路線会社を選択</option>
+      </select>
+      
+      <select id="land-railway2-line" class="form-select" disabled>
+        <option value="">沿線を選択</option>
+      </select>
+      
+      <select id="land-railway2-station" class="form-select" disabled>
+        <option value="">駅を選択</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- 第3路線会社の開閉ボタン -->
+  <div id="land-railway3-toggle-wrapper" class="railway-toggle" style="display: none;">
+    <button type="button" id="land-railway3-toggle" class="btn-toggle">
+      <span class="icon-plus">+</span>
+      第3路線会社を追加
+    </button>
+  </div>
+  
+  <!-- 第3路線会社（任意・初期非表示） -->
+  <div id="land-railway3-group" class="railway-group railway-secondary" style="display: none;">
+    <h3 class="railway-title">
+      <span class="optional-badge">任意</span>
+      第3路線会社
+      <button type="button" class="btn-close-railway" onclick="closeRailway('land', 3)">
+        <span class="icon-minus">−</span>
+        閉じる
+      </button>
+    </h3>
+    
+    <div class="railway-selects">
+      <select id="land-railway3-company" class="form-select">
+        <option value="">路線会社を選択</option>
+      </select>
+      
+      <select id="land-railway3-line" class="form-select" disabled>
+        <option value="">沿線を選択</option>
+      </select>
+      
+      <select id="land-railway3-station" class="form-select" disabled>
+        <option value="">駅を選択</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- 詳細条件（必須） -->
+  <div class="detail-conditions">
+    <h3 class="detail-title">
+      <span class="required-badge">必須</span>
+      詳細条件
+    </h3>
+    
+    <div class="detail-selects">
+      <!-- 土地面積 -->
+      <div class="form-group">
+        <label for="land-land-area">土地面積</label>
+        <select id="land-land-area" class="form-select" required>
+          <option value="">選択してください</option>
+          <option value="〜50㎡">〜50㎡</option>
+          <option value="51〜150㎡">51〜150㎡</option>
+          <option value="151〜300㎡">151〜300㎡</option>
+          <option value="301㎡以上">301㎡以上</option>
+        </select>
+      </div>
+      
+      <!-- 駅徒歩 -->
+      <div class="form-group">
+        <label for="land-walking-distance">駅徒歩</label>
+        <select id="land-walking-distance" class="form-select" required>
+          <option value="">選択してください</option>
+          <option value="駅徒歩10分以内">10分以内</option>
+          <option value="駅徒歩11〜15分">11〜15分</option>
+          <option value="駅徒歩16〜20分">16〜20分</option>
+          <option value="駅徒歩21分以上">21分以上</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 検索ボタン -->
+  <div class="search-button-wrapper">
+    <button type="button" id="land-station-search-btn" class="btn-primary btn-search">
+      検索する
+    </button>
+  </div>
+  
+</div>
+```
+
+---
+
+## CSS設計
+
+```css
+/* ===========================
+   路線検索グループ
+   =========================== */
+
+.railway-group {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.railway-primary {
+  border-left: 4px solid #007bff;
+}
+
+.railway-secondary {
+  border-left: 4px solid #6c757d;
+}
+
+.railway-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* バッジ */
+.required-badge,
+.optional-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.required-badge {
+  background: #dc3545;
+  color: white;
+}
+
+.optional-badge {
+  background: #6c757d;
+  color: white;
+}
+
+/* 路線選択プルダウン */
+.railway-selects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .railway-selects {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===========================
+   開閉ボタン
+   =========================== */
+
+.railway-toggle {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.btn-toggle {
+  background: white;
+  border: 2px dashed #6c757d;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-toggle:hover {
+  background: #f8f9fa;
+  border-color: #495057;
+  color: #495057;
+}
+
+.icon-plus,
+.icon-minus {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 閉じるボタン */
+.btn-close-railway {
+  background: transparent;
+  border: 1px solid #6c757d;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: #6c757d;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-close-railway:hover {
+  background: #6c757d;
+  color: white;
+}
+
+/* ===========================
+   詳細条件
+   =========================== */
+
+.detail-conditions {
+  background: #fff;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.detail-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.detail-selects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .detail-selects {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #495057;
+}
+
+/* ===========================
+   フォーム要素
+   =========================== */
+
+.form-select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.form-select:disabled {
+  background: #e9ecef;
+  cursor: not-allowed;
+}
+
+/* ===========================
+   検索ボタン
+   =========================== */
+
+.search-button-wrapper {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.btn-search {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 48px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+.btn-search:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.3);
+}
+
+.btn-search:active {
+  transform: translateY(0);
+}
+```
+
+---
+
+## JavaScript実装
+
+### 1. 開閉ボタンのロジック
+
+```javascript
+/**
+ * 第2・第3路線会社の開閉ボタン機能
+ */
+
+// 戸建: 第2路線会社を開く
+document.getElementById('house-railway2-toggle').addEventListener('click', function() {
+  document.getElementById('house-railway2-group').style.display = 'block';
+  document.querySelector('#house-railway2-toggle').parentElement.style.display = 'none';
+  document.getElementById('house-railway3-toggle-wrapper').style.display = 'block';
+});
+
+// 戸建: 第3路線会社を開く
+document.getElementById('house-railway3-toggle').addEventListener('click', function() {
+  document.getElementById('house-railway3-group').style.display = 'block';
+  document.querySelector('#house-railway3-toggle').parentElement.style.display = 'none';
+});
+
+// 土地: 第2路線会社を開く
+document.getElementById('land-railway2-toggle').addEventListener('click', function() {
+  document.getElementById('land-railway2-group').style.display = 'block';
+  document.querySelector('#land-railway2-toggle').parentElement.style.display = 'none';
+  document.getElementById('land-railway3-toggle-wrapper').style.display = 'block';
+});
+
+// 土地: 第3路線会社を開く
+document.getElementById('land-railway3-toggle').addEventListener('click', function() {
+  document.getElementById('land-railway3-group').style.display = 'block';
+  document.querySelector('#land-railway3-toggle').parentElement.style.display = 'none';
+});
+
+/**
+ * 路線会社を閉じる関数
+ * @param {string} type - 'house' or 'land'
+ * @param {number} number - 2 or 3
+ */
+function closeRailway(type, number) {
+  // グループを非表示
+  document.getElementById(`${type}-railway${number}-group`).style.display = 'none';
+  
+  // 選択をリセット
+  document.getElementById(`${type}-railway${number}-company`).value = '';
+  document.getElementById(`${type}-railway${number}-line`).value = '';
+  document.getElementById(`${type}-railway${number}-line`).disabled = true;
+  document.getElementById(`${type}-railway${number}-station`).value = '';
+  document.getElementById(`${type}-railway${number}-station`).disabled = true;
+  
+  if (number === 2) {
+    // 第2を閉じる場合: 第2の開くボタンを表示、第3を閉じる
+    document.querySelector(`#${type}-railway2-toggle`).parentElement.style.display = 'block';
+    document.getElementById(`${type}-railway3-toggle-wrapper`).style.display = 'none';
+    document.getElementById(`${type}-railway3-group`).style.display = 'none';
+    
+    // 第3もリセット
+    document.getElementById(`${type}-railway3-company`).value = '';
+    document.getElementById(`${type}-railway3-line`).value = '';
+    document.getElementById(`${type}-railway3-line`).disabled = true;
+    document.getElementById(`${type}-railway3-station`).value = '';
+    document.getElementById(`${type}-railway3-station`).disabled = true;
+  } else if (number === 3) {
+    // 第3を閉じる場合: 第3の開くボタンを表示
+    document.getElementById(`${type}-railway3-toggle-wrapper`).style.display = 'block';
+  }
+}
+```
+
+### 2. 検索ロジック（複数路線対応）
+
+```javascript
+/**
+ * 戸建の駅検索（複数路線対応）
+ */
+document.getElementById('house-station-search-btn').addEventListener('click', async function() {
+  // 第1路線（必須）
+  const railway1Company = document.getElementById('house-railway1-company').value;
+  const railway1Line = document.getElementById('house-railway1-line').value;
+  const railway1Station = document.getElementById('house-railway1-station').value;
+  
+  // 詳細条件（必須）
+  const landArea = document.getElementById('house-land-area').value;
+  const walkingDistance = document.getElementById('house-walking-distance').value;
+  
+  // バリデーション
+  if (!railway1Company || !railway1Line || !railway1Station) {
+    alert('第1路線会社の情報をすべて選択してください。');
+    return;
+  }
+  
+  if (!landArea || !walkingDistance) {
+    alert('土地面積と駅徒歩を選択してください。');
+    return;
+  }
+  
+  // 第2路線（任意）
+  const railway2Company = document.getElementById('house-railway2-company').value;
+  const railway2Line = document.getElementById('house-railway2-line').value;
+  const railway2Station = document.getElementById('house-railway2-station').value;
+  
+  // 第3路線（任意）
+  const railway3Company = document.getElementById('house-railway3-company').value;
+  const railway3Line = document.getElementById('house-railway3-line').value;
+  const railway3Station = document.getElementById('house-railway3-station').value;
+  
+  // 検索対象の駅リスト
+  const stationsToSearch = [
+    { company: railway1Company, line: railway1Line, station: railway1Station }
+  ];
+  
+  if (railway2Company && railway2Line && railway2Station) {
+    stationsToSearch.push({ company: railway2Company, line: railway2Line, station: railway2Station });
+  }
+  
+  if (railway3Company && railway3Line && railway3Station) {
+    stationsToSearch.push({ company: railway3Company, line: railway3Line, station: railway3Station });
+  }
+  
+  // 複数駅のデータを取得して結合
+  let allBuyers = [];
+  const buyerIds = new Set(); // 重複排除用
+  
+  for (const stationInfo of stationsToSearch) {
+    const filePath = `data/house/station/${stationInfo.company}/${stationInfo.line}/${stationInfo.station}.json`;
+    
+    try {
+      const response = await fetch(filePath);
+      if (response.ok) {
+        const buyers = await response.json();
+        
+        // 重複を排除しながら追加
+        buyers.forEach(buyer => {
+          if (!buyerIds.has(buyer.id)) {
+            buyerIds.add(buyer.id);
+            allBuyers.push(buyer);
+          }
+        });
+      }
+    } catch (error) {
+      console.error(`データ取得エラー: ${filePath}`, error);
+    }
+  }
+  
+  // 詳細条件でフィルタリング
+  const filteredBuyers = allBuyers.filter(buyer => {
+    // 土地面積の条件
+    if (buyer.landArea !== landArea) {
+      return false;
+    }
+    
+    // 駅徒歩の条件
+    if (buyer.walkingDistance !== walkingDistance) {
+      return false;
+    }
+    
+    return true;
+  });
+  
+  // 結果表示
+  if (filteredBuyers.length === 0) {
+    alert('条件に該当する購入希望者が見つかりませんでした。');
+    return;
+  }
+  
+  // モーダルで結果を表示
+  showBuyerDetails(filteredBuyers, 'house', stationsToSearch);
+});
+
+/**
+ * 土地の駅検索（複数路線対応）
+ */
+document.getElementById('land-station-search-btn').addEventListener('click', async function() {
+  // 第1路線（必須）
+  const railway1Company = document.getElementById('land-railway1-company').value;
+  const railway1Line = document.getElementById('land-railway1-line').value;
+  const railway1Station = document.getElementById('land-railway1-station').value;
+  
+  // 詳細条件（必須）
+  const landArea = document.getElementById('land-land-area').value;
+  const walkingDistance = document.getElementById('land-walking-distance').value;
+  
+  // バリデーション
+  if (!railway1Company || !railway1Line || !railway1Station) {
+    alert('第1路線会社の情報をすべて選択してください。');
+    return;
+  }
+  
+  if (!landArea || !walkingDistance) {
+    alert('土地面積と駅徒歩を選択してください。');
+    return;
+  }
+  
+  // 第2路線（任意）
+  const railway2Company = document.getElementById('land-railway2-company').value;
+  const railway2Line = document.getElementById('land-railway2-line').value;
+  const railway2Station = document.getElementById('land-railway2-station').value;
+  
+  // 第3路線（任意）
+  const railway3Company = document.getElementById('land-railway3-company').value;
+  const railway3Line = document.getElementById('land-railway3-line').value;
+  const railway3Station = document.getElementById('land-railway3-station').value;
+  
+  // 検索対象の駅リスト
+  const stationsToSearch = [
+    { company: railway1Company, line: railway1Line, station: railway1Station }
+  ];
+  
+  if (railway2Company && railway2Line && railway2Station) {
+    stationsToSearch.push({ company: railway2Company, line: railway2Line, station: railway2Station });
+  }
+  
+  if (railway3Company && railway3Line && railway3Station) {
+    stationsToSearch.push({ company: railway3Company, line: railway3Line, station: railway3Station });
+  }
+  
+  // 複数駅のデータを取得して結合
+  let allBuyers = [];
+  const buyerIds = new Set(); // 重複排除用
+  
+  for (const stationInfo of stationsToSearch) {
+    const filePath = `data/land/station/${stationInfo.company}/${stationInfo.line}/${stationInfo.station}.json`;
+    
+    try {
+      const response = await fetch(filePath);
+      if (response.ok) {
+        const buyers = await response.json();
+        
+        // 重複を排除しながら追加
+        buyers.forEach(buyer => {
+          if (!buyerIds.has(buyer.id)) {
+            buyerIds.add(buyer.id);
+            allBuyers.push(buyer);
+          }
+        });
+      }
+    } catch (error) {
+      console.error(`データ取得エラー: ${filePath}`, error);
+    }
+  }
+  
+  // 詳細条件でフィルタリング
+  const filteredBuyers = allBuyers.filter(buyer => {
+    // 土地面積の条件
+    if (buyer.landArea !== landArea) {
+      return false;
+    }
+    
+    // 駅徒歩の条件
+    if (buyer.walkingDistance !== walkingDistance) {
+      return false;
+    }
+    
+    return true;
+  });
+  
+  // 結果表示
+  if (filteredBuyers.length === 0) {
+    alert('条件に該当する購入希望者が見つかりませんでした。');
+    return;
+  }
+  
+  // モーダルで結果を表示
+  showBuyerDetails(filteredBuyers, 'land', stationsToSearch);
+});
+
+/**
+ * 購入希望者詳細をモーダルで表示（更新版）
+ * @param {Array} buyers - 購入希望者の配列
+ * @param {string} type - 'house' or 'land'
+ * @param {Array} stations - 検索した駅情報の配列
+ */
+function showBuyerDetails(buyers, type, stations) {
+  // モーダルのタイトルを生成
+  let titleText = '';
+  if (stations.length === 1) {
+    titleText = `${stations[0].station}駅`;
+  } else {
+    const stationNames = stations.map(s => s.station).join('・');
+    titleText = `${stationNames}駅周辺`;
+  }
+  
+  // モーダル表示処理（既存のshowBuyerDetails関数を拡張）
+  // ... 既存のモーダル表示コードに統合
+}
+```
+
+---
+
+## 実装チェックリスト
+
+### HTML
+- [ ] 戸建タブに第1〜第3路線会社のセクションを追加
+- [ ] 土地タブに第1〜第3路線会社のセクションを追加
+- [ ] 詳細条件（土地面積・駅徒歩）のプルダウンを追加
+- [ ] 開くボタン・閉じるボタンの実装
+- [ ] 必須/任意バッジの表示
+
+### CSS
+- [ ] 路線グループのスタイリング
+- [ ] 開閉ボタンのデザイン
+- [ ] 詳細条件エリアのスタイリング
+- [ ] レスポンシブ対応（スマホ表示）
+
+### JavaScript
+- [ ] 第2・第3路線会社の開閉機能
+- [ ] 複数駅の購入希望者データを統合して取得
+- [ ] 重複排除ロジック（同じIDの購入希望者は1件のみ表示）
+- [ ] 詳細条件（土地面積・駅徒歩）でのフィルタリング
+- [ ] バリデーション（第1路線・詳細条件は必須）
+- [ ] エラーハンドリング
+
+---
+
+## ユーザーフロー
+
+### 基本フロー（第1路線のみ使用）
+1. 売主が「駅から探す」タブを選択
+2. 第1路線会社のプルダウンを順に選択（路線会社 → 沿線 → 駅）
+3. 土地面積をプルダウンで選択（必須）
+4. 駅徒歩をプルダウンで選択（必須）
+5. 「検索する」ボタンをクリック
+6. 該当する購入希望者がモーダルで表示される
+
+### 複数路線フロー（第2・第3路線を追加）
+1. 基本フローの手順1〜2を実行
+2. 「+ 第2路線会社を追加」ボタンをクリック
+3. 第2路線会社のセクションが展開される
+4. 第2路線会社のプルダウンを順に選択（任意）
+5. 必要に応じて「+ 第3路線会社を追加」ボタンをクリック
+6. 第3路線会社のプルダウンを順に選択（任意）
+7. 土地面積・駅徒歩を選択（必須）
+8. 「検索する」ボタンをクリック
+9. **第1〜第3路線の駅すべてを対象に**購入希望者を検索
+10. 重複を排除した結果がモーダルで表示される
+
+---
+
+## メリット
+
+### 1. 機会損失の防止
+- **複数路線利用者への対応**: JR・近鉄・私鉄など複数の駅を使う売主も、該当する購入希望者を漏れなく見つけられる
+- **詳細条件でのマッチング**: 土地面積・駅徒歩の条件が合致する購入希望者のみを表示
+
+### 2. ユーザビリティの向上
+- **柔軟な検索**: 第2・第3路線は任意なので、シンプルに使いたいユーザーの負担にならない
+- **開閉式UI**: 必要な時だけ展開できるため、画面がスッキリ
+
+### 3. 成約率の向上
+- **精度の高いマッチング**: 土地面積・駅徒歩が一致する購入希望者のみを表示することで、問い合わせ後の成約率が向上
+
+---
+
+
+**主要な改善点**:
+1. ✅ **複数路線対応**: 第1〜第3路線会社を選択可能（第2・第3は任意・開閉式）
+2. ✅ **詳細検索**: 土地面積・駅徒歩のプルダウンで絞り込み（必須項目）
+3. ✅ **重複排除**: 複数駅で同じ購入希望者がいても1件のみ表示
+4. ✅ **柔軟なUI**: 開くボタンで必要な時だけ第2・第3を展開
+

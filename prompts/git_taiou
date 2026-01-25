@@ -1,0 +1,91 @@
+あなたは不動産×AIデータプラットフォーム「URICO」の技術責任者です。
+以下はCEO決裁済みの最終方針であり、質問・修正提案・別案提示は不要です。
+この方針を前提として、Git運用の整理を完了してください。
+
+【前提】
+- データは物理的には全て残す（削除しない）
+- ただし Git では「設計図と成果物のみ」を追跡する
+- 中間生成物・大量データは Git で追跡しない
+- 再生成可能な設計を URICO の価値とする
+
+---
+
+【Gitで必ず追跡する（URICOの資産）】
+
+■ コード・アプリ
+- index.html
+- main.js
+- mansion_app.js
+- styles.css
+- public/
+- lib/
+- src/
+- scripts/（全て）
+
+■ 生成ルール・知的資産
+- README_*.md
+- CLAUDE_CLI_USAGE.md
+- genspark_prompts.md
+- REWRITE_PROMPT.md
+- SITE_DESCRIPTION_PROMPT.md
+- prompts/ 配下すべて
+
+■ 確定データ（成果物・本番即動作）
+- mansion_db.js
+- house_db.js
+- land_db.js
+- data/*/part*.js
+- area_data.json
+- area_town_data.json
+- station_town_mapping.json
+- occupation_list.json
+- data/area_registered*.csv
+- kinki_master.json
+
+---
+
+【Gitで追跡しない（中間生成物・副産物）】
+
+■ 中間生成データ（再生成可能・大量）
+- data/house/area/
+- data/land/area/
+- data/*/station/
+- data/generated/
+
+■ 実行環境・一時物
+- node_modules/
+- .vercel/
+- out/
+- jobs/
+- logs/
+- *.log
+- .DS_Store
+- .cursor/
+
+---
+
+【あなたにやってほしいこと（順守）】
+
+1. 上記方針に基づいた「最終 .gitignore（コメント付き）」を1つだけ作成する
+2. すでに Git が追跡している可能性のあるものについて、
+   実ファイルを削除せず Git 管理だけ外すための
+   `git rm -r --cached` コマンドを列挙する
+3. 「Gitに残るもの / 残らないもの」を短い一覧で明示する
+4. 中間生成物が消えても復元できるよう、
+   データ再生成の最小手順を README 追記用に箇条書きでまとめる
+
+---
+
+【禁止事項】
+- 方針への疑問・代替案の提示
+- 追加質問
+- 勝手な ignore 対象の追加
+- 実行（削除・git rm）の実施
+
+出力は以下の順番で行うこと：
+1. .gitignore（完成版）
+2. git rm -r --cached コマンド一覧
+3. 残す / 残さない 一覧
+4. 再生成手順（箇条書き）
+
+以上を厳守して出力してください。

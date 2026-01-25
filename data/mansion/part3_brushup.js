@@ -53616,3 +53616,4 @@ export const MANSION_DB_PART = [
     ]
   }
 ];
+export default MANSION_DB_PART;

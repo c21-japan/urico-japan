@@ -1,0 +1,10 @@
+{
+  "description": "都道府県別のエリア登録CSV一覧（近畿5府県）",
+  "files": {
+    "京都府": "area_registered_京都府.csv",
+    "大阪府": "area_registered_大阪府.csv",
+    "兵庫県": "area_registered_兵庫県.csv",
+    "奈良県": "area_registered_奈良県.csv",
+    "滋賀県": "area_registered_滋賀県.csv"
+  }
+}

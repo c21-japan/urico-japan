@@ -1,5 +1,6 @@
 {
   "name": "urico-kansai",
+  "type": "module",
   "version": "1.0.0",
   "description": "購入希望者情報自動生成システム",
   "scripts": {
@@ -15,5 +16,20 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c21-japan/urico-japan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/c21-japan/urico-japan/issues"
+  },
+  "homepage": "https://github.com/c21-japan/urico-japan#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  }
 }

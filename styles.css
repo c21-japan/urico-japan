@@ -698,11 +698,21 @@ footer .character-image {
     background: linear-gradient(135deg, var(--primary-color), #FF8E8E);
     color: var(--white);
     border-radius: 10px;
-    font-size: 24px;
     text-align: center;
-    font-weight: 700;
     margin-top: 20px;
     box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.sim-result-total-label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    opacity: 0.9;
+}
+
+.sim-result-total-value {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .sim-message-box {
@@ -985,6 +995,10 @@ footer .character-image {
     .sim-value { font-size: 26px; }
     .sim-result-item { flex-direction: column; align-items: flex-start; gap: 8px; }
     .sim-result-item-value { font-size: 18px; }
+    .sim-result-total { padding: 20px; }
+    .sim-result-total-label { font-size: 14px; }
+    .sim-result-total-value { font-size: 18px; }
+    .sim-message-box p { font-size: 20px !important; white-space: nowrap; }
     .voices-grid { grid-template-columns: 1fr; gap: 20px; }
     .voice-card-header { padding: 15px; }
     .voice-location { font-size: 14px; }

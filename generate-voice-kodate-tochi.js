@@ -98,9 +98,6 @@ function generateHouseVoice(index) {
                 <p class="voice-text">${voiceText}</p>
             </div>
         </div>
-        <div class="voice-graph">
-            <img src="./images/voice-kodate-graph-${graphNum}.jpg" alt="売却グラフ">
-        </div>
         <div class="voice-person-info">
             <span class="person-occupation">${occupation}</span>
             <span class="person-age">${age}歳</span>
@@ -159,9 +156,6 @@ function generateLandVoice(index) {
             <div class="voice-content">
                 <p class="voice-text">${voiceText}</p>
             </div>
-        </div>
-        <div class="voice-graph">
-            <img src="./images/voice-tochi-graph-${graphNum}.jpg" alt="売却グラフ">
         </div>
         <div class="voice-person-info">
             <span class="person-occupation">${occupation}</span>

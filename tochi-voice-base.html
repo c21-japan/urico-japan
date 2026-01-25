@@ -25,9 +25,12 @@
         }
 
         .voice-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 40px auto;
             padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
         }
 
         .voice-card {
@@ -82,17 +85,6 @@
             margin-bottom: 20px;
         }
 
-        .voice-graph {
-            margin: 20px 0;
-            text-align: center;
-        }
-
-        .voice-graph img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
         .voice-person-info {
             display: flex;
             gap: 20px;
@@ -113,7 +105,17 @@
             content: "🎂 ";
         }
 
+        @media (max-width: 1024px) {
+            .voice-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
         @media (max-width: 768px) {
+            .voice-container {
+                grid-template-columns: 1fr;
+            }
+
             .voice-page-header h1 {
                 font-size: 1.8rem;
             }

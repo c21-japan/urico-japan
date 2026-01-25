@@ -786,25 +786,21 @@ function initializeMansionSearch() {
 
 function initializeHouseSearch() {
     const searchButton = document.getElementById('searchButtonHouse');
-    console.log('initializeHouseSearch: 検索ボタン', searchButton);
-    if (!searchButton) {
-        console.error('initializeHouseSearch: 検索ボタンが見つかりません');
-        return;
-    }
-    searchButton.addEventListener('click', async () => {
-        console.log('戸建検索ボタンクリック');
+    if (!searchButton) return;
 
-        // Check search method (station vs area)
-        const stationMethodBtn = document.getElementById('house-method-station');
-        const isStationSearch = stationMethodBtn && stationMethodBtn.classList.contains('active');
+    searchButton.addEventListener('click', () => {
+        const pref = document.getElementById('house-prefecture')?.value.trim();
+        const city = document.getElementById('house-city')?.value.trim();
+        const town = document.getElementById('house-town')?.value.trim();
 
-        if (isStationSearch) {
-            // Multi-railway station search
-            await performMultiRailwaySearch('house');
-        } else {
-            // Area search (existing logic)
-            await performAreaSearch('house');
+        if (!pref || !city || !town) {
+            alert('都道府県、市区町村、町名を選択してください。');
+            return;
         }
+
+        // R2のHTMLページにリダイレクト
+        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        window.location.href = url;
     });
 }
 
@@ -1156,25 +1152,21 @@ function displayBuyerResults(buyers, title, type) {
 
 function initializeLandSearch() {
     const searchButton = document.getElementById('searchButtonLand');
-    console.log('initializeLandSearch: 検索ボタン', searchButton);
-    if (!searchButton) {
-        console.error('initializeLandSearch: 検索ボタンが見つかりません');
-        return;
-    }
-    searchButton.addEventListener('click', async () => {
-        console.log('土地検索ボタンクリック');
+    if (!searchButton) return;
 
-        // Check search method (station vs area)
-        const stationMethodBtn = document.getElementById('land-method-station');
-        const isStationSearch = stationMethodBtn && stationMethodBtn.classList.contains('active');
+    searchButton.addEventListener('click', () => {
+        const pref = document.getElementById('land-prefecture')?.value.trim();
+        const city = document.getElementById('land-city')?.value.trim();
+        const town = document.getElementById('land-town')?.value.trim();
 
-        if (isStationSearch) {
-            // Multi-railway station search
-            await performMultiRailwaySearch('land');
-        } else {
-            // Area search (existing logic)
-            await performAreaSearch('land');
+        if (!pref || !city || !town) {
+            alert('都道府県、市区町村、町名を選択してください。');
+            return;
         }
+
+        // R2のHTMLページにリダイレクト
+        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        window.location.href = url;
     });
 }
 

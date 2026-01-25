@@ -326,6 +326,11 @@ button.search-btn-fullwidth:hover { background-color: #e65555; }
     padding: 20px 24px;
 }
 
+/* 急ぎ＋新着バッジが両方あるカードのハイライト */
+.buyer-block.highlight-card {
+    background-color: #fff9c4;
+}
+
 .buyer-block:last-child {
     border-bottom: none;
 }

@@ -217,6 +217,14 @@ function getBadgePriority(propertyType, index, totalBuyers, timing) {
     return 0;
 }
 
+// 急ぎと新着のバッジが両方あるかチェック（背景色ハイライト用）
+function hasBothBadges(propertyType, index, totalBuyers, timing) {
+    const newCount = getNewCount(propertyType, totalBuyers);
+    const showNew = isNew(index, totalBuyers, newCount);
+    const showUrgent = isUrgent(timing);
+    return showNew && showUrgent;
+}
+
 // 購入希望者をバッジ優先度でソート（元のインデックスも保持）
 function sortBuyersByBadges(buyers, propertyType) {
     const totalBuyers = buyers.length;
@@ -284,8 +292,11 @@ window.showBuyerDetails = function(itemName, type = null) {
             // バッジ表示は元のインデックスを使用
             const badges = renderBuyerBadges(itemType, originalIndex, totalBuyers, displayTiming);
 
+            // 急ぎ＋新着の両方がある場合にハイライトクラスを付与
+            const highlightClass = hasBothBadges(itemType, originalIndex, totalBuyers, displayTiming) ? ' highlight-card' : '';
+
             return `
-            <div class="buyer-block">
+            <div class="buyer-block${highlightClass}">
                 <div class="buyer-block-header">
                     <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
                     ${badges}
@@ -684,8 +695,11 @@ function initializeHouseSearch() {
                     const displayTiming = normalizeTimingLabel(b.timing || '-');
                     const badges = renderBuyerBadges('house', originalIndex, totalBuyers, displayTiming);
 
+                    // 急ぎ＋新着の両方がある場合にハイライトクラスを付与
+                    const highlightClass = hasBothBadges('house', originalIndex, totalBuyers, displayTiming) ? ' highlight-card' : '';
+
                     return `
-                    <div class="buyer-block">
+                    <div class="buyer-block${highlightClass}">
                         <div class="buyer-block-header">
                             <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
                             ${badges}
@@ -814,8 +828,11 @@ function initializeLandSearch() {
                     const displayTiming = normalizeTimingLabel(b.timing || '-');
                     const badges = renderBuyerBadges('land', originalIndex, totalBuyers, displayTiming);
 
+                    // 急ぎ＋新着の両方がある場合にハイライトクラスを付与
+                    const highlightClass = hasBothBadges('land', originalIndex, totalBuyers, displayTiming) ? ' highlight-card' : '';
+
                     return `
-                    <div class="buyer-block">
+                    <div class="buyer-block${highlightClass}">
                         <div class="buyer-block-header">
                             <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
                             ${badges}

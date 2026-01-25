@@ -1,0 +1,1096 @@
+# 【完全版・修正版】町名・大字単位での購入希望者情報生成プロンプト（Claude CLI用）
+
+## 実行概要
+URICOサイトの戸建・土地購入希望者情報を、市区町村単位から**町名・大字単位**に細分化する。各町名・大字ごとに16〜63件の購入希望者情報を生成し、1ファイル1町名・大字の構造とすることで、ファイル容量の最適化とユーザー体験の向上を実現する。
+
+---
+
+## 1. 既存ファイル構造の確認
+
+### 1.1 マスターデータの配置（プロジェクトルート）
+- **`area_town_data.json`**: 町名・大字マスター
+  - 形式: `{ "都道府県": { "市区町村": ["町名1", "町名2", ...] } }`
+- **`railway_data.json`**: 路線・駅マスター
+  - 形式: `{ "路線会社名": { "沿線名": ["駅1", "駅2", ...] } }`
+- **`area_data.json`**: 都道府県・市区町村マスター
+  - 形式: `{ "都道府県": ["市区町村1", "市区町村2", ...] }`
+
+### 1.2 職業データ
+- **`prompts/occupation_list.json`**:
+```json
+{
+  "occupations": [
+    { "id": 1, "name": "会社員（一般職）" },
+    { "id": 49, "name": "パート・アルバイト" },
+    { "id": 50, "name": "無職" }
+  ],
+  "ageRestrictions": {
+    "49": "50代後半以降（57歳以上）",
+    "50": "60代後半以降（67歳以上）"
+  }
+}
+```
+
+### 1.3 既存の購入希望者データ構造（配列のみ）
+**現状のJSONファイル**: `data/house/area/奈良県/奈良市.json`
+```json
+[
+  {
+    "id": "KO-00001",
+    "family": "夫婦+子供2人",
+    "age": "38歳",
+    "occupation": "会社員（一般職）",
+    "timing": "6ヶ月以内",
+    "method": "住宅ローン",
+    "reason": "子供の学区",
+    "ng": "特になし",
+    "buildingAge": "築15年まで",
+    "layout": "3LDK〜5LDK",
+    "landArea": "151〜300㎡",
+    "walkingDistance": "駅徒歩10分以内"
+  }
+]
+```
+
+**重要**: 既存は配列のみで、`{ area, buyers }` のようなラッパーオブジェクトはありません。
+
+---
+
+## 2. 新しいデータ構造（町名・大字単位）
+
+### 2.1 ディレクトリ構造
+
+```
+data/
+├── house/
+│   ├── area/
+│   │   └── {都道府県}/
+│   │       └── {市区町村}/
+│   │           ├── {町名・大字1}.json
+│   │           ├── {町名・大字2}.json
+│   │           └── ...
+│   └── station/
+│       └── {路線会社名}/
+│           └── {沿線名}/
+│               └── {駅名}/
+│                   ├── {町名・大字1}.json
+│                   ├── {町名・大字2}.json
+│                   └── ...
+│
+└── land/
+    ├── area/
+    │   └── {都道府県}/
+    │       └── {市区町村}/
+    │           ├── {町名・大字1}.json
+    │           └── ...
+    └── station/
+        └── {路線会社名}/
+            └── {沿線名}/
+                └── {駅名}/
+                    ├── {町名・大字1}.json
+                    └── ...
+```
+
+### 2.2 JSONファイル形式（配列のみ・既存形式維持）
+
+**戸建**: `data/house/area/奈良県/奈良市/学園南.json`
+```json
+[
+  {
+    "id": "KO-00001",
+    "family": "夫婦+子供2人",
+    "age": "38歳",
+    "occupation": "会社員（一般職）",
+    "timing": "6ヶ月以内",
+    "method": "住宅ローン",
+    "reason": "子供の学区",
+    "ng": "特になし",
+    "buildingAge": "築15年まで",
+    "layout": "3LDK〜5LDK",
+    "landArea": "151〜300㎡",
+    "walkingDistance": "駅徒歩10分以内"
+  },
+  {
+    "id": "KO-00002",
+    ...
+  }
+]
+```
+
+**土地**: `data/land/area/奈良県/奈良市/学園南.json`
+```json
+[
+  {
+    "id": "TO-00001",
+    "family": "夫婦+子供2人",
+    "age": "38歳",
+    "occupation": "会社員（管理職）",
+    "timing": "6ヶ月以内",
+    "method": "住宅ローン",
+    "reason": "新築戸建を建てたい",
+    "ng": "特になし",
+    "purpose": "戸建住宅",
+    "landArea": "151〜300㎡",
+    "walkingDistance": "駅徒歩10分以内"
+  },
+  {
+    "id": "TO-00002",
+    ...
+  }
+]
+```
+
+**注**: 土地には `buildingAge` と `layout` はなく、代わりに `purpose` があります。
+
+---
+
+## 3. 駅と町名・大字のマッピングデータ作成
+
+### 3.1 新規ファイル: `station_town_mapping.json`（プロジェクトルート）
+
+各駅の徒歩圏内にある町名・大字をリストアップします。
+
+**入力データ**:
+1. `area_town_data.json`: 各市区町村の町名・大字リスト
+2. `railway_data.json`: 路線会社・沿線・駅のリスト
+3. 国土地理院の位置参照情報または郵便番号データ（駅と町名の地理的な近接性）
+
+**生成方法**:
+- 国土地理院の位置参照情報（緯度経度）や郵便番号データを使って、各駅から徒歩20分圏内（約1.5km）の町名・大字を特定
+- `area_town_data.json` の町名リストと突き合わせて整形
+
+**フォーマット**:
+```json
+{
+  "JR西日本": {
+    "大和路線": {
+      "奈良駅": [
+        { "prefecture": "奈良県", "city": "奈良市", "town": "三条本町" },
+        { "prefecture": "奈良県", "city": "奈良市", "town": "三条栄町" },
+        { "prefecture": "奈良県", "city": "奈良市", "town": "東向中町" }
+      ],
+      "郡山駅": [
+        { "prefecture": "奈良県", "city": "大和郡山市", "town": "柳町" },
+        { "prefecture": "奈良県", "city": "大和郡山市", "town": "南郡山町" }
+      ]
+    }
+  },
+  "近畿日本鉄道（近鉄）": {
+    "近鉄奈良線": {
+      "学園前駅": [
+        { "prefecture": "奈良県", "city": "奈良市", "town": "学園南" },
+        { "prefecture": "奈良県", "city": "奈良市", "town": "学園北" }
+      ]
+    }
+  }
+}
+```
+
+**重要**: 
+- **路線会社名と沿線名は、既存の `data/house/station/` および `data/land/station/` のディレクトリ名と完全に一致させること**
+- 例: `railway_data.json` では「近鉄難波線・奈良線」でも、実ディレクトリが「近鉄奈良線」なら、**「近鉄奈良線」を使用**
+
+---
+
+## 4. データ生成スクリプト（Node.js + fs使用）
+
+### 4.1 実行環境
+- **Node.js** を使用
+- **ファイル操作**: `fs.readFileSync` / `fs.writeFileSync`
+- **JSON処理**: `JSON.parse` / `JSON.stringify`
+
+### 4.2 スクリプト: `generate-town-buyers.js`
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+
+// ===========================
+// ヘルパー関数
+// ===========================
+
+function readJSON(filePath) {
+  const data = fs.readFileSync(filePath, 'utf-8');
+  return JSON.parse(data);
+}
+
+function writeJSON(filePath, data) {
+  const dir = path.dirname(filePath);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
+}
+
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function randomChoice(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
+
+// ===========================
+// マスターデータ読み込み
+// ===========================
+
+const areaTownData = readJSON('./area_town_data.json');
+const railwayData = readJSON('./railway_data.json');
+const occupationList = readJSON('./prompts/occupation_list.json');
+const stationTownMapping = readJSON('./station_town_mapping.json'); // 新規作成したファイル
+
+// ===========================
+// 購入希望者数の決定
+// ===========================
+
+function determineBuyerCount(town) {
+  // 主要エリアは40〜63件、その他は16〜39件
+  const majorTowns = [
+    "学園南", "学園北", "富雄元町", "西大寺本町", "三条本町",
+    "梅田", "心斎橋", "難波", "本町", "三宮町", "元町通"
+  ];
+  
+  if (majorTowns.includes(town)) {
+    return randomInt(40, 63);
+  }
+  
+  return randomInt(16, 39);
+}
+
+// ===========================
+// 戸建購入希望者生成
+// ===========================
+
+function generateHouseBuyer(globalId, totalBuyers, occupationList) {
+  // 家族構成
+  const familyOptions = [
+    { value: "単身", weight: 10 },
+    { value: "夫婦", weight: 15 },
+    { value: "夫婦+子供1人", weight: 25 },
+    { value: "夫婦+子供2人", weight: 30 },
+    { value: "夫婦+子供3人", weight: 10 },
+    { value: "三世代同居希望", weight: 5 },
+    { value: "親との同居予定", weight: 5 }
+  ];
+  const family = weightedRandomChoice(familyOptions);
+  
+  // 年齢
+  const ageRanges = {
+    "単身": [25, 45],
+    "夫婦": [30, 55],
+    "夫婦+子供1人": [30, 50],
+    "夫婦+子供2人": [30, 50],
+    "夫婦+子供3人": [30, 50],
+    "三世代同居希望": [35, 60],
+    "親との同居予定": [35, 60]
+  };
+  const [minAge, maxAge] = ageRanges[family];
+  const age = randomInt(minAge, maxAge);
+  
+  // 職業（年齢制限を考慮）
+  const availableOccupations = occupationList.occupations.filter(occ => {
+    if (occ.id === 49 && age < 57) return false;
+    if (occ.id === 50 && age < 67) return false;
+    return true;
+  });
+  const occupation = randomChoice(availableOccupations).name;
+  
+  // 購入時期
+  const timingOptions = [
+    { value: "即時", weight: 20 },
+    { value: "3ヶ月以内", weight: 25 },
+    { value: "6ヶ月以内", weight: 30 },
+    { value: "1年以内", weight: 15 },
+    { value: "良い物件があれば", weight: 10 }
+  ];
+  const timing = weightedRandomChoice(timingOptions);
+  
+  // 購入方法
+  const methodOptions = [
+    { value: "現金購入", weight: 15 },
+    { value: "住宅ローン", weight: 60 },
+    { value: "親族の援助あり", weight: 15 },
+    { value: "買い替え", weight: 10 }
+  ];
+  const method = weightedRandomChoice(methodOptions);
+  
+  // 購入理由
+  const reasonOptions = [
+    "通勤の利便性", "子供の学区", "実家の近く", "広い家が欲しい",
+    "庭付きの家が欲しい", "戸建に住みたい", "資産形成", "両親との同居",
+    "静かな環境", "駐車場が必要", "ペットを飼いたい", "リモートワーク環境"
+  ];
+  const reason = randomChoice(reasonOptions);
+  
+  // NG条件
+  const ngOptions = [
+    { value: "特になし", weight: 50 },
+    { value: "再建築不可", weight: 5 },
+    { value: "旧耐震基準", weight: 6 },
+    { value: "接道不良", weight: 5 },
+    { value: "事故物件", weight: 6 },
+    { value: "隣地との境界未確定", weight: 5 },
+    { value: "傾斜地", weight: 5 },
+    { value: "水害リスクエリア", weight: 6 },
+    { value: "墓地や葬儀場の近く", weight: 5 },
+    { value: "大規模な修繕が必要", weight: 7 }
+  ];
+  const ng = weightedRandomChoice(ngOptions);
+  
+  // 希望築年数（均等分布）
+  const buildingAgeOptions = ["築15年まで", "築16〜25年", "築26〜35年", "築36年以上"];
+  const buildingAge = randomChoice(buildingAgeOptions);
+  
+  // 希望間取り（家族構成と整合性を持たせる）
+  let layout;
+  if (family === "単身") {
+    layout = randomChoice(["2LDKまで", "特に希望なし"]);
+  } else if (family === "夫婦") {
+    layout = randomChoice(["2LDKまで", "3LDK〜5LDK", "特に希望なし"]);
+  } else if (family.includes("子供3人") || family.includes("三世代")) {
+    layout = randomChoice(["3LDK〜5LDK", "5LDK以上"]);
+  } else {
+    const layoutOptions = [
+      { value: "特に希望なし", weight: 50 },
+      { value: "2LDKまで", weight: 10 },
+      { value: "3LDK〜5LDK", weight: 30 },
+      { value: "5LDK以上", weight: 10 }
+    ];
+    layout = weightedRandomChoice(layoutOptions);
+  }
+  
+  // 希望土地面積（家族構成と整合性を持たせる）
+  let landArea;
+  if (family === "単身" || family === "夫婦") {
+    const landAreaOptions = [
+      { value: "〜50㎡", weight: 10 },
+      { value: "51〜150㎡", weight: 40 },
+      { value: "151〜300㎡", weight: 40 },
+      { value: "301㎡以上", weight: 10 }
+    ];
+    landArea = weightedRandomChoice(landAreaOptions);
+  } else {
+    const landAreaOptions = [
+      { value: "〜50㎡", weight: 5 },
+      { value: "51〜150㎡", weight: 25 },
+      { value: "151〜300㎡", weight: 45 },
+      { value: "301㎡以上", weight: 25 }
+    ];
+    landArea = weightedRandomChoice(landAreaOptions);
+  }
+  
+  // 駅徒歩（均等分布）
+  const walkingDistanceOptions = [
+    "駅徒歩10分以内", "駅徒歩11〜15分", "駅徒歩16〜20分", "駅徒歩21分以上"
+  ];
+  const walkingDistance = randomChoice(walkingDistanceOptions);
+  
+  return {
+    id: `KO-${String(globalId).padStart(5, '0')}`,
+    family,
+    age: `${age}歳`,
+    occupation,
+    timing,
+    method,
+    reason,
+    ng,
+    buildingAge,
+    layout,
+    landArea,
+    walkingDistance
+  };
+}
+
+// ===========================
+// 土地購入希望者生成
+// ===========================
+
+function generateLandBuyer(globalId, totalBuyers, occupationList) {
+  // 家族構成
+  const familyOptions = [
+    { value: "単身", weight: 8 },
+    { value: "夫婦", weight: 12 },
+    { value: "夫婦+子供1人", weight: 25 },
+    { value: "夫婦+子供2人", weight: 32 },
+    { value: "夫婦+子供3人", weight: 12 },
+    { value: "三世代同居希望", weight: 6 },
+    { value: "親との同居予定", weight: 5 }
+  ];
+  const family = weightedRandomChoice(familyOptions);
+  
+  // 年齢
+  const ageRanges = {
+    "単身": [28, 45],
+    "夫婦": [30, 55],
+    "夫婦+子供1人": [30, 50],
+    "夫婦+子供2人": [32, 52],
+    "夫婦+子供3人": [33, 53],
+    "三世代同居希望": [35, 60],
+    "親との同居予定": [35, 60]
+  };
+  const [minAge, maxAge] = ageRanges[family];
+  const age = randomInt(minAge, maxAge);
+  
+  // 職業（年齢制限を考慮）
+  const availableOccupations = occupationList.occupations.filter(occ => {
+    if (occ.id === 49 && age < 57) return false;
+    if (occ.id === 50 && age < 67) return false;
+    return true;
+  });
+  const occupation = randomChoice(availableOccupations).name;
+  
+  // 購入時期
+  const timingOptions = [
+    { value: "即時", weight: 15 },
+    { value: "3ヶ月以内", weight: 20 },
+    { value: "6ヶ月以内", weight: 30 },
+    { value: "1年以内", weight: 20 },
+    { value: "良い物件があれば", weight: 15 }
+  ];
+  const timing = weightedRandomChoice(timingOptions);
+  
+  // 購入方法
+  const methodOptions = [
+    { value: "現金購入", weight: 25 },
+    { value: "住宅ローン", weight: 50 },
+    { value: "親族の援助あり", weight: 15 },
+    { value: "買い替え", weight: 10 }
+  ];
+  const method = weightedRandomChoice(methodOptions);
+  
+  // 購入理由
+  const reasonOptions = [
+    { value: "新築戸建を建てたい", weight: 25 },
+    { value: "注文住宅を建てたい", weight: 20 },
+    { value: "二世帯住宅を建てたい", weight: 8 },
+    { value: "子供の学区", weight: 10 },
+    { value: "実家の近く", weight: 8 },
+    { value: "広い家を建てたい", weight: 8 },
+    { value: "庭付きの家を建てたい", weight: 6 },
+    { value: "資産形成", weight: 5 },
+    { value: "静かな環境", weight: 3 },
+    { value: "駐車場が必要", weight: 2 },
+    { value: "ペットを飼いたい", weight: 2 },
+    { value: "リモートワーク環境", weight: 1 },
+    { value: "将来的な転売", weight: 1 },
+    { value: "事業用地として", weight: 0.5 },
+    { value: "投資用地として", weight: 0.5 }
+  ];
+  const reason = weightedRandomChoice(reasonOptions);
+  
+  // NG条件
+  const ngOptions = [
+    { value: "特になし", weight: 45 },
+    { value: "再建築不可", weight: 8 },
+    { value: "接道不良", weight: 8 },
+    { value: "市街化調整区域", weight: 6 },
+    { value: "隣地との境界未確定", weight: 7 },
+    { value: "傾斜地", weight: 6 },
+    { value: "地盤が弱い", weight: 5 },
+    { value: "水害リスクエリア", weight: 6 },
+    { value: "墓地や葬儀場の近く", weight: 4 },
+    { value: "高圧線下", weight: 3 },
+    { value: "不整形地", weight: 2 }
+  ];
+  const ng = weightedRandomChoice(ngOptions);
+  
+  // 利用目的
+  const purposeOptions = [
+    { value: "戸建住宅", weight: 70 },
+    { value: "二世帯住宅", weight: 12 },
+    { value: "賃貸併用住宅", weight: 5 },
+    { value: "事業用地", weight: 3 },
+    { value: "投資用地", weight: 2 },
+    { value: "駐車場用地", weight: 3 },
+    { value: "その他", weight: 5 }
+  ];
+  const purpose = weightedRandomChoice(purposeOptions);
+  
+  // 希望土地面積
+  let landArea;
+  if (family === "単身" || family === "夫婦") {
+    const landAreaOptions = [
+      { value: "〜50㎡", weight: 10 },
+      { value: "51〜150㎡", weight: 40 },
+      { value: "151〜300㎡", weight: 40 },
+      { value: "301㎡以上", weight: 10 }
+    ];
+    landArea = weightedRandomChoice(landAreaOptions);
+  } else {
+    const landAreaOptions = [
+      { value: "〜50㎡", weight: 5 },
+      { value: "51〜150㎡", weight: 25 },
+      { value: "151〜300㎡", weight: 45 },
+      { value: "301㎡以上", weight: 25 }
+    ];
+    landArea = weightedRandomChoice(landAreaOptions);
+  }
+  
+  // 駅徒歩（均等分布）
+  const walkingDistanceOptions = [
+    "駅徒歩10分以内", "駅徒歩11〜15分", "駅徒歩16〜20分", "駅徒歩21分以上"
+  ];
+  const walkingDistance = randomChoice(walkingDistanceOptions);
+  
+  return {
+    id: `TO-${String(globalId).padStart(5, '0')}`,
+    family,
+    age: `${age}歳`,
+    occupation,
+    timing,
+    method,
+    reason,
+    ng,
+    purpose,
+    landArea,
+    walkingDistance
+  };
+}
+
+// ===========================
+// 重み付きランダム選択
+// ===========================
+
+function weightedRandomChoice(options) {
+  const totalWeight = options.reduce((sum, opt) => sum + opt.weight, 0);
+  let random = Math.random() * totalWeight;
+  
+  for (const opt of options) {
+    random -= opt.weight;
+    if (random <= 0) {
+      return opt.value;
+    }
+  }
+  
+  return options[0].value;
+}
+
+// ===========================
+// メイン処理
+// ===========================
+
+let houseIdCounter = 1;
+let landIdCounter = 1;
+
+console.log('=== 戸建・土地購入希望者データ生成開始 ===\n');
+
+// ===========================
+// エリア別データ生成
+// ===========================
+
+console.log('【エリア別データ生成】');
+
+for (const [prefecture, cities] of Object.entries(areaTownData)) {
+  for (const [city, towns] of Object.entries(cities)) {
+    
+    for (const town of towns) {
+      // 戸建データ生成
+      const houseBuyerCount = determineBuyerCount(town);
+      const houseBuyers = [];
+      
+      for (let i = 0; i < houseBuyerCount; i++) {
+        houseBuyers.push(generateHouseBuyer(houseIdCounter, houseBuyerCount, occupationList));
+        houseIdCounter++;
+      }
+      
+      const houseAreaPath = `./data/house/area/${prefecture}/${city}/${town}.json`;
+      writeJSON(houseAreaPath, houseBuyers);
+      console.log(`✓ 戸建: ${houseAreaPath} (${houseBuyerCount}件)`);
+      
+      // 土地データ生成
+      const landBuyerCount = determineBuyerCount(town);
+      const landBuyers = [];
+      
+      for (let i = 0; i < landBuyerCount; i++) {
+        landBuyers.push(generateLandBuyer(landIdCounter, landBuyerCount, occupationList));
+        landIdCounter++;
+      }
+      
+      const landAreaPath = `./data/land/area/${prefecture}/${city}/${town}.json`;
+      writeJSON(landAreaPath, landBuyers);
+      console.log(`✓ 土地: ${landAreaPath} (${landBuyerCount}件)`);
+    }
+  }
+}
+
+// ===========================
+// 駅別データ生成
+// ===========================
+
+console.log('\n【駅別データ生成】');
+
+for (const [company, lines] of Object.entries(stationTownMapping)) {
+  for (const [line, stations] of Object.entries(lines)) {
+    for (const [station, townList] of Object.entries(stations)) {
+      
+      for (const townInfo of townList) {
+        const { prefecture, city, town } = townInfo;
+        
+        // 戸建データ生成
+        const houseBuyerCount = determineBuyerCount(town);
+        const houseBuyers = [];
+        
+        for (let i = 0; i < houseBuyerCount; i++) {
+          houseBuyers.push(generateHouseBuyer(houseIdCounter, houseBuyerCount, occupationList));
+          houseIdCounter++;
+        }
+        
+        const houseStationPath = `./data/house/station/${company}/${line}/${station}/${town}.json`;
+        writeJSON(houseStationPath, houseBuyers);
+        console.log(`✓ 戸建(駅): ${houseStationPath} (${houseBuyerCount}件)`);
+        
+        // 土地データ生成
+        const landBuyerCount = determineBuyerCount(town);
+        const landBuyers = [];
+        
+        for (let i = 0; i < landBuyerCount; i++) {
+          landBuyers.push(generateLandBuyer(landIdCounter, landBuyerCount, occupationList));
+          landIdCounter++;
+        }
+        
+        const landStationPath = `./data/land/station/${company}/${line}/${station}/${town}.json`;
+        writeJSON(landStationPath, landBuyers);
+        console.log(`✓ 土地(駅): ${landStationPath} (${landBuyerCount}件)`);
+      }
+    }
+  }
+}
+
+console.log('\n=== データ生成完了 ===');
+console.log(`戸建: ${houseIdCounter - 1}件`);
+console.log(`土地: ${landIdCounter - 1}件`);
+```
+
+---
+
+## 5. フロントエンド実装（既存互換性維持）
+
+### 5.1 エリア検索の改善（全域検索対応）
+
+#### JavaScript: `main.js` の修正
+
+```javascript
+/**
+ * 戸建: エリア検索（町名・大字対応 + 全域検索）
+ */
+document.getElementById('house-area-search-btn').addEventListener('click', async function() {
+  const prefecture = document.getElementById('house-prefecture').value;
+  const city = document.getElementById('house-city').value;
+  const town = document.getElementById('house-town').value;
+  
+  // 詳細条件
+  const buildingAge = document.getElementById('house-building-age').value;
+  const layout = document.getElementById('house-layout').value;
+  const landArea = document.getElementById('house-land-area').value;
+  const walkingDistance = document.getElementById('house-walking-distance').value;
+  
+  // バリデーション
+  if (!prefecture || !city || !town) {
+    alert('都道府県、市区町村、町名・大字をすべて選択してください。');
+    return;
+  }
+  
+  if (!buildingAge || !layout || !landArea || !walkingDistance) {
+    alert('詳細条件をすべて選択してください。');
+    return;
+  }
+  
+  let allBuyers = [];
+  
+  // 「全域」が選択された場合
+  if (town === '' || town === '__ALL__') {
+    const areaTownData = await fetch('./area_town_data.json').then(r => r.json());
+    const towns = areaTownData[prefecture]?.[city] || [];
+    
+    for (const townName of towns) {
+      const filePath = `data/house/area/${prefecture}/${city}/${townName}.json`;
+      
+      try {
+        const response = await fetch(filePath);
+        if (response.ok) {
+          const buyers = await response.json();
+          // 配列として扱う（既存形式維持）
+          allBuyers = allBuyers.concat(Array.isArray(buyers) ? buyers : []);
+        }
+      } catch (error) {
+        console.error(`データ取得エラー: ${filePath}`, error);
+      }
+    }
+  } else {
+    // 特定の町名・大字が選択された場合
+    const filePath = `data/house/area/${prefecture}/${city}/${town}.json`;
+    
+    try {
+      const response = await fetch(filePath);
+      if (response.ok) {
+        const buyers = await response.json();
+        allBuyers = Array.isArray(buyers) ? buyers : [];
+      } else {
+        alert('該当するデータが見つかりませんでした。');
+        return;
+      }
+    } catch (error) {
+      console.error(`データ取得エラー: ${filePath}`, error);
+      alert('データの読み込みに失敗しました。');
+      return;
+    }
+  }
+  
+  // 詳細条件でフィルタリング
+  const filteredBuyers = allBuyers.filter(buyer => {
+    // 築年数: 包含関係でチェック
+    // 買い手「築15年まで」→ 売り手「築15年まで」または「築10年」等にマッチ
+    if (!matchesBuildingAge(buyer.buildingAge, buildingAge)) {
+      return false;
+    }
+    
+    // 間取り: 「特に希望なし」は全てにマッチ
+    if (buyer.layout !== "特に希望なし" && buyer.layout !== layout) {
+      return false;
+    }
+    
+    // 土地面積: 完全一致
+    if (buyer.landArea !== landArea) {
+      return false;
+    }
+    
+    // 駅徒歩: 完全一致
+    if (buyer.walkingDistance !== walkingDistance) {
+      return false;
+    }
+    
+    return true;
+  });
+  
+  // 結果表示
+  if (filteredBuyers.length === 0) {
+    alert('条件に該当する購入希望者が見つかりませんでした。');
+    return;
+  }
+  
+  // 専用の結果表示関数を使用
+  const displayAreaName = (town === '' || town === '__ALL__') ? `${city}全域` : `${city} ${town}`;
+  showSearchResults(filteredBuyers, 'house', displayAreaName);
+});
+
+/**
+ * 築年数のマッチング判定（包含関係）
+ * @param {string} buyerAge - 買い手の希望築年数（例: "築15年まで"）
+ * @param {string} sellerAge - 売り手の現在の築年数（例: "築15年まで"）
+ * @returns {boolean}
+ */
+function matchesBuildingAge(buyerAge, sellerAge) {
+  const ageRanges = {
+    "築15年まで": { min: 0, max: 15 },
+    "築16〜25年": { min: 16, max: 25 },
+    "築26〜35年": { min: 26, max: 35 },
+    "築36年以上": { min: 36, max: 999 }
+  };
+  
+  const buyerRange = ageRanges[buyerAge];
+  const sellerRange = ageRanges[sellerAge];
+  
+  if (!buyerRange || !sellerRange) return false;
+  
+  // 買い手の希望範囲に、売り手の築年数範囲が含まれるか
+  // 例: 買い手「築15年まで」(0〜15) に、売り手「築15年まで」(0〜15) は含まれる
+  return sellerRange.max <= buyerRange.max;
+}
+
+/**
+ * 検索結果表示（エリア・駅検索用）
+ * @param {Array} buyers - 購入希望者の配列
+ * @param {string} type - 'house' or 'land'
+ * @param {string} displayName - 表示用のエリア名
+ */
+function showSearchResults(buyers, type, displayName) {
+  const modal = document.getElementById('buyer-modal');
+  const modalTitle = modal.querySelector('.modal-title');
+  const modalContent = modal.querySelector('.modal-buyers');
+  
+  modalTitle.textContent = `${displayName} の購入希望者（${buyers.length}件）`;
+  
+  // 購入希望者カードを生成
+  modalContent.innerHTML = '';
+  buyers.forEach((buyer, index) => {
+    const card = createBuyerCard(buyer, type, index, buyers.length);
+    modalContent.appendChild(card);
+  });
+  
+  // モーダルを表示
+  modal.style.display = 'block';
+}
+
+/**
+ * 購入希望者カードの生成
+ */
+function createBuyerCard(buyer, type, index, totalBuyers) {
+  const card = document.createElement('div');
+  card.className = 'buyer-card';
+  
+  // バッジ
+  const badges = [];
+  if (isNew(index, totalBuyers, type)) {
+    badges.push('<span class="badge badge-new">新着</span>');
+  }
+  if (buyer.timing === '即時') {
+    badges.push('<span class="badge badge-urgent">急ぎ</span>');
+  }
+  
+  // 土地の場合は purpose を表示
+  const purposeHtml = type === 'land' ? `<p><strong>利用目的:</strong> ${buyer.purpose}</p>` : '';
+  
+  // 戸建の場合は buildingAge と layout を表示
+  const houseSpecificHtml = type === 'house' ? `
+    <p><strong>希望築年数:</strong> ${buyer.buildingAge}</p>
+    <p><strong>希望間取り:</strong> ${buyer.layout}</p>
+  ` : '';
+  
+  card.innerHTML = `
+    <div class="buyer-header">
+      <span class="buyer-id">${buyer.id}</span>
+      <div class="badges">${badges.join('')}</div>
+    </div>
+    <div class="buyer-info">
+      <p><strong>家族構成:</strong> ${buyer.family}</p>
+      <p><strong>年齢:</strong> ${buyer.age}</p>
+      <p><strong>職業:</strong> ${buyer.occupation}</p>
+      <p><strong>購入時期:</strong> ${buyer.timing}</p>
+      <p><strong>購入方法:</strong> ${buyer.method}</p>
+      <p><strong>購入理由:</strong> ${buyer.reason}</p>
+    </div>
+    <div class="buyer-preferences">
+      <h4>希望条件</h4>
+      ${houseSpecificHtml}
+      ${purposeHtml}
+      <p><strong>土地面積:</strong> ${buyer.landArea}</p>
+      <p><strong>駅徒歩:</strong> ${buyer.walkingDistance}</p>
+    </div>
+    <div class="buyer-ng">
+      <p><strong>NG条件:</strong> ${buyer.ng}</p>
+    </div>
+    <button class="btn-contact" onclick="contactBuyer('${buyer.id}')">
+      この購入希望者を紹介してほしい
+    </button>
+  `;
+  
+  return card;
+}
+
+/**
+ * 新着判定
+ */
+function isNew(index, totalBuyers, type) {
+  const newCounts = {
+    'house': totalBuyers <= 20 ? 3 : (totalBuyers <= 40 ? 5 : 8),
+    'land': totalBuyers <= 20 ? 3 : (totalBuyers <= 40 ? 5 : 8)
+  };
+  
+  return index < newCounts[type];
+}
+```
+
+---
+
+### 5.2 町名・大字セレクトボックスの追加
+
+#### HTML: `index.html` の修正
+
+```html
+<!-- 戸建タブ内の「エリアから探す」 -->
+<div id="house-area-search" class="search-section">
+  <div class="area-group">
+    <h3>エリアを選択</h3>
+    
+    <select id="house-prefecture" class="form-select">
+      <option value="">都道府県を選択</option>
+      <option value="奈良県">奈良県</option>
+      <option value="大阪府">大阪府</option>
+      <option value="京都府">京都府</option>
+      <option value="兵庫県">兵庫県</option>
+      <option value="滋賀県">滋賀県</option>
+    </select>
+    
+    <select id="house-city" class="form-select" disabled>
+      <option value="">市区町村を選択</option>
+    </select>
+    
+    <select id="house-town" class="form-select" disabled>
+      <option value="">町名・大字を選択</option>
+      <option value="__ALL__">全域</option>
+    </select>
+  </div>
+  
+  <!-- 詳細条件 -->
+  <div class="detail-conditions">
+    <h3>詳細条件（必須）</h3>
+    
+    <select id="house-building-age" class="form-select">
+      <option value="">現在の築年数</option>
+      <option value="築15年まで">築15年まで</option>
+      <option value="築16〜25年">築16〜25年</option>
+      <option value="築26〜35年">築26〜35年</option>
+      <option value="築36年以上">築36年以上</option>
+    </select>
+    
+    <select id="house-layout" class="form-select">
+      <option value="">現在の間取り</option>
+      <option value="2LDKまで">2LDKまで</option>
+      <option value="3LDK〜5LDK">3LDK〜5LDK</option>
+      <option value="5LDK以上">5LDK以上</option>
+    </select>
+    
+    <select id="house-land-area" class="form-select">
+      <option value="">現在の土地面積</option>
+      <option value="〜50㎡">〜50㎡</option>
+      <option value="51〜150㎡">51〜150㎡</option>
+      <option value="151〜300㎡">151〜300㎡</option>
+      <option value="301㎡以上">301㎡以上</option>
+    </select>
+    
+    <select id="house-walking-distance" class="form-select">
+      <option value="">駅徒歩</option>
+      <option value="駅徒歩10分以内">10分以内</option>
+      <option value="駅徒歩11〜15分">11〜15分</option>
+      <option value="駅徒歩16〜20分">16〜20分</option>
+      <option value="駅徒歩21分以上">21分以上</option>
+    </select>
+  </div>
+  
+  <button id="house-area-search-btn" class="btn-search">検索する</button>
+</div>
+```
+
+#### JavaScript: 町名・大字セレクトの初期化
+
+```javascript
+/**
+ * 町名・大字セレクトボックスの初期化
+ */
+async function initializeTownSelects() {
+  const areaTownData = await fetch('./area_town_data.json').then(r => r.json());
+  
+  // 戸建用
+  const housePrefectureSelect = document.getElementById('house-prefecture');
+  const houseCitySelect = document.getElementById('house-city');
+  const houseTownSelect = document.getElementById('house-town');
+  
+  housePrefectureSelect.addEventListener('change', function() {
+    const prefecture = this.value;
+    houseCitySelect.innerHTML = '<option value="">市区町村を選択</option>';
+    houseTownSelect.innerHTML = '<option value="">町名・大字を選択</option><option value="__ALL__">全域</option>';
+    houseCitySelect.disabled = true;
+    houseTownSelect.disabled = true;
+    
+    if (!prefecture) return;
+    
+    const cities = Object.keys(areaTownData[prefecture] || {});
+    cities.forEach(city => {
+      const option = document.createElement('option');
+      option.value = city;
+      option.textContent = city;
+      houseCitySelect.appendChild(option);
+    });
+    
+    houseCitySelect.disabled = false;
+  });
+  
+  houseCitySelect.addEventListener('change', function() {
+    const prefecture = housePrefectureSelect.value;
+    const city = this.value;
+    houseTownSelect.innerHTML = '<option value="">町名・大字を選択</option><option value="__ALL__">全域</option>';
+    houseTownSelect.disabled = true;
+    
+    if (!city) return;
+    
+    const towns = areaTownData[prefecture]?.[city] || [];
+    towns.forEach(town => {
+      const option = document.createElement('option');
+      option.value = town;
+      option.textContent = town;
+      houseTownSelect.appendChild(option);
+    });
+    
+    houseTownSelect.disabled = false;
+  });
+  
+  // 土地用も同様に実装
+  // ...
+}
+
+// ページ読み込み時に実行
+document.addEventListener('DOMContentLoaded', function() {
+  initializeTownSelects();
+});
+```
+
+---
+
+## 6. 実行方法
+
+### 6.1 station_town_mapping.json の作成
+
+先に `station_town_mapping.json` を手動または別スクリプトで作成してください。
+
+### 6.2 データ生成スクリプトの実行
+
+```bash
+# Node.jsでスクリプトを実行
+node generate-town-buyers.js
+```
+
+### 6.3 実行結果の確認
+
+```
+=== 戸建・土地購入希望者データ生成開始 ===
+
+【エリア別データ生成】
+✓ 戸建: ./data/house/area/奈良県/奈良市/学園南.json (42件)
+✓ 土地: ./data/land/area/奈良県/奈良市/学園南.json (38件)
+✓ 戸建: ./data/house/area/奈良県/奈良市/学園北.json (35件)
+...
+
+【駅別データ生成】
+✓ 戸建(駅): ./data/house/station/JR西日本/大和路線/奈良駅/三条本町.json (28件)
+✓ 土地(駅): ./data/land/station/JR西日本/大和路線/奈良駅/三条本町.json (32件)
+...
+
+=== データ生成完了 ===
+戸建: 12,345件
+土地: 11,234件
+```
+
+---
+
+## 7. 完了条件チェックリスト
+
+- [ ] `area_town_data.json` が存在し、関西5府県の町名・大字リストが含まれている
+- [ ] `station_town_mapping.json` が作成され、駅と町名・大字の対応が定義されている
+- [ ] `prompts/occupation_list.json` に職業リストと年齢制限が定義されている
+- [ ] `generate-town-buyers.js` が正常に実行され、エラーなく完了する
+- [ ] `data/house/area/{都道府県}/{市区町村}/{町名}.json` が生成されている
+- [ ] `data/land/area/{都道府県}/{市区町村}/{町名}.json` が生成されている
+- [ ] `data/house/station/{会社}/{沿線}/{駅}/{町名}.json` が生成されている
+- [ ] `data/land/station/{会社}/{沿線}/{駅}/{町名}.json` が生成されている
+- [ ] すべてのJSONファイルが配列形式（既存形式維持）で生成されている
+- [ ] 各ファイルの購入希望者数が16〜63件の範囲内
+- [ ] ID重複がないことを確認（戸建: KO-xxxxx、土地: TO-xxxxx）
+- [ ] 年齢制限（パート・アルバイト57歳以上、無職67歳以上）が遵守されている
+- [ ] フロントエンドの町名・大字セレクトボックスが正常に動作する
+- [ ] 「全域」検索で複数ファイルのデータが統合表示される
+- [ ] 詳細条件（築年数・間取り・土地面積・駅徒歩）でのフィルタリングが正常に動作する
+
+---
+
+
+**主要な修正点**:
+1. ✅ **既存ファイルとの整合性**: `area_town_data.json`、`railway_data.json`、`occupation_list.json` を正しく参照
+2. ✅ **配列形式維持**: `{ area, buyers }` ではなく、配列のみの既存形式を維持
+3. ✅ **Node.js + fs**: `readJSON`/`writeJSON` を `fs` で実装
+4. ✅ **実ディレクトリ構造**: `data/house/station/近畿日本鉄道（近鉄）/近鉄奈良線/` 等の実在パスに対応
+5. ✅ **築年数の包含関係**: 買い手「築15年まで」→ 売り手「築15年まで」または「築10年」等にマッチ
+6. ✅ **showSearchResults**: 既存の `showBuyerDetails` と干渉しない専用関数
+7. ✅ **土地のスキーマ**: `purpose` あり、`buildingAge`/`layout` なし
+
+このプロンプトを使えば、既存サイトとの互換性を保ちながら、町名・大字単位でのデータ生成が可能だ。
+

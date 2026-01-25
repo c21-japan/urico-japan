@@ -19,6 +19,7 @@ window.addEventListener('unhandledrejection', (event) => {
 // グローバル変数
 let railwayData = {};
 let areaData = {};
+let areaTownData = {};
 let mansionDatabase = [];
 let houseDatabase = [];
 let landDatabase = [];
@@ -351,16 +352,20 @@ window.contactBuyer = function(buyerId) {
 
 async function loadExternalData() {
     try {
-        const [railwayRes, areaRes] = await Promise.all([
+        const [railwayRes, areaRes, townRes] = await Promise.all([
             fetch('./railway_data.json'),
-            fetch('./area_data.json')
+            fetch('./area_data.json'),
+            fetch('./area_town_data.json')
         ]);
         railwayData = await railwayRes.json();
         areaData = await areaRes.json();
+        areaTownData = await townRes.json();
         initializeRailwaySelects('house');
         initializeRailwaySelects('land');
         initializeAreaSelects('house');
         initializeAreaSelects('land');
+        initializeTownSelects('house');
+        initializeTownSelects('land');
     } catch (error) {
         console.error('データの読み込みに失敗しました:', error);
     }
@@ -462,6 +467,38 @@ function initializeAreaSelects(prefix) {
                 citySelect.appendChild(option);
             });
             citySelect.disabled = false;
+        }
+    });
+}
+
+function initializeTownSelects(prefix) {
+    const prefSelect = document.getElementById(`${prefix}-prefecture`);
+    const citySelect = document.getElementById(`${prefix}-city`);
+    const townSelect = document.getElementById(`${prefix}-town`);
+
+    if (!townSelect) return;
+
+    // Initial state
+    townSelect.innerHTML = '<option value="">先に市区町村を選択してください</option>';
+    townSelect.disabled = true;
+
+    // Update towns when city changes
+    citySelect.addEventListener('change', () => {
+        const selectedPref = prefSelect.value;
+        const selectedCity = citySelect.value;
+
+        townSelect.innerHTML = '<option value="">全域（町名指定なし）</option>';
+        townSelect.disabled = true;
+
+        if (selectedPref && selectedCity && areaTownData[selectedPref]?.[selectedCity]) {
+            const towns = areaTownData[selectedPref][selectedCity];
+            towns.forEach(town => {
+                const option = document.createElement('option');
+                option.value = town;
+                option.textContent = town;
+                townSelect.appendChild(option);
+            });
+            townSelect.disabled = false;
         }
     });
 }
@@ -597,19 +634,23 @@ function initializeHouseSearch() {
         e.preventDefault();
         const pref = document.getElementById('house-prefecture').value.trim();
         const city = document.getElementById('house-city').value.trim();
+        const town = document.getElementById('house-town').value.trim();
         const railway = document.getElementById('house-railway').value.trim();
         const line = document.getElementById('house-line').value.trim();
         const station = document.getElementById('house-station').value.trim();
 
         let jsonPath = '';
+        let searchLocation = '';
 
         // エリア検索
         if (pref && city) {
             jsonPath = `./data/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
+            searchLocation = town ? `${pref} ${city} ${town}` : `${pref} ${city}`;
         }
         // 駅検索
         else if (railway && station) {
             jsonPath = `./data/house/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
+            searchLocation = `${railway} ${line} ${station}`;
         } else {
             alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
             return;
@@ -623,7 +664,7 @@ function initializeHouseSearch() {
             const buyers = await response.json();
 
             if (!buyers || buyers.length === 0) {
-                alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する戸建の購入希望者は見つかりませんでした。`);
+                alert(`${searchLocation} に対応する戸建の購入希望者は見つかりませんでした。`);
                 return;
             }
 
@@ -632,7 +673,7 @@ function initializeHouseSearch() {
             const subtitle = document.getElementById('modalSubtitle');
             const cards = document.getElementById('buyerCards');
 
-            if (title) title.textContent = `${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} の戸建`;
+            if (title) title.textContent = `${searchLocation} の戸建`;
             if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
 
             if (cards) {
@@ -711,7 +752,7 @@ function initializeHouseSearch() {
             }
         } catch (error) {
             console.error('データ読み込みエラー:', error);
-            alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する戸建の購入希望者は見つかりませんでした。`);
+            alert(`${searchLocation} に対応する戸建の購入希望者は見つかりませんでした。`);
         }
     });
 }
@@ -723,19 +764,23 @@ function initializeLandSearch() {
         e.preventDefault();
         const pref = document.getElementById('land-prefecture').value.trim();
         const city = document.getElementById('land-city').value.trim();
+        const town = document.getElementById('land-town').value.trim();
         const railway = document.getElementById('land-railway').value.trim();
         const line = document.getElementById('land-line').value.trim();
         const station = document.getElementById('land-station').value.trim();
 
         let jsonPath = '';
+        let searchLocation = '';
 
         // エリア検索
         if (pref && city) {
             jsonPath = `./data/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
+            searchLocation = town ? `${pref} ${city} ${town}` : `${pref} ${city}`;
         }
         // 駅検索
         else if (railway && station) {
             jsonPath = `./data/land/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
+            searchLocation = `${railway} ${line} ${station}`;
         } else {
             alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
             return;
@@ -749,7 +794,7 @@ function initializeLandSearch() {
             const buyers = await response.json();
 
             if (!buyers || buyers.length === 0) {
-                alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する土地の購入希望者は見つかりませんでした。`);
+                alert(`${searchLocation} に対応する土地の購入希望者は見つかりませんでした。`);
                 return;
             }
 
@@ -758,7 +803,7 @@ function initializeLandSearch() {
             const subtitle = document.getElementById('modalSubtitle');
             const cards = document.getElementById('buyerCards');
 
-            if (title) title.textContent = `${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} の土地`;
+            if (title) title.textContent = `${searchLocation} の土地`;
             if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
 
             if (cards) {
@@ -801,7 +846,7 @@ function initializeLandSearch() {
             }
         } catch (error) {
             console.error('データ読み込みエラー:', error);
-            alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する土地の購入希望者は見つかりませんでした。`);
+            alert(`${searchLocation} に対応する土地の購入希望者は見つかりませんでした。`);
         }
     });
 }

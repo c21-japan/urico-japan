@@ -788,25 +788,21 @@ function initializeHouseSearch() {
     const searchButton = document.getElementById('searchButtonHouse');
     if (!searchButton) return;
 
-    searchButton.addEventListener('click', () => {
-        const pref = document.getElementById('house-prefecture')?.value.trim();
-        const city = document.getElementById('house-city')?.value.trim();
-        const town = document.getElementById('house-town')?.value.trim();
+    searchButton.addEventListener('click', async () => {
+        // Check search method (station vs area)
+        const stationMethodBtn = document.getElementById('house-method-station');
+        const isStationSearch = stationMethodBtn && stationMethodBtn.classList.contains('active');
 
-        if (!pref || !city || !town) {
-            alert('都道府県、市区町村、町名を選択してください。');
-            return;
+        if (isStationSearch) {
+            await performMultiRailwaySearch('house');
+        } else {
+            await performAreaSearch('house');
         }
-
-        // R2のHTMLページにリダイレクト
-        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
-        window.location.href = url;
     });
 }
 
 // Perform area search for house/land
 async function performAreaSearch(type) {
-    console.log('=== performAreaSearch 開始 ===', type);
     const pref = document.getElementById(`${type}-prefecture`)?.value.trim();
     const city = document.getElementById(`${type}-city`)?.value.trim();
     const town = document.getElementById(`${type}-town`)?.value.trim();
@@ -814,8 +810,6 @@ async function performAreaSearch(type) {
     // Get detail conditions
     const landArea = document.getElementById(`${type}-area-land-area`)?.value.trim();
     const walkingDistance = document.getElementById(`${type}-area-walking-distance`)?.value.trim();
-
-    console.log('選択値:', { pref, city, town, landArea, walkingDistance });
 
     if (!pref || !city) {
         alert('都道府県と市区町村を選択してください。');
@@ -848,11 +842,7 @@ async function performAreaSearch(type) {
         }
 
         // Filter by land area and walking distance
-        console.log(`検索条件 - 土地面積: ${landArea}, 駅徒歩: ${walkingDistance}`);
-        console.log(`取得データ件数: ${buyers.length}件`);
-
         const filteredBuyers = filterBuyersByConditions(buyers, landArea, walkingDistance);
-        console.log(`フィルタ後: ${filteredBuyers.length}件`);
 
         if (filteredBuyers.length === 0) {
             alert(`指定された条件に合う購入希望者は見つかりませんでした。\n\n取得データ: ${buyers.length}件\nフィルタ後: 0件\n\n条件を変更してお試しください。`);
@@ -1154,19 +1144,16 @@ function initializeLandSearch() {
     const searchButton = document.getElementById('searchButtonLand');
     if (!searchButton) return;
 
-    searchButton.addEventListener('click', () => {
-        const pref = document.getElementById('land-prefecture')?.value.trim();
-        const city = document.getElementById('land-city')?.value.trim();
-        const town = document.getElementById('land-town')?.value.trim();
+    searchButton.addEventListener('click', async () => {
+        // Check search method (station vs area)
+        const stationMethodBtn = document.getElementById('land-method-station');
+        const isStationSearch = stationMethodBtn && stationMethodBtn.classList.contains('active');
 
-        if (!pref || !city || !town) {
-            alert('都道府県、市区町村、町名を選択してください。');
-            return;
+        if (isStationSearch) {
+            await performMultiRailwaySearch('land');
+        } else {
+            await performAreaSearch('land');
         }
-
-        // R2のHTMLページにリダイレクト
-        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
-        window.location.href = url;
     });
 }
 

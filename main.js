@@ -811,8 +811,17 @@ async function performAreaSearch(type) {
     const city = document.getElementById(`${type}-city`).value.trim();
     const town = document.getElementById(`${type}-town`).value.trim();
 
+    // Get detail conditions
+    const landArea = document.getElementById(`${type}-area-land-area`)?.value.trim();
+    const walkingDistance = document.getElementById(`${type}-area-walking-distance`)?.value.trim();
+
     if (!pref || !city) {
         alert('都道府県と市区町村を選択してください。');
+        return;
+    }
+
+    if (!landArea || !walkingDistance) {
+        alert('土地面積と駅徒歩を選択してください。');
         return;
     }
 
@@ -831,7 +840,15 @@ async function performAreaSearch(type) {
             return;
         }
 
-        displayBuyerResults(buyers, `${searchLocation} の${type === 'house' ? '戸建' : '土地'}`, type);
+        // Filter by land area and walking distance
+        const filteredBuyers = filterBuyersByConditions(buyers, landArea, walkingDistance);
+
+        if (filteredBuyers.length === 0) {
+            alert('指定された条件に合う購入希望者は見つかりませんでした。');
+            return;
+        }
+
+        displayBuyerResults(filteredBuyers, `${searchLocation} の${type === 'house' ? '戸建' : '土地'}`, type);
     } catch (error) {
         console.error('データ読み込みエラー:', error);
         alert(`${searchLocation} に対応する${type === 'house' ? '戸建' : '土地'}の購入希望者は見つかりませんでした。`);

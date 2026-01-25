@@ -200,8 +200,38 @@
                     <label for="house-town">町名・大字</label>
                     <select id="house-town" disabled><option value="">先に市区町村を選択してください</option></select>
                 </div>
+
+                <!-- 詳細条件（必須） -->
+                <div class="detail-conditions" style="margin-top: 20px;">
+                    <h3 class="detail-title">
+                        <span class="required-badge">必須</span>
+                        詳細条件
+                    </h3>
+                    <div class="detail-selects">
+                        <div class="form-group">
+                            <label for="house-area-land-area">土地面積</label>
+                            <select id="house-area-land-area" class="form-select" required>
+                                <option value="">選択してください</option>
+                                <option value="〜50㎡">〜50㎡</option>
+                                <option value="51〜150㎡">51〜150㎡</option>
+                                <option value="151〜300㎡">151〜300㎡</option>
+                                <option value="301㎡以上">301㎡以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="house-area-walking-distance">駅徒歩</label>
+                            <select id="house-area-walking-distance" class="form-select" required>
+                                <option value="">選択してください</option>
+                                <option value="駅徒歩10分以内">10分以内</option>
+                                <option value="駅徒歩11〜15分">11〜15分</option>
+                                <option value="駅徒歩16〜20分">16〜20分</option>
+                                <option value="駅徒歩21分以上">21分以上</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+
             <button type="submit" class="search-btn-fullwidth">戸建を検索</button>
         </form>
 
@@ -338,8 +368,38 @@
                     <label for="land-town">町名・大字</label>
                     <select id="land-town" disabled><option value="">先に市区町村を選択してください</option></select>
                 </div>
+
+                <!-- 詳細条件（必須） -->
+                <div class="detail-conditions" style="margin-top: 20px;">
+                    <h3 class="detail-title">
+                        <span class="required-badge">必須</span>
+                        詳細条件
+                    </h3>
+                    <div class="detail-selects">
+                        <div class="form-group">
+                            <label for="land-area-land-area">土地面積</label>
+                            <select id="land-area-land-area" class="form-select" required>
+                                <option value="">選択してください</option>
+                                <option value="〜50㎡">〜50㎡</option>
+                                <option value="51〜150㎡">51〜150㎡</option>
+                                <option value="151〜300㎡">151〜300㎡</option>
+                                <option value="301㎡以上">301㎡以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="land-area-walking-distance">駅徒歩</label>
+                            <select id="land-area-walking-distance" class="form-select" required>
+                                <option value="">選択してください</option>
+                                <option value="駅徒歩10分以内">10分以内</option>
+                                <option value="駅徒歩11〜15分">11〜15分</option>
+                                <option value="駅徒歩16〜20分">16〜20分</option>
+                                <option value="駅徒歩21分以上">21分以上</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+
             <button type="submit" class="search-btn-fullwidth">土地を検索</button>
         </form>
     </section>

@@ -74,7 +74,7 @@
         </div>
 
         <!-- 戸建タブ -->
-        <form id="tab-house" class="tab-content" style="display:none;">
+        <div id="tab-house" class="tab-content" style="display:none;">
             <div class="search-method-buttons">
                 <button type="button" class="method-btn" id="house-method-station">駅から探す</button>
                 <button type="button" class="method-btn active" id="house-method-area">エリアから探す</button>
@@ -178,11 +178,11 @@
                 </div>
             </div>
 
-            <button type="button" id="searchButtonHouse" class="search-btn-fullwidth">戸建を検索</button>
-        </form>
+            <button type="button" class="search-btn-fullwidth" onclick="searchHouse()">戸建を検索</button>
+        </div>
 
         <!-- 土地タブ -->
-        <form id="tab-land" class="tab-content" style="display:none;">
+        <div id="tab-land" class="tab-content" style="display:none;">
             <div class="search-method-buttons">
                 <button type="button" class="method-btn" id="land-method-station">駅から探す</button>
                 <button type="button" class="method-btn active" id="land-method-area">エリアから探す</button>
@@ -286,8 +286,8 @@
                 </div>
             </div>
 
-            <button type="button" id="searchButtonLand" class="search-btn-fullwidth">土地を検索</button>
-        </form>
+            <button type="button" class="search-btn-fullwidth" onclick="searchLand()">土地を検索</button>
+        </div>
     </section>
 
     <!-- 購入希望者詳細モーダル（業務用シンプルUI） -->

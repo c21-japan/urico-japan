@@ -67,8 +67,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         setup3TierRailwaySelect('land');
         initializeTabSwitching();
         initializeMansionSearch();
-        initializeHouseSearch();
-        initializeLandSearch();
+        // initializeHouseSearch();  // コメントアウト: onclick方式に変更
+        // initializeLandSearch();    // コメントアウト: onclick方式に変更
         initializeImageSlider();
         initializeSimulator();
         
@@ -1384,3 +1384,49 @@ function initializeSimulator() {
     sellPriceSlider.addEventListener('input', updateCalculation);
     updateCalculation();
 }
+
+// ========================================
+// グローバル検索関数（onclick用）
+// ========================================
+
+// 戸建検索
+window.searchHouse = function() {
+    console.log('★ searchHouse() 呼び出し');
+
+    const pref = document.getElementById('house-prefecture')?.value?.trim();
+    const city = document.getElementById('house-city')?.value?.trim();
+    const town = document.getElementById('house-town')?.value?.trim();
+
+    console.log('選択値:', { pref, city, town });
+
+    if (!pref || !city || !town) {
+        alert('都道府県、市区町村、町名を選択してください。');
+        return;
+    }
+
+    const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+    console.log('リダイレクト先:', url);
+    window.location.href = url;
+};
+
+// 土地検索
+window.searchLand = function() {
+    console.log('★ searchLand() 呼び出し');
+
+    const pref = document.getElementById('land-prefecture')?.value?.trim();
+    const city = document.getElementById('land-city')?.value?.trim();
+    const town = document.getElementById('land-town')?.value?.trim();
+
+    console.log('選択値:', { pref, city, town });
+
+    if (!pref || !city || !town) {
+        alert('都道府県、市区町村、町名を選択してください。');
+        return;
+    }
+
+    const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+    console.log('リダイレクト先:', url);
+    window.location.href = url;
+};
+
+console.log('★ グローバル検索関数を登録完了: searchHouse, searchLand');

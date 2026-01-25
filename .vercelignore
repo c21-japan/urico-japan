@@ -1,0 +1,15 @@
+# データソースファイル（デプロイ不要）
+data/
+scripts/
+jobs/
+logs/
+*.log
+
+# 開発用ファイル
+node_modules/
+.vscode/
+.cursor/
+.DS_Store
+
+# ビルド用ファイル
+.generate-progress.json

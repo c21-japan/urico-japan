@@ -74,18 +74,116 @@
                 <button type="button" class="method-btn active" id="house-method-area">エリアから探す</button>
             </div>
             
-            <div id="house-station-search" style="display:none;">
-                <div class="form-group">
-                    <label for="house-railway">路線会社名</label>
-                    <select id="house-railway"><option value="">選択してください</option></select>
+            <div id="house-station-search" class="search-section" style="display:none;">
+                <!-- 第1路線会社（必須） -->
+                <div class="railway-group railway-primary">
+                    <h3 class="railway-title">
+                        <span class="required-badge">必須</span>
+                        第1路線会社
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="house-railway1-company" class="form-select" required>
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="house-railway1-line" class="form-select" disabled required>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="house-railway1-station" class="form-select" disabled required>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="house-line">沿線名</label>
-                    <select id="house-line" disabled><option value="">先に路線会社名を選択してください</option></select>
+
+                <!-- 第2路線会社の開閉ボタン -->
+                <div class="railway-toggle">
+                    <button type="button" id="house-railway2-toggle" class="btn-toggle">
+                        <span class="icon-plus">+</span>
+                        第2路線会社を追加
+                    </button>
                 </div>
-                <div class="form-group">
-                    <label for="house-station">駅名</label>
-                    <select id="house-station" disabled><option value="">先に沿線名を選択してください</option></select>
+
+                <!-- 第2路線会社（任意・初期非表示） -->
+                <div id="house-railway2-group" class="railway-group railway-secondary" style="display: none;">
+                    <h3 class="railway-title">
+                        <span class="optional-badge">任意</span>
+                        第2路線会社
+                        <button type="button" class="btn-close-railway" onclick="closeRailway('house', 2)">
+                            <span class="icon-minus">−</span>
+                            閉じる
+                        </button>
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="house-railway2-company" class="form-select">
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="house-railway2-line" class="form-select" disabled>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="house-railway2-station" class="form-select" disabled>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 第3路線会社の開閉ボタン -->
+                <div id="house-railway3-toggle-wrapper" class="railway-toggle" style="display: none;">
+                    <button type="button" id="house-railway3-toggle" class="btn-toggle">
+                        <span class="icon-plus">+</span>
+                        第3路線会社を追加
+                    </button>
+                </div>
+
+                <!-- 第3路線会社（任意・初期非表示） -->
+                <div id="house-railway3-group" class="railway-group railway-secondary" style="display: none;">
+                    <h3 class="railway-title">
+                        <span class="optional-badge">任意</span>
+                        第3路線会社
+                        <button type="button" class="btn-close-railway" onclick="closeRailway('house', 3)">
+                            <span class="icon-minus">−</span>
+                            閉じる
+                        </button>
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="house-railway3-company" class="form-select">
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="house-railway3-line" class="form-select" disabled>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="house-railway3-station" class="form-select" disabled>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 詳細条件（必須） -->
+                <div class="detail-conditions">
+                    <h3 class="detail-title">
+                        <span class="required-badge">必須</span>
+                        詳細条件
+                    </h3>
+                    <div class="detail-selects">
+                        <div class="form-group">
+                            <label for="house-land-area">土地面積</label>
+                            <select id="house-land-area" class="form-select" required>
+                                <option value="">選択してください</option>
+                                <option value="〜50㎡">〜50㎡</option>
+                                <option value="51〜150㎡">51〜150㎡</option>
+                                <option value="151〜300㎡">151〜300㎡</option>
+                                <option value="301㎡以上">301㎡以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="house-walking-distance">駅徒歩</label>
+                            <select id="house-walking-distance" class="form-select" required>
+                                <option value="">選択してください</option>
+                                <option value="駅徒歩10分以内">10分以内</option>
+                                <option value="駅徒歩11〜15分">11〜15分</option>
+                                <option value="駅徒歩16〜20分">16〜20分</option>
+                                <option value="駅徒歩21分以上">21分以上</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>
             
@@ -114,18 +212,116 @@
                 <button type="button" class="method-btn active" id="land-method-area">エリアから探す</button>
             </div>
             
-            <div id="land-station-search" style="display:none;">
-                <div class="form-group">
-                    <label for="land-railway">路線会社名</label>
-                    <select id="land-railway"><option value="">選択してください</option></select>
+            <div id="land-station-search" class="search-section" style="display:none;">
+                <!-- 第1路線会社（必須） -->
+                <div class="railway-group railway-primary">
+                    <h3 class="railway-title">
+                        <span class="required-badge">必須</span>
+                        第1路線会社
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="land-railway1-company" class="form-select" required>
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="land-railway1-line" class="form-select" disabled required>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="land-railway1-station" class="form-select" disabled required>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="land-line">沿線名</label>
-                    <select id="land-line" disabled><option value="">先に路線会社名を選択してください</option></select>
+
+                <!-- 第2路線会社の開閉ボタン -->
+                <div class="railway-toggle">
+                    <button type="button" id="land-railway2-toggle" class="btn-toggle">
+                        <span class="icon-plus">+</span>
+                        第2路線会社を追加
+                    </button>
                 </div>
-                <div class="form-group">
-                    <label for="land-station">駅名</label>
-                    <select id="land-station" disabled><option value="">先に沿線名を選択してください</option></select>
+
+                <!-- 第2路線会社（任意・初期非表示） -->
+                <div id="land-railway2-group" class="railway-group railway-secondary" style="display: none;">
+                    <h3 class="railway-title">
+                        <span class="optional-badge">任意</span>
+                        第2路線会社
+                        <button type="button" class="btn-close-railway" onclick="closeRailway('land', 2)">
+                            <span class="icon-minus">−</span>
+                            閉じる
+                        </button>
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="land-railway2-company" class="form-select">
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="land-railway2-line" class="form-select" disabled>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="land-railway2-station" class="form-select" disabled>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 第3路線会社の開閉ボタン -->
+                <div id="land-railway3-toggle-wrapper" class="railway-toggle" style="display: none;">
+                    <button type="button" id="land-railway3-toggle" class="btn-toggle">
+                        <span class="icon-plus">+</span>
+                        第3路線会社を追加
+                    </button>
+                </div>
+
+                <!-- 第3路線会社（任意・初期非表示） -->
+                <div id="land-railway3-group" class="railway-group railway-secondary" style="display: none;">
+                    <h3 class="railway-title">
+                        <span class="optional-badge">任意</span>
+                        第3路線会社
+                        <button type="button" class="btn-close-railway" onclick="closeRailway('land', 3)">
+                            <span class="icon-minus">−</span>
+                            閉じる
+                        </button>
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="land-railway3-company" class="form-select">
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="land-railway3-line" class="form-select" disabled>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="land-railway3-station" class="form-select" disabled>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 詳細条件（必須） -->
+                <div class="detail-conditions">
+                    <h3 class="detail-title">
+                        <span class="required-badge">必須</span>
+                        詳細条件
+                    </h3>
+                    <div class="detail-selects">
+                        <div class="form-group">
+                            <label for="land-land-area">土地面積</label>
+                            <select id="land-land-area" class="form-select" required>
+                                <option value="">選択してください</option>
+                                <option value="〜50㎡">〜50㎡</option>
+                                <option value="51〜150㎡">51〜150㎡</option>
+                                <option value="151〜300㎡">151〜300㎡</option>
+                                <option value="301㎡以上">301㎡以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="land-walking-distance">駅徒歩</label>
+                            <select id="land-walking-distance" class="form-select" required>
+                                <option value="">選択してください</option>
+                                <option value="駅徒歩10分以内">10分以内</option>
+                                <option value="駅徒歩11〜15分">11〜15分</option>
+                                <option value="駅徒歩16〜20分">16〜20分</option>
+                                <option value="駅徒歩21分以上">21分以上</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>
             

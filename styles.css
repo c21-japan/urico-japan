@@ -998,3 +998,228 @@ footer .character-image {
     .voices-cta-section h3 { font-size: 20px; }
     .voices-cta-btn { padding: 15px 30px; font-size: 14px; }
 }
+
+/* ===========================
+   路線検索グループ
+   =========================== */
+
+.railway-group {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.railway-primary {
+  border-left: 4px solid #007bff;
+}
+
+.railway-secondary {
+  border-left: 4px solid #6c757d;
+}
+
+.railway-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* バッジ */
+.required-badge,
+.optional-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.required-badge {
+  background: #dc3545;
+  color: white;
+}
+
+.optional-badge {
+  background: #6c757d;
+  color: white;
+}
+
+/* 路線選択プルダウン */
+.railway-selects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* ===========================
+   開閉ボタン
+   =========================== */
+
+.railway-toggle {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.btn-toggle {
+  background: white;
+  border: 2px dashed #6c757d;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-toggle:hover {
+  background: #f8f9fa;
+  border-color: #495057;
+  color: #495057;
+}
+
+.icon-plus,
+.icon-minus {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 閉じるボタン */
+.btn-close-railway {
+  background: transparent;
+  border: 1px solid #6c757d;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: #6c757d;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-close-railway:hover {
+  background: #6c757d;
+  color: white;
+}
+
+/* ===========================
+   詳細条件
+   =========================== */
+
+.detail-conditions {
+  background: #fff;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.detail-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.detail-selects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #495057;
+}
+
+/* ===========================
+   フォーム要素
+   =========================== */
+
+.form-select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.form-select:disabled {
+  background: #e9ecef;
+  cursor: not-allowed;
+}
+
+/* ===========================
+   検索ボタン
+   =========================== */
+
+.search-button-wrapper {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.btn-search {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 48px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+.btn-search:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.3);
+}
+
+.btn-search:active {
+  transform: translateY(0);
+}
+
+/* ===========================
+   レスポンシブ対応
+   =========================== */
+
+@media (max-width: 768px) {
+  .railway-selects {
+    grid-template-columns: 1fr;
+  }
+  
+  .detail-selects {
+    grid-template-columns: 1fr;
+  }
+}

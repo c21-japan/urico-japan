@@ -377,6 +377,14 @@ async function loadExternalData() {
         initializeAreaSelects('land');
         initializeTownSelects('house');
         initializeTownSelects('land');
+
+        // Initialize multi-railway selects for house and land
+        initializeMultiRailwaySelects('house');
+        initializeMultiRailwaySelects('land');
+
+        // Setup toggle buttons for multi-railway sections
+        setupRailwayToggles('house');
+        setupRailwayToggles('land');
     } catch (error) {
         console.error('データの読み込みに失敗しました:', error);
     }
@@ -453,6 +461,145 @@ function setup3TierRailwaySelect(prefix) {
         }
     });
 }
+
+// Initialize multi-railway selects (railway1, railway2, railway3)
+function initializeMultiRailwaySelects(prefix) {
+    for (let i = 1; i <= 3; i++) {
+        const companySelect = document.getElementById(`${prefix}-railway${i}-company`);
+        if (!companySelect) continue;
+
+        // Populate company dropdown with railway data
+        companySelect.innerHTML = '<option value="">選択してください</option>';
+        Object.keys(railwayData).forEach(company => {
+            const option = document.createElement('option');
+            option.value = company;
+            option.textContent = company;
+            companySelect.appendChild(option);
+        });
+
+        // Setup 3-tier cascade for this railway section
+        setup3TierMultiRailwaySelect(prefix, i);
+    }
+}
+
+// Setup 3-tier cascade for a specific railway section
+function setup3TierMultiRailwaySelect(prefix, railwayNumber) {
+    const companySelect = document.getElementById(`${prefix}-railway${railwayNumber}-company`);
+    const lineSelect = document.getElementById(`${prefix}-railway${railwayNumber}-line`);
+    const stationSelect = document.getElementById(`${prefix}-railway${railwayNumber}-station`);
+
+    if (!companySelect || !lineSelect || !stationSelect) return;
+
+    // Company change event
+    companySelect.addEventListener('change', () => {
+        const company = companySelect.value;
+        lineSelect.innerHTML = '<option value="">選択してください</option>';
+        stationSelect.innerHTML = '<option value="">先に沿線名を選択してください</option>';
+        stationSelect.disabled = true;
+
+        if (company && railwayData[company]) {
+            lineSelect.disabled = false;
+            Object.keys(railwayData[company]).forEach(line => {
+                const option = document.createElement('option');
+                option.value = line;
+                option.textContent = line;
+                lineSelect.appendChild(option);
+            });
+        } else {
+            lineSelect.disabled = true;
+        }
+    });
+
+    // Line change event
+    lineSelect.addEventListener('change', () => {
+        const company = companySelect.value;
+        const line = lineSelect.value;
+        stationSelect.innerHTML = '<option value="">選択してください</option>';
+
+        if (company && line && railwayData[company][line]) {
+            stationSelect.disabled = false;
+            railwayData[company][line].forEach(station => {
+                const option = document.createElement('option');
+                option.value = station;
+                option.textContent = station;
+                stationSelect.appendChild(option);
+            });
+        } else {
+            stationSelect.disabled = true;
+        }
+    });
+}
+
+// Setup toggle buttons for multi-railway sections
+function setupRailwayToggles(prefix) {
+    const railway2Toggle = document.getElementById(`${prefix}-railway2-toggle`);
+    const railway3Toggle = document.getElementById(`${prefix}-railway3-toggle`);
+    const railway2Group = document.getElementById(`${prefix}-railway2-group`);
+    const railway3Group = document.getElementById(`${prefix}-railway3-group`);
+    const railway3ToggleWrapper = document.getElementById(`${prefix}-railway3-toggle-wrapper`);
+
+    if (railway2Toggle && railway2Group && railway3ToggleWrapper) {
+        railway2Toggle.addEventListener('click', () => {
+            railway2Group.style.display = 'block';
+            railway2Toggle.style.display = 'none';
+            railway3ToggleWrapper.style.display = 'block';
+        });
+    }
+
+    if (railway3Toggle && railway3Group) {
+        railway3Toggle.addEventListener('click', () => {
+            railway3Group.style.display = 'block';
+            railway3Toggle.style.display = 'none';
+        });
+    }
+}
+
+// Global function to close railway sections
+window.closeRailway = function(type, number) {
+    const group = document.getElementById(`${type}-railway${number}-group`);
+    const companySelect = document.getElementById(`${type}-railway${number}-company`);
+    const lineSelect = document.getElementById(`${type}-railway${number}-line`);
+    const stationSelect = document.getElementById(`${type}-railway${number}-station`);
+
+    // Hide the railway group
+    if (group) {
+        group.style.display = 'none';
+    }
+
+    // Reset dropdown values
+    if (companySelect) {
+        companySelect.value = '';
+    }
+    if (lineSelect) {
+        lineSelect.value = '';
+        lineSelect.innerHTML = '<option value="">選択してください</option>';
+        lineSelect.disabled = true;
+    }
+    if (stationSelect) {
+        stationSelect.value = '';
+        stationSelect.innerHTML = '<option value="">先に沿線名を選択してください</option>';
+        stationSelect.disabled = true;
+    }
+
+    // Show the appropriate toggle button
+    if (number === 2) {
+        const toggle = document.getElementById(`${type}-railway2-toggle`);
+        const railway3ToggleWrapper = document.getElementById(`${type}-railway3-toggle-wrapper`);
+        if (toggle) {
+            toggle.style.display = 'inline-block';
+        }
+        // Also close and reset railway3 when closing railway2
+        if (railway3ToggleWrapper) {
+            railway3ToggleWrapper.style.display = 'none';
+        }
+        closeRailway(type, 3);
+    } else if (number === 3) {
+        const toggle = document.getElementById(`${type}-railway3-toggle`);
+        if (toggle) {
+            toggle.style.display = 'inline-block';
+        }
+    }
+};
 
 function initializeAreaSelects(prefix) {
     const prefSelect = document.getElementById(`${prefix}-prefecture`);
@@ -643,132 +790,306 @@ function initializeHouseSearch() {
     if (!form) return;
     form.addEventListener('submit', async e => {
         e.preventDefault();
-        const pref = document.getElementById('house-prefecture').value.trim();
-        const city = document.getElementById('house-city').value.trim();
-        const town = document.getElementById('house-town').value.trim();
-        const railway = document.getElementById('house-railway').value.trim();
-        const line = document.getElementById('house-line').value.trim();
-        const station = document.getElementById('house-station').value.trim();
 
-        let jsonPath = '';
-        let searchLocation = '';
+        // Check search method (station vs area)
+        const stationMethodBtn = document.getElementById('house-method-station');
+        const isStationSearch = stationMethodBtn && stationMethodBtn.classList.contains('active');
 
-        // エリア検索
-        if (pref && city) {
-            jsonPath = `./data/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
-            searchLocation = town ? `${pref} ${city} ${town}` : `${pref} ${city}`;
-        }
-        // 駅検索
-        else if (railway && station) {
-            jsonPath = `./data/house/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
-            searchLocation = `${railway} ${line} ${station}`;
+        if (isStationSearch) {
+            // Multi-railway station search
+            await performMultiRailwaySearch('house');
         } else {
-            alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
+            // Area search (existing logic)
+            await performAreaSearch('house');
+        }
+    });
+}
+
+// Perform area search for house/land
+async function performAreaSearch(type) {
+    const pref = document.getElementById(`${type}-prefecture`).value.trim();
+    const city = document.getElementById(`${type}-city`).value.trim();
+    const town = document.getElementById(`${type}-town`).value.trim();
+
+    if (!pref || !city) {
+        alert('都道府県と市区町村を選択してください。');
+        return;
+    }
+
+    const jsonPath = `./data/${type}/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
+    const searchLocation = town ? `${pref} ${city} ${town}` : `${pref} ${city}`;
+
+    try {
+        const response = await fetch(jsonPath);
+        if (!response.ok) {
+            throw new Error('ファイルが見つかりません');
+        }
+        const buyers = await response.json();
+
+        if (!buyers || buyers.length === 0) {
+            alert(`${searchLocation} に対応する${type === 'house' ? '戸建' : '土地'}の購入希望者は見つかりませんでした。`);
             return;
         }
 
-        try {
-            const response = await fetch(jsonPath);
-            if (!response.ok) {
-                throw new Error('ファイルが見つかりません');
+        displayBuyerResults(buyers, `${searchLocation} の${type === 'house' ? '戸建' : '土地'}`, type);
+    } catch (error) {
+        console.error('データ読み込みエラー:', error);
+        alert(`${searchLocation} に対応する${type === 'house' ? '戸建' : '土地'}の購入希望者は見つかりませんでした。`);
+    }
+}
+
+// Perform multi-railway station search for house/land
+async function performMultiRailwaySearch(type) {
+    // Get all railway selections
+    const railways = [];
+    for (let i = 1; i <= 3; i++) {
+        const company = document.getElementById(`${type}-railway${i}-company`)?.value.trim();
+        const line = document.getElementById(`${type}-railway${i}-line`)?.value.trim();
+        const station = document.getElementById(`${type}-railway${i}-station`)?.value.trim();
+
+        if (company && line && station) {
+            railways.push({ company, line, station });
+        }
+    }
+
+    // Get detail conditions
+    const landArea = document.getElementById(`${type}-land-area`)?.value.trim();
+    const walkingDistance = document.getElementById(`${type}-walking-distance`)?.value.trim();
+
+    // Validation: railway1 and detail conditions must be filled
+    if (railways.length === 0) {
+        alert('最低1つの路線を選択してください。');
+        return;
+    }
+
+    if (!landArea || !walkingDistance) {
+        alert('土地面積と駅徒歩を選択してください。');
+        return;
+    }
+
+    try {
+        // Fetch data from all selected stations
+        const fetchPromises = railways.map(({ company, line, station }) => {
+            const jsonPath = `./data/${type}/station/${encodeURIComponent(company)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
+            return fetch(jsonPath)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Station data not found: ${station}`);
+                    }
+                    return response.json();
+                })
+                .catch(error => {
+                    console.warn(`Failed to fetch data for ${station}:`, error);
+                    return [];
+                });
+        });
+
+        const allStationBuyers = await Promise.all(fetchPromises);
+
+        // Merge buyers from all stations and remove duplicates by ID
+        const buyerMap = new Map();
+        allStationBuyers.forEach(stationBuyers => {
+            if (Array.isArray(stationBuyers)) {
+                stationBuyers.forEach(buyer => {
+                    if (buyer.id && !buyerMap.has(buyer.id)) {
+                        buyerMap.set(buyer.id, buyer);
+                    }
+                });
             }
-            const buyers = await response.json();
+        });
 
-            if (!buyers || buyers.length === 0) {
-                alert(`${searchLocation} に対応する戸建の購入希望者は見つかりませんでした。`);
-                return;
-            }
+        let mergedBuyers = Array.from(buyerMap.values());
 
-            const modal = document.getElementById('buyerModal');
-            const title = document.getElementById('modalTitle');
-            const subtitle = document.getElementById('modalSubtitle');
-            const cards = document.getElementById('buyerCards');
+        if (mergedBuyers.length === 0) {
+            const stationNames = railways.map(r => r.station).join('・');
+            alert(`${stationNames}周辺に対応する${type === 'house' ? '戸建' : '土地'}の購入希望者は見つかりませんでした。`);
+            return;
+        }
 
-            if (title) title.textContent = `${searchLocation} の戸建`;
-            if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
+        // Filter by land area and walking distance
+        const filteredBuyers = filterBuyersByConditions(mergedBuyers, landArea, walkingDistance);
 
-            if (cards) {
-                const totalBuyers = buyers.length;
-                const sortedBuyers = sortBuyersByBadges(buyers, 'house');
+        if (filteredBuyers.length === 0) {
+            alert('指定された条件に合う購入希望者は見つかりませんでした。');
+            return;
+        }
 
-                cards.innerHTML = sortedBuyers.map(({ buyer: b, originalIndex }, displayIdx) => {
-                    const displayTiming = normalizeTimingLabel(b.timing || '-');
-                    const badges = renderBuyerBadges('house', originalIndex, totalBuyers, displayTiming);
+        // Create title with station names
+        const stationNames = railways.map(r => r.station).join('・');
+        const title = `${stationNames}周辺の${type === 'house' ? '戸建' : '土地'}`;
 
-                    // 急ぎ＋新着の両方がある場合にハイライトクラスを付与
-                    const highlightClass = hasBothBadges('house', originalIndex, totalBuyers, displayTiming) ? ' highlight-card' : '';
+        displayBuyerResults(filteredBuyers, title, type);
+    } catch (error) {
+        console.error('データ読み込みエラー:', error);
+        alert('データの読み込みに失敗しました。');
+    }
+}
 
-                    return `
-                    <div class="buyer-block${highlightClass}">
-                        <div class="buyer-block-header">
-                            <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
-                            ${badges}
-                        </div>
-                        <div class="buyer-info-table">
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">家族構成</span>
-                                <span class="buyer-info-value">${b.family || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">年齢</span>
-                                <span class="buyer-info-value">${b.age || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">職業</span>
-                                <span class="buyer-info-value">${b.occupation || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入時期</span>
-                                <span class="buyer-info-value">${displayTiming}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入方法</span>
-                                <span class="buyer-info-value">${b.method || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入理由</span>
-                                <span class="buyer-info-value">${b.reason || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">希望築年数</span>
-                                <span class="buyer-info-value">${b.buildingAge || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">希望間取り</span>
-                                <span class="buyer-info-value">${b.layout || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">希望土地面積</span>
-                                <span class="buyer-info-value">${b.landArea || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">駅徒歩</span>
-                                <span class="buyer-info-value">${b.walkingDistance || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
-                                <span class="buyer-info-label">NG条件</span>
-                                <span class="buyer-info-value">${b.ng || '特になし'}</span>
-                            </div>
-                        </div>
-                        <div class="buyer-action">
-                            <button class="contact-buyer-btn" onclick="contactBuyer(${displayIdx})">この購入希望者を紹介してほしい</button>
-                        </div>
+// Filter buyers by land area and walking distance
+function filterBuyersByConditions(buyers, landArea, walkingDistance) {
+    return buyers.filter(buyer => {
+        // Check land area condition
+        const buyerLandArea = buyer.landArea || '';
+        const landAreaMatch = checkLandAreaMatch(buyerLandArea, landArea);
+
+        // Check walking distance condition
+        const buyerWalkingDistance = buyer.walkingDistance || '';
+        const walkingDistanceMatch = checkWalkingDistanceMatch(buyerWalkingDistance, walkingDistance);
+
+        return landAreaMatch && walkingDistanceMatch;
+    });
+}
+
+// Check if buyer's land area matches the selected condition
+function checkLandAreaMatch(buyerLandArea, selectedLandArea) {
+    if (!selectedLandArea) return true;
+
+    // Extract numeric values from buyer's land area (e.g., "100㎡以上" -> 100)
+    const buyerAreaMatch = buyerLandArea.match(/(\d+)/);
+    if (!buyerAreaMatch) return false;
+
+    const buyerArea = parseInt(buyerAreaMatch[1]);
+
+    // Parse selected land area (e.g., "100㎡以上", "100~150㎡", "150㎡以下")
+    if (selectedLandArea.includes('以上')) {
+        const minArea = parseInt(selectedLandArea.match(/(\d+)/)[1]);
+        return buyerArea >= minArea;
+    } else if (selectedLandArea.includes('以下')) {
+        const maxArea = parseInt(selectedLandArea.match(/(\d+)/)[1]);
+        return buyerArea <= maxArea;
+    } else if (selectedLandArea.includes('~')) {
+        const [min, max] = selectedLandArea.match(/(\d+)~(\d+)/).slice(1, 3).map(Number);
+        return buyerArea >= min && buyerArea <= max;
+    } else {
+        // Exact match
+        return buyerLandArea === selectedLandArea;
+    }
+}
+
+// Check if buyer's walking distance matches the selected condition
+function checkWalkingDistanceMatch(buyerWalkingDistance, selectedWalkingDistance) {
+    if (!selectedWalkingDistance) return true;
+
+    // Extract numeric values from buyer's walking distance (e.g., "10分以内" -> 10)
+    const buyerDistanceMatch = buyerWalkingDistance.match(/(\d+)/);
+    if (!buyerDistanceMatch) return false;
+
+    const buyerDistance = parseInt(buyerDistanceMatch[1]);
+
+    // Parse selected walking distance (e.g., "5分以内", "10分以内", "15分以内")
+    const selectedDistanceMatch = selectedWalkingDistance.match(/(\d+)/);
+    if (!selectedDistanceMatch) return false;
+
+    const selectedDistance = parseInt(selectedDistanceMatch[1]);
+
+    return buyerDistance <= selectedDistance;
+}
+
+// Display buyer results in modal
+function displayBuyerResults(buyers, title, type) {
+    const modal = document.getElementById('buyerModal');
+    const titleEl = document.getElementById('modalTitle');
+    const subtitle = document.getElementById('modalSubtitle');
+    const cards = document.getElementById('buyerCards');
+
+    if (titleEl) titleEl.textContent = title;
+    if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
+
+    if (cards) {
+        const totalBuyers = buyers.length;
+        const sortedBuyers = sortBuyersByBadges(buyers, type);
+
+        cards.innerHTML = sortedBuyers.map(({ buyer: b, originalIndex }, displayIdx) => {
+            const displayTiming = normalizeTimingLabel(b.timing || '-');
+            const badges = renderBuyerBadges(type, originalIndex, totalBuyers, displayTiming);
+            const highlightClass = hasBothBadges(type, originalIndex, totalBuyers, displayTiming) ? ' highlight-card' : '';
+
+            // Build buyer info rows based on type
+            let infoRows = `
+                <div class="buyer-info-row">
+                    <span class="buyer-info-label">家族構成</span>
+                    <span class="buyer-info-value">${b.family || '-'}</span>
+                </div>
+                <div class="buyer-info-row">
+                    <span class="buyer-info-label">年齢</span>
+                    <span class="buyer-info-value">${b.age || '-'}</span>
+                </div>
+                <div class="buyer-info-row">
+                    <span class="buyer-info-label">職業</span>
+                    <span class="buyer-info-value">${b.occupation || '-'}</span>
+                </div>
+                <div class="buyer-info-row">
+                    <span class="buyer-info-label">購入時期</span>
+                    <span class="buyer-info-value">${displayTiming}</span>
+                </div>
+                <div class="buyer-info-row">
+                    <span class="buyer-info-label">購入方法</span>
+                    <span class="buyer-info-value">${b.method || '-'}</span>
+                </div>
+                <div class="buyer-info-row">
+                    <span class="buyer-info-label">購入理由</span>
+                    <span class="buyer-info-value">${b.reason || '-'}</span>
+                </div>
+            `;
+
+            if (type === 'house') {
+                infoRows += `
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">希望築年数</span>
+                        <span class="buyer-info-value">${b.buildingAge || '-'}</span>
+                    </div>
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">希望間取り</span>
+                        <span class="buyer-info-value">${b.layout || '-'}</span>
                     </div>
                 `;
-                }).join('');
+            } else if (type === 'land') {
+                infoRows += `
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">利用目的</span>
+                        <span class="buyer-info-value">${b.purpose || '-'}</span>
+                    </div>
+                `;
             }
 
-            modal.classList.add('active');
+            infoRows += `
+                <div class="buyer-info-row">
+                    <span class="buyer-info-label">希望土地面積</span>
+                    <span class="buyer-info-value">${b.landArea || '-'}</span>
+                </div>
+                <div class="buyer-info-row">
+                    <span class="buyer-info-label">駅徒歩</span>
+                    <span class="buyer-info-value">${b.walkingDistance || '-'}</span>
+                </div>
+                <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
+                    <span class="buyer-info-label">NG条件</span>
+                    <span class="buyer-info-value">${b.ng || '特になし'}</span>
+                </div>
+            `;
 
-            const footer = document.getElementById('buyerFooter');
-            if (footer && window.innerWidth <= 768) {
-                footer.style.display = 'block';
-            }
-        } catch (error) {
-            console.error('データ読み込みエラー:', error);
-            alert(`${searchLocation} に対応する戸建の購入希望者は見つかりませんでした。`);
-        }
-    });
+            return `
+                <div class="buyer-block${highlightClass}">
+                    <div class="buyer-block-header">
+                        <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
+                        ${badges}
+                    </div>
+                    <div class="buyer-info-table">
+                        ${infoRows}
+                    </div>
+                    <div class="buyer-action">
+                        <button class="contact-buyer-btn" onclick="contactBuyer(${displayIdx})">この購入希望者を紹介してほしい</button>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    modal.classList.add('active');
+
+    const footer = document.getElementById('buyerFooter');
+    if (footer && window.innerWidth <= 768) {
+        footer.style.display = 'block';
+    }
 }
 
 function initializeLandSearch() {
@@ -776,130 +1097,17 @@ function initializeLandSearch() {
     if (!form) return;
     form.addEventListener('submit', async e => {
         e.preventDefault();
-        const pref = document.getElementById('land-prefecture').value.trim();
-        const city = document.getElementById('land-city').value.trim();
-        const town = document.getElementById('land-town').value.trim();
-        const railway = document.getElementById('land-railway').value.trim();
-        const line = document.getElementById('land-line').value.trim();
-        const station = document.getElementById('land-station').value.trim();
 
-        let jsonPath = '';
-        let searchLocation = '';
+        // Check search method (station vs area)
+        const stationMethodBtn = document.getElementById('land-method-station');
+        const isStationSearch = stationMethodBtn && stationMethodBtn.classList.contains('active');
 
-        // エリア検索
-        if (pref && city) {
-            jsonPath = `./data/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
-            searchLocation = town ? `${pref} ${city} ${town}` : `${pref} ${city}`;
-        }
-        // 駅検索
-        else if (railway && station) {
-            jsonPath = `./data/land/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
-            searchLocation = `${railway} ${line} ${station}`;
+        if (isStationSearch) {
+            // Multi-railway station search
+            await performMultiRailwaySearch('land');
         } else {
-            alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
-            return;
-        }
-
-        try {
-            const response = await fetch(jsonPath);
-            if (!response.ok) {
-                throw new Error('ファイルが見つかりません');
-            }
-            const buyers = await response.json();
-
-            if (!buyers || buyers.length === 0) {
-                alert(`${searchLocation} に対応する土地の購入希望者は見つかりませんでした。`);
-                return;
-            }
-
-            const modal = document.getElementById('buyerModal');
-            const title = document.getElementById('modalTitle');
-            const subtitle = document.getElementById('modalSubtitle');
-            const cards = document.getElementById('buyerCards');
-
-            if (title) title.textContent = `${searchLocation} の土地`;
-            if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
-
-            if (cards) {
-                const totalBuyers = buyers.length;
-                const sortedBuyers = sortBuyersByBadges(buyers, 'land');
-
-                cards.innerHTML = sortedBuyers.map(({ buyer: b, originalIndex }, displayIdx) => {
-                    const displayTiming = normalizeTimingLabel(b.timing || '-');
-                    const badges = renderBuyerBadges('land', originalIndex, totalBuyers, displayTiming);
-
-                    // 急ぎ＋新着の両方がある場合にハイライトクラスを付与
-                    const highlightClass = hasBothBadges('land', originalIndex, totalBuyers, displayTiming) ? ' highlight-card' : '';
-
-                    return `
-                    <div class="buyer-block${highlightClass}">
-                        <div class="buyer-block-header">
-                            <span class="buyer-number">購入希望者 #${displayIdx + 1}</span>
-                            ${badges}
-                        </div>
-                        <div class="buyer-info-table">
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">家族構成</span>
-                                <span class="buyer-info-value">${b.family || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">年齢</span>
-                                <span class="buyer-info-value">${b.age || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">職業</span>
-                                <span class="buyer-info-value">${b.occupation || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入時期</span>
-                                <span class="buyer-info-value">${displayTiming}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入方法</span>
-                                <span class="buyer-info-value">${b.method || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入理由</span>
-                                <span class="buyer-info-value">${b.reason || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">利用目的</span>
-                                <span class="buyer-info-value">${b.purpose || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">希望土地面積</span>
-                                <span class="buyer-info-value">${b.landArea || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">駅徒歩</span>
-                                <span class="buyer-info-value">${b.walkingDistance || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">NG条件</span>
-                                <span class="buyer-info-value">${b.ng || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">ID</span>
-                                <span class="buyer-info-value">${b.id || '-'}</span>
-                            </div>
-                        </div>
-                        <div class="buyer-action">
-                            <button class="contact-buyer-btn" onclick="contactBuyer(${displayIdx})">この購入希望者を紹介してほしい</button>
-                        </div>
-                    </div>
-                `;
-                }).join('');
-            }
-
-            modal.classList.add('active');
-
-            const footer = document.getElementById('buyerFooter');
-            if (footer && window.innerWidth <= 768) {
-                footer.style.display = 'block';
-            }
-        } catch (error) {
-            console.error('データ読み込みエラー:', error);
-            alert(`${searchLocation} に対応する土地の購入希望者は見つかりませんでした。`);
+            // Area search (existing logic)
+            await performAreaSearch('land');
         }
     });
 }

@@ -786,8 +786,13 @@ function initializeMansionSearch() {
 
 function initializeHouseSearch() {
     const form = document.getElementById('tab-house');
-    if (!form) return;
+    console.log('initializeHouseSearch: フォーム要素', form);
+    if (!form) {
+        console.error('initializeHouseSearch: フォーム要素が見つかりません');
+        return;
+    }
     form.addEventListener('submit', async e => {
+        console.log('戸建フォーム送信イベント発火');
         e.preventDefault();
 
         // Check search method (station vs area)
@@ -806,13 +811,16 @@ function initializeHouseSearch() {
 
 // Perform area search for house/land
 async function performAreaSearch(type) {
-    const pref = document.getElementById(`${type}-prefecture`).value.trim();
-    const city = document.getElementById(`${type}-city`).value.trim();
-    const town = document.getElementById(`${type}-town`).value.trim();
+    console.log('=== performAreaSearch 開始 ===', type);
+    const pref = document.getElementById(`${type}-prefecture`)?.value.trim();
+    const city = document.getElementById(`${type}-city`)?.value.trim();
+    const town = document.getElementById(`${type}-town`)?.value.trim();
 
     // Get detail conditions
     const landArea = document.getElementById(`${type}-area-land-area`)?.value.trim();
     const walkingDistance = document.getElementById(`${type}-area-walking-distance`)?.value.trim();
+
+    console.log('選択値:', { pref, city, town, landArea, walkingDistance });
 
     if (!pref || !city) {
         alert('都道府県と市区町村を選択してください。');
@@ -1149,8 +1157,13 @@ function displayBuyerResults(buyers, title, type) {
 
 function initializeLandSearch() {
     const form = document.getElementById('tab-land');
-    if (!form) return;
+    console.log('initializeLandSearch: フォーム要素', form);
+    if (!form) {
+        console.error('initializeLandSearch: フォーム要素が見つかりません');
+        return;
+    }
     form.addEventListener('submit', async e => {
+        console.log('土地フォーム送信イベント発火');
         e.preventDefault();
 
         // Check search method (station vs area)

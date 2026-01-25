@@ -840,10 +840,14 @@ async function performAreaSearch(type) {
         }
 
         // Filter by land area and walking distance
+        console.log(`検索条件 - 土地面積: ${landArea}, 駅徒歩: ${walkingDistance}`);
+        console.log(`取得データ件数: ${buyers.length}件`);
+
         const filteredBuyers = filterBuyersByConditions(buyers, landArea, walkingDistance);
+        console.log(`フィルタ後: ${filteredBuyers.length}件`);
 
         if (filteredBuyers.length === 0) {
-            alert('指定された条件に合う購入希望者は見つかりませんでした。');
+            alert(`指定された条件に合う購入希望者は見つかりませんでした。\n\n取得データ: ${buyers.length}件\nフィルタ後: 0件\n\n条件を変更してお試しください。`);
             return;
         }
 
@@ -923,10 +927,15 @@ async function performMultiRailwaySearch(type) {
         }
 
         // Filter by land area and walking distance
+        console.log(`検索条件 - 土地面積: ${landArea}, 駅徒歩: ${walkingDistance}`);
+        console.log(`取得データ件数: ${mergedBuyers.length}件`);
+
         const filteredBuyers = filterBuyersByConditions(mergedBuyers, landArea, walkingDistance);
+        console.log(`フィルタ後: ${filteredBuyers.length}件`);
 
         if (filteredBuyers.length === 0) {
-            alert('指定された条件に合う購入希望者は見つかりませんでした。');
+            const stationNames = railways.map(r => r.station).join('・');
+            alert(`指定された条件に合う購入希望者は見つかりませんでした。\n\n取得データ: ${mergedBuyers.length}件\nフィルタ後: 0件\n\n条件を変更してお試しください。`);
             return;
         }
 
@@ -959,45 +968,70 @@ function filterBuyersByConditions(buyers, landArea, walkingDistance) {
 // Check if buyer's land area matches the selected condition
 function checkLandAreaMatch(buyerLandArea, selectedLandArea) {
     if (!selectedLandArea) return true;
+    if (!buyerLandArea || buyerLandArea === '特に希望なし') return true; // 希望なしの場合は全てマッチ
+
+    // Normalize tildes (全角〜 to 半角~)
+    const normalizedBuyerArea = buyerLandArea.replace(/〜/g, '~');
+    const normalizedSelectedArea = selectedLandArea.replace(/〜/g, '~');
 
     // Extract numeric values from buyer's land area (e.g., "100㎡以上" -> 100)
-    const buyerAreaMatch = buyerLandArea.match(/(\d+)/);
+    const buyerAreaMatch = normalizedBuyerArea.match(/(\d+)/);
     if (!buyerAreaMatch) return false;
 
     const buyerArea = parseInt(buyerAreaMatch[1]);
 
     // Parse selected land area (e.g., "100㎡以上", "100~150㎡", "150㎡以下")
-    if (selectedLandArea.includes('以上')) {
-        const minArea = parseInt(selectedLandArea.match(/(\d+)/)[1]);
+    if (normalizedSelectedArea.includes('以上')) {
+        const minArea = parseInt(normalizedSelectedArea.match(/(\d+)/)[1]);
         return buyerArea >= minArea;
-    } else if (selectedLandArea.includes('以下')) {
-        const maxArea = parseInt(selectedLandArea.match(/(\d+)/)[1]);
+    } else if (normalizedSelectedArea.includes('以下')) {
+        const maxArea = parseInt(normalizedSelectedArea.match(/(\d+)/)[1]);
         return buyerArea <= maxArea;
-    } else if (selectedLandArea.includes('~')) {
-        const [min, max] = selectedLandArea.match(/(\d+)~(\d+)/).slice(1, 3).map(Number);
+    } else if (normalizedSelectedArea.includes('~')) {
+        const matches = normalizedSelectedArea.match(/(\d+)~(\d+)/);
+        if (!matches) return false;
+        const min = parseInt(matches[1]);
+        const max = parseInt(matches[2]);
         return buyerArea >= min && buyerArea <= max;
     } else {
         // Exact match
-        return buyerLandArea === selectedLandArea;
+        return normalizedBuyerArea === normalizedSelectedArea;
     }
 }
 
 // Check if buyer's walking distance matches the selected condition
 function checkWalkingDistanceMatch(buyerWalkingDistance, selectedWalkingDistance) {
     if (!selectedWalkingDistance) return true;
+    if (!buyerWalkingDistance || buyerWalkingDistance === '特に希望なし') return true; // 希望なしの場合は全てマッチ
 
-    // Extract numeric values from buyer's walking distance (e.g., "10分以内" -> 10)
+    // Extract numeric values from buyer's walking distance (e.g., "駅徒歩10分以内" -> 10)
     const buyerDistanceMatch = buyerWalkingDistance.match(/(\d+)/);
     if (!buyerDistanceMatch) return false;
 
     const buyerDistance = parseInt(buyerDistanceMatch[1]);
 
-    // Parse selected walking distance (e.g., "5分以内", "10分以内", "15分以内")
+    // Parse selected walking distance (e.g., "駅徒歩10分以内", "駅徒歩11〜15分")
     const selectedDistanceMatch = selectedWalkingDistance.match(/(\d+)/);
     if (!selectedDistanceMatch) return false;
 
     const selectedDistance = parseInt(selectedDistanceMatch[1]);
 
+    // If buyer wants "21分以上", match with any selected distance
+    if (buyerWalkingDistance.includes('以上')) {
+        return true;
+    }
+
+    // If selected is a range (e.g., "11〜15分"), check if buyer is within or below
+    if (selectedWalkingDistance.includes('〜')) {
+        const rangeMatch = selectedWalkingDistance.match(/(\d+)〜(\d+)/);
+        if (rangeMatch) {
+            const min = parseInt(rangeMatch[1]);
+            const max = parseInt(rangeMatch[2]);
+            return buyerDistance <= max;
+        }
+    }
+
+    // Standard comparison: buyer's requirement should be within selected distance
     return buyerDistance <= selectedDistance;
 }
 

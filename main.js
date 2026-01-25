@@ -95,12 +95,14 @@ function updateStats(type) {
         database = houseDatabase;
         // 戸建は購入希望者ベース（各要素が購入希望者）
         totalBuyers = database.length;
-        totalProperties = database.length; // 購入希望者数と同じ
+        // 対応物件数 = エリア数（207）+ 駅数（812）= 1,019
+        totalProperties = 1019;
     } else if (type === 'land') {
         database = landDatabase;
         // 土地は購入希望者ベース（各要素が購入希望者）
         totalBuyers = database.length;
-        totalProperties = database.length; // 購入希望者数と同じ
+        // 対応物件数 = エリア数（207）+ 駅数（927）= 1,134
+        totalProperties = 1134;
     } else {
         database = mansionDatabase;
         totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);

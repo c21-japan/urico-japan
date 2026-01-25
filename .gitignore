@@ -43,8 +43,25 @@ logs/
 client/
 
 # ============================================================
+# 大量データファイル（Cloudflare R2で管理）
+# ============================================================
+# 戸建・土地のpartファイル（約945MB）はR2から動的読み込み
+data/house/part*.js
+data/land/part*.js
+
+# 一時ファイル
+gemini.js
+generate_town_data.js
+list_models.js
+voice-kodate-content.html
+voice-tochi-content.html
+
+# IDE設定
+.vscode/
+
+# ============================================================
 # 以下は追跡する（明示的にコメント）
 # ============================================================
 # コード・アプリ: index.html, main.js, mansion_app.js, styles.css, public/, lib/, src/, scripts/
-# 生成ルール: README_*.md, CLAUDE_CLI_USAGE.md, genspark_prompts.md, REWRITE_PROMPT.md, SITE_DESCRIPTION_PROMPT.md, prompts/
-# 確定データ: mansion_db.js, house_db.js, land_db.js, data/*/part*.js, area_data.json, area_town_data.json, station_town_mapping.json, occupation_list.json, data/area_registered*.csv, kinki_master.json
+# 生成ルール: README_*.md, CLAUDE_CLI_USAGE.md, genspark_prompts.md, REWRITE_PROMPT.md, SITE_DESCRIPTION_PROMPT.md, prompts/, R2_SETUP.md, PERFORMANCE_SUMMARY.md
+# 確定データ: mansion_db.js, house_db.js, land_db.js（インポート構造のみ）, area_data.json, area_town_data.json, station_town_mapping.json, occupation_list.json, data/area_registered*.csv, kinki_master.json

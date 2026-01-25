@@ -15,7 +15,9 @@
     "generate:update": "node scripts/update_main_files.js",
     "generate:all": "npm run generate:jobs && npm run generate:run && npm run generate:convert && npm run generate:update",
     "generate:static": "node scripts/generate_static_pages.mjs",
-    "build": "node scripts/generate_static_pages.mjs"
+    "generate:static:incremental": "node scripts/generate_static_incremental.mjs",
+    "generate:static:by-pref": "./scripts/generate_by_prefecture.sh",
+    "build": "./scripts/generate_by_prefecture.sh"
   },
   "keywords": [],
   "author": "",

@@ -819,13 +819,18 @@ async function performAreaSearch(type) {
         return;
     }
 
+    if (!town) {
+        alert('町名・大字を選択してください。');
+        return;
+    }
+
     if (!landArea || !walkingDistance) {
         alert('土地面積と駅徒歩を選択してください。');
         return;
     }
 
-    const jsonPath = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/data/${type}/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
-    const searchLocation = town ? `${pref} ${city} ${town}` : `${pref} ${city}`;
+    const jsonPath = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/data/${type}/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.json`;
+    const searchLocation = `${pref} ${city} ${town}`;
 
     try {
         const response = await fetch(jsonPath);

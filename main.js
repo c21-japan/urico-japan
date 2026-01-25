@@ -96,14 +96,14 @@ function updateStats(type) {
         database = houseDatabase;
         // 戸建は購入希望者ベース（各要素が購入希望者）
         totalBuyers = database.length;
-        // 対応物件数 = エリア数（207）+ 駅数（812）= 1,019
-        totalProperties = 1019;
+        // 対応物件数 = 5府県の町名・大字の総計（19,322）
+        totalProperties = 19322;
     } else if (type === 'land') {
         database = landDatabase;
         // 土地は購入希望者ベース（各要素が購入希望者）
         totalBuyers = database.length;
-        // 対応物件数 = エリア数（207）+ 駅数（927）= 1,134
-        totalProperties = 1134;
+        // 対応物件数 = 5府県の町名・大字の総計（19,322）
+        totalProperties = 19322;
     } else {
         database = mansionDatabase;
         totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);

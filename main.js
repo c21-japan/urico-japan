@@ -825,7 +825,7 @@ async function performAreaSearch(type) {
         return;
     }
 
-    const jsonPath = `./data/${type}/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
+    const jsonPath = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/data/${type}/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
     const searchLocation = town ? `${pref} ${city} ${town}` : `${pref} ${city}`;
 
     try {
@@ -887,7 +887,7 @@ async function performMultiRailwaySearch(type) {
     try {
         // Fetch data from all selected stations
         const fetchPromises = railways.map(({ company, line, station }) => {
-            const jsonPath = `./data/${type}/station/${encodeURIComponent(company)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
+            const jsonPath = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/data/${type}/station/${encodeURIComponent(company)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
             return fetch(jsonPath)
                 .then(response => {
                     if (!response.ok) {

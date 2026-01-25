@@ -785,15 +785,14 @@ function initializeMansionSearch() {
 }
 
 function initializeHouseSearch() {
-    const form = document.getElementById('tab-house');
-    console.log('initializeHouseSearch: フォーム要素', form);
-    if (!form) {
-        console.error('initializeHouseSearch: フォーム要素が見つかりません');
+    const searchButton = document.getElementById('searchButtonHouse');
+    console.log('initializeHouseSearch: 検索ボタン', searchButton);
+    if (!searchButton) {
+        console.error('initializeHouseSearch: 検索ボタンが見つかりません');
         return;
     }
-    form.addEventListener('submit', async e => {
-        console.log('戸建フォーム送信イベント発火');
-        e.preventDefault();
+    searchButton.addEventListener('click', async () => {
+        console.log('戸建検索ボタンクリック');
 
         // Check search method (station vs area)
         const stationMethodBtn = document.getElementById('house-method-station');
@@ -1156,15 +1155,14 @@ function displayBuyerResults(buyers, title, type) {
 }
 
 function initializeLandSearch() {
-    const form = document.getElementById('tab-land');
-    console.log('initializeLandSearch: フォーム要素', form);
-    if (!form) {
-        console.error('initializeLandSearch: フォーム要素が見つかりません');
+    const searchButton = document.getElementById('searchButtonLand');
+    console.log('initializeLandSearch: 検索ボタン', searchButton);
+    if (!searchButton) {
+        console.error('initializeLandSearch: 検索ボタンが見つかりません');
         return;
     }
-    form.addEventListener('submit', async e => {
-        console.log('土地フォーム送信イベント発火');
-        e.preventDefault();
+    searchButton.addEventListener('click', async () => {
+        console.log('土地検索ボタンクリック');
 
         // Check search method (station vs area)
         const stationMethodBtn = document.getElementById('land-method-station');

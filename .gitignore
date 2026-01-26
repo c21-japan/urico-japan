@@ -67,3 +67,4 @@ voice-tochi-content.html
 # コード・アプリ: index.html, main.js, mansion_app.js, styles.css, public/, lib/, src/, scripts/
 # 生成ルール: README_*.md, CLAUDE_CLI_USAGE.md, genspark_prompts.md, REWRITE_PROMPT.md, SITE_DESCRIPTION_PROMPT.md, prompts/, R2_SETUP.md, PERFORMANCE_SUMMARY.md
 # 確定データ: mansion_db.js, house_db.js, land_db.js（インポート構造のみ）, area_data.json, area_town_data.json, station_town_mapping.json, occupation_list.json, data/area_registered*.csv, kinki_master.json
+.vercel

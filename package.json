@@ -36,5 +36,8 @@
   "homepage": "https://github.com/c21-japan/urico-japan#readme",
   "dependencies": {
     "@google/generative-ai": "^0.24.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.60.0"
   }
 }

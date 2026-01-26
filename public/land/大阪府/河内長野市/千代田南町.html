@@ -36,7 +36,38 @@
         <h1>大阪府 河内長野市 千代田南町 土地</h1>
         <p>購入希望者 24件</p>
     </div>
-    <div class="container">
+    
+    <!-- フィルタリングUI -->
+    <div class="container" style="margin-bottom: 1rem;">
+        <div style="background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.08);">
+            <h3 style="color: #667eea; margin-bottom: 1rem; font-size: 1.2rem;">🔍 条件で絞り込む</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div>
+                    <label style="display: block; margin-bottom: 0.5rem; color: #666; font-weight: 500;">土地面積</label>
+                    <select id="filterLandArea" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 5px; font-size: 0.9rem;">
+                        <option value="">すべて</option>
+                        <option value="〜50㎡">〜50㎡</option>
+                        <option value="51〜150㎡">51〜150㎡</option>
+                        <option value="151〜300㎡">151〜300㎡</option>
+                        <option value="301㎡以上">301㎡以上</option>
+                    </select>
+                </div>
+                <div>
+                    <label style="display: block; margin-bottom: 0.5rem; color: #666; font-weight: 500;">駅徒歩</label>
+                    <select id="filterWalkingDistance" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 5px; font-size: 0.9rem;">
+                        <option value="">すべて</option>
+                        <option value="駅徒歩10分以内">10分以内</option>
+                        <option value="駅徒歩11〜15分">11〜15分</option>
+                        <option value="駅徒歩16〜20分">16〜20分</option>
+                        <option value="駅徒歩21分以上">21分以上</option>
+                    </select>
+                </div>
+            </div>
+            <button id="searchButton" style="width: 100%; padding: 0.75rem; margin-top: 1rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(102,126,234,0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">🔍 検索</button>
+            <div id="filterResult" style="margin-top: 1rem; color: #667eea; font-weight: 600;"></div>
+        </div>
+    </div>
+<div class="container">
         <div style="background: white; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem;">
             <h2 style="color: #667eea; margin-bottom: 0.5rem;">📊 購入希望者情報</h2>
             <p>このエリアの土地には<strong>24件</strong>の購入希望者がいます。</p>
@@ -60,7 +91,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">地盤が弱い</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -80,7 +111,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -100,7 +131,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">地盤が弱い</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -120,7 +151,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">水害リスクエリア</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -140,7 +171,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -160,7 +191,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -180,7 +211,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">地盤が弱い</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -200,7 +231,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">水害リスクエリア</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -220,7 +251,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -240,7 +271,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">接道不良</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -260,7 +291,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">高圧線下</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -280,7 +311,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -300,7 +331,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">水害リスクエリア</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -320,7 +351,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">市街化調整区域</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -340,7 +371,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -360,7 +391,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">水害リスクエリア</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -380,7 +411,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">傾斜地</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -400,7 +431,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">地盤が弱い</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -420,7 +451,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">市街化調整区域</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -440,7 +471,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -460,7 +491,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -480,7 +511,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">市街化調整区域</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -500,7 +531,7 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div>
         <div class="buyer-card">
             <div class="buyer-header">
@@ -520,8 +551,110 @@
                 
                 <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span></div>
             </div>
-            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
         </div></div>
     </div>
+
+    <script>
+        (function() {
+            const cards = Array.from(document.querySelectorAll('.buyer-card'));
+            const filterLandArea = document.getElementById('filterLandArea');
+            const filterWalkingDistance = document.getElementById('filterWalkingDistance');
+            const filterResult = document.getElementById('filterResult');
+
+            function applyFilters() {
+                const selectedLandArea = filterLandArea.value;
+                const selectedWalkingDistance = filterWalkingDistance.value;
+
+                let visibleCount = 0;
+
+                cards.forEach(card => {
+                    const landAreaText = card.querySelector('.info-row .label:contains("土地面積")')?.nextElementSibling?.textContent || '';
+                    const walkingDistanceText = card.querySelector('.info-row .label:contains("駅徒歩")')?.nextElementSibling?.textContent || '';
+
+                    // より正確な検索のために、すべての情報行を取得
+                    const infoRows = card.querySelectorAll('.info-row');
+                    let cardLandArea = '';
+                    let cardWalkingDistance = '';
+
+                    infoRows.forEach(row => {
+                        const label = row.querySelector('.label')?.textContent || '';
+                        const value = row.querySelector('.value')?.textContent || '';
+                        if (label.includes('土地面積')) cardLandArea = value;
+                        if (label.includes('駅徒歩')) cardWalkingDistance = value;
+                    });
+
+                    let showCard = true;
+
+                    // 土地面積フィルター
+                    if (selectedLandArea && cardLandArea && cardLandArea !== '特に希望なし') {
+                        showCard = matchesCondition(cardLandArea, selectedLandArea, 'landArea');
+                    }
+
+                    // 駅徒歩フィルター
+                    if (showCard && selectedWalkingDistance && cardWalkingDistance && cardWalkingDistance !== '特に希望なし') {
+                        showCard = matchesCondition(cardWalkingDistance, selectedWalkingDistance, 'walking');
+                    }
+
+                    card.style.display = showCard ? 'block' : 'none';
+                    if (showCard) visibleCount++;
+                });
+
+                filterResult.textContent = `${visibleCount}件の購入希望者が見つかりました`;
+            }
+
+            function matchesCondition(buyerValue, selectedValue, type) {
+                if (type === 'landArea') {
+                    // 購入希望者の値から数値を抽出
+                    const buyerMatch = buyerValue.match(/(\d+)/);
+                    if (!buyerMatch) return false;
+                    const buyerArea = parseInt(buyerMatch[1]);
+
+                    // 選択された条件を解析
+                    if (selectedValue === '〜50㎡') {
+                        return buyerArea <= 50;
+                    } else if (selectedValue === '51〜150㎡') {
+                        return buyerArea >= 51 && buyerArea <= 150;
+                    } else if (selectedValue === '151〜300㎡') {
+                        return buyerArea >= 151 && buyerArea <= 300;
+                    } else if (selectedValue === '301㎡以上') {
+                        return buyerArea >= 301;
+                    }
+                } else if (type === 'walking') {
+                    // 購入希望者の値から数値を抽出
+                    const buyerMatch = buyerValue.match(/(\d+)/);
+                    if (!buyerMatch) return false;
+                    const buyerDistance = parseInt(buyerMatch[1]);
+
+                    // 選択された条件を解析
+                    if (selectedValue === '駅徒歩10分以内') {
+                        return buyerDistance <= 10;
+                    } else if (selectedValue === '駅徒歩11〜15分') {
+                        return buyerDistance >= 11 && buyerDistance <= 15;
+                    } else if (selectedValue === '駅徒歩16〜20分') {
+                        return buyerDistance >= 16 && buyerDistance <= 20;
+                    } else if (selectedValue === '駅徒歩21分以上') {
+                        return buyerDistance >= 21;
+                    }
+                }
+                return true;
+            }
+
+            // Contains polyfill for querySelector
+            if (!Element.prototype.matches) {
+                Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
+            }
+
+            // 検索ボタンのイベントリスナーを追加
+            const searchButton = document.getElementById('searchButton');
+            if (searchButton) {
+                searchButton.addEventListener('click', applyFilters);
+            }
+
+            // 初期表示
+            filterResult.textContent = `${cards.length}件の購入希望者が見つかりました`;
+        })();
+    </script>
+
 </body>
 </html>

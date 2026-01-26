@@ -412,13 +412,71 @@ function setupSearchMethodToggle(prefix) {
         areaBtn.classList.remove('active');
         stationSearch.style.display = 'block';
         areaSearch.style.display = 'none';
+        // エリア検索のプルダウンをクリア
+        clearAreaSelects(prefix);
     });
     areaBtn.addEventListener('click', () => {
         areaBtn.classList.add('active');
         stationBtn.classList.remove('active');
         areaSearch.style.display = 'block';
         stationSearch.style.display = 'none';
+        // 駅検索のプルダウンをクリア
+        clearStationSelects(prefix);
     });
+}
+
+// エリア検索のプルダウンをクリア
+function clearAreaSelects(prefix) {
+    const prefSelect = document.getElementById(`${prefix}-prefecture`);
+    const citySelect = document.getElementById(`${prefix}-city`);
+    const townSelect = document.getElementById(`${prefix}-town`);
+
+    if (prefSelect) prefSelect.value = '';
+    if (citySelect) {
+        citySelect.value = '';
+        citySelect.innerHTML = '<option value="">先に都道府県を選択してください</option>';
+        citySelect.disabled = true;
+    }
+    if (townSelect) {
+        townSelect.value = '';
+        townSelect.innerHTML = '<option value="">先に市区町村を選択してください</option>';
+        townSelect.disabled = true;
+    }
+}
+
+// 駅検索のプルダウンをクリア
+function clearStationSelects(prefix) {
+    // 第1路線をクリア
+    for (let i = 1; i <= 3; i++) {
+        const companySelect = document.getElementById(`${prefix}-railway${i}-company`);
+        const lineSelect = document.getElementById(`${prefix}-railway${i}-line`);
+        const stationSelect = document.getElementById(`${prefix}-railway${i}-station`);
+
+        if (companySelect) companySelect.value = '';
+        if (lineSelect) {
+            lineSelect.value = '';
+            lineSelect.innerHTML = '<option value="">選択してください</option>';
+            lineSelect.disabled = true;
+        }
+        if (stationSelect) {
+            stationSelect.value = '';
+            stationSelect.innerHTML = '<option value="">先に沿線名を選択してください</option>';
+            stationSelect.disabled = true;
+        }
+    }
+
+    // 第2・第3路線のグループを閉じる
+    const railway2Group = document.getElementById(`${prefix}-railway2-group`);
+    const railway3Group = document.getElementById(`${prefix}-railway3-group`);
+    const railway2Toggle = document.getElementById(`${prefix}-railway2-toggle`);
+    const railway3Toggle = document.getElementById(`${prefix}-railway3-toggle`);
+    const railway3ToggleWrapper = document.getElementById(`${prefix}-railway3-toggle-wrapper`);
+
+    if (railway2Group) railway2Group.style.display = 'none';
+    if (railway3Group) railway3Group.style.display = 'none';
+    if (railway2Toggle) railway2Toggle.style.display = 'inline-block';
+    if (railway3Toggle) railway3Toggle.style.display = 'inline-block';
+    if (railway3ToggleWrapper) railway3ToggleWrapper.style.display = 'none';
 }
 
 function setup3TierRailwaySelect(prefix) {
@@ -900,18 +958,9 @@ async function performMultiRailwaySearch(type) {
         }
     }
 
-    // Get detail conditions
-    const landArea = document.getElementById(`${type}-land-area`)?.value.trim();
-    const walkingDistance = document.getElementById(`${type}-walking-distance`)?.value.trim();
-
-    // Validation: railway1 and detail conditions must be filled
+    // Validation: at least railway1 must be filled
     if (railways.length === 0) {
-        alert('最低1つの路線を選択してください。');
-        return;
-    }
-
-    if (!landArea || !walkingDistance) {
-        alert('土地面積と駅徒歩を選択してください。');
+        alert('第1路線会社・沿線・駅を選択してください。');
         return;
     }
 
@@ -954,24 +1003,13 @@ async function performMultiRailwaySearch(type) {
             return;
         }
 
-        // Filter by land area and walking distance
-        console.log(`検索条件 - 土地面積: ${landArea}, 駅徒歩: ${walkingDistance}`);
         console.log(`取得データ件数: ${mergedBuyers.length}件`);
-
-        const filteredBuyers = filterBuyersByConditions(mergedBuyers, landArea, walkingDistance);
-        console.log(`フィルタ後: ${filteredBuyers.length}件`);
-
-        if (filteredBuyers.length === 0) {
-            const stationNames = railways.map(r => r.station).join('・');
-            alert(`指定された条件に合う購入希望者は見つかりませんでした。\n\n取得データ: ${mergedBuyers.length}件\nフィルタ後: 0件\n\n条件を変更してお試しください。`);
-            return;
-        }
 
         // Create title with station names
         const stationNames = railways.map(r => r.station).join('・');
         const title = `${stationNames}周辺の${type === 'house' ? '戸建' : '土地'}`;
 
-        displayBuyerResults(filteredBuyers, title, type);
+        displayBuyerResults(mergedBuyers, title, type);
     } catch (error) {
         console.error('データ読み込みエラー:', error);
         alert('データの読み込みに失敗しました。');
@@ -1393,40 +1431,68 @@ function initializeSimulator() {
 window.searchHouse = function() {
     console.log('★ searchHouse() 呼び出し');
 
-    const pref = document.getElementById('house-prefecture')?.value?.trim();
-    const city = document.getElementById('house-city')?.value?.trim();
-    const town = document.getElementById('house-town')?.value?.trim();
+    // 駅検索とエリア検索のどちらが表示されているか確認
+    const stationSearch = document.getElementById('house-station-search');
+    const areaSearch = document.getElementById('house-area-search');
+    const isStationSearch = stationSearch && stationSearch.style.display !== 'none';
+    const isAreaSearch = areaSearch && areaSearch.style.display !== 'none';
 
-    console.log('選択値:', { pref, city, town });
+    console.log('検索モード - 駅検索:', isStationSearch, 'エリア検索:', isAreaSearch);
 
-    if (!pref || !city || !town) {
-        alert('都道府県、市区町村、町名を選択してください。');
-        return;
+    if (isStationSearch) {
+        // 駅から探す場合
+        performMultiRailwaySearch('house');
+    } else {
+        // エリアから探す場合
+        const pref = document.getElementById('house-prefecture')?.value?.trim();
+        const city = document.getElementById('house-city')?.value?.trim();
+        const town = document.getElementById('house-town')?.value?.trim();
+
+        console.log('選択値:', { pref, city, town });
+
+        if (!pref || !city || !town) {
+            alert('都道府県、市区町村、町名を選択してください。');
+            return;
+        }
+
+        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        console.log('リダイレクト先:', url);
+        window.location.href = url;
     }
-
-    const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
-    console.log('リダイレクト先:', url);
-    window.location.href = url;
 };
 
 // 土地検索
 window.searchLand = function() {
     console.log('★ searchLand() 呼び出し');
 
-    const pref = document.getElementById('land-prefecture')?.value?.trim();
-    const city = document.getElementById('land-city')?.value?.trim();
-    const town = document.getElementById('land-town')?.value?.trim();
+    // 駅検索とエリア検索のどちらが表示されているか確認
+    const stationSearch = document.getElementById('land-station-search');
+    const areaSearch = document.getElementById('land-area-search');
+    const isStationSearch = stationSearch && stationSearch.style.display !== 'none';
+    const isAreaSearch = areaSearch && areaSearch.style.display !== 'none';
 
-    console.log('選択値:', { pref, city, town });
+    console.log('検索モード - 駅検索:', isStationSearch, 'エリア検索:', isAreaSearch);
 
-    if (!pref || !city || !town) {
-        alert('都道府県、市区町村、町名を選択してください。');
-        return;
+    if (isStationSearch) {
+        // 駅から探す場合
+        performMultiRailwaySearch('land');
+    } else {
+        // エリアから探す場合
+        const pref = document.getElementById('land-prefecture')?.value?.trim();
+        const city = document.getElementById('land-city')?.value?.trim();
+        const town = document.getElementById('land-town')?.value?.trim();
+
+        console.log('選択値:', { pref, city, town });
+
+        if (!pref || !city || !town) {
+            alert('都道府県、市区町村、町名を選択してください。');
+            return;
+        }
+
+        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        console.log('リダイレクト先:', url);
+        window.location.href = url;
     }
-
-    const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
-    console.log('リダイレクト先:', url);
-    window.location.href = url;
 };
 
 console.log('★ グローバル検索関数を登録完了: searchHouse, searchLand');

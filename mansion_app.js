@@ -90,30 +90,11 @@ window.searchMansions = function(){
 }
 
 window.showBuyerDetails = function(mansionName){
-  const mansion = mansionDatabase.find(m => m.name === mansionName);
-  if (!mansion) return;
-  const title = document.getElementById('modalTitle');
-  const subtitle = document.getElementById('modalSubtitle');
-  const cards = document.getElementById('buyerCards');
-  if (title) title.textContent = mansion.name;
-  if (subtitle) subtitle.textContent = `${(mansion.buyers||[]).length}名の購入希望者`;
-  if (cards) {
-    cards.innerHTML = (mansion.buyers||[]).map((b, idx) => `
-      <div class="buyer-card">
-        ${idx === 0 ? '<div class="buyer-badge">最高額</div>' : ''}
-        <div class="buyer-price">${b.price || ''}</div>
-        <div class="buyer-details">
-          <div class="buyer-detail"><span class="buyer-detail-icon">👨‍👩‍👧</span><span class="buyer-detail-text">${b.family || ''}</span></div>
-          <div class="buyer-detail"><span class="buyer-detail-icon">💼</span><span class="buyer-detail-text">${b.occupation || ''}</span></div>
-          <div class="buyer-detail"><span class="buyer-detail-icon">📅</span><span class="buyer-detail-text">${b.timing || ''}</span></div>
-          <div class="buyer-detail"><span class="buyer-detail-icon">💳</span><span class="buyer-detail-text">${b.method || ''}</span></div>
-          <div class="buyer-detail"><span class="buyer-detail-icon">🎯</span><span class="buyer-detail-text">${b.reason || ''}</span></div>
-          <div class="buyer-detail"><span class="buyer-detail-icon">🎂</span><span class="buyer-detail-text">${b.age || ''}</span></div>
-        </div>
-        <button class="contact-buyer-btn" onclick="contactBuyer('${(b.id or idx)}')">この購入希望者に売却相談する</button>
-      </div>`).join('');
-  }
-  document.getElementById('buyerModal')?.classList.add('active');
+  // HTMLページへリダイレクト
+  const safeName = mansionName.replace(/[\/\\?%*:|"<>]/g, '_');
+  const r2BaseUrl = 'https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev';
+  const htmlUrl = `${r2BaseUrl}/mansion/${encodeURIComponent(safeName)}.html`;
+  window.location.href = htmlUrl;
 }
 
 window.closeModal = function(){

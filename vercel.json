@@ -45,6 +45,15 @@
       ]
     },
     {
+      "source": "/main.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300"
+        }
+      ]
+    },
+    {
       "source": "/(.*)\\.js",
       "headers": [
         {

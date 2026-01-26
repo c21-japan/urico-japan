@@ -1431,18 +1431,18 @@ function initializeSimulator() {
 window.searchHouse = function() {
     console.log('★ searchHouse() 呼び出し');
 
-    // 駅検索とエリア検索のどちらが表示されているか確認
-    const stationSearch = document.getElementById('house-station-search');
-    const areaSearch = document.getElementById('house-area-search');
-    const isStationSearch = stationSearch && stationSearch.style.display !== 'none';
-    const isAreaSearch = areaSearch && areaSearch.style.display !== 'none';
+    // 駅検索とエリア検索のどちらが選択されているかをボタンのactiveクラスで確認
+    const stationBtn = document.getElementById('house-method-station');
+    const areaBtn = document.getElementById('house-method-area');
+    const isStationSearch = stationBtn && stationBtn.classList.contains('active');
+    const isAreaSearch = areaBtn && areaBtn.classList.contains('active');
 
     console.log('検索モード - 駅検索:', isStationSearch, 'エリア検索:', isAreaSearch);
 
     if (isStationSearch) {
         // 駅から探す場合
         performMultiRailwaySearch('house');
-    } else {
+    } else if (isAreaSearch) {
         // エリアから探す場合
         const pref = document.getElementById('house-prefecture')?.value?.trim();
         const city = document.getElementById('house-city')?.value?.trim();
@@ -1465,18 +1465,18 @@ window.searchHouse = function() {
 window.searchLand = function() {
     console.log('★ searchLand() 呼び出し');
 
-    // 駅検索とエリア検索のどちらが表示されているか確認
-    const stationSearch = document.getElementById('land-station-search');
-    const areaSearch = document.getElementById('land-area-search');
-    const isStationSearch = stationSearch && stationSearch.style.display !== 'none';
-    const isAreaSearch = areaSearch && areaSearch.style.display !== 'none';
+    // 駅検索とエリア検索のどちらが選択されているかをボタンのactiveクラスで確認
+    const stationBtn = document.getElementById('land-method-station');
+    const areaBtn = document.getElementById('land-method-area');
+    const isStationSearch = stationBtn && stationBtn.classList.contains('active');
+    const isAreaSearch = areaBtn && areaBtn.classList.contains('active');
 
     console.log('検索モード - 駅検索:', isStationSearch, 'エリア検索:', isAreaSearch);
 
     if (isStationSearch) {
         // 駅から探す場合
         performMultiRailwaySearch('land');
-    } else {
+    } else if (isAreaSearch) {
         // エリアから探す場合
         const pref = document.getElementById('land-prefecture')?.value?.trim();
         const city = document.getElementById('land-city')?.value?.trim();

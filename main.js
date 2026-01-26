@@ -1431,18 +1431,31 @@ function initializeSimulator() {
 window.searchHouse = function() {
     console.log('★ searchHouse() 呼び出し');
 
-    // 駅検索とエリア検索のどちらが表示されているか確認
-    const stationSearch = document.getElementById('house-station-search');
-    const areaSearch = document.getElementById('house-area-search');
-    const isStationSearch = stationSearch && stationSearch.style.display !== 'none';
-    const isAreaSearch = areaSearch && areaSearch.style.display !== 'none';
+    // 駅検索とエリア検索のどちらが選択されているかをボタンのactiveクラスで確認
+    const stationBtn = document.getElementById('house-method-station');
+    const areaBtn = document.getElementById('house-method-area');
+    const isStationSearch = stationBtn && stationBtn.classList.contains('active');
+    const isAreaSearch = areaBtn && areaBtn.classList.contains('active');
 
     console.log('検索モード - 駅検索:', isStationSearch, 'エリア検索:', isAreaSearch);
 
     if (isStationSearch) {
-        // 駅から探す場合
-        performMultiRailwaySearch('house');
-    } else {
+        // 駅から探す場合 - HTMLページにリダイレクト
+        const company = document.getElementById('house-railway1-company')?.value?.trim();
+        const line = document.getElementById('house-railway1-line')?.value?.trim();
+        const station = document.getElementById('house-railway1-station')?.value?.trim();
+
+        console.log('駅選択値:', { company, line, station });
+
+        if (!company || !line || !station) {
+            alert('第1路線会社・沿線・駅を選択してください。');
+            return;
+        }
+
+        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/station/${encodeURIComponent(company)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.html`;
+        console.log('リダイレクト先:', url);
+        window.location.href = url;
+    } else if (isAreaSearch) {
         // エリアから探す場合
         const pref = document.getElementById('house-prefecture')?.value?.trim();
         const city = document.getElementById('house-city')?.value?.trim();
@@ -1465,18 +1478,31 @@ window.searchHouse = function() {
 window.searchLand = function() {
     console.log('★ searchLand() 呼び出し');
 
-    // 駅検索とエリア検索のどちらが表示されているか確認
-    const stationSearch = document.getElementById('land-station-search');
-    const areaSearch = document.getElementById('land-area-search');
-    const isStationSearch = stationSearch && stationSearch.style.display !== 'none';
-    const isAreaSearch = areaSearch && areaSearch.style.display !== 'none';
+    // 駅検索とエリア検索のどちらが選択されているかをボタンのactiveクラスで確認
+    const stationBtn = document.getElementById('land-method-station');
+    const areaBtn = document.getElementById('land-method-area');
+    const isStationSearch = stationBtn && stationBtn.classList.contains('active');
+    const isAreaSearch = areaBtn && areaBtn.classList.contains('active');
 
     console.log('検索モード - 駅検索:', isStationSearch, 'エリア検索:', isAreaSearch);
 
     if (isStationSearch) {
-        // 駅から探す場合
-        performMultiRailwaySearch('land');
-    } else {
+        // 駅から探す場合 - HTMLページにリダイレクト
+        const company = document.getElementById('land-railway1-company')?.value?.trim();
+        const line = document.getElementById('land-railway1-line')?.value?.trim();
+        const station = document.getElementById('land-railway1-station')?.value?.trim();
+
+        console.log('駅選択値:', { company, line, station });
+
+        if (!company || !line || !station) {
+            alert('第1路線会社・沿線・駅を選択してください。');
+            return;
+        }
+
+        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/station/${encodeURIComponent(company)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.html`;
+        console.log('リダイレクト先:', url);
+        window.location.href = url;
+    } else if (isAreaSearch) {
         // エリアから探す場合
         const pref = document.getElementById('land-prefecture')?.value?.trim();
         const city = document.getElementById('land-city')?.value?.trim();

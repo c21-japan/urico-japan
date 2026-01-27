@@ -41,7 +41,7 @@ const DATA_DIR = path.join(PROJECT_ROOT, 'data');
  * HTMLテンプレート
  */
 function generateHTML(title, subtitle, buyers, type, location = '') {
-    const buyerCards = buyers.map((buyer, index) => {
+    const buyerCardsArray = buyers.map((buyer, index) => {
         const isUrgent = ['即時', '1ヶ月以内'].includes(buyer.timing);
         const isNew = index < Math.ceil(buyers.length * 0.1); // 上位10%を新着
         const badges = [];
@@ -107,7 +107,125 @@ function generateHTML(title, subtitle, buyers, type, location = '') {
             <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
         </div>
         `;
-    }).join('');
+    });
+
+    // 説明コンテンツ
+    const explainerHTML = `
+    <div class="buyer-info-explainer">
+        <div class="explainer-header">
+            <div class="explainer-title">
+                サイト掲載情報<span class="highlight">だけではない</span><br>
+                URICOの強み
+            </div>
+            <div class="explainer-subtitle">
+                URICOでは、このページに掲載されている購入希望者情報に加えて、<br class="pc-only">
+                <strong>サイトに掲載されていない購入希望者</strong>もご紹介できる可能性があります。
+            </div>
+        </div>
+
+        <div class="diagram-container">
+            <div class="diagram-title">💡 URICOのマッチング体制</div>
+
+            <div class="flow-diagram">
+                <div class="flow-row">
+                    <div class="flow-box">
+                        <div class="flow-box-label">関西1,629社の不動産会社</div>
+                        <div class="flow-box-text">購入希望者データベース</div>
+                        <div class="flow-box-subtext">多忙により登録が追いつかない情報も多数</div>
+                    </div>
+                </div>
+
+                <div class="arrow-down">
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 5 L20 30 M20 30 L13 23 M20 30 L27 23"
+                              stroke="#4ECDC4" stroke-width="3" fill="none"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="flow-row">
+                    <div class="flow-box highlight">
+                        <div class="flow-box-label">このページ</div>
+                        <div class="flow-box-text">掲載されている<br>購入希望者情報</div>
+                    </div>
+                    <div class="flow-arrow">
+                        <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                            <text x="15" y="18" text-anchor="middle" font-size="18" fill="#666">+</text>
+                        </svg>
+                    </div>
+                    <div class="flow-box">
+                        <div class="flow-box-label">まだ登録されていない</div>
+                        <div class="flow-box-text">未掲載の<br>購入希望者情報</div>
+                    </div>
+                </div>
+
+                <div class="arrow-down">
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 5 L20 30 M20 30 L13 23 M20 30 L27 23"
+                              stroke="#4ECDC4" stroke-width="3" fill="none"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="flow-row">
+                    <div class="flow-box urico">
+                        <div class="flow-box-label">URICOスタッフが</div>
+                        <div class="flow-box-text">各不動産会社へ直接ヒアリング<br>& マッチング判断</div>
+                    </div>
+                </div>
+
+                <div class="arrow-down">
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 5 L20 30 M20 30 L13 23 M20 30 L27 23"
+                              stroke="#FF6B6B" stroke-width="3" fill="none"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="flow-row">
+                    <div class="flow-box highlight">
+                        <div class="flow-box-label">✨ 結果</div>
+                        <div class="flow-box-text">より多くの購入希望者を<br>売主様へご紹介</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="explainer-body">
+            <div class="explainer-section">
+                <span class="section-label">💼 業界の現状</span>
+                <div class="section-text">
+                    不動産業界では高齢化や日常業務の多忙さにより、保有している購入希望者情報をサイトに登録する時間が十分に取れない不動産会社も少なくありません。
+                </div>
+            </div>
+
+            <div class="explainer-section">
+                <span class="section-label">🤝 URICOの取り組み</span>
+                <div class="section-text">
+                    URICOスタッフは、各加盟店と密に連絡を取り合い、掲載されていない購入希望者情報についても直接ヒアリングを実施。お客様の物件とマッチングできると判断した場合、積極的にご紹介を行っています。
+                </div>
+            </div>
+        </div>
+
+        <div class="merit-section">
+            <div class="merit-title">
+                <span class="merit-icon">🎯</span>
+                あなたにとってのメリット
+            </div>
+            <ul class="merit-list">
+                <li>サイト掲載の購入希望者に加え、未掲載の情報も紹介される可能性</li>
+                <li>100万組のデータベースを活かした幅広いマッチング機会</li>
+                <li>URICOスタッフによる丁寧なマッチングサポート</li>
+            </ul>
+        </div>
+    </div>
+    `;
+
+    // 購入希望者カードの半分の位置に説明コンテンツを挿入
+    const halfIndex = Math.floor(buyerCardsArray.length / 2);
+    const firstHalf = buyerCardsArray.slice(0, halfIndex).join('');
+    const secondHalf = buyerCardsArray.slice(halfIndex).join('');
+    const buyerCards = firstHalf + explainerHTML + secondHalf;
 
     return `<!DOCTYPE html>
 <html lang="ja">
@@ -269,11 +387,232 @@ function generateHTML(title, subtitle, buyers, type, location = '') {
                 font-size: 1.5rem;
             }
         }
+
+        /* 購入希望者情報説明コンテンツ */
+        .buyer-info-explainer {
+            background: linear-gradient(135deg, #f7f9f9 0%, #ffffff 100%);
+            border: 2px solid #4ECDC4;
+            border-radius: 16px;
+            padding: 32px 24px;
+            margin: 32px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            grid-column: 1 / -1;
+        }
+        .explainer-header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .explainer-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #2C3E50;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .explainer-title .highlight {
+            color: #FF6B6B;
+            font-size: 24px;
+        }
+        .explainer-subtitle {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.7;
+        }
+        .explainer-body {
+            margin: 28px 0;
+        }
+        .explainer-section {
+            margin-bottom: 24px;
+        }
+        .section-label {
+            display: inline-block;
+            background: #FF6B6B;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        .section-text {
+            font-size: 14px;
+            color: #2C3E50;
+            line-height: 1.8;
+            padding-left: 8px;
+        }
+        .diagram-container {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 24px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .diagram-title {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #2C3E50;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #4ECDC4;
+        }
+        .flow-diagram {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .flow-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .flow-box {
+            flex: 1;
+            background: #f7f9f9;
+            border: 2px solid #4ECDC4;
+            border-radius: 10px;
+            padding: 16px 12px;
+            text-align: center;
+            position: relative;
+        }
+        .flow-box.highlight {
+            background: linear-gradient(135deg, #FFE5E5 0%, #FFF0F0 100%);
+            border-color: #FF6B6B;
+        }
+        .flow-box.urico {
+            background: linear-gradient(135deg, #E5F9F7 0%, #F0FCFB 100%);
+            border-color: #4ECDC4;
+        }
+        .flow-box-label {
+            font-size: 11px;
+            color: #666;
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+        .flow-box-text {
+            font-size: 13px;
+            font-weight: bold;
+            color: #2C3E50;
+            line-height: 1.4;
+        }
+        .flow-box-subtext {
+            font-size: 11px;
+            color: #666;
+            margin-top: 4px;
+        }
+        .flow-arrow {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            flex-shrink: 0;
+        }
+        .flow-arrow svg {
+            width: 100%;
+            height: 100%;
+        }
+        .arrow-down {
+            margin: 8px auto;
+            width: 40px;
+            height: 40px;
+        }
+        .merit-section {
+            background: linear-gradient(135deg, #E5F9F7 0%, #F0FCFB 100%);
+            border-left: 4px solid #4ECDC4;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 24px;
+        }
+        .merit-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2C3E50;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .merit-icon {
+            font-size: 20px;
+        }
+        .merit-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .merit-list li {
+            font-size: 14px;
+            color: #2C3E50;
+            line-height: 1.8;
+            padding-left: 24px;
+            position: relative;
+            margin-bottom: 8px;
+        }
+        .merit-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4ECDC4;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .buyer-info-explainer {
+                padding: 24px 16px;
+                margin: 24px 0;
+            }
+            .explainer-title {
+                font-size: 18px;
+            }
+            .explainer-title .highlight {
+                font-size: 20px;
+            }
+            .explainer-subtitle {
+                font-size: 14px;
+            }
+            .diagram-container {
+                padding: 16px;
+            }
+            .diagram-title {
+                font-size: 14px;
+            }
+            .flow-row {
+                flex-direction: column;
+                gap: 8px;
+            }
+            .flow-arrow {
+                transform: rotate(90deg);
+                margin: 0;
+            }
+            .arrow-down {
+                width: 30px;
+                height: 30px;
+            }
+            .flow-box {
+                width: 100%;
+                padding: 14px 10px;
+            }
+            .flow-box-text {
+                font-size: 12px;
+            }
+            .flow-box-subtext {
+                font-size: 10px;
+            }
+            .section-text {
+                font-size: 13px;
+            }
+            .merit-title {
+                font-size: 14px;
+            }
+            .merit-list li {
+                font-size: 13px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <a href="/index.html" class="back-link">← トップページに戻る</a>
+        <a href="https://www.urico.app/" class="back-link">← トップページに戻る</a>
         <h1>${title}</h1>
         <p>${subtitle}</p>
     </div>

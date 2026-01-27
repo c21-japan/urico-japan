@@ -10,19 +10,14 @@ const __dirname = dirname(__filename);
 
 const DATA_DIR = join(__dirname, '..', 'data', 'sources', 'ikura');
 const PAGES_DIR = join(DATA_DIR, 'pages');
-const CONCURRENCY = 3;
-const DELAY_MIN = 200;
-const DELAY_MAX = 400;
+const CONCURRENCY = 1; // 順次処理（並列なし）
+const PAGE_DELAY = 6000; // 各ページ間隔: 6秒
 const MAX_RETRIES = 3;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function randomDelay() {
-  const delay = Math.floor(Math.random() * (DELAY_MAX - DELAY_MIN + 1)) + DELAY_MIN;
-  return sleep(delay);
-}
 
 async function fetchWithRetry(url, retries = MAX_RETRIES) {
   for (let i = 0; i < retries; i++) {
@@ -126,9 +121,6 @@ async function processPage(link) {
   const outputPath = join(PAGES_DIR, `${slug}.json`);
 
   try {
-    // レート制限のため遅延
-    await randomDelay();
-
     const html = await fetchWithRetry(link.url);
     const content = extractMainContent(html);
 
@@ -241,15 +233,46 @@ async function main() {
 
     console.log(`Found ${crawlLinks.length} pages to crawl\n`);
 
-    // サンプルデータ生成モード（実サイトにアクセスできない場合）
-    console.log('⚠ Generating sample data (site unavailable)\n');
+    // 実クロールモードかサンプルデータ生成モードか判定
+    const useSampleData = process.env.USE_SAMPLE_DATA === 'true';
 
-    for (const link of crawlLinks) {
-      const slug = urlToSlug(link.url);
-      const pageData = generateSamplePageData(link);
-      const outputPath = join(PAGES_DIR, `${slug}.json`);
-      await writeFile(outputPath, JSON.stringify(pageData, null, 2));
-      console.log(`✓ Generated sample: ${slug}.json`);
+    if (useSampleData) {
+      // サンプルデータ生成モード
+      console.log('⚠ Generating sample data (USE_SAMPLE_DATA=true)\n');
+
+      for (const link of crawlLinks) {
+        const slug = urlToSlug(link.url);
+        const pageData = generateSamplePageData(link);
+        const outputPath = join(PAGES_DIR, `${slug}.json`);
+        await writeFile(outputPath, JSON.stringify(pageData, null, 2));
+        console.log(`✓ Generated sample: ${slug}.json`);
+      }
+    } else {
+      // 実サイトクロールモード
+      console.log(`🕷️  Real crawling mode (${PAGE_DELAY / 1000}s interval between pages)\n`);
+
+      const limit = pLimit(CONCURRENCY);
+      const results = [];
+
+      for (let i = 0; i < crawlLinks.length; i++) {
+        const link = crawlLinks[i];
+        console.log(`\n[${i + 1}/${crawlLinks.length}] Processing: ${link.text}`);
+
+        const result = await processPage(link);
+        results.push(result);
+
+        // 最後のページ以外は6秒待機
+        if (i < crawlLinks.length - 1) {
+          console.log(`  ⏱️  Waiting ${PAGE_DELAY / 1000}s before next page...\n`);
+          await sleep(PAGE_DELAY);
+        }
+      }
+
+      const successful = results.filter(r => r.success).length;
+      const failed = results.filter(r => !r.success).length;
+
+      console.log(`\n✓ Crawling complete!`);
+      console.log(`  Success: ${successful}, Failed: ${failed}`);
     }
 
     console.log('\n✓ All pages processed!');

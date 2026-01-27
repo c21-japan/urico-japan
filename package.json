@@ -18,7 +18,8 @@
     "generate:static:incremental": "node scripts/generate_static_incremental.mjs",
     "generate:static:by-pref": "./scripts/generate_by_prefecture.sh",
     "generate:faq": "node scripts/generate-urico-faq-from-ikura.mjs",
-    "crawl:ikura": "node scripts/crawl-ikura-pages.mjs",
+    "crawl:ikura": "USE_SAMPLE_DATA=true node scripts/crawl-ikura-pages.mjs",
+    "crawl:ikura:real": "node scripts/crawl-ikura-pages.mjs",
     "build": "./scripts/generate_by_prefecture.sh"
   },
   "keywords": [],

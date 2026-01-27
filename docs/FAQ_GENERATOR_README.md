@@ -17,12 +17,14 @@
 - 結果を `data/sources/ikura/links.json` に保存
 
 #### ページ取得・本文抽出 (`scripts/crawl-ikura-pages.mjs`)
-- リンク一覧からページを順次取得
+- リンク一覧からページを**順次**取得（並列なし）
+- **各ページ間隔: 6秒待機**（サーバー負荷を考慮）
 - レート制限、リトライ、タイムアウトを実装
 - 本文領域を抽出（`<main>`, `<article>`, または本文推定）
 - ノイズ（ヘッダー、ナビ、フッター等）を除去
 - 見出し構造とテキストを保存
 - 結果を `data/sources/ikura/pages/*.json` に保存
+- サンプルデータ生成モードと実クロールモードを切り替え可能
 
 ### 2. FAQ生成スクリプト (`scripts/generate-urico-faq-from-ikura.mjs`)
 
@@ -62,11 +64,14 @@
 # ページデータ収集（サンプルデータ生成）
 npm run crawl:ikura
 
+# 実サイトからクロール（6秒間隔）
+npm run crawl:ikura:real
+
 # FAQ生成
 npm run generate:faq
 
-# または両方を順次実行
-npm run crawl:ikura && npm run generate:faq
+# 完全なフロー（実クロール → FAQ生成）
+npm run crawl:ikura:real && npm run generate:faq
 ```
 
 ### 手動実行
@@ -75,7 +80,10 @@ npm run crawl:ikura && npm run generate:faq
 # 1. フッターリンク抽出
 node scripts/crawl-ikura-footer-links.mjs
 
-# 2. ページ取得
+# 2. ページ取得（サンプルデータ）
+USE_SAMPLE_DATA=true node scripts/crawl-ikura-pages.mjs
+
+# 2. ページ取得（実クロール・6秒間隔）
 node scripts/crawl-ikura-pages.mjs
 
 # 3. FAQ生成
@@ -144,9 +152,10 @@ vercel --prod --yes
 ### 安全対策
 - robots.txt の尊重（実装推奨）
 - User-Agent の明示: "URICO Research Bot (for FAQ generation)"
-- レート制限: 最大3並列、200-400msのジッター
+- レート制限: **順次処理（並列なし）、各ページ間隔6秒**
 - リトライ: 指数バックオフで最大3回
 - タイムアウト: 10秒
+- サーバー負荷を最小限に抑える設計
 
 ### 文章生成ポリシー
 - 原文の長文コピーは禁止

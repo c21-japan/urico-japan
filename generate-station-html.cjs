@@ -75,11 +75,6 @@ function generateStationHTML(data) {
     // 共通フィールド
     if (buyer.landArea) infoRows.push(`<div class="info-row"><span class="label">土地面積</span><span class="value">${buyer.landArea}</span></div>`);
 
-    // 駅徒歩はマンションのみ表示（戸建・土地では非表示）
-    if (type === 'mansion' && buyer.walkingDistance) {
-      infoRows.push(`<div class="info-row"><span class="label">駅徒歩</span><span class="value">${buyer.walkingDistance}</span></div>`);
-    }
-
     // NG条件（黄色背景）
     if (buyer.ng && buyer.ng !== '特になし') {
       infoRows.push(`<div class="info-row ng"><span class="label">NG条件</span><span class="value">${buyer.ng}</span></div>`);
@@ -263,7 +258,7 @@ function generateStationHTML(data) {
 </head>
 <body>
     <div class="header">
-        <a href="/index.html" class="back-link">← トップページに戻る</a>
+        <a href="https://www.urico.app/" class="back-link">← トップページに戻る</a>
         <h1>${company} ${line} ${station}駅 ${typeLabel}</h1>
         <p>購入希望者 ${buyersCount}件</p>
     </div>

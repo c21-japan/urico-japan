@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const PAGES_DIR = join(__dirname, '..', 'data', 'sources', 'ikura', 'pages');
+const PAGES_DIR = join(__dirname, '..', 'data', 'sources', 'external', 'pages');
 const OUTPUT_DIR = join(__dirname, '..', 'data', 'faq');
 const PUBLIC_DIR = join(__dirname, '..', 'public', 'faq');
 
@@ -431,7 +431,7 @@ async function main() {
 
     // 構造化JSONを保存
     await mkdir(OUTPUT_DIR, { recursive: true });
-    const jsonPath = join(OUTPUT_DIR, 'ikura_based_faq.json');
+    const jsonPath = join(OUTPUT_DIR, 'urico_faq.json');
     await writeFile(
       jsonPath,
       JSON.stringify(
@@ -449,7 +449,7 @@ async function main() {
 
     // HTMLページを生成
     await mkdir(PUBLIC_DIR, { recursive: true });
-    const htmlPath = join(PUBLIC_DIR, 'ikura-based.html');
+    const htmlPath = join(PUBLIC_DIR, 'index.html');
     const html = generateHTMLPage(organizedFaqs);
     await writeFile(htmlPath, html);
     console.log(`✓ HTML saved: ${htmlPath}`);

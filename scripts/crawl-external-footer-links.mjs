@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 // ベースURLはここで変更可能
 const BASE_URL = process.env.BASE_URL || 'https://ikura.estate/';
 const FOOTER_SELECTOR = 'div.Footer_second_column__lhab8';
-const OUTPUT_DIR = join(__dirname, '..', 'data', 'sources', 'ikura');
+const OUTPUT_DIR = join(__dirname, '..', 'data', 'sources', 'external');
 
 async function fetchHTML(url) {
   console.log(`Fetching: ${url}`);

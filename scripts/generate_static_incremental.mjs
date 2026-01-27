@@ -99,7 +99,7 @@ function generateHTML(title, subtitle, buyers, type) {
 </head>
 <body>
     <div class="header">
-        <a href="/index.html" class="back-link">← トップページに戻る</a>
+        <a href="https://www.urico.app/" class="back-link">← トップページに戻る</a>
         <h1>${title}</h1>
         <p>${subtitle}</p>
     </div>

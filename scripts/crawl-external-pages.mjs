@@ -8,7 +8,7 @@ import pLimit from 'p-limit';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const DATA_DIR = join(__dirname, '..', 'data', 'sources', 'ikura');
+const DATA_DIR = join(__dirname, '..', 'data', 'sources', 'external');
 const PAGES_DIR = join(DATA_DIR, 'pages');
 const CONCURRENCY = 1; // 順次処理（並列なし）
 const PAGE_DELAY = 6000; // 各ページ間隔: 6秒

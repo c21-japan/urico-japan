@@ -208,16 +208,24 @@ function parseClaudeOutput(output) {
   return JSON.parse(jsonStr);
 }
 
-// 検証関数（最小情報のみ版）
+// 検証関数（saiseisei3スキーマ対応版・土地用）
 function validateData(data, mode, params) {
   // 件数チェック
   if (data.length < 16 || data.length > 63) {
     return { valid: false, error: `件数が範囲外: ${data.length}件（16〜63件必須）` };
   }
-  
-  // 必須キーチェック（最小限の情報のみ）
-  const requiredKeys = ['id', 'type', 'scope', 'area', 'city', 'rail_company', 'line', 'station', 'timing'];
-  
+
+  // 必須キーチェック（saiseisei3の全キー・土地用）
+  const requiredKeys = [
+    'id', 'type', 'scope', 'area', 'city', 'rail_company', 'line', 'station',
+    'family', 'age', 'occupation', 'method',
+    'budgetLevel', 'budgetSensitivity',
+    'timing', 'timingReason',
+    'motivationCategory', 'currentResidence', 'loanStatus', 'areaFamiliarity', 'decisionMaker',
+    'reason', 'reasonDetail', 'ng', 'preferences', 'walkingDistance',
+    'landArea', 'purpose'
+  ];
+
   for (let i = 0; i < data.length; i++) {
     const item = data[i];
     for (const key of requiredKeys) {
@@ -225,29 +233,33 @@ function validateData(data, mode, params) {
         return { valid: false, error: `レコード${i + 1}: キー "${key}" が欠落` };
       }
     }
-    
-    // 詳細情報キーが存在する場合はエラー（非表示戦略）
-    const forbiddenKeys = ['price', 'walk_time', 'family', 'occupation', 'age', 'land_area', 'reason', 'ng', 'parking'];
+
+    // 土地に建物情報が含まれていないことをチェック
+    const forbiddenKeys = ['buildingArea', 'layout', 'buildingAge'];
     for (const key of forbiddenKeys) {
       if (key in item) {
-        return { valid: false, error: `レコード${i + 1}: "${key}" キーは不要（詳細情報は非表示にするため）` };
+        return { valid: false, error: `レコード${i + 1}: 土地なので "${key}" キーは禁止` };
       }
     }
   }
-  
+
   // 固定値チェック
   for (let i = 0; i < data.length; i++) {
     const item = data[i];
-    
+
     if (item.type !== '土地') {
       return { valid: false, error: `レコード${i + 1}: type="${item.type}" (正: "土地")` };
     }
-    
+
     if (item.scope !== mode) {
       return { valid: false, error: `レコード${i + 1}: scope="${item.scope}" (正: "${mode}")` };
     }
+
+    if (item.purpose !== '居住用') {
+      return { valid: false, error: `レコード${i + 1}: purpose="${item.purpose}" (正: "居住用")` };
+    }
   }
-  
+
   // 混在禁止チェック
   if (mode === 'area') {
     for (let i = 0; i < data.length; i++) {
@@ -270,7 +282,7 @@ function validateData(data, mode, params) {
       }
     }
   }
-  
+
   return { valid: true };
 }
 

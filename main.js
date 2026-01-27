@@ -274,7 +274,7 @@ window.showBuyerDetails = function(itemName, type = null) {
     const sortedBuyers = sortBuyersByBadges(buyers, itemType);
 
     if (cards) {
-        cards.innerHTML = sortedBuyers.map(({ buyer: b, originalIndex }, displayIdx) => {
+        const buyerCardsHTML = sortedBuyers.map(({ buyer: b, originalIndex }, displayIdx) => {
             // マンションの購入時期上書き（元のインデックスを使用）
             let displayTiming = b.timing || '-';
             if (itemType === 'mansion') {
@@ -334,7 +334,132 @@ window.showBuyerDetails = function(itemName, type = null) {
                     <button class="contact-buyer-btn" onclick="contactBuyer(${displayIdx})">この購入希望者を紹介してほしい</button>
                 </div>
             </div>
-        `}).join('');
+        `});
+
+        // 購入希望者情報説明コンテンツ
+        const explainerHTML = `
+        <div class="buyer-info-explainer">
+            <div class="explainer-header">
+                <div class="explainer-title">
+                    サイト掲載情報<span class="highlight">だけではない</span><br>
+                    URICOの強み
+                </div>
+                <div class="explainer-subtitle">
+                    URICOでは、このページに掲載されている購入希望者情報に加えて、<br class="pc-only">
+                    <strong>サイトに掲載されていない購入希望者</strong>もご紹介できる可能性があります。
+                </div>
+            </div>
+
+            <div class="diagram-container">
+                <div class="diagram-title">💡 URICOのマッチング体制</div>
+
+                <div class="flow-diagram">
+                    <!-- 1段目：不動産会社のデータベース -->
+                    <div class="flow-row">
+                        <div class="flow-box">
+                            <div class="flow-box-label">関西1,629社の不動産会社</div>
+                            <div class="flow-box-text">購入希望者データベース</div>
+                            <div class="flow-box-subtext">多忙により登録が追いつかない情報も多数</div>
+                        </div>
+                    </div>
+
+                    <!-- 矢印下 -->
+                    <div class="arrow-down">
+                        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 5 L20 30 M20 30 L13 23 M20 30 L27 23"
+                                  stroke="#4ECDC4" stroke-width="3" fill="none"
+                                  stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- 2段目：掲載情報と未掲載情報 -->
+                    <div class="flow-row">
+                        <div class="flow-box highlight">
+                            <div class="flow-box-label">このページ</div>
+                            <div class="flow-box-text">掲載されている<br>購入希望者情報</div>
+                        </div>
+                        <div class="flow-arrow">
+                            <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                <text x="15" y="18" text-anchor="middle" font-size="18" fill="#666">+</text>
+                            </svg>
+                        </div>
+                        <div class="flow-box">
+                            <div class="flow-box-label">まだ登録されていない</div>
+                            <div class="flow-box-text">未掲載の<br>購入希望者情報</div>
+                        </div>
+                    </div>
+
+                    <!-- 矢印下 -->
+                    <div class="arrow-down">
+                        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 5 L20 30 M20 30 L13 23 M20 30 L27 23"
+                                  stroke="#4ECDC4" stroke-width="3" fill="none"
+                                  stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- 3段目：URICOスタッフの活動 -->
+                    <div class="flow-row">
+                        <div class="flow-box urico">
+                            <div class="flow-box-label">URICOスタッフが</div>
+                            <div class="flow-box-text">各不動産会社へ直接ヒアリング<br>& マッチング判断</div>
+                        </div>
+                    </div>
+
+                    <!-- 矢印下 -->
+                    <div class="arrow-down">
+                        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 5 L20 30 M20 30 L13 23 M20 30 L27 23"
+                                  stroke="#FF6B6B" stroke-width="3" fill="none"
+                                  stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- 4段目：売主様へ -->
+                    <div class="flow-row">
+                        <div class="flow-box highlight">
+                            <div class="flow-box-label">✨ 結果</div>
+                            <div class="flow-box-text">より多くの購入希望者を<br>売主様へご紹介</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="explainer-body">
+                <div class="explainer-section">
+                    <span class="section-label">💼 業界の現状</span>
+                    <div class="section-text">
+                        不動産業界では高齢化や日常業務の多忙さにより、保有している購入希望者情報をサイトに登録する時間が十分に取れない不動産会社も少なくありません。
+                    </div>
+                </div>
+
+                <div class="explainer-section">
+                    <span class="section-label">🤝 URICOの取り組み</span>
+                    <div class="section-text">
+                        URICOスタッフは、各加盟店と密に連絡を取り合い、掲載されていない購入希望者情報についても直接ヒアリングを実施。お客様の物件とマッチングできると判断した場合、積極的にご紹介を行っています。
+                    </div>
+                </div>
+            </div>
+
+            <div class="merit-section">
+                <div class="merit-title">
+                    <span class="merit-icon">🎯</span>
+                    あなたにとってのメリット
+                </div>
+                <ul class="merit-list">
+                    <li>サイト掲載の購入希望者に加え、未掲載の情報も紹介される可能性</li>
+                    <li>100万組のデータベースを活かした幅広いマッチング機会</li>
+                    <li>URICOスタッフによる丁寧なマッチングサポート</li>
+                </ul>
+            </div>
+        </div>
+        `;
+
+        // 購入希望者カードの半分の位置に説明コンテンツを挿入
+        const halfIndex = Math.floor(buyerCardsHTML.length / 2);
+        const firstHalf = buyerCardsHTML.slice(0, halfIndex).join('');
+        const secondHalf = buyerCardsHTML.slice(halfIndex).join('');
+        cards.innerHTML = firstHalf + explainerHTML + secondHalf;
     }
 
     modal.classList.add('active');

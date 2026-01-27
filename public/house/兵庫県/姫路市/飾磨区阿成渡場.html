@@ -8,685 +8,957 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Noto Sans JP', sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
-        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; text-align: center; }
-        .header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-        .back-link { display: inline-block; margin: 1rem 0; color: white; text-decoration: none; padding: 0.5rem 1rem; background: rgba(255,255,255,0.2); border-radius: 5px; }
-        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
-        .buyer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem; }
-        .buyer-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
-        .buyer-header { display: flex; justify-content: space-between; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #f0f0f0; }
-        .buyer-header h3 { color: #667eea; font-size: 1.1rem; }
-        .badges { display: flex; gap: 0.5rem; }
-        .badge { padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
-        .badge-urgent { background: #ff6b6b; color: white; }
-        .badge-new { background: #4ecdc4; color: white; }
-        .buyer-info { display: grid; gap: 0.5rem; }
-        .info-row { display: grid; grid-template-columns: 100px 1fr; gap: 0.5rem; padding: 0.4rem 0; border-bottom: 1px solid #f5f5f5; font-size: 0.9rem; }
-        .info-row.ng { background: #fff9e6; padding: 0.6rem; border-radius: 5px; border: none; }
-        .label { color: #666; font-weight: 500; }
-        .value { color: #333; }
-        .contact-btn { width: 100%; padding: 1rem; margin-top: 1rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; }
-        @media (max-width: 768px) { .buyer-grid { grid-template-columns: 1fr; } }
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+        .back-link {
+            display: inline-block;
+            margin: 1rem 0;
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            background: rgba(255,255,255,0.2);
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .info-banner {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .info-banner h2 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        .buyer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+        .buyer-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .buyer-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        .buyer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .buyer-header h3 {
+            color: #667eea;
+            font-size: 1.1rem;
+        }
+        .badges {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .badge-urgent {
+            background: #ff6b6b;
+            color: white;
+        }
+        .badge-new {
+            background: #4ecdc4;
+            color: white;
+        }
+        .buyer-info {
+            display: grid;
+            gap: 0.75rem;
+        }
+        .info-row {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 1rem;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #f5f5f5;
+        }
+        .info-row.ng {
+            grid-column: 1 / -1;
+            grid-template-columns: 120px 1fr;
+            background: #fff9e6;
+            padding: 0.75rem;
+            border-radius: 5px;
+            border: none;
+            margin-top: 0.5rem;
+        }
+        .label {
+            color: #666;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        .value {
+            color: #333;
+            font-weight: 400;
+        }
+        .contact-btn {
+            width: 100%;
+            padding: 1rem;
+            margin-top: 1rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        @media (max-width: 768px) {
+            .buyer-grid {
+                grid-template-columns: 1fr;
+            }
+            .header h1 {
+                font-size: 1.5rem;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <a href="/" class="back-link">← トップページに戻る</a>
+        <a href="/index.html" class="back-link">← トップページに戻る</a>
         <h1>兵庫県 姫路市 飾磨区阿成渡場 戸建</h1>
         <p>購入希望者 17件</p>
-            </div>
-    
-    <!-- フィルタリングUI -->
-    <div class="container" style="margin-bottom: 1rem;">
-        <div style="background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.08);">
-            <h3 style="color: #667eea; margin-bottom: 1rem; font-size: 1.2rem;">🔍 条件で絞り込む</h3>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
-                <div>
-                    <label style="display: block; margin-bottom: 0.5rem; color: #666; font-weight: 500;">土地面積</label>
-                    <select id="filterLandArea" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 5px; font-size: 0.9rem;">
-                        <option value="">すべて</option>
-                        <option value="〜50㎡">〜50㎡</option>
-                        <option value="51〜150㎡">51〜150㎡</option>
-                        <option value="151〜300㎡">151〜300㎡</option>
-                        <option value="301㎡以上">301㎡以上</option>
-                    </select>
-                </div>
-                <div>
-                    <label style="display: block; margin-bottom: 0.5rem; color: #666; font-weight: 500;">駅徒歩</label>
-                    <select id="filterWalkingDistance" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 5px; font-size: 0.9rem;">
-                        <option value="">すべて</option>
-                        <option value="駅徒歩10分以内">10分以内</option>
-                        <option value="駅徒歩11〜15分">11〜15分</option>
-                        <option value="駅徒歩16〜20分">16〜20分</option>
-                        <option value="駅徒歩21分以上">21分以上</option>
-                    </select>
-                </div>
-            </div>
-            <button id="searchButton" style="width: 100%; padding: 0.75rem; margin-top: 1rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(102,126,234,0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">🔍 検索</button>
-            <div id="filterResult" style="margin-top: 1rem; color: #667eea; font-weight: 600;">
-            </div>
-            </div>
-            </div>
-<div class="container">
-        <div style="background: white; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem;">
-            <h2 style="color: #667eea; margin-bottom: 0.5rem;">📊 購入希望者情報</h2>
+    </div>
+
+    <div class="container">
+        <div class="info-banner">
+            <h2>📊 購入希望者情報</h2>
             <p>このエリアの戸建には<strong>17件</strong>の購入希望者がいます。</p>
-            </div>
+            <p style="margin-top: 0.5rem; color: #666;">お問い合わせいただければ、これらの購入希望者に物件情報をご紹介いたします。</p>
+        </div>
+
         <div class="buyer-grid">
+            
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #1</h3>
-                <div class="badges"><span class="badge badge-new">新着</span>
-            </div>
+                <div class="badges"><span class="badge badge-new">新着</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">単身</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">37歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">理学療法士・作業療法士</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">3ヶ月以内</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">親族の援助あり</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">ペットを飼いたい</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">単身</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">37歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">理学療法士・作業療法士</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">3ヶ月以内</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">親族の援助あり</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">ペットを飼いたい</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">151〜300㎡</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩11〜15分</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">151〜300㎡</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">接道不良</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">接道不良</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #2</h3>
-                <div class="badges"><span class="badge badge-new">新着</span>
-            </div>
+                <div class="badges"><span class="badge badge-new">新着</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供3人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">49歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">保育士・幼稚園教諭</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">6ヶ月以内</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">子供の学区</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供3人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">49歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">保育士・幼稚園教諭</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">6ヶ月以内</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">子供の学区</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">301㎡以上</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩11〜15分</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">301㎡以上</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">特になし</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #3</h3>
-                <div class="badges">
-            </div>
+                <div class="badges"></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">47歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">接客・サービス業</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">3ヶ月以内</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">親族の援助あり</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">実家の近く</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">47歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">接客・サービス業</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">3ヶ月以内</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">親族の援助あり</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">実家の近く</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">特に希望なし</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩10分以内</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">特に希望なし</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">墓地や葬儀場の近く</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">墓地や葬儀場の近く</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #4</h3>
-                <div class="badges">
-            </div>
+                <div class="badges"></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供3人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">31歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">研究職</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">良い物件があれば</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">戸建に住みたい</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供3人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">31歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">研究職</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">良い物件があれば</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">戸建に住みたい</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">〜50㎡</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩16〜20分</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">〜50㎡</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">特になし</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #5</h3>
-                <div class="badges"><span class="badge badge-urgent">急ぎ</span>
-            </div>
+                <div class="badges"><span class="badge badge-urgent">急ぎ</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">単身</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">25歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">美容師・理容師</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">即時</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">親族の援助あり</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">資産形成</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">単身</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">25歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">美容師・理容師</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">即時</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">親族の援助あり</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">資産形成</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">51〜150㎡</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">特に希望なし</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">51〜150㎡</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">再建築不可</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">再建築不可</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #6</h3>
-                <div class="badges">
-            </div>
+                <div class="badges"></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供3人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">44歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">自営業</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">3ヶ月以内</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">庭付きの家が欲しい</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供3人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">44歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">自営業</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">3ヶ月以内</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">庭付きの家が欲しい</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">特に希望なし</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩16〜20分</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">特に希望なし</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">特になし</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #7</h3>
-                <div class="badges">
-            </div>
+                <div class="badges"></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供3人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">34歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">介護士</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">3ヶ月以内</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">資産形成</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供3人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">34歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">介護士</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">3ヶ月以内</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">資産形成</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">特に希望なし</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩10分以内</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">特に希望なし</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">墓地や葬儀場の近く</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">墓地や葬儀場の近く</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #8</h3>
-                <div class="badges"><span class="badge badge-urgent">急ぎ</span>
-            </div>
+                <div class="badges"><span class="badge badge-urgent">急ぎ</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供1人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">31歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">公務員（地方公務員）</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">即時</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">戸建に住みたい</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供1人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">31歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">公務員（地方公務員）</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">即時</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">戸建に住みたい</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">301㎡以上</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">特に希望なし</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">301㎡以上</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">特になし</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #9</h3>
-                <div class="badges"><span class="badge badge-urgent">急ぎ</span>
-            </div>
+                <div class="badges"><span class="badge badge-urgent">急ぎ</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供1人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">31歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">理美容・エステ関連</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">即時</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">リモートワーク環境</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供1人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">31歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">理美容・エステ関連</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">即時</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">リモートワーク環境</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">151〜300㎡</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩11〜15分</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">151〜300㎡</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">水害リスクエリア</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">水害リスクエリア</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #10</h3>
-                <div class="badges">
-            </div>
+                <div class="badges"></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">45歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">医師</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">良い物件があれば</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">リモートワーク環境</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">45歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">医師</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">良い物件があれば</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">リモートワーク環境</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">151〜300㎡</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩10分以内</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">151〜300㎡</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">隣地との境界未確定</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">隣地との境界未確定</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #11</h3>
-                <div class="badges">
-            </div>
+                <div class="badges"></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供2人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">43歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">介護士</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">1年以内</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">現金購入</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">資産形成</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供2人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">43歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">介護士</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">1年以内</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">現金購入</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">資産形成</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">301㎡以上</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩11〜15分</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">301㎡以上</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">水害リスクエリア</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">水害リスクエリア</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #12</h3>
-                <div class="badges"><span class="badge badge-urgent">急ぎ</span>
-            </div>
+                <div class="badges"><span class="badge badge-urgent">急ぎ</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">32歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">倉庫・軽作業</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">即時</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">現金購入</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">庭付きの家が欲しい</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">32歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">倉庫・軽作業</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">即時</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">現金購入</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">庭付きの家が欲しい</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">特に希望なし</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩21分以上</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">特に希望なし</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">特になし</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #13</h3>
-                <div class="badges"><span class="badge badge-urgent">急ぎ</span>
-            </div>
+                <div class="badges"><span class="badge badge-urgent">急ぎ</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供1人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">38歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">個人事業主</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">即時</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">両親との同居</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供1人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">38歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">個人事業主</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">即時</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">両親との同居</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">301㎡以上</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩10分以内</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">301㎡以上</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">接道不良</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">接道不良</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #14</h3>
-                <div class="badges">
-            </div>
+                <div class="badges"></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供1人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">31歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">製造業</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">6ヶ月以内</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">買い替え</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">通勤の利便性</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供1人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">31歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">製造業</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">6ヶ月以内</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">買い替え</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">通勤の利便性</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">151〜300㎡</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩21分以上</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">151〜300㎡</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">大規模な修繕が必要</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">大規模な修繕が必要</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #15</h3>
-                <div class="badges"><span class="badge badge-urgent">急ぎ</span>
-            </div>
+                <div class="badges"><span class="badge badge-urgent">急ぎ</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">46歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">人事・総務職</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">即時</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">住宅ローン</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">資産形成</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">46歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">人事・総務職</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">即時</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">住宅ローン</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">資産形成</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">151〜300㎡</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">特に希望なし</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">151〜300㎡</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">特になし</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #16</h3>
-                <div class="badges">
-            </div>
+                <div class="badges"></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">夫婦+子供1人</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">50歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">個人事業主</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">3ヶ月以内</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">買い替え</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">資産形成</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">夫婦+子供1人</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">50歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">個人事業主</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">3ヶ月以内</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">買い替え</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">資産形成</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">特に希望なし</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">駅徒歩10分以内</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">特に希望なし</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">特になし</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">特になし</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
-            </div>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
+        </div>
+        
         <div class="buyer-card">
             <div class="buyer-header">
                 <h3>購入希望者 #17</h3>
-                <div class="badges"><span class="badge badge-urgent">急ぎ</span>
-            </div>
+                <div class="badges"><span class="badge badge-urgent">急ぎ</span></div>
             </div>
             <div class="buyer-info">
-                <div class="info-row"><span class="label">家族構成</span><span class="value">単身</span>
-            </div>
-                <div class="info-row"><span class="label">年齢</span><span class="value">34歳</span>
-            </div>
-                <div class="info-row"><span class="label">職業</span><span class="value">教員（大学・専門学校）</span>
-            </div>
-                <div class="info-row"><span class="label">購入時期</span><span class="value">即時</span>
-            </div>
-                <div class="info-row"><span class="label">購入方法</span><span class="value">現金購入</span>
-            </div>
-                <div class="info-row"><span class="label">購入理由</span><span class="value">戸建に住みたい</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">家族構成</span>
+                    <span class="value">単身</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">年齢</span>
+                    <span class="value">34歳</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">職業</span>
+                    <span class="value">教員（大学・専門学校）</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入時期</span>
+                    <span class="value">即時</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入方法</span>
+                    <span class="value">現金購入</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">購入理由</span>
+                    <span class="value">戸建に住みたい</span>
+                </div>
                 
-                <div class="info-row"><span class="label">土地面積</span><span class="value">51〜150㎡</span>
-            </div>
-                <div class="info-row"><span class="label">駅徒歩</span><span class="value">特に希望なし</span>
-            </div>
+                <div class="info-row">
+                    <span class="label">土地面積</span>
+                    <span class="value">51〜150㎡</span>
+                </div>
                 
-                <div class="info-row ng"><span class="label">NG条件</span><span class="value">水害リスクエリア</span>
+                
+                
+                <div class="info-row ng">
+                    <span class="label">NG条件</span>
+                    <span class="value">水害リスクエリア</span>
+                </div>
             </div>
-            </div>
-            <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">この購入希望者を紹介してほしい</button>
+            <button class="contact-btn" onclick="alert('お問い合わせありがとうございます。担当者より連絡いたします。')">この購入希望者を紹介してほしい</button>
         </div>
-            </div>
-            </div>
-
-    <script>
-        (function() {
-            const cards = Array.from(document.querySelectorAll('.buyer-card'));
-            const filterLandArea = document.getElementById('filterLandArea');
-            const filterWalkingDistance = document.getElementById('filterWalkingDistance');
-            const filterResult = document.getElementById('filterResult');
-
-            function applyFilters() {
-                const selectedLandArea = filterLandArea.value;
-                const selectedWalkingDistance = filterWalkingDistance.value;
-
-                let visibleCount = 0;
-
-                cards.forEach(card => {
-                    const landAreaText = card.querySelector('.info-row .label:contains("土地面積")')?.nextElementSibling?.textContent || '';
-                    const walkingDistanceText = card.querySelector('.info-row .label:contains("駅徒歩")')?.nextElementSibling?.textContent || '';
-
-                    // より正確な検索のために、すべての情報行を取得
-                    const infoRows = card.querySelectorAll('.info-row');
-                    let cardLandArea = '';
-                    let cardWalkingDistance = '';
-
-                    infoRows.forEach(row => {
-                        const label = row.querySelector('.label')?.textContent || '';
-                        const value = row.querySelector('.value')?.textContent || '';
-                        if (label.includes('土地面積')) cardLandArea = value;
-                        if (label.includes('駅徒歩')) cardWalkingDistance = value;
-                    });
-
-                    let showCard = true;
-
-                    // 土地面積フィルター
-                    if (selectedLandArea && cardLandArea && cardLandArea !== '特に希望なし') {
-                        showCard = matchesCondition(cardLandArea, selectedLandArea, 'landArea');
-                    }
-
-                    // 駅徒歩フィルター
-                    if (showCard && selectedWalkingDistance && cardWalkingDistance && cardWalkingDistance !== '特に希望なし') {
-                        showCard = matchesCondition(cardWalkingDistance, selectedWalkingDistance, 'walking');
-                    }
-
-                    card.style.display = showCard ? 'block' : 'none';
-                    if (showCard) visibleCount++;
-                });
-
-                filterResult.textContent = `${visibleCount}件の購入希望者が見つかりました`;
-            }
-
-            function matchesCondition(buyerValue, selectedValue, type) {
-                if (type === 'landArea') {
-                    // 購入希望者の値から数値を抽出
-                    const buyerMatch = buyerValue.match(/(\d+)/);
-                    if (!buyerMatch) return false;
-                    const buyerArea = parseInt(buyerMatch[1]);
-
-                    // 選択された条件を解析
-                    if (selectedValue === '〜50㎡') {
-                        return buyerArea <= 50;
-                    } else if (selectedValue === '51〜150㎡') {
-                        return buyerArea >= 51 && buyerArea <= 150;
-                    } else if (selectedValue === '151〜300㎡') {
-                        return buyerArea >= 151 && buyerArea <= 300;
-                    } else if (selectedValue === '301㎡以上') {
-                        return buyerArea >= 301;
-                    }
-                } else if (type === 'walking') {
-                    // 購入希望者の値から数値を抽出
-                    const buyerMatch = buyerValue.match(/(\d+)/);
-                    if (!buyerMatch) return false;
-                    const buyerDistance = parseInt(buyerMatch[1]);
-
-                    // 選択された条件を解析
-                    if (selectedValue === '駅徒歩10分以内') {
-                        return buyerDistance <= 10;
-                    } else if (selectedValue === '駅徒歩11〜15分') {
-                        return buyerDistance >= 11 && buyerDistance <= 15;
-                    } else if (selectedValue === '駅徒歩16〜20分') {
-                        return buyerDistance >= 16 && buyerDistance <= 20;
-                    } else if (selectedValue === '駅徒歩21分以上') {
-                        return buyerDistance >= 21;
-                    }
-                }
-                return true;
-            }
-
-            // Contains polyfill for querySelector
-            if (!Element.prototype.matches) {
-                Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
-            }
-
-            // 検索ボタンのイベントリスナーを追加
-            const searchButton = document.getElementById('searchButton');
-            if (searchButton) {
-                searchButton.addEventListener('click', applyFilters);
-            }
-
-            // 初期表示
-            filterResult.textContent = `${cards.length}件の購入希望者が見つかりました`;
-        })();
-    </script>
-
+        
+        </div>
+    </div>
 </body>
 </html>

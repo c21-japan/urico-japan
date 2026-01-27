@@ -99,7 +99,7 @@ function generateHTML(title, subtitle, buyers, type) {
 </head>
 <body>
     <div class="header">
-        <a href="/" class="back-link">← トップページに戻る</a>
+        <a href="/index.html" class="back-link">← トップページに戻る</a>
         <h1>${title}</h1>
         <p>${subtitle}</p>
     </div>

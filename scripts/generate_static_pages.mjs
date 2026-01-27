@@ -273,7 +273,7 @@ function generateHTML(title, subtitle, buyers, type, location = '') {
 </head>
 <body>
     <div class="header">
-        <a href="/" class="back-link">← トップページに戻る</a>
+        <a href="/index.html" class="back-link">← トップページに戻る</a>
         <h1>${title}</h1>
         <p>${subtitle}</p>
     </div>
@@ -296,7 +296,7 @@ function generateHTML(title, subtitle, buyers, type, location = '') {
 /**
  * マンションページ生成
  */
-function generateMansionPages() {
+async function generateMansionPages() {
     console.log('\n=== マンションページ生成中 ===');
 
     const mansionDbPath = path.join(PROJECT_ROOT, 'mansion_db.js');
@@ -305,8 +305,9 @@ function generateMansionPages() {
         return 0;
     }
 
-    // mansion_db.js を動的インポート
-    import(mansionDbPath).then(module => {
+    try {
+        // mansion_db.js を動的インポート
+        const module = await import(`file://${mansionDbPath}`);
         const mansions = module.MANSION_DB || [];
         let count = 0;
 
@@ -333,9 +334,11 @@ function generateMansionPages() {
         });
 
         console.log(`✓ マンション: ${count} ページ生成完了`);
-    }).catch(err => {
+        return count;
+    } catch (err) {
         console.error('mansion_db.js の読み込みエラー:', err);
-    });
+        return 0;
+    }
 }
 
 /**
@@ -483,7 +486,7 @@ async function main() {
 
     const startTime = Date.now();
 
-    // generateMansionPages();
+    await generateMansionPages();
     const houseCount = await generateHousePages();
     const landCount = await generateLandPages();
 
@@ -491,7 +494,7 @@ async function main() {
     const duration = ((endTime - startTime) / 1000).toFixed(2);
 
     console.log('\n=== 生成完了 ===');
-    console.log(`合計: ${houseCount + landCount} ページ`);
+    console.log(`合計ページ数を確認してください`);
     console.log(`処理時間: ${duration}秒`);
     console.log(`\n次のステップ: npm start でローカルサーバーを起動`);
 }

@@ -1,0 +1,2232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>URICO | 不動産売却一括査定 - 関西最大級の購入希望者マッチング</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --primary-color: #FF6B6B;
+            --secondary-color: #4ECDC4;
+            --dark-color: #2C3E50;
+            --light-color: #F7F9F9;
+            --white: #FFFFFF;
+            --shadow: 0 4px 15px rgba(0,0,0,0.1);
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --text-muted: #999;
+            --border-color: #e0e0e0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+            line-height: 1.6;
+        }
+
+        .campaign-banner {
+            background-color: #FF4757;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 16px;
+            font-weight: 700;
+            position: sticky;
+            top: 0;
+            z-index: 1001;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+    
+        header {
+            background: var(--white);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 40px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+    
+        @media (max-width: 768px) {
+            header { 
+                position: static; /* スマホでは固定しない */
+            }
+            .campaign-banner { 
+                font-size: 14px;
+                position: static; /* スマホでは固定しない */
+            }
+        }
+
+        /* 画像スライダー */
+        .image-slider {
+            width: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* IE and Edge */
+        }
+
+        .image-slider::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Opera */
+        }
+
+        .slider-container {
+            display: flex;
+            gap: 0;
+            width: max-content;
+        }
+
+        .slider-image {
+            width: 100vw;
+            height: auto;
+            object-fit: cover;
+            flex-shrink: 0;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .slider-image { width: 100vw; }
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .logo img { height: 40px; }
+
+        nav { display: flex; gap: 20px; align-items: center; }
+        nav a { text-decoration: none; color: var(--dark-color); font-weight: 500; transition: color 0.3s; }
+        nav a:hover { color: var(--primary-color); }
+
+        .hero {
+            padding: 80px 5%;
+            text-align: center;
+            background: linear-gradient(135deg, #FFF5F5 0%, #FFFFFF 100%);
+        }
+
+        .hero h1 { font-size: 42px; margin-bottom: 20px; color: var(--dark-color); }
+        .hero h1 span { color: var(--primary-color); }
+        .hero p { font-size: 18px; color: #666; margin-bottom: 40px; }
+
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            min-width: 250px;
+            text-align: center;
+        }
+
+        .stat-card .number { font-size: 36px; font-weight: 700; color: var(--primary-color); display: block; margin-bottom: 5px; }
+        .stat-card .label { font-size: 14px; color: #888; }
+
+        .search-section { max-width: 800px; margin: 0 auto; position: relative; padding: 0 20px; }
+
+        .search-tabs { display: flex; justify-content: center; margin-bottom: 20px; }
+
+        .tab-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            border: none;
+            background: #e0e0e0;
+            color: #555;
+            transition: background-color 0.3s, color 0.3s;
+            border-radius: 10px 10px 0 0;
+            margin: 0 2px;
+        }
+
+        .tab-button.active {
+            background: var(--white);
+            color: var(--primary-color);
+            box-shadow: var(--shadow);
+            z-index: 1;
+        }
+
+        .tab-content {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 0 10px 10px 10px;
+            box-shadow: var(--shadow);
+            margin-top: -1px;
+        }
+
+        .search-box { display: flex; gap: 10px; margin-bottom: 10px; position: relative; }
+        .search-input { flex: 1; border: 1px solid #ddd; padding: 15px; font-size: 16px; outline: none; border-radius: 8px; }
+        .search-btn { background: var(--primary-color); color: var(--white); border: none; padding: 15px 30px; border-radius: 8px; font-weight: 700; cursor: pointer; transition: opacity 0.3s; white-space: nowrap; }
+        .search-btn:hover { opacity: 0.9; }
+
+        .suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            border: 1px solid #ddd;
+            border-radius: 0 0 10px 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+            z-index: 100;
+            box-shadow: var(--shadow);
+        }
+
+        .suggestion-item {
+            padding: 12px 20px;
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.2s;
+        }
+
+        .suggestion-item:hover { background-color: #f9f9f9; }
+        .mansion-name { font-weight: 500; }
+        .buyer-count { font-size: 12px; color: var(--primary-color); background: #FFF0F0; padding: 2px 8px; border-radius: 4px; }
+
+        .form-group { margin-bottom: 20px; }
+        label { display: block; font-weight: 700; margin-bottom: 8px; color: var(--dark-color); }
+        select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; background-color: var(--white); transition: border-color 0.3s; }
+        select:focus { border-color: var(--primary-color); outline: none; }
+
+        button.search-btn-fullwidth {
+            width: 100%;
+            background-color: var(--primary-color);
+            color: var(--white);
+            border: none;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            transition: background-color 0.3s;
+        }
+        button.search-btn-fullwidth:hover { background-color: #e65555; }
+
+        .search-method-buttons { display: flex; gap: 15px; margin-bottom: 30px; justify-content: center; }
+
+        .method-btn {
+            flex: 1;
+            padding: 18px 30px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            border: 3px solid var(--primary-color);
+            background: var(--white);
+            color: var(--primary-color);
+            border-radius: 10px;
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .method-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .method-btn.active { background: var(--primary-color); color: var(--white); box-shadow: 0 4px 15px rgba(255,107,107,0.4); }
+
+        /* ========== 業務用モーダル（シンプルUI） ========== */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 2000;
+            overflow-y: auto;
+        }
+
+        .modal.active { 
+            display: flex; 
+            align-items: flex-start; 
+            justify-content: center; 
+            padding: 40px 20px; 
+        }
+
+        .modal-content {
+            background: #fff;
+            border-radius: 4px;
+            max-width: 720px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+        }
+
+        /* モーダルヘッダー：シンプル白背景 */
+        .modal-header {
+            padding: 20px 24px;
+            background: #fff;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .modal-header h2 { 
+            font-size: 18px; 
+            font-weight: 600; 
+            color: var(--text-primary);
+            margin: 0;
+        }
+        
+        .modal-header p { 
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: none;
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-close:hover { 
+            background: #f5f5f5; 
+        }
+
+        .modal-body { 
+            padding: 0; 
+            background: #fafafa;
+        }
+
+        /* 購入希望者ブロック：シンプル情報表示 */
+        .buyer-block {
+            background: #fff;
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px 24px;
+        }
+
+        .buyer-block:last-child {
+            border-bottom: none;
+        }
+
+        .buyer-block-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .buyer-number {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .buyer-price-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* 情報テーブル：ラベル＋値 構造 */
+        .buyer-info-table {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px 24px;
+        }
+
+        .buyer-info-row {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .buyer-info-label {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .buyer-info-value {
+            font-size: 13px;
+            font-weight: 400;
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        /* CTAボタン：控えめ */
+        .buyer-action {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .contact-buyer-btn {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #f5f5f5;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .contact-buyer-btn:hover { 
+            background: #eee;
+            color: var(--text-primary);
+        }
+
+        /* NG条件は目立たせる */
+        .buyer-info-row.ng-row .buyer-info-value {
+            font-weight: 500;
+        }
+
+        footer {
+            background: var(--dark-color);
+            color: var(--white);
+            padding: 40px 5%;
+            margin-top: 80px;
+            text-align: center;
+        }
+        footer p { color: #ccc; margin-bottom: 10px; }
+        footer .copyright { font-size: 12px; color: #888; margin-top: 30px; }
+        footer .character-image {
+            max-width: 120px;
+            max-height: 120px;
+            width: auto;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+        footer nav {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 25px 0 15px 0;
+            flex-wrap: wrap;
+        }
+        footer nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        footer nav a:hover {
+            color: var(--white);
+        }
+
+        /* スマホ用固定フッター */
+        .mobile-fixed-footer {
+            display: none; /* デフォルトは非表示 */
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            background: rgba(50, 50, 50, 0.5);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 4px 10px 6px 10px;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .footer-message {
+            text-align: center;
+            color: #fff;
+            font-size: 11px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+        }
+
+        .footer-buttons {
+            display: flex;
+            gap: 6px;
+        }
+
+        .footer-btn {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            padding: 6px 8px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 700;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .footer-btn:active {
+            transform: scale(0.96);
+        }
+
+        .footer-btn-mail {
+            background: linear-gradient(135deg, #ff8c00, #ff6600);
+            box-shadow: 0 4px 15px rgba(255, 102, 0, 0.4);
+        }
+
+        .footer-btn-mail:hover {
+            background: linear-gradient(135deg, #ff9922, #ff7711);
+        }
+
+        .footer-btn-tel {
+            background: linear-gradient(135deg, #0088ff, #0066cc);
+            box-shadow: 0 4px 15px rgba(0, 102, 204, 0.4);
+        }
+
+        .footer-btn-tel:hover {
+            background: linear-gradient(135deg, #1199ff, #0077dd);
+        }
+
+        .footer-btn-icon {
+            font-size: 14px;
+        }
+
+        .footer-note {
+            text-align: center;
+            color: #fff;
+            font-size: 9px;
+            margin-top: 3px;
+            opacity: 0.8;
+        }
+
+        /* 売却費用シミュレーター */
+        .simulator-box {
+            background: linear-gradient(135deg, var(--white), #FFF5F5);
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: var(--text-primary);
+            box-shadow: var(--shadow);
+        }
+        
+        .sim-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 15px;
+        }
+        
+        .sim-control-group {
+            margin-bottom: 30px;
+        }
+        
+        .sim-label {
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--dark-color);
+        }
+        
+        .sim-slider {
+            width: 100%;
+            height: 10px;
+            border-radius: 5px;
+            background: var(--border-color);
+            outline: none;
+            -webkit-appearance: none;
+        }
+        
+        .sim-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
+            transition: transform 0.2s;
+        }
+        
+        .sim-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+        }
+        
+        .sim-slider::-moz-range-thumb {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
+            border: none;
+        }
+        
+        .sim-value {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 15px;
+        }
+        
+        .sim-result-box {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .sim-result-title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: var(--dark-color);
+        }
+        
+        .sim-result-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px;
+            margin-bottom: 12px;
+            background: var(--light-color);
+            border-radius: 10px;
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+        .sim-result-item-label {
+            font-weight: 600;
+            font-size: 15px;
+            color: var(--dark-color);
+        }
+        
+        .sim-result-item-value {
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--primary-color);
+        }
+        
+        .sim-result-note {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 5px;
+        }
+        
+        .sim-result-total {
+            padding: 25px;
+            background: linear-gradient(135deg, var(--primary-color), #FF8E8E);
+            color: var(--white);
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+        
+        .sim-message-box {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(78, 205, 196, 0.1));
+            border: 2px solid var(--primary-color);
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .sim-tax-note {
+            margin-top: 25px;
+            padding: 20px;
+            background: rgba(78, 205, 196, 0.1);
+            border-left: 4px solid var(--secondary-color);
+            font-size: 14px;
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+
+        /* お客様の声セクション */
+        .voices-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .voices-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .voices-header h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 15px;
+        }
+        
+        .voices-header p {
+            font-size: 18px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+        
+        .voices-badge {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 10px 30px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        
+        .voices-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .voice-card {
+            background: var(--white);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+        
+        .voice-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .voice-card-header {
+            background: linear-gradient(135deg, var(--primary-color), #FF8E8E);
+            padding: 20px;
+            color: var(--white);
+        }
+        
+        .voice-location {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .voice-specs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        
+        .voice-spec {
+            background: rgba(255,255,255,0.25);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .voice-card-body {
+            padding: 25px;
+        }
+        
+        .voice-top-section {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        
+        .voice-image-container {
+            flex-shrink: 0;
+            position: relative;
+        }
+        
+        .voice-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--secondary-color);
+        }
+        
+        .balloon-icon {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 35px;
+            height: 35px;
+        }
+        
+        .voice-content {
+            flex: 1;
+        }
+        
+        .voice-text {
+            font-size: 14px;
+            line-height: 1.8;
+            color: var(--text-primary);
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .voice-text::before {
+            content: '"';
+            position: absolute;
+            left: 0;
+            top: -8px;
+            font-size: 40px;
+            color: var(--primary-color);
+            font-weight: 900;
+            line-height: 1;
+        }
+        
+        .voice-graph {
+            margin-top: 20px;
+            padding: 15px;
+            background: var(--light-color);
+            border-radius: 10px;
+        }
+        
+        .voice-graph img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .voice-person-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--border-color);
+        }
+        
+        .person-occupation {
+            background: rgba(78, 205, 196, 0.1);
+            color: var(--secondary-color);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .person-age {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .voices-cta-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, var(--light-color), var(--white));
+            margin-top: 50px;
+            border-radius: 20px;
+        }
+        
+        .voices-cta-section h3 {
+            font-size: 24px;
+            color: var(--dark-color);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .voices-cta-section p {
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        
+        .voices-cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .voices-cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+        }
+        
+        .voices-cta-btn-kodate {
+            background: linear-gradient(135deg, var(--secondary-color), #5ED4C4);
+            color: var(--white);
+        }
+        
+        .voices-cta-btn-kodate:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(78, 205, 196, 0.4);
+        }
+        
+        .voices-cta-btn-tochi {
+            background: linear-gradient(135deg, var(--primary-color), #FF8E8E);
+            color: var(--white);
+        }
+        
+        .voices-cta-btn-tochi:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+        }
+        
+        .voices-cta-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        @media (max-width: 768px) {
+            /* フッター分のスペースを確保 */
+            .modal-body {
+                padding-bottom: 50px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 28px; }
+            .stats-container { gap: 15px; }
+            .stat-card { min-width: 100%; padding: 20px; }
+            header { flex-direction: column; gap: 15px; }
+            nav { font-size: 14px; }
+            .tab-button { padding: 10px 15px; font-size: 16px; }
+            .search-box { flex-direction: column; }
+            .buyer-info-table { grid-template-columns: 1fr; }
+            .modal-content { margin: 20px; }
+            .simulator-box { padding: 25px 20px; }
+            .sim-title { font-size: 22px; }
+            .sim-value { font-size: 26px; }
+            .sim-result-item { flex-direction: column; align-items: flex-start; gap: 8px; }
+            .sim-result-item-value { font-size: 18px; }
+            .voices-grid { grid-template-columns: 1fr; gap: 20px; }
+            .voice-card-header { padding: 15px; }
+            .voice-location { font-size: 14px; }
+            .voice-specs { gap: 5px; }
+            .voice-spec { font-size: 11px; padding: 4px 10px; }
+            .voice-card-body { padding: 20px; }
+            .voice-image { width: 80px; height: 80px; }
+            .balloon-icon { width: 28px; height: 28px; }
+            .voice-text { font-size: 13px; line-height: 1.7; }
+            .voice-graph { padding: 10px; margin-top: 15px; }
+            .voices-cta-section h3 { font-size: 20px; }
+            .voices-cta-btn { padding: 15px 30px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="campaign-banner">
+        2025年12月ご紹介数847件！！　URICO加盟・利用不動産店数1,629店
+    </div>
+    <header>
+        <a href="index.html" class="logo" aria-label="ホームへ戻る">
+            <img src="./images/urico_logo.png" alt="URICO ロゴ" />
+        </a>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="about.html">URICOとは</a>
+            <a href="difference.html">一括査定との違い</a>
+            <a href="company/">運営会社</a>
+            <a href="#">お問い合わせ</a>
+        </nav>
+    </header>
+
+    <div class="image-slider" id="imageSlider">
+        <div class="slider-container">
+            <img src="./images/1.png" alt="スライダー画像1" class="slider-image">
+            <img src="./images/2.png" alt="スライダー画像2" class="slider-image">
+            <img src="./images/3.png" alt="スライダー画像3" class="slider-image">
+            <img src="./images/4.png" alt="スライダー画像4" class="slider-image">
+        </div>
+    </div>
+
+    <section class="hero" role="banner">
+        <h1 id="heroTitle">＼マンションを探している購入希望者を<span>検索／</span></h1>
+        <p id="heroSubtitle">関西1,629社の不動産会社で探している25,463組の購入希望者データベースから最適な買主を見つけます</p>
+    </section>
+
+    <section class="stats-container">
+        <div class="stat-card">
+            <span class="number" id="statBuyers">-</span>
+            <span class="label">購入希望者数</span>
+        </div>
+        <div class="stat-card">
+            <span class="number" id="statProperties">-</span>
+            <span class="label">対応物件数</span>
+        </div>
+        <div class="stat-card">
+            <span class="number" id="statSuccessRate">72.4%</span>
+            <span class="label">成約率</span>
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="search-tabs" role="tablist">
+            <button class="tab-button active" role="tab" aria-selected="true" id="tab-mansion-btn" type="button">マンション</button>
+            <button class="tab-button" role="tab" aria-selected="false" id="tab-house-btn" type="button">戸建</button>
+            <button class="tab-button" role="tab" aria-selected="false" id="tab-land-btn" type="button">土地</button>
+        </div>
+
+        <!-- マンションタブ -->
+        <div class="tab-content" id="tab-mansion">
+            <div class="search-box">
+                <input type="text" id="searchInputMansion" class="search-input" placeholder="マンション名を入力してください（例：エクセルハイツ奈良）" autocomplete="off">
+                <button id="searchButtonMansion" class="search-btn" type="button">検索する</button>
+                <div id="suggestionsMansion" class="suggestions"></div>
+            </div>
+        </div>
+
+        <!-- 戸建タブ -->
+        <form id="tab-house" class="tab-content" style="display:none;">
+            <div class="search-method-buttons">
+                <button type="button" class="method-btn" id="house-method-station">駅から探す</button>
+                <button type="button" class="method-btn active" id="house-method-area">エリアから探す</button>
+            </div>
+            
+            <div id="house-station-search" style="display:none;">
+                <div class="form-group">
+                    <label for="house-railway">路線会社名</label>
+                    <select id="house-railway"><option value="">選択してください</option></select>
+                </div>
+                <div class="form-group">
+                    <label for="house-line">沿線名</label>
+                    <select id="house-line" disabled><option value="">先に路線会社名を選択してください</option></select>
+                </div>
+                <div class="form-group">
+                    <label for="house-station">駅名</label>
+                    <select id="house-station" disabled><option value="">先に沿線名を選択してください</option></select>
+                </div>
+            </div>
+            
+            <div id="house-area-search">
+                <div class="form-group">
+                    <label for="house-prefecture">都道府県</label>
+                    <select id="house-prefecture"><option value="">選択してください</option></select>
+                </div>
+                <div class="form-group">
+                    <label for="house-city">市区町村</label>
+                    <select id="house-city" disabled><option value="">先に都道府県を選択してください</option></select>
+                </div>
+            </div>
+            
+            <button type="submit" class="search-btn-fullwidth">戸建を検索</button>
+        </form>
+
+        <!-- 土地タブ -->
+        <form id="tab-land" class="tab-content" style="display:none;">
+            <div class="search-method-buttons">
+                <button type="button" class="method-btn" id="land-method-station">駅から探す</button>
+                <button type="button" class="method-btn active" id="land-method-area">エリアから探す</button>
+            </div>
+            
+            <div id="land-station-search" style="display:none;">
+                <div class="form-group">
+                    <label for="land-railway">路線会社名</label>
+                    <select id="land-railway"><option value="">選択してください</option></select>
+                </div>
+                <div class="form-group">
+                    <label for="land-line">沿線名</label>
+                    <select id="land-line" disabled><option value="">先に路線会社名を選択してください</option></select>
+                </div>
+                <div class="form-group">
+                    <label for="land-station">駅名</label>
+                    <select id="land-station" disabled><option value="">先に沿線名を選択してください</option></select>
+                </div>
+            </div>
+            
+            <div id="land-area-search">
+                <div class="form-group">
+                    <label for="land-prefecture">都道府県</label>
+                    <select id="land-prefecture"><option value="">選択してください</option></select>
+                </div>
+                <div class="form-group">
+                    <label for="land-city">市区町村</label>
+                    <select id="land-city" disabled><option value="">先に都道府県を選択してください</option></select>
+                </div>
+            </div>
+            
+            <button type="submit" class="search-btn-fullwidth">土地を検索</button>
+        </form>
+    </section>
+
+    <!-- 購入希望者詳細モーダル（業務用シンプルUI） -->
+    <div class="modal" id="buyerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="modal-close" onclick="closeModal()">×</button>
+                <h2 id="modalTitle">物件名</h2>
+                <p id="modalSubtitle">購入希望者数</p>
+            </div>
+            <div class="modal-body" id="buyerCards">
+            </div>
+        </div>
+    </div>
+
+    <!-- 売却費用シミュレーター -->
+    <section style="padding: 60px 5%; background: var(--light-color);">
+        <div class="simulator-box">
+            <div class="sim-title">🏠 売却にかかる費用シミュレーター</div>
+            
+            <div class="sim-control-group">
+                <label class="sim-label">売却価格</label>
+                <input type="range" id="sell-price" class="sim-slider" min="100" max="20000" value="3000" step="100">
+                <div class="sim-value">
+                    <span id="sell-price-val">3,000</span>万円
+                </div>
+            </div>
+
+            <div class="sim-result-box">
+                <div class="sim-result-title">売却時にかかる費用の目安</div>
+                
+                <div class="sim-result-item">
+                    <div>
+                        <div class="sim-result-item-label">① 仲介手数料（税込）</div>
+                        <div class="sim-result-note">法定上限額で計算</div>
+                    </div>
+                    <div class="sim-result-item-value" id="fee-result">105万6,000円</div>
+                </div>
+                
+                <div class="sim-result-item">
+                    <div>
+                        <div class="sim-result-item-label">② 登記費用（税込）</div>
+                        <div class="sim-result-note">※抵当権や共有名義等により変動あり</div>
+                    </div>
+                    <div class="sim-result-item-value" id="registry-result">約3〜6万円</div>
+                </div>
+                
+                <div class="sim-result-item">
+                    <div>
+                        <div class="sim-result-item-label">③ 収入印紙代</div>
+                        <div class="sim-result-note">売買契約書に貼付</div>
+                    </div>
+                    <div class="sim-result-item-value" id="stamp-result">1万円</div>
+                </div>
+                
+                <div class="sim-result-total">
+                    概算合計: <span id="total-result">約109万6,000円〜112万6,000円</span>
+                </div>
+            </div>
+
+            <div class="sim-tax-note">
+                💡 <strong>税金について</strong><br>
+                譲渡所得税・住民税などの税金に関しては、<br>
+                <span style="color: var(--primary-color); font-weight: 700;">URICOと連携した税理士がサポート</span>します。<br>
+                お気軽にご相談ください。
+            </div>
+
+            <div class="sim-message-box">
+                <p style="font-size: 16px; font-weight: 700; color: var(--primary-color); margin-bottom: 10px;">
+                    📞 無料査定・ご相談はお気軽に
+                </p>
+                <p style="font-size: 28px; font-weight: 700; color: var(--dark-color);">
+                    06-●●●●-●●●●
+                </p>
+            </div>
+        </div>
+
+        <script>
+            const sellPriceSlider = document.getElementById('sell-price');
+            const sellPriceVal = document.getElementById('sell-price-val');
+            const feeResult = document.getElementById('fee-result');
+            const registryResult = document.getElementById('registry-result');
+            const stampResult = document.getElementById('stamp-result');
+            const totalResult = document.getElementById('total-result');
+
+            function calcBrokerageFee(priceMan) {
+                const price = priceMan * 10000;
+                let fee = 0;
+                
+                if (price <= 2000000) {
+                    fee = price * 0.05;
+                } else if (price <= 4000000) {
+                    fee = price * 0.04 + 20000;
+                } else {
+                    fee = price * 0.03 + 60000;
+                }
+                
+                return Math.floor(fee * 1.1);
+            }
+
+            function calcStampDuty(priceMan) {
+                const price = priceMan * 10000;
+                
+                if (price <= 1000000) return 500;
+                if (price <= 5000000) return 1000;
+                if (price <= 10000000) return 5000;
+                if (price <= 50000000) return 10000;
+                if (price <= 100000000) return 30000;
+                if (price <= 500000000) return 60000;
+                if (price <= 1000000000) return 160000;
+                return 320000;
+            }
+
+            function formatMoney(yen) {
+                if (yen >= 10000) {
+                    const man = Math.floor(yen / 10000);
+                    const remainder = yen % 10000;
+                    if (remainder === 0) {
+                        return man.toLocaleString() + '万円';
+                    } else {
+                        return man.toLocaleString() + '万' + remainder.toLocaleString() + '円';
+                    }
+                }
+                return yen.toLocaleString() + '円';
+            }
+
+            function updateCalculation() {
+                const priceMan = parseInt(sellPriceSlider.value);
+                sellPriceVal.textContent = priceMan.toLocaleString();
+                
+                const fee = calcBrokerageFee(priceMan);
+                feeResult.textContent = formatMoney(fee);
+                
+                registryResult.textContent = '約3〜6万円';
+                
+                const stamp = calcStampDuty(priceMan);
+                stampResult.textContent = formatMoney(stamp);
+                
+                const totalMin = fee + 30000 + stamp;
+                const totalMax = fee + 60000 + stamp;
+                
+                totalResult.textContent = '約' + formatMoney(totalMin) + '〜' + formatMoney(totalMax);
+            }
+
+            sellPriceSlider.addEventListener('input', updateCalculation);
+            updateCalculation();
+        </script>
+    </section>
+
+    <!-- お客様の声セクション -->
+    <section style="padding: 80px 5%; background: var(--white);">
+        <div class="voices-container">
+            <div class="voices-header">
+                <h2>お客様の声</h2>
+                <p>URICOをご利用いただいたお客様から喜びの声をいただきました</p>
+                <span class="voices-badge">マンション売却事例</span>
+            </div>
+
+            <div class="voices-grid">
+                <div class="voice-card">
+                    <div class="voice-card-header">
+                        <div class="voice-location">大阪府河内長野市</div>
+                        <div class="voice-specs">
+                            <span class="voice-spec">2005年8月建築</span>
+                            <span class="voice-spec">3LDK</span>
+                            <span class="voice-spec">85.73㎡</span>
+                        </div>
+                    </div>
+                    <div class="voice-card-body">
+                        <div class="voice-top-section">
+                            <div class="voice-image-container">
+                                <img src="./images/voice1.jpeg" alt="お客様の声1" class="voice-image">
+                                <img src="./images/balloon.png" alt="" class="balloon-icon">
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-text">家族が増えて、一戸建てを探していたところ、自分たちの希望に合う家が見つかり、次の家の住宅ローンを利用するには、すぐに今の住宅ローン返済中のマンションを売る必要があったのですが、そんな時ポストにuricoのチラシが入っていた事をきっかけに問い合わせをしたところ、すぐに購入希望者を連れてきてくれて、なんと５日で成約に繋がりました。おかげさまで無事に一戸建てを購入する事が出来ました。</p>
+                            </div>
+                        </div>
+                        <div class="voice-graph">
+                            <img src="./images/graph1.jpg" alt="売却グラフ">
+                        </div>
+                        <div class="voice-person-info">
+                            <span class="person-occupation">経営者</span>
+                            <span class="person-age">63歳</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-card">
+                    <div class="voice-card-header">
+                        <div class="voice-location">兵庫県神戸市東灘区</div>
+                        <div class="voice-specs">
+                            <span class="voice-spec">1999年10月建築</span>
+                            <span class="voice-spec">3LDK</span>
+                            <span class="voice-spec">99.03㎡</span>
+                        </div>
+                    </div>
+                    <div class="voice-card-body">
+                        <div class="voice-top-section">
+                            <div class="voice-image-container">
+                                <img src="./images/voice2.jpeg" alt="お客様の声2" class="voice-image">
+                                <img src="./images/balloon.png" alt="" class="balloon-icon">
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-text">毎日のようにポストに大手や他の会社のチラシがたくさん入っている中、どこにお願いしたら良いのか分からなかったのですが、その中でもURICOは１社ではなく、各不動産会社の購入希望者を選べる事に利点を感じ、色々と問い合わせて実際に部屋を見てもらったら、最終的に「購入希望者E」の方と条件が合い、家族で話し合った結果この購入希望者に買ってほしいという事になった！金額もURICOの記載以上に上げてもらえたのと、引渡しも３ヶ月待ってくれた！</p>
+                            </div>
+                        </div>
+                        <div class="voice-graph">
+                            <img src="./images/graph2.jpg" alt="売却グラフ">
+                        </div>
+                        <div class="voice-person-info">
+                            <span class="person-occupation">公務員</span>
+                            <span class="person-age">37歳</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-card">
+                    <div class="voice-card-header">
+                        <div class="voice-location">大阪府大阪市阿倍野区</div>
+                        <div class="voice-specs">
+                            <span class="voice-spec">1993年11月建築</span>
+                            <span class="voice-spec">3LDK</span>
+                            <span class="voice-spec">88.47㎡</span>
+                        </div>
+                    </div>
+                    <div class="voice-card-body">
+                        <div class="voice-top-section">
+                            <div class="voice-image-container">
+                                <img src="./images/voice3.jpeg" alt="お客様の声3" class="voice-image">
+                                <img src="./images/balloon.png" alt="" class="balloon-icon">
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-text">一括査定サイトを利用して、大手不動産会社にお願いしていたのですが、なかなか決まらず２ヶ月経った頃にUricoさんのチラシがポストに入っており、問い合わせしてみたところ、大手で決まらなかったのに、すぐに購入希望者が内覧してくれて、ほっと安心しました。ありがとうございました。</p>
+                            </div>
+                        </div>
+                        <div class="voice-graph">
+                            <img src="./images/graph3.jpg" alt="売却グラフ">
+                        </div>
+                        <div class="voice-person-info">
+                            <span class="person-occupation">会社員</span>
+                            <span class="person-age">32歳</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-card">
+                    <div class="voice-card-header">
+                        <div class="voice-location">京都府京都市中京区</div>
+                        <div class="voice-specs">
+                            <span class="voice-spec">1988年6月建築</span>
+                            <span class="voice-spec">2LDK</span>
+                            <span class="voice-spec">58.96㎡</span>
+                        </div>
+                    </div>
+                    <div class="voice-card-body">
+                        <div class="voice-top-section">
+                            <div class="voice-image-container">
+                                <img src="./images/voice4.jpeg" alt="お客様の声4" class="voice-image">
+                                <img src="./images/balloon.png" alt="" class="balloon-icon">
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-text">７ヶ月後の子どもの入学に合わせて、年明けに引越しを考えていたのですが、いつ売れば上手くいくのか分からず、悩んでいた時に自分たちの条件に合わせて売れるというチラシを見て、自分たちの条件に当てはまる購入希望者が載っていたウリコに問い合わせしました。金額も自分たちの思っていた以上で条件ものんで買ってもらえるという事で上手く話が進みました。不動産会社の担当の方も丁寧に教えてくれたので、不安なく売れました。</p>
+                            </div>
+                        </div>
+                        <div class="voice-graph">
+                            <img src="./images/graph4.jpg" alt="売却グラフ">
+                        </div>
+                        <div class="voice-person-info">
+                            <span class="person-occupation">自営業</span>
+                            <span class="person-age">28歳</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-card">
+                    <div class="voice-card-header">
+                        <div class="voice-location">滋賀県草津市</div>
+                        <div class="voice-specs">
+                            <span class="voice-spec">1995年7月建築</span>
+                            <span class="voice-spec">3LDK</span>
+                            <span class="voice-spec">70.2㎡</span>
+                        </div>
+                    </div>
+                    <div class="voice-card-body">
+                        <div class="voice-top-section">
+                            <div class="voice-image-container">
+                                <img src="./images/voice5.jpeg" alt="お客様の声5" class="voice-image">
+                                <img src="./images/balloon.png" alt="" class="balloon-icon">
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-text">11ヶ月間売れず、初めの数ヶ月以降は内覧もなく、かれこれ10社以上にお願いしましたが、それでも売れていませんでした。そんな時にウリコを見つけました。最初は全く信用できませんでしたが、マンションを探してる人が３組ヒットしたので、藁にもすがる思いで連絡してみたら、すぐに３社から連絡があり、久しぶりに内覧がありました。すぐに申込みがあったと連絡があり、あの時の嬉しさは今でも忘れられません。ウリコは、人のご縁を繋いでくれる本当に良いサービスだと思います。</p>
+                            </div>
+                        </div>
+                        <div class="voice-graph">
+                            <img src="./images/graph5.jpg" alt="売却グラフ">
+                        </div>
+                        <div class="voice-person-info">
+                            <span class="person-occupation">派遣</span>
+                            <span class="person-age">34歳</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-card">
+                    <div class="voice-card-header">
+                        <div class="voice-location">奈良県大和高田市</div>
+                        <div class="voice-specs">
+                            <span class="voice-spec">2007年3月建築</span>
+                            <span class="voice-spec">3LDK</span>
+                            <span class="voice-spec">70.18㎡</span>
+                        </div>
+                    </div>
+                    <div class="voice-card-body">
+                        <div class="voice-top-section">
+                            <div class="voice-image-container">
+                                <img src="./images/voice6.jpeg" alt="お客様の声6" class="voice-image">
+                                <img src="./images/balloon.png" alt="" class="balloon-icon">
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-text">以前一戸建てを売ってもらった時にお世話になった大手不動産会社１社に専属専任媒介契約でお願いしていましたが、４ヶ月近く売れていませんでした。uricoのチラシでは、数多くの不動産会社が買いたい人を掲載してあり、なんとなく電話してみた事がきっかけです。一般媒介契約に変えてもらい、uricoで掲載している不動産会社に依頼しました。すると、お願いしてから２週間ぐらいで買ってくれる人が見つかりました。安心して家を売る事ができました。</p>
+                            </div>
+                        </div>
+                        <div class="voice-graph">
+                            <img src="./images/graph6.jpg" alt="売却グラフ">
+                        </div>
+                        <div class="voice-person-info">
+                            <span class="person-occupation">会社員</span>
+                            <span class="person-age">73歳</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-card">
+                    <div class="voice-card-header">
+                        <div class="voice-location">兵庫県西宮市</div>
+                        <div class="voice-specs">
+                            <span class="voice-spec">1996年9月建築</span>
+                            <span class="voice-spec">3LDK</span>
+                            <span class="voice-spec">77.15㎡</span>
+                        </div>
+                    </div>
+                    <div class="voice-card-body">
+                        <div class="voice-top-section">
+                            <div class="voice-image-container">
+                                <img src="./images/voice7.jpeg" alt="お客様の声7" class="voice-image">
+                                <img src="./images/balloon.png" alt="" class="balloon-icon">
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-text">仕事の都合で直近では、内覧の都合がなかなか合わなかったですが、見てもらってからあっという間に売買契約の話になりました。ウリコは各不動産会社の購入希望者の情報をまとめて書いてあったので、家を何件も売ってきた私が毎回悩む「どこに依頼しようかな？」という事がなく、依頼した不動産会社はすぐに納得のいく結果を出してくれました。経験上、不動産会社を選ぶのではなく、希望の条件に合う買いたい人がいる不動産会社に依頼するのがベストだと知っていたので、助かりました。</p>
+                            </div>
+                        </div>
+                        <div class="voice-graph">
+                            <img src="./images/graph7.jpg" alt="売却グラフ">
+                        </div>
+                        <div class="voice-person-info">
+                            <span class="person-occupation">会社員</span>
+                            <span class="person-age">29歳</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="voice-card">
+                    <div class="voice-card-header">
+                        <div class="voice-location">奈良県奈良市</div>
+                        <div class="voice-specs">
+                            <span class="voice-spec">1997年2月建築</span>
+                            <span class="voice-spec">3LDK</span>
+                            <span class="voice-spec">71.92㎡</span>
+                        </div>
+                    </div>
+                    <div class="voice-card-body">
+                        <div class="voice-top-section">
+                            <div class="voice-image-container">
+                                <img src="./images/voice8.jpeg" alt="お客様の声8" class="voice-image">
+                                <img src="./images/balloon.png" alt="" class="balloon-icon">
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-text">この度は、本当に本当にありがとうございました。住宅ローンの返済が苦しく、毎日が不安で焦っていて、不動産会社に相談したら、すぐに売ってくれるとの事でお願いしましたが、どんどん値段を下げられ、最終的には住宅ローンの残債額より1,200万円以上も低く提示され、そんな時にチラシが入っていたので、すぐに連絡したところ、２日後に購入希望者を連れてきてくれて、そのまま契約になりました。営業マンの方もとっても紳士的で１人で不安だった私を助けてくださいました。</p>
+                            </div>
+                        </div>
+                        <div class="voice-graph">
+                            <img src="./images/graph8.jpg" alt="売却グラフ">
+                        </div>
+                        <div class="voice-person-info">
+                            <span class="person-occupation">無職</span>
+                            <span class="person-age">38歳</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="voices-cta-section">
+                <h3>他の物件種別のお客様の声もご覧ください</h3>
+                <p>戸建や土地を売却されたお客様からも喜びの声をいただいています</p>
+                <div class="voices-cta-buttons">
+                    <a href="voice-kodate.html" class="voices-cta-btn voices-cta-btn-kodate">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+                        戸建のお客様の声を見る
+                    </a>
+                    <a href="voice-tochi.html" class="voices-cta-btn voices-cta-btn-tochi">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                        </svg>
+                        土地のお客様の声を見る
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- スマホ用固定フッター -->
+    <div class="mobile-fixed-footer" id="buyerFooter">
+        <div class="footer-message">📋 購入希望者の紹介はこちら</div>
+        <div class="footer-buttons">
+            <a href="https://form.run/@urico-kansai" class="footer-btn footer-btn-mail" target="_blank">
+                <span class="footer-btn-icon">✉️</span>
+                <span>メールで問合せ</span>
+            </a>
+            <a href="tel:06-0000-0000" class="footer-btn footer-btn-tel">
+                <span class="footer-btn-icon">📞</span>
+                <span>電話をかける</span>
+            </a>
+        </div>
+        <div class="footer-note">※URICO運営事務局へ繋がります。</div>
+    </div>
+
+    <footer>
+        <img src="./images/urico_all.png" alt="URICO キャラクター" class="character-image" />
+        <p>関西最大級の不動産売却マッチングサービス</p>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="about.html">URICOとは</a>
+            <a href="difference.html">一括査定との違い</a>
+            <a href="company/">運営会社</a>
+            <a href="#">お問い合わせ</a>
+        </nav>
+        <p class="copyright">&copy; 2026 URICO All Rights Reserved.</p>
+    </footer>
+
+<script type="module">
+// データベースをインポート
+import { MANSION_DB } from './mansion_db.js';
+import { HOUSE_DB } from './house_db.js';
+import { LAND_DB } from './land_db.js';
+
+// グローバル変数
+let railwayData = {};
+let areaData = {};
+let mansionDatabase = [];
+let houseDatabase = [];
+let landDatabase = [];
+let currentType = 'mansion'; // 現在の物件タイプ
+
+const statsData = {
+    mansion: { title: "＼マンションを探している購入希望者を<span>検索／</span>", rate: "72.4%" },
+    house: { title: "＼戸建を探している購入希望者を<span>検索／</span>", rate: "79.5%" },
+    land: { title: "＼土地を探している購入希望者を<span>検索／</span>", rate: "81.4%" }
+};
+
+// 初期化
+document.addEventListener('DOMContentLoaded', async () => {
+    mansionDatabase = MANSION_DB;
+    houseDatabase = HOUSE_DB;
+    landDatabase = LAND_DB;
+    console.log('読み込まれたマンション数:', mansionDatabase.length);
+    console.log('読み込まれた戸建数:', houseDatabase.length);
+    console.log('読み込まれた土地数:', landDatabase.length);
+    const totalBuyers = mansionDatabase.reduce((sum, m) => sum + (m.buyers?.length || 0), 0);
+    console.log('読み込まれた購入希望者数:', totalBuyers);
+    updateStats('mansion');
+    await loadExternalData();
+    setupSearchMethodToggle('house');
+    setupSearchMethodToggle('land');
+    setup3TierRailwaySelect('house');
+    setup3TierRailwaySelect('land');
+    initializeTabSwitching();
+    initializeMansionSearch();
+    initializeHouseSearch();
+    initializeLandSearch();
+    initializeImageSlider();
+});
+
+function updateStats(type) {
+    currentType = type;
+    let database, totalBuyers, totalProperties;
+    
+    if (type === 'mansion') {
+        database = mansionDatabase;
+    } else if (type === 'house') {
+        database = houseDatabase;
+    } else if (type === 'land') {
+        database = landDatabase;
+    } else {
+        database = mansionDatabase;
+    }
+    
+    totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);
+    totalProperties = database.length;
+    animateNumber('statBuyers', totalBuyers);
+    animateNumber('statProperties', totalProperties);
+    document.getElementById('heroSubtitle').textContent = 
+        `関西1,629社の不動産会社で探している${totalBuyers.toLocaleString()}組の購入希望者データベースから最適な買主を見つけます`;
+}
+
+function animateNumber(elementId, targetNumber) {
+    const el = document.getElementById(elementId);
+    if (!el) return;
+    let current = 0;
+    const increment = Math.ceil(targetNumber / 50);
+    const timer = setInterval(() => {
+        current += increment;
+        if (current >= targetNumber) {
+            current = targetNumber;
+            clearInterval(timer);
+        }
+        el.textContent = current.toLocaleString();
+    }, 30);
+}
+
+// 購入希望者詳細モーダル表示（業務用シンプルUI）
+window.showBuyerDetails = function(itemName, type = null) {
+    const itemType = type || currentType;
+    let database, item;
+    
+    if (itemType === 'house') {
+        database = houseDatabase;
+        item = database.find(i => i.name === itemName || i.address === itemName);
+    } else if (itemType === 'land') {
+        database = landDatabase;
+        item = database.find(i => i.name === itemName || i.address === itemName);
+    } else {
+        database = mansionDatabase;
+        item = database.find(i => i.name === itemName);
+    }
+    
+    if (!item) return;
+    
+    const modal = document.getElementById('buyerModal');
+    const title = document.getElementById('modalTitle');
+    const subtitle = document.getElementById('modalSubtitle');
+    const cards = document.getElementById('buyerCards');
+    
+    const displayName = item.name || item.address || '物件情報';
+    if (title) title.textContent = displayName;
+    if (subtitle) subtitle.textContent = `購入希望者 ${(item.buyers || []).length}件`;
+    
+    if (cards) {
+        cards.innerHTML = (item.buyers || []).map((b, idx) => `
+            <div class="buyer-block">
+                <div class="buyer-block-header">
+                    <span class="buyer-number">購入希望者 #${idx + 1}</span>
+                    <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                </div>
+                <div class="buyer-info-table">
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">家族構成</span>
+                        <span class="buyer-info-value">${b.family || '-'}</span>
+                    </div>
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">年齢</span>
+                        <span class="buyer-info-value">${b.age || '-'}</span>
+                    </div>
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">職業</span>
+                        <span class="buyer-info-value">${b.occupation || '-'}</span>
+                    </div>
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">購入時期</span>
+                        <span class="buyer-info-value">${b.timing || '-'}</span>
+                    </div>
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">購入方法</span>
+                        <span class="buyer-info-value">${b.method || '-'}</span>
+                    </div>
+                    <div class="buyer-info-row">
+                        <span class="buyer-info-label">購入理由</span>
+                        <span class="buyer-info-value">${b.reason || '-'}</span>
+                    </div>
+                    <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
+                        <span class="buyer-info-label">NG条件</span>
+                        <span class="buyer-info-value">${b.ng || '特になし'}</span>
+                    </div>
+                </div>
+                <div class="buyer-action">
+                    <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
+                </div>
+            </div>
+        `).join('');
+    }
+    
+    modal.classList.add('active');
+    
+    // スマホ用フッターを表示
+    const footer = document.getElementById('buyerFooter');
+    if (footer && window.innerWidth <= 768) {
+        footer.style.display = 'block';
+    }
+};
+
+window.closeModal = function() {
+    document.getElementById('buyerModal')?.classList.remove('active');
+    
+    // スマホ用フッターを非表示
+    const footer = document.getElementById('buyerFooter');
+    if (footer) {
+        footer.style.display = 'none';
+    }
+};
+
+window.contactBuyer = function(buyerId) {
+    window.location.href = 'https://form.run/@urico-kansai';
+};
+
+async function loadExternalData() {
+    try {
+        const [railwayRes, areaRes] = await Promise.all([
+            fetch('./railway_data.json'),
+            fetch('./area_data.json')
+        ]);
+        railwayData = await railwayRes.json();
+        areaData = await areaRes.json();
+        initializeRailwaySelects('house');
+        initializeRailwaySelects('land');
+        initializeAreaSelects('house');
+        initializeAreaSelects('land');
+    } catch (error) {
+        console.error('データの読み込みに失敗しました:', error);
+    }
+}
+
+function initializeRailwaySelects(prefix) {
+    const railwaySelect = document.getElementById(`${prefix}-railway`);
+    if (!railwaySelect) return;
+    railwaySelect.innerHTML = '<option value="">選択してください</option>';
+    Object.keys(railwayData).forEach(company => {
+        const option = document.createElement('option');
+        option.value = company;
+        option.textContent = company;
+        railwaySelect.appendChild(option);
+    });
+}
+
+function setupSearchMethodToggle(prefix) {
+    const stationBtn = document.getElementById(`${prefix}-method-station`);
+    const areaBtn = document.getElementById(`${prefix}-method-area`);
+    const stationSearch = document.getElementById(`${prefix}-station-search`);
+    const areaSearch = document.getElementById(`${prefix}-area-search`);
+    if (!stationBtn || !areaBtn) return;
+    stationBtn.addEventListener('click', () => {
+        stationBtn.classList.add('active');
+        areaBtn.classList.remove('active');
+        stationSearch.style.display = 'block';
+        areaSearch.style.display = 'none';
+    });
+    areaBtn.addEventListener('click', () => {
+        areaBtn.classList.add('active');
+        stationBtn.classList.remove('active');
+        areaSearch.style.display = 'block';
+        stationSearch.style.display = 'none';
+    });
+}
+
+function setup3TierRailwaySelect(prefix) {
+    const railwaySelect = document.getElementById(`${prefix}-railway`);
+    const lineSelect = document.getElementById(`${prefix}-line`);
+    const stationSelect = document.getElementById(`${prefix}-station`);
+    if (!railwaySelect || !lineSelect || !stationSelect) return;
+    railwaySelect.addEventListener('change', () => {
+        const company = railwaySelect.value;
+        lineSelect.innerHTML = '<option value="">選択してください</option>';
+        stationSelect.innerHTML = '<option value="">先に沿線名を選択してください</option>';
+        stationSelect.disabled = true;
+        if (company && railwayData[company]) {
+            lineSelect.disabled = false;
+            Object.keys(railwayData[company]).forEach(line => {
+                const option = document.createElement('option');
+                option.value = line;
+                option.textContent = line;
+                lineSelect.appendChild(option);
+            });
+        } else {
+            lineSelect.disabled = true;
+        }
+    });
+    lineSelect.addEventListener('change', () => {
+        const company = railwaySelect.value;
+        const line = lineSelect.value;
+        stationSelect.innerHTML = '<option value="">選択してください</option>';
+        if (company && line && railwayData[company][line]) {
+            stationSelect.disabled = false;
+            railwayData[company][line].forEach(station => {
+                const option = document.createElement('option');
+                option.value = station;
+                option.textContent = station;
+                stationSelect.appendChild(option);
+            });
+        } else {
+            stationSelect.disabled = true;
+        }
+    });
+}
+
+function initializeAreaSelects(prefix) {
+    const prefSelect = document.getElementById(`${prefix}-prefecture`);
+    const citySelect = document.getElementById(`${prefix}-city`);
+    if (!prefSelect || !citySelect) return;
+    prefSelect.innerHTML = '<option value="">選択してください</option>';
+    Object.keys(areaData).forEach(pref => {
+        const option = document.createElement('option');
+        option.value = pref;
+        option.textContent = pref;
+        prefSelect.appendChild(option);
+    });
+    prefSelect.addEventListener('change', () => {
+        const selectedPref = prefSelect.value;
+        citySelect.innerHTML = '<option value="">先に都道府県を選択してください</option>';
+        citySelect.disabled = true;
+        if (selectedPref && areaData[selectedPref]) {
+            citySelect.innerHTML = '<option value="">選択してください</option>';
+            areaData[selectedPref].forEach(city => {
+                const option = document.createElement('option');
+                option.value = city;
+                option.textContent = city;
+                citySelect.appendChild(option);
+            });
+            citySelect.disabled = false;
+        }
+    });
+}
+
+function initializeTabSwitching() {
+    const tabs = document.querySelectorAll('.search-tabs button');
+    const contents = {
+        mansion: document.getElementById('tab-mansion'),
+        house: document.getElementById('tab-house'),
+        land: document.getElementById('tab-land'),
+    };
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const selectedType = tab.id.replace('tab-', '').replace('-btn', '');
+            tabs.forEach(t => {
+                const isSelected = (t === tab);
+                t.classList.toggle('active', isSelected);
+                t.setAttribute('aria-selected', isSelected ? 'true' : 'false');
+            });
+            Object.entries(contents).forEach(([key, element]) => {
+                if (!element) return;
+                element.style.display = (key === selectedType) ? 'block' : 'none';
+            });
+            updateStats(selectedType);
+            const data = statsData[selectedType];
+            if (data) {
+                document.getElementById('heroTitle').innerHTML = data.title;
+                document.getElementById('statSuccessRate').textContent = data.rate;
+            }
+        });
+    });
+}
+
+function initializeMansionSearch() {
+    const inputMansion = document.getElementById('searchInputMansion');
+    const suggestionsMansion = document.getElementById('suggestionsMansion');
+    if (!inputMansion || !suggestionsMansion) return;
+    inputMansion.addEventListener('input', () => {
+        const query = inputMansion.value.toLowerCase();
+        suggestionsMansion.innerHTML = '';
+        if (query.length < 1) {
+            suggestionsMansion.style.display = 'none';
+            return;
+        }
+        const filtered = mansionDatabase
+            .filter(m => (m.name || '').toLowerCase().includes(query))
+            .slice(0, 10);
+        if (filtered.length > 0) {
+            filtered.forEach(mansion => {
+                const item = document.createElement('div');
+                item.classList.add('suggestion-item');
+                item.innerHTML = `
+                    <span class="mansion-name">${mansion.name}</span>
+                    <span class="buyer-count">${(mansion.buyers || []).length}組</span>
+                `;
+                item.addEventListener('click', () => {
+                    inputMansion.value = mansion.name;
+                    suggestionsMansion.style.display = 'none';
+                    showBuyerDetails(mansion.name);
+                });
+                suggestionsMansion.appendChild(item);
+            });
+            suggestionsMansion.style.display = 'block';
+        } else {
+            suggestionsMansion.style.display = 'none';
+        }
+    });
+    document.getElementById('searchButtonMansion').addEventListener('click', () => {
+        const mansionName = inputMansion.value.trim();
+        if (mansionName) {
+            const mansion = mansionDatabase.find(m => 
+                (m.name || '').toLowerCase().includes(mansionName.toLowerCase())
+            );
+            if (mansion) {
+                showBuyerDetails(mansion.name);
+            } else {
+                alert('該当するマンションが見つかりません。無料査定でお探しします。');
+            }
+        } else {
+            alert('マンション名を入力してください。');
+        }
+    });
+    inputMansion.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            document.getElementById('searchButtonMansion').click();
+        }
+    });
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.search-box')) {
+            suggestionsMansion.style.display = 'none';
+        }
+    });
+}
+
+function initializeHouseSearch() {
+    const form = document.getElementById('tab-house');
+    if (!form) return;
+    form.addEventListener('submit', async e => {
+        e.preventDefault();
+        const pref = document.getElementById('house-prefecture').value.trim();
+        const city = document.getElementById('house-city').value.trim();
+        const railway = document.getElementById('house-railway').value.trim();
+        const line = document.getElementById('house-line').value.trim();
+        const station = document.getElementById('house-station').value.trim();
+        
+        let jsonPath = '';
+        
+        // エリア検索
+        if (pref && city) {
+            // パスを構築: data/house/area/{prefecture}/{city}.json
+            jsonPath = `./data/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
+        } 
+        // 駅検索
+        else if (railway && station) {
+            // パスを構築: data/house/station/{railway}/{line}/{station}.json
+            jsonPath = `./data/house/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
+        } else {
+            alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
+            return;
+        }
+        
+        try {
+            // JSONファイルを読み込む
+            const response = await fetch(jsonPath);
+            if (!response.ok) {
+                throw new Error('ファイルが見つかりません');
+            }
+            const buyers = await response.json();
+            
+            if (!buyers || buyers.length === 0) {
+                alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する戸建の購入希望者は見つかりませんでした。`);
+                return;
+            }
+            
+            // モーダルを表示
+            const modal = document.getElementById('buyerModal');
+            const title = document.getElementById('modalTitle');
+            const subtitle = document.getElementById('modalSubtitle');
+            const cards = document.getElementById('buyerCards');
+            
+            if (title) title.textContent = `${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} の戸建`;
+            if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
+            
+            if (cards) {
+                cards.innerHTML = buyers.map((b, idx) => `
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #${idx + 1}</span>
+                            <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">家族構成</span>
+                                <span class="buyer-info-value">${b.family || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">年齢</span>
+                                <span class="buyer-info-value">${b.age || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">職業</span>
+                                <span class="buyer-info-value">${b.occupation || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">${b.timing || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入方法</span>
+                                <span class="buyer-info-value">${b.method || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入理由</span>
+                                <span class="buyer-info-value">${b.reason || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
+                                <span class="buyer-info-label">NG条件</span>
+                                <span class="buyer-info-value">${b.ng || '特になし'}</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            modal.classList.add('active');
+            
+            // スマホ用フッターを表示
+            const footer = document.getElementById('buyerFooter');
+            if (footer && window.innerWidth <= 768) {
+                footer.style.display = 'block';
+            }
+        } catch (error) {
+            console.error('データ読み込みエラー:', error);
+            alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する戸建の購入希望者は見つかりませんでした。`);
+        }
+    });
+}
+
+function initializeLandSearch() {
+    const form = document.getElementById('tab-land');
+    if (!form) return;
+    form.addEventListener('submit', async e => {
+        e.preventDefault();
+        const pref = document.getElementById('land-prefecture').value.trim();
+        const city = document.getElementById('land-city').value.trim();
+        const railway = document.getElementById('land-railway').value.trim();
+        const line = document.getElementById('land-line').value.trim();
+        const station = document.getElementById('land-station').value.trim();
+        
+        let jsonPath = '';
+        
+        // エリア検索
+        if (pref && city) {
+            // パスを構築: data/land/area/{prefecture}/{city}.json
+            jsonPath = `./data/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
+        } 
+        // 駅検索
+        else if (railway && station) {
+            // パスを構築: data/land/station/{railway}/{line}/{station}.json
+            jsonPath = `./data/land/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
+        } else {
+            alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
+            return;
+        }
+        
+        try {
+            // JSONファイルを読み込む
+            const response = await fetch(jsonPath);
+            if (!response.ok) {
+                throw new Error('ファイルが見つかりません');
+            }
+            const buyers = await response.json();
+            
+            if (!buyers || buyers.length === 0) {
+                alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する土地の購入希望者は見つかりませんでした。`);
+                return;
+            }
+            
+            // モーダルを表示
+            const modal = document.getElementById('buyerModal');
+            const title = document.getElementById('modalTitle');
+            const subtitle = document.getElementById('modalSubtitle');
+            const cards = document.getElementById('buyerCards');
+            
+            if (title) title.textContent = `${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} の土地`;
+            if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
+            
+            if (cards) {
+                cards.innerHTML = buyers.map((b, idx) => `
+                    <div class="buyer-block">
+                        <div class="buyer-block-header">
+                            <span class="buyer-number">購入希望者 #${idx + 1}</span>
+                            <span class="buyer-price-value">${b.price || '価格応相談'}</span>
+                        </div>
+                        <div class="buyer-info-table">
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">家族構成</span>
+                                <span class="buyer-info-value">${b.family || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">年齢</span>
+                                <span class="buyer-info-value">${b.age || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">職業</span>
+                                <span class="buyer-info-value">${b.occupation || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入時期</span>
+                                <span class="buyer-info-value">${b.timing || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入方法</span>
+                                <span class="buyer-info-value">${b.method || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row">
+                                <span class="buyer-info-label">購入理由</span>
+                                <span class="buyer-info-value">${b.reason || '-'}</span>
+                            </div>
+                            <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
+                                <span class="buyer-info-label">NG条件</span>
+                                <span class="buyer-info-value">${b.ng || '特になし'}</span>
+                            </div>
+                        </div>
+                        <div class="buyer-action">
+                            <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            modal.classList.add('active');
+            
+            // スマホ用フッターを表示
+            const footer = document.getElementById('buyerFooter');
+            if (footer && window.innerWidth <= 768) {
+                footer.style.display = 'block';
+            }
+        } catch (error) {
+            console.error('データ読み込みエラー:', error);
+            alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する土地の購入希望者は見つかりませんでした。`);
+        }
+    });
+}
+
+// 画像スライダー初期化
+function initializeImageSlider() {
+    const slider = document.getElementById('imageSlider');
+    if (!slider) return;
+    
+    let currentIndex = 0;
+    let autoSlideInterval;
+    let isUserScrolling = false;
+    let scrollTimeout;
+    const images = slider.querySelectorAll('.slider-image');
+    const totalImages = images.length;
+    const slideWidth = window.innerWidth;
+    
+    // 自動スライド関数
+    function autoSlide() {
+        if (isUserScrolling) return;
+        
+        currentIndex = (currentIndex + 1) % totalImages;
+        slider.scrollTo({
+            left: currentIndex * slideWidth,
+            behavior: 'smooth'
+        });
+    }
+    
+    // 自動スライド開始
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(autoSlide, 5000);
+    }
+    
+    // 自動スライド停止
+    function stopAutoSlide() {
+        clearInterval(autoSlideInterval);
+    }
+    
+    // スクロール位置から現在のインデックスを計算
+    function updateCurrentIndex() {
+        const scrollLeft = slider.scrollLeft;
+        currentIndex = Math.round(scrollLeft / slideWidth);
+    }
+    
+    // ユーザーがスクロールしているか検知
+    slider.addEventListener('scroll', () => {
+        isUserScrolling = true;
+        clearTimeout(scrollTimeout);
+        
+        // スクロールが止まってから1秒後に自動スライドを再開
+        scrollTimeout = setTimeout(() => {
+            isUserScrolling = false;
+            updateCurrentIndex();
+            startAutoSlide();
+        }, 1000);
+        
+        stopAutoSlide();
+    });
+    
+    // タッチ/マウス操作の検知
+    let isInteracting = false;
+    slider.addEventListener('touchstart', () => {
+        isInteracting = true;
+        stopAutoSlide();
+    });
+    
+    slider.addEventListener('touchend', () => {
+        setTimeout(() => {
+            isInteracting = false;
+            updateCurrentIndex();
+            startAutoSlide();
+        }, 1000);
+    });
+    
+    slider.addEventListener('mousedown', () => {
+        isInteracting = true;
+        stopAutoSlide();
+    });
+    
+    slider.addEventListener('mouseup', () => {
+        setTimeout(() => {
+            isInteracting = false;
+            updateCurrentIndex();
+            startAutoSlide();
+        }, 1000);
+    });
+    
+    // ウィンドウリサイズ時の処理
+    window.addEventListener('resize', () => {
+        const newSlideWidth = window.innerWidth;
+        slider.scrollTo({
+            left: currentIndex * newSlideWidth,
+            behavior: 'auto'
+        });
+    });
+    
+    // 初期化
+    startAutoSlide();
+}
+</script>
+
+</body>
+</html>

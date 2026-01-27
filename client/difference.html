@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>一括査定サイトとの違い | URICO - 不動産売却マッチングサービス</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --primary-color: #FF6B6B;
+            --secondary-color: #4ECDC4;
+            --dark-color: #2C3E50;
+            --light-color: #F7F9F9;
+            --white: #FFFFFF;
+            --shadow: 0 4px 15px rgba(0,0,0,0.1);
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --text-muted: #999;
+            --border-color: #e0e0e0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+            line-height: 1.6;
+        }
+
+        .campaign-banner {
+            background-color: #FF4757;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 16px;
+            font-weight: 700;
+            position: sticky;
+            top: 0;
+            z-index: 1001;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        header {
+            background: var(--white);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 40px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        @media (max-width: 768px) {
+            header { top: 0; }
+            .campaign-banner { font-size: 14px; }
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .logo img { height: 40px; }
+
+        nav { display: flex; gap: 20px; align-items: center; }
+        nav a { text-decoration: none; color: var(--dark-color); font-weight: 500; transition: color 0.3s; }
+        nav a:hover { color: var(--primary-color); }
+
+        .content-section {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 5%;
+        }
+
+        .content-section h1 {
+            font-size: 36px;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .intro-text {
+            font-size: 18px;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 60px;
+            line-height: 1.8;
+        }
+
+        .section-block {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            margin-bottom: 50px;
+        }
+
+        .section-block h2 {
+            font-size: 28px;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .section-block h3 {
+            font-size: 20px;
+            color: var(--text-primary);
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .section-block p {
+            font-size: 16px;
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            line-height: 1.9;
+        }
+
+        .infographic-container {
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .infographic-container svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .key-point {
+            background: #FFF5F5;
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            margin: 25px 0;
+            font-size: 16px;
+            color: var(--text-primary);
+            font-weight: 500;
+            line-height: 1.8;
+        }
+
+        footer {
+            background: var(--dark-color);
+            color: var(--white);
+            padding: 40px 5%;
+            margin-top: 80px;
+            text-align: center;
+        }
+        footer p { color: #ccc; margin-bottom: 10px; }
+        footer .copyright { font-size: 12px; color: #888; margin-top: 30px; }
+        footer .character-image {
+            max-width: 120px;
+            max-height: 120px;
+            width: auto;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+        footer nav {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 25px 0 15px 0;
+            flex-wrap: wrap;
+        }
+        footer nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        footer nav a:hover {
+            color: var(--white);
+        }
+
+        @media (max-width: 768px) {
+            .content-section h1 { font-size: 28px; }
+            .section-block h2 { font-size: 24px; }
+            .section-block { padding: 25px 20px; }
+            header { flex-direction: column; gap: 15px; }
+            nav { font-size: 14px; flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="campaign-banner">
+        【期間限定】今だけ！査定依頼でAmazonギフト券最大5,000円分プレゼント
+    </div>
+    <header>
+        <a href="index.html" class="logo" aria-label="ホームへ戻る">
+            <img src="./images/urico_logo.png" alt="URICO ロゴ" />
+        </a>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="about.html">URICOとは</a>
+            <a href="difference.html">一括査定との違い</a>
+            <a href="company/">運営会社</a>
+            <a href="#">お問い合わせ</a>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <h1>一括査定サイトとの違い</h1>
+
+        <p class="intro-text">
+            URICOは一括査定サイトではありません。<br>
+            売却のやり方そのものが異なるサービスです。
+        </p>
+
+        <!-- セクションA: 仕組みの違い -->
+        <div class="section-block">
+            <h2>A. 仕組みの違い</h2>
+            <p>
+                一括査定サイトは、売主情報を複数の不動産会社に送信する「送客モデル」です。各社は売主と契約を得るため、査定額を高めに出したり、営業電話を繰り返すことがあります。
+            </p>
+            <p>
+                URICOは、実在する購入希望者（25,000人超）のデータを公開し、売主が主導権を持って必要な時だけ問い合わせができる「マッチングモデル」です。営業電話は仕組み上発生しません。
+            </p>
+
+            <div class="infographic-container">
+                <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+                    <!-- 背景 -->
+                    <rect x="0" y="0" width="380" height="340" fill="#FFF5F5" rx="10"/>
+                    <rect x="420" y="0" width="380" height="340" fill="#F0FFF4" rx="10"/>
+
+                    <!-- 左側：一括査定 -->
+                    <text x="190" y="35" font-size="20" font-weight="bold" fill="#FF6B6B" text-anchor="middle">一括査定サイト</text>
+
+                    <circle cx="190" cy="80" r="25" fill="#FFD6D6"/>
+                    <text x="190" y="87" font-size="14" fill="#333" text-anchor="middle">売主</text>
+
+                    <line x1="190" y1="110" x2="190" y2="140" stroke="#FF6B6B" stroke-width="3" marker-end="url(#arrowRed)"/>
+
+                    <rect x="140" y="150" width="100" height="50" fill="#FFA8A8" rx="5"/>
+                    <text x="190" y="170" font-size="13" fill="#333" text-anchor="middle">査定サイト</text>
+                    <text x="190" y="188" font-size="11" fill="#555" text-anchor="middle">（送客）</text>
+
+                    <line x1="190" y1="205" x2="100" y2="245" stroke="#FF6B6B" stroke-width="2" marker-end="url(#arrowRed)"/>
+                    <line x1="190" y1="205" x2="190" y2="245" stroke="#FF6B6B" stroke-width="2" marker-end="url(#arrowRed)"/>
+                    <line x1="190" y1="205" x2="280" y2="245" stroke="#FF6B6B" stroke-width="2" marker-end="url(#arrowRed)"/>
+
+                    <rect x="50" y="250" width="60" height="40" fill="#FFE0E0" rx="5"/>
+                    <text x="80" y="268" font-size="11" fill="#333" text-anchor="middle">会社A</text>
+                    <text x="80" y="283" font-size="9" fill="#666" text-anchor="middle">営業電話</text>
+
+                    <rect x="160" y="250" width="60" height="40" fill="#FFE0E0" rx="5"/>
+                    <text x="190" y="268" font-size="11" fill="#333" text-anchor="middle">会社B</text>
+                    <text x="190" y="283" font-size="9" fill="#666" text-anchor="middle">営業電話</text>
+
+                    <rect x="270" y="250" width="60" height="40" fill="#FFE0E0" rx="5"/>
+                    <text x="300" y="268" font-size="11" fill="#333" text-anchor="middle">会社C</text>
+                    <text x="300" y="283" font-size="9" fill="#666" text-anchor="middle">営業電話</text>
+
+                    <text x="190" y="320" font-size="12" fill="#666" text-anchor="middle">複数社から連絡が集中</text>
+
+                    <!-- 右側：URICO -->
+                    <text x="610" y="35" font-size="20" font-weight="bold" fill="#4ECDC4" text-anchor="middle">URICO</text>
+
+                    <circle cx="610" cy="80" r="25" fill="#C6F6F3"/>
+                    <text x="610" y="87" font-size="14" fill="#333" text-anchor="middle">売主</text>
+
+                    <line x1="610" y1="110" x2="610" y2="140" stroke="#4ECDC4" stroke-width="3" marker-end="url(#arrowGreen)"/>
+
+                    <rect x="560" y="150" width="100" height="50" fill="#7FE8DE" rx="5"/>
+                    <text x="610" y="170" font-size="13" fill="#333" text-anchor="middle">購入希望者</text>
+                    <text x="610" y="188" font-size="11" fill="#555" text-anchor="middle">データベース</text>
+
+                    <text x="520" y="230" font-size="10" fill="#666">家族構成</text>
+                    <text x="610" y="230" font-size="10" fill="#666">購入時期</text>
+                    <text x="690" y="230" font-size="10" fill="#666">NG条件</text>
+
+                    <line x1="610" y1="245" x2="610" y2="270" stroke="#4ECDC4" stroke-width="2" stroke-dasharray="5,5"/>
+                    <text x="520" y="263" font-size="11" fill="#666">売主が選択</text>
+
+                    <rect x="560" y="275" width="100" height="40" fill="#C6F6F3" rx="5"/>
+                    <text x="610" y="292" font-size="11" fill="#333" text-anchor="middle">問い合わせ</text>
+                    <text x="610" y="307" font-size="9" fill="#666" text-anchor="middle">必要な時だけ</text>
+
+                    <text x="610" y="335" font-size="12" fill="#666" text-anchor="middle">営業電話ゼロ</text>
+
+                    <!-- 矢印マーカー定義 -->
+                    <defs>
+                        <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                            <path d="M0,0 L0,6 L9,3 z" fill="#FF6B6B" />
+                        </marker>
+                        <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                            <path d="M0,0 L0,6 L9,3 z" fill="#4ECDC4" />
+                        </marker>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="key-point">
+                一括査定は「売主情報を売る」送客モデル。URICOは「購入希望者を見せる」マッチングモデル。
+            </div>
+        </div>
+
+        <!-- セクションB: 査定がブレる理由 -->
+        <div class="section-block">
+            <h2>B. 査定額がブレる理由 vs リアルな市場価格</h2>
+            <p>
+                一括査定では、各社が売主と契約を獲得するため、競争原理が働きます。その結果、実際の成約価格より高い査定額を提示されることがあり、売却活動が長期化する原因になります。
+            </p>
+            <p>
+                URICOでは、実際に購入を検討している人の予算や条件を公開しているため、リアルな市場価格を把握できます。25,000人超の購入希望者データから、その物件に本当に興味を持つ人が見つかります。
+            </p>
+
+            <div class="infographic-container">
+                <svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
+                    <!-- 左側：一括査定（ばらつき） -->
+                    <rect x="20" y="20" width="360" height="280" fill="#FFF5F5" rx="10"/>
+                    <text x="200" y="50" font-size="18" font-weight="bold" fill="#FF6B6B" text-anchor="middle">一括査定の査定額</text>
+
+                    <!-- グラフ軸 -->
+                    <line x1="60" y1="240" x2="340" y2="240" stroke="#999" stroke-width="2"/>
+                    <line x1="60" y1="80" x2="60" y2="240" stroke="#999" stroke-width="2"/>
+
+                    <text x="50" y="250" font-size="10" fill="#666" text-anchor="end">価格</text>
+
+                    <!-- ばらついた査定額 -->
+                    <rect x="80" y="200" width="40" height="40" fill="#FFA8A8"/>
+                    <text x="100" y="225" font-size="11" fill="#333" text-anchor="middle">A社</text>
+                    <text x="100" y="260" font-size="10" fill="#666" text-anchor="middle">3800万</text>
+
+                    <rect x="140" y="140" width="40" height="100" fill="#FF8080"/>
+                    <text x="160" y="165" font-size="11" fill="#333" text-anchor="middle">B社</text>
+                    <text x="160" y="260" font-size="10" fill="#666" text-anchor="middle">4200万</text>
+
+                    <rect x="200" y="120" width="40" height="120" fill="#FF6B6B"/>
+                    <text x="220" y="145" font-size="11" fill="#fff" text-anchor="middle">C社</text>
+                    <text x="220" y="260" font-size="10" fill="#666" text-anchor="middle">4500万</text>
+
+                    <rect x="260" y="170" width="40" height="70" fill="#FFA8A8"/>
+                    <text x="280" y="195" font-size="11" fill="#333" text-anchor="middle">D社</text>
+                    <text x="280" y="260" font-size="10" fill="#666" text-anchor="middle">4000万</text>
+
+                    <text x="200" y="285" font-size="12" fill="#666" text-anchor="middle">査定額が大きくばらつく</text>
+
+                    <!-- 右側：URICO（収束） -->
+                    <rect x="420" y="20" width="360" height="280" fill="#F0FFF4" rx="10"/>
+                    <text x="600" y="50" font-size="18" font-weight="bold" fill="#4ECDC4" text-anchor="middle">URICOの市場価格</text>
+
+                    <!-- グラフ軸 -->
+                    <line x1="460" y1="240" x2="740" y2="240" stroke="#999" stroke-width="2"/>
+                    <line x1="460" y1="80" x2="460" y2="240" stroke="#999" stroke-width="2"/>
+
+                    <text x="450" y="250" font-size="10" fill="#666" text-anchor="end">価格</text>
+
+                    <!-- 購入希望者の予算分布 -->
+                    <circle cx="520" cy="165" r="15" fill="#7FE8DE" opacity="0.7"/>
+                    <circle cx="540" cy="175" r="15" fill="#7FE8DE" opacity="0.7"/>
+                    <circle cx="560" cy="160" r="15" fill="#7FE8DE" opacity="0.7"/>
+                    <circle cx="580" cy="170" r="15" fill="#7FE8DE" opacity="0.7"/>
+                    <circle cx="600" cy="165" r="15" fill="#4ECDC4" opacity="0.8"/>
+                    <circle cx="620" cy="172" r="15" fill="#7FE8DE" opacity="0.7"/>
+                    <circle cx="640" cy="168" r="15" fill="#7FE8DE" opacity="0.7"/>
+                    <circle cx="660" cy="163" r="15" fill="#7FE8DE" opacity="0.7"/>
+                    <circle cx="680" cy="175" r="15" fill="#7FE8DE" opacity="0.7"/>
+
+                    <text x="600" y="205" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">実際の購入希望予算</text>
+                    <text x="600" y="225" font-size="14" fill="#4ECDC4" text-anchor="middle" font-weight="bold">3900万〜4100万円</text>
+
+                    <text x="600" y="285" font-size="12" fill="#666" text-anchor="middle">リアルな市場価格が分かる</text>
+                </svg>
+            </div>
+
+            <div class="key-point">
+                一括査定の高額査定は「契約獲得」が目的。URICOは実在する購入希望者の予算を公開するため、売却可能な価格が明確になる。
+            </div>
+        </div>
+
+        <!-- セクションC: 売却までのムダ比較 -->
+        <div class="section-block">
+            <h2>C. 売却までのムダ比較</h2>
+            <p>
+                一括査定を利用すると、複数社からの営業対応、訪問査定の調整、各社との面談など、売却活動を始める前に多くの時間と労力を使います。
+            </p>
+            <p>
+                URICOなら、購入希望者情報を確認してから必要な時だけ問い合わせるため、無駄な時間を削減できます。本当に売却したいと思った時にアクションを起こせる仕組みです。
+            </p>
+
+            <div class="infographic-container">
+                <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                    <!-- タイトル -->
+                    <text x="190" y="30" font-size="18" font-weight="bold" fill="#FF6B6B" text-anchor="middle">一括査定サイト</text>
+                    <text x="610" y="30" font-size="18" font-weight="bold" fill="#4ECDC4" text-anchor="middle">URICO</text>
+
+                    <!-- 左側：一括査定のタイムライン -->
+                    <line x1="40" y1="60" x2="40" y2="360" stroke="#FF6B6B" stroke-width="4"/>
+
+                    <circle cx="40" cy="70" r="8" fill="#FF6B6B"/>
+                    <rect x="60" y="55" width="260" height="30" fill="#FFE0E0" rx="5"/>
+                    <text x="190" y="75" font-size="13" fill="#333" text-anchor="middle">査定申込み</text>
+
+                    <circle cx="40" cy="120" r="8" fill="#FF6B6B"/>
+                    <rect x="60" y="105" width="260" height="30" fill="#FFE0E0" rx="5"/>
+                    <text x="190" y="125" font-size="13" fill="#333" text-anchor="middle">営業電話対応（複数社）</text>
+
+                    <circle cx="40" cy="170" r="8" fill="#FF6B6B"/>
+                    <rect x="60" y="155" width="260" height="30" fill="#FFE0E0" rx="5"/>
+                    <text x="190" y="175" font-size="13" fill="#333" text-anchor="middle">訪問査定の日程調整</text>
+
+                    <circle cx="40" cy="220" r="8" fill="#FF6B6B"/>
+                    <rect x="60" y="205" width="260" height="30" fill="#FFE0E0" rx="5"/>
+                    <text x="190" y="225" font-size="13" fill="#333" text-anchor="middle">各社との面談・査定書受取</text>
+
+                    <circle cx="40" cy="270" r="8" fill="#FF6B6B"/>
+                    <rect x="60" y="255" width="260" height="30" fill="#FFE0E0" rx="5"/>
+                    <text x="190" y="275" font-size="13" fill="#333" text-anchor="middle">会社選定・断りの連絡</text>
+
+                    <circle cx="40" cy="320" r="8" fill="#FF6B6B"/>
+                    <rect x="60" y="305" width="260" height="30" fill="#FFD6D6" rx="5"/>
+                    <text x="190" y="325" font-size="13" fill="#333" text-anchor="middle">ようやく売却活動開始</text>
+
+                    <text x="190" y="365" font-size="12" fill="#666" text-anchor="middle">売却まで多くの工程が必要</text>
+
+                    <!-- 右側：URICOのタイムライン -->
+                    <line x1="440" y1="60" x2="440" y2="210" stroke="#4ECDC4" stroke-width="4"/>
+
+                    <circle cx="440" cy="70" r="8" fill="#4ECDC4"/>
+                    <rect x="460" y="55" width="280" height="30" fill="#C6F6F3" rx="5"/>
+                    <text x="600" y="75" font-size="13" fill="#333" text-anchor="middle">購入希望者情報を確認（無料）</text>
+
+                    <circle cx="440" cy="130" r="8" fill="#4ECDC4"/>
+                    <rect x="460" y="115" width="280" height="30" fill="#C6F6F3" rx="5"/>
+                    <text x="600" y="135" font-size="13" fill="#333" text-anchor="middle">気になる購入者がいれば問い合わせ</text>
+
+                    <circle cx="440" cy="190" r="8" fill="#4ECDC4"/>
+                    <rect x="460" y="175" width="280" height="30" fill="#7FE8DE" rx="5"/>
+                    <text x="600" y="195" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">売却活動開始</text>
+
+                    <text x="600" y="240" font-size="12" fill="#4ECDC4" text-anchor="middle" font-weight="bold">最短3ステップで開始</text>
+
+                    <!-- 空白スペース（余裕を表現） -->
+                    <rect x="460" y="260" width="280" height="80" fill="#F7F9F9" rx="5" stroke="#4ECDC4" stroke-dasharray="5,5"/>
+                    <text x="600" y="305" font-size="14" fill="#999" text-anchor="middle">無駄な時間ゼロ</text>
+
+                    <text x="600" y="365" font-size="12" fill="#666" text-anchor="middle">必要な時だけアクション</text>
+                </svg>
+            </div>
+
+            <div class="key-point">
+                一括査定は売却開始までに多くの対応が必要。URICOは見る→選ぶ→問い合わせの3ステップで無駄な時間を削減。
+            </div>
+        </div>
+
+        <!-- セクションD: ミスマッチの事前回避 -->
+        <div class="section-block">
+            <h2>D. ミスマッチの事前回避</h2>
+            <p>
+                従来の売却方法では、購入希望者のNG条件（ペット不可、リフォーム歴必須など）が分からず、内覧後に断られることが頻繁に発生します。
+            </p>
+            <p>
+                URICOでは、購入希望者のNG条件を事前に公開しているため、条件に合わない物件は最初から避けられます。これにより、無駄な内覧や商談を減らし、成約率の高い売却活動が実現します。
+            </p>
+
+            <div class="infographic-container">
+                <svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
+                    <!-- 背景 -->
+                    <rect x="20" y="20" width="760" height="280" fill="#F0FFF4" rx="15"/>
+
+                    <!-- タイトル -->
+                    <text x="400" y="55" font-size="20" font-weight="bold" fill="#4ECDC4" text-anchor="middle">購入希望者のNG条件が見える</text>
+
+                    <!-- 物件情報（左） -->
+                    <rect x="60" y="90" width="200" height="180" fill="#FFF" stroke="#4ECDC4" stroke-width="3" rx="10"/>
+                    <text x="160" y="120" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">あなたの物件</text>
+
+                    <text x="80" y="150" font-size="13" fill="#555">・築15年</text>
+                    <text x="80" y="175" font-size="13" fill="#555">・ペット飼育歴あり</text>
+                    <text x="80" y="200" font-size="13" fill="#555">・リフォーム未実施</text>
+                    <text x="80" y="225" font-size="13" fill="#555">・駅徒歩12分</text>
+                    <text x="80" y="250" font-size="13" fill="#555">・予算4000万円</text>
+
+                    <!-- 矢印とフィルター -->
+                    <line x1="270" y1="180" x2="330" y2="180" stroke="#4ECDC4" stroke-width="3" marker-end="url(#arrowFilter)"/>
+                    <rect x="290" y="160" width="70" height="40" fill="#7FE8DE" rx="5"/>
+                    <text x="325" y="178" font-size="11" fill="#333" text-anchor="middle">NG条件</text>
+                    <text x="325" y="193" font-size="11" fill="#333" text-anchor="middle">チェック</text>
+
+                    <!-- 購入希望者（右上：マッチ） -->
+                    <rect x="380" y="90" width="180" height="80" fill="#C6F6F3" stroke="#4ECDC4" stroke-width="2" rx="8"/>
+                    <text x="470" y="110" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">購入希望者A ✓</text>
+                    <text x="390" y="133" font-size="11" fill="#555">NG条件：築20年以上</text>
+                    <text x="390" y="153" font-size="11" fill="#555">→ マッチ！</text>
+
+                    <!-- 購入希望者（右中：NG） -->
+                    <rect x="380" y="185" width="180" height="80" fill="#FFE0E0" stroke="#FF6B6B" stroke-width="2" rx="8"/>
+                    <text x="470" y="205" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">購入希望者B ✗</text>
+                    <text x="390" y="228" font-size="11" fill="#555">NG条件：ペット飼育歴</text>
+                    <text x="390" y="248" font-size="11" fill="#FF6B6B">→ 事前に除外</text>
+
+                    <!-- 購入希望者（右下：マッチ） -->
+                    <rect x="590" y="90" width="180" height="80" fill="#C6F6F3" stroke="#4ECDC4" stroke-width="2" rx="8"/>
+                    <text x="680" y="110" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">購入希望者C ✓</text>
+                    <text x="600" y="133" font-size="11" fill="#555">NG条件：駅徒歩15分以上</text>
+                    <text x="600" y="153" font-size="11" fill="#555">→ マッチ！</text>
+
+                    <!-- 購入希望者（右下2：NG） -->
+                    <rect x="590" y="185" width="180" height="80" fill="#FFE0E0" stroke="#FF6B6B" stroke-width="2" rx="8"/>
+                    <text x="680" y="205" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">購入希望者D ✗</text>
+                    <text x="600" y="228" font-size="11" fill="#555">NG条件：リフォーム未実施</text>
+                    <text x="600" y="248" font-size="11" fill="#FF6B6B">→ 事前に除外</text>
+
+                    <!-- 矢印マーカー -->
+                    <defs>
+                        <marker id="arrowFilter" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                            <path d="M0,0 L0,6 L9,3 z" fill="#4ECDC4" />
+                        </marker>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="key-point">
+                購入希望者のNG条件を事前に確認できるため、無駄な内覧を減らし、成約率の高い売却活動が可能になる。
+            </div>
+        </div>
+
+        <!-- セクションE: 買主が見える安心 -->
+        <div class="section-block">
+            <h2>E. 「買主が見える」安心</h2>
+            <p>
+                従来の売却では、「どんな人が購入を検討しているのか」は不動産会社しか知りません。売主は情報を持たないまま、会社の提案を待つしかありませんでした。
+            </p>
+            <p>
+                URICOでは、購入希望者の家族構成、購入理由、購入時期、予算、NG条件といった詳細情報を売主が直接確認できます。透明性の高い情報公開により、売主が主導権を持って売却を進められます。
+            </p>
+
+            <div class="infographic-container">
+                <svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+                    <!-- 背景レイヤー構造 -->
+                    <rect x="50" y="50" width="700" height="300" fill="#F0FFF4" rx="15"/>
+
+                    <!-- タイトル -->
+                    <text x="400" y="85" font-size="20" font-weight="bold" fill="#4ECDC4" text-anchor="middle">URICOは購入希望者情報を完全公開</text>
+
+                    <!-- レイヤー1：基本情報 -->
+                    <rect x="100" y="120" width="600" height="50" fill="#C6F6F3" rx="8"/>
+                    <text x="120" y="143" font-size="14" fill="#333" font-weight="bold">レイヤー1：基本情報</text>
+                    <text x="120" y="162" font-size="12" fill="#555">予算・希望エリア・物件タイプ・広さ</text>
+
+                    <!-- レイヤー2：詳細条件 -->
+                    <rect x="100" y="185" width="600" height="50" fill="#7FE8DE" rx="8"/>
+                    <text x="120" y="208" font-size="14" fill="#333" font-weight="bold">レイヤー2：詳細条件</text>
+                    <text x="120" y="227" font-size="12" fill="#555">家族構成・駅徒歩・築年数・間取り</text>
+
+                    <!-- レイヤー3：購入背景 -->
+                    <rect x="100" y="250" width="600" height="50" fill="#4ECDC4" rx="8"/>
+                    <text x="120" y="273" font-size="14" fill="#fff" font-weight="bold">レイヤー3：購入背景</text>
+                    <text x="120" y="292" font-size="12" fill="#fff">購入理由・購入時期・NG条件・その他希望</text>
+
+                    <!-- 下部説明 -->
+                    <rect x="100" y="315" width="290" height="25" fill="#FFE0E0" rx="5"/>
+                    <text x="245" y="332" font-size="12" fill="#333" text-anchor="middle">従来：不動産会社だけが知る情報</text>
+
+                    <rect x="410" y="315" width="290" height="25" fill="#C6F6F3" rx="5"/>
+                    <text x="555" y="332" font-size="12" fill="#333" text-anchor="middle">URICO：売主が直接確認できる</text>
+                </svg>
+            </div>
+
+            <div class="key-point">
+                購入希望者の詳細情報を売主が直接確認できるため、情報の非対称性がなくなり、安心して売却を進められる。
+            </div>
+        </div>
+
+        <!-- まとめ -->
+        <div class="section-block">
+            <h2>まとめ：URICOは売却のやり方そのものが違う</h2>
+            <p>
+                一括査定サイトは「高い査定額」で契約を獲得し、売主情報を不動産会社に送客するビジネスモデルです。その結果、営業電話や訪問が集中し、実際の成約価格は査定額より低くなることがあります。
+            </p>
+            <p>
+                URICOは、25,000人超の実在する購入希望者データを公開し、売主が主導権を持って必要な時だけ問い合わせができる新しい仕組みです。営業電話はゼロ、NG条件も事前確認でき、リアルな市場価格で売却活動を進められます。
+            </p>
+            <p style="font-size: 18px; font-weight: 600; color: var(--primary-color); margin-top: 30px;">
+                これは査定サイトではありません。売却のやり方そのものが違うサービスです。
+            </p>
+        </div>
+
+    </section>
+
+    <footer>
+        <img src="./images/urico_face.png" alt="URICO キャラクター" class="character-image" />
+        <p>関西最大級の不動産売却マッチングサービス</p>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="about.html">URICOとは</a>
+            <a href="difference.html">一括査定との違い</a>
+            <a href="company/">運営会社</a>
+            <a href="#">お問い合わせ</a>
+        </nav>
+        <p class="copyright">&copy; 2026 URICO All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

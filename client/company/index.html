@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>運営会社｜URICO</title>
+    <meta name="description" content="URICOの運営会社情報（運営会社名・所在地）を掲載しています。">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --primary-color: #FF6B6B;
+            --secondary-color: #4ECDC4;
+            --dark-color: #2C3E50;
+            --light-color: #F7F9F9;
+            --white: #FFFFFF;
+            --shadow: 0 4px 15px rgba(0,0,0,0.1);
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --text-muted: #999;
+            --border-color: #e0e0e0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+            line-height: 1.6;
+        }
+
+        .campaign-banner {
+            background-color: #FF4757;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 16px;
+            font-weight: 700;
+            position: sticky;
+            top: 0;
+            z-index: 1001;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        header {
+            background: var(--white);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 40px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        @media (max-width: 768px) {
+            header { top: 0; }
+            .campaign-banner { font-size: 14px; }
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .logo img { height: 40px; }
+
+        nav { display: flex; gap: 20px; align-items: center; }
+        nav a { text-decoration: none; color: var(--dark-color); font-weight: 500; transition: color 0.3s; }
+        nav a:hover { color: var(--primary-color); }
+
+        .content-section {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 5%;
+        }
+
+        .content-section h1 {
+            font-size: 36px;
+            color: var(--dark-color);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .content-section h2 {
+            font-size: 24px;
+            color: var(--primary-color);
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+
+        .info-box {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+        }
+
+        .company-info {
+            margin-top: 30px;
+        }
+
+        .company-info dl {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 20px;
+            line-height: 1.8;
+        }
+
+        .company-info dt {
+            font-weight: 600;
+            color: var(--dark-color);
+            font-size: 16px;
+        }
+
+        .company-info dd {
+            color: var(--text-primary);
+            font-size: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .company-info dl {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .company-info dt {
+                margin-top: 15px;
+            }
+
+            .company-info dt:first-child {
+                margin-top: 0;
+            }
+
+            .info-box {
+                padding: 30px 20px;
+            }
+
+            .content-section h1 {
+                font-size: 28px;
+            }
+
+            .content-section h2 {
+                font-size: 20px;
+            }
+        }
+
+        footer {
+            background: var(--dark-color);
+            color: var(--white);
+            padding: 40px 5%;
+            margin-top: 80px;
+            text-align: center;
+        }
+        footer p { color: #ccc; margin-bottom: 10px; }
+        footer .copyright { font-size: 12px; color: #888; margin-top: 30px; }
+        footer .character-image {
+            max-width: 120px;
+            max-height: 120px;
+            width: auto;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+        footer nav {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 25px 0 15px 0;
+            flex-wrap: wrap;
+        }
+        footer nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        footer nav a:hover {
+            color: var(--white);
+        }
+    </style>
+</head>
+<body>
+    <div class="campaign-banner">
+        【期間限定】今だけ！査定依頼でAmazonギフト券最大5,000円分プレゼント
+    </div>
+    <header>
+        <a href="../index.html" class="logo" aria-label="ホームへ戻る">
+            <img src="../images/urico_logo.png" alt="URICO ロゴ" />
+        </a>
+        <nav>
+            <a href="../index.html">ホーム</a>
+            <a href="../about.html">URICOとは</a>
+            <a href="../difference.html">一括査定との違い</a>
+            <a href="index.html">運営会社</a>
+            <a href="#">お問い合わせ</a>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <h1>運営会社</h1>
+
+        <div class="info-box">
+            <h2>運営会社情報</h2>
+            <div class="company-info">
+                <dl>
+                    <dt>運営会社</dt>
+                    <dd>URICO運営事務局</dd>
+
+                    <dt>所在地</dt>
+                    <dd>大阪府大阪市北区梅田1丁目2番2号</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="../images/urico_face.png" alt="URICO キャラクター" class="character-image" />
+        <p>関西最大級の不動産売却マッチングサービス</p>
+        <nav>
+            <a href="../index.html">ホーム</a>
+            <a href="../about.html">URICOとは</a>
+            <a href="../difference.html">一括査定との違い</a>
+            <a href="index.html">運営会社</a>
+            <a href="#">お問い合わせ</a>
+        </nav>
+        <p class="copyright">&copy; 2026 URICO All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

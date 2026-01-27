@@ -1,0 +1,43 @@
+{
+  "baseURL": "https://ikura.estate/",
+  "selector": "div.Footer_second_column__lhab8",
+  "fetchedAt": "2026-01-28T00:00:00.000Z",
+  "note": "Sample data - actual site URL may differ",
+  "links": [
+    {
+      "url": "https://ikura.estate/guide/selling-flow",
+      "text": "不動産売却の流れ",
+      "isSameDomain": true,
+      "isTargetBlank": false,
+      "shouldCrawl": true
+    },
+    {
+      "url": "https://ikura.estate/guide/price-assessment",
+      "text": "査定について",
+      "isSameDomain": true,
+      "isTargetBlank": false,
+      "shouldCrawl": true
+    },
+    {
+      "url": "https://ikura.estate/guide/contract-types",
+      "text": "媒介契約とは",
+      "isSameDomain": true,
+      "isTargetBlank": false,
+      "shouldCrawl": true
+    },
+    {
+      "url": "https://ikura.estate/guide/fees-and-taxes",
+      "text": "費用と税金",
+      "isSameDomain": true,
+      "isTargetBlank": false,
+      "shouldCrawl": true
+    },
+    {
+      "url": "https://ikura.estate/guide/relocation",
+      "text": "住み替えのポイント",
+      "isSameDomain": true,
+      "isTargetBlank": false,
+      "shouldCrawl": true
+    }
+  ]
+}

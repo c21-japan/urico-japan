@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// ベースURLはここで変更可能
+// 参照元サイトのベースURL（環境変数BASE_URLで変更可能）
 const BASE_URL = process.env.BASE_URL || 'https://ikura.estate/';
 const FOOTER_SELECTOR = 'div.Footer_second_column__lhab8';
 const OUTPUT_DIR = join(__dirname, '..', 'data', 'sources', 'external');

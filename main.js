@@ -251,8 +251,14 @@ window.showBuyerDetails = function(itemName, type = null) {
         database = landDatabase;
         item = database.find(i => i.name === itemName || i.address === itemName);
     } else {
-        database = mansionDatabase;
-        item = database.find(i => i.name === itemName);
+        // マンションの場合はR2のHTMLページにリダイレクト
+        const mansion = mansionDatabase.find(m => m.name === itemName);
+        if (mansion) {
+            const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/mansion/${encodeURIComponent(mansion.name)}.html`;
+            window.location.href = url;
+            return;
+        }
+        return;
     }
 
     if (!item) return;

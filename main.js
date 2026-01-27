@@ -1468,7 +1468,7 @@ window.searchHouse = function() {
             return;
         }
 
-        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
         console.log('リダイレクト先:', url);
         window.location.href = url;
     }
@@ -1515,7 +1515,7 @@ window.searchLand = function() {
             return;
         }
 
-        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
         console.log('リダイレクト先:', url);
         window.location.href = url;
     }

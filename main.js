@@ -702,7 +702,7 @@ function initializeTownSelects(prefix) {
         const selectedPref = prefSelect.value;
         const selectedCity = citySelect.value;
 
-        townSelect.innerHTML = '<option value="">町名・大字を選択してください</option>';
+        townSelect.innerHTML = '<option value="">全域（市区町村全体）</option>';
         townSelect.disabled = true;
 
         if (selectedPref && selectedCity && areaTownData[selectedPref]?.[selectedCity]) {
@@ -1463,12 +1463,18 @@ window.searchHouse = function() {
 
         console.log('選択値:', { pref, city, town });
 
-        if (!pref || !city || !town) {
-            alert('都道府県、市区町村、町名・大字を選択してください。');
+        if (!pref || !city) {
+            alert('都道府県と市区町村を選択してください。');
             return;
         }
 
-        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        // townがある場合は町レベル、ない場合は市区町村レベルのページにリダイレクト
+        let url;
+        if (town) {
+            url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        } else {
+            url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.html`;
+        }
         console.log('リダイレクト先:', url);
         window.location.href = url;
     }
@@ -1510,12 +1516,18 @@ window.searchLand = function() {
 
         console.log('選択値:', { pref, city, town });
 
-        if (!pref || !city || !town) {
-            alert('都道府県、市区町村、町名・大字を選択してください。');
+        if (!pref || !city) {
+            alert('都道府県と市区町村を選択してください。');
             return;
         }
 
-        const url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        // townがある場合は町レベル、ない場合は市区町村レベルのページにリダイレクト
+        let url;
+        if (town) {
+            url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}/${encodeURIComponent(town)}.html`;
+        } else {
+            url = `https://pub-33a8cdb0bae74d03a613bc5cffe0a843.r2.dev/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.html`;
+        }
         console.log('リダイレクト先:', url);
         window.location.href = url;
     }

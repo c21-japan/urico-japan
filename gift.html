@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>お祝い金 最大50万円プレゼント | URICO 関西</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="campaign-banner">
+        2025年12月ご紹介数847件！！　URICO加盟・利用不動産店数1,629店
+    </div>
+    <header>
+        <a href="index.html" class="logo" aria-label="ホームへ戻る">
+            <img src="./images/urico_logo.png" alt="URICO ロゴ" />
+        </a>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="about.html">URICOとは</a>
+            <a href="#">お問い合わせ</a>
+        </nav>
+    </header>
+
+    <div class="gift-page">
+        <!-- ヘッダー -->
+        <div class="gift-header">
+            <h1>売却成立で<br><span class="highlight">お祝い金 最大50万円</span></h1>
+            <p>
+                URICOでは、物件売却が成立したお客様に、仲介手数料（税抜）の20%を<br>
+                お祝い金として還元します（上限50万円）。<br>
+                透明性の高い、公平な仕組みでお客様をサポートいたします。
+            </p>
+        </div>
+
+        <!-- 概要 -->
+        <section class="gift-section">
+            <h2>🎁 お祝い金制度について</h2>
+            <p>
+                URICOは、不動産売却が成立したお客様に感謝の気持ちを込めて、お祝い金をプレゼントしています。<br>
+                物件価格に応じて計算されるため、公平性が高く、安心してご利用いただけます。
+            </p>
+            <div class="gift-formula">
+                <div class="gift-formula-text">
+                    お祝い金 ＝ <strong>min( 500,000円, 仲介手数料（税抜）× 20% )</strong>
+                </div>
+            </div>
+            <p>
+                <strong>※仲介手数料（税抜）</strong>は、宅地建物取引業法で定められた上限額を基準に計算します。
+            </p>
+        </section>
+
+        <!-- 計算ルール -->
+        <section class="gift-section">
+            <h2>📊 計算ルール</h2>
+            <p>
+                仲介手数料（税抜）は、以下の法定上限に基づいて計算されます。
+            </p>
+            <table class="gift-fee-table">
+                <thead>
+                    <tr>
+                        <th>売買価格</th>
+                        <th>仲介手数料（税抜・上限）</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>200万円以下</td>
+                        <td>売買価格 × 5%</td>
+                    </tr>
+                    <tr>
+                        <td>200万円超 ～ 400万円以下</td>
+                        <td>売買価格 × 4% + 20,000円</td>
+                    </tr>
+                    <tr>
+                        <td>400万円超</td>
+                        <td>売買価格 × 3% + 60,000円</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 14px; color: #666; margin-top: 15px;">
+                ※上記は税抜価格です。お祝い金は円未満を切り捨てて計算します。
+            </p>
+        </section>
+
+        <!-- シミュレーター -->
+        <section class="gift-section">
+            <h2>🧮 かんたんシミュレーター</h2>
+            <p>
+                物件価格を入力すると、想定されるお祝い金を概算で確認できます。
+            </p>
+            <div class="gift-simulator">
+                <h3>物件価格を入力してください</h3>
+                <div class="simulator-input-group">
+                    <label for="priceInput">物件価格（円）</label>
+                    <input
+                        type="number"
+                        id="priceInput"
+                        class="simulator-input"
+                        placeholder="例：8000000"
+                        min="0"
+                        step="100000"
+                        value="8000000"
+                    />
+                </div>
+                <div class="simulator-results">
+                    <div class="simulator-result-row">
+                        <span class="simulator-result-label">仲介手数料（税抜・上限）</span>
+                        <span class="simulator-result-value" id="feeResult">-</span>
+                    </div>
+                    <div class="simulator-result-row">
+                        <span class="simulator-result-label">お祝い金（20%）</span>
+                        <span class="simulator-result-value" id="giftBeforeCapResult">-</span>
+                    </div>
+                    <div class="simulator-result-final">
+                        <div class="simulator-result-label">上限適用後のお祝い金</div>
+                        <div class="simulator-result-value" id="giftFinalResult">-</div>
+                    </div>
+                </div>
+                <p class="simulator-note">
+                    ※こちらは概算です。実際のお祝い金は、売買契約の内容により異なる場合があります。
+                </p>
+            </div>
+        </section>
+
+        <!-- 具体例 -->
+        <section class="gift-section">
+            <h2>💡 具体例</h2>
+            <p>
+                さまざまな物件価格でのお祝い金をご確認ください。
+            </p>
+            <div class="gift-examples">
+                <div class="gift-example-card">
+                    <div class="gift-example-price">物件価格：100万円</div>
+                    <div class="gift-example-detail">仲介手数料：5万円（100万×5%）</div>
+                    <div class="gift-example-detail">お祝い金（20%）：1万円</div>
+                    <div class="gift-example-result">→ お祝い金：1万円</div>
+                </div>
+                <div class="gift-example-card">
+                    <div class="gift-example-price">物件価格：800万円</div>
+                    <div class="gift-example-detail">仲介手数料：30万円（800万×3%+6万）</div>
+                    <div class="gift-example-detail">お祝い金（20%）：6万円</div>
+                    <div class="gift-example-result">→ お祝い金：6万円</div>
+                </div>
+                <div class="gift-example-card">
+                    <div class="gift-example-price">物件価格：3,000万円</div>
+                    <div class="gift-example-detail">仲介手数料：96万円（3,000万×3%+6万）</div>
+                    <div class="gift-example-detail">お祝い金（20%）：19.2万円</div>
+                    <div class="gift-example-result">→ お祝い金：19.2万円</div>
+                </div>
+                <div class="gift-example-card">
+                    <div class="gift-example-price">物件価格：1億円</div>
+                    <div class="gift-example-detail">仲介手数料：306万円（1億×3%+6万）</div>
+                    <div class="gift-example-detail">お祝い金（20%）：61.2万円</div>
+                    <div class="gift-example-result">→ お祝い金：<strong>50万円</strong>（上限適用）</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 注意事項 -->
+        <section class="gift-section">
+            <div class="gift-notes">
+                <h3>⚠️ 注意事項</h3>
+                <ul>
+                    <li><strong>支払いタイミング：</strong>売買契約成立後、引き渡し完了時にお支払いします。</li>
+                    <li><strong>上限：</strong>お祝い金の上限は50万円です。</li>
+                    <li><strong>計算基準：</strong>仲介手数料は税抜ベースで計算します。</li>
+                    <li><strong>他キャンペーン：</strong>他のキャンペーンとの併用はできません。</li>
+                    <li><strong>適用条件：</strong>URICO経由で売却が成立した物件のみが対象です。</li>
+                    <li><strong>免責事項：</strong>契約内容や物件の状況により、お祝い金の金額が変動する場合があります。</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <div class="gift-cta-final">
+            <h2>今すぐ無料で査定してみませんか？</h2>
+            <p>
+                URICOなら、関西最大級の購入希望者データベースから<br>
+                あなたの物件に最適な買主を見つけられます。
+            </p>
+            <a href="index.html" class="gift-cta-button">
+                無料査定を申し込む
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <img src="./images/character.png" alt="URICOキャラクター" class="character-image" />
+        <p>URICO - 不動産売却一括査定</p>
+        <p>関西最大級の購入希望者マッチングサービス</p>
+        <p class="copyright">&copy; 2025 URICO. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // ========================================
+        // お祝い金計算ロジック
+        // ========================================
+
+        /**
+         * 仲介手数料（税抜・上限）を計算
+         * @param {number} priceYen - 物件価格（円）
+         * @returns {number} - 仲介手数料（円、税抜）
+         */
+        function calcBrokerFeeExclTax(priceYen) {
+            if (priceYen <= 0) return 0;
+
+            if (priceYen <= 2000000) {
+                // 200万円以下：5%
+                return priceYen * 0.05;
+            } else if (priceYen <= 4000000) {
+                // 200万円超～400万円以下：4% + 2万円
+                return priceYen * 0.04 + 20000;
+            } else {
+                // 400万円超：3% + 6万円
+                return priceYen * 0.03 + 60000;
+            }
+        }
+
+        /**
+         * お祝い金を計算（上限適用後）
+         * @param {number} priceYen - 物件価格（円）
+         * @returns {number} - お祝い金（円）
+         */
+        function calcGift(priceYen) {
+            const fee = calcBrokerFeeExclTax(priceYen);
+            const giftBeforeCap = fee * 0.2;
+            return Math.min(500000, Math.floor(giftBeforeCap));
+        }
+
+        /**
+         * 数値を3桁カンマ区切りでフォーマット
+         * @param {number} num - 数値
+         * @returns {string} - フォーマット済み文字列
+         */
+        function formatNumber(num) {
+            return Math.floor(num).toLocaleString('ja-JP');
+        }
+
+        /**
+         * シミュレーターの計算と表示を更新
+         */
+        function updateSimulator() {
+            const priceInput = document.getElementById('priceInput');
+            const feeResult = document.getElementById('feeResult');
+            const giftBeforeCapResult = document.getElementById('giftBeforeCapResult');
+            const giftFinalResult = document.getElementById('giftFinalResult');
+
+            const price = parseFloat(priceInput.value) || 0;
+
+            if (price <= 0) {
+                feeResult.textContent = '-';
+                giftBeforeCapResult.textContent = '-';
+                giftFinalResult.textContent = '-';
+                return;
+            }
+
+            const fee = calcBrokerFeeExclTax(price);
+            const giftBeforeCap = fee * 0.2;
+            const giftFinal = calcGift(price);
+
+            feeResult.textContent = formatNumber(fee) + '円';
+            giftBeforeCapResult.textContent = formatNumber(giftBeforeCap) + '円';
+            giftFinalResult.textContent = formatNumber(giftFinal) + '円';
+        }
+
+        // ページロード時とinput変更時にシミュレーターを更新
+        document.addEventListener('DOMContentLoaded', function() {
+            const priceInput = document.getElementById('priceInput');
+
+            // 初期表示
+            updateSimulator();
+
+            // リアルタイム更新
+            priceInput.addEventListener('input', updateSimulator);
+        });
+
+        // ========================================
+        // テストケース検証（コンソール出力）
+        // ========================================
+        console.log('=== お祝い金計算テスト ===');
+        console.log('価格 1,000,000円 → 手数料:', calcBrokerFeeExclTax(1000000), '→ お祝い金:', calcGift(1000000));
+        console.log('価格 8,000,000円 → 手数料:', calcBrokerFeeExclTax(8000000), '→ お祝い金:', calcGift(8000000));
+        console.log('価格 30,000,000円 → 手数料:', calcBrokerFeeExclTax(30000000), '→ お祝い金:', calcGift(30000000));
+        console.log('価格 100,000,000円 → 手数料:', calcBrokerFeeExclTax(100000000), '→ お祝い金:', calcGift(100000000));
+    </script>
+</body>
+</html>

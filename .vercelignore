@@ -30,6 +30,7 @@ node_modules/
 .generate-progress.json
 .git/
 .github/
+.wrangler/
 
 # ====================================================================
 # その他の大容量ファイル
@@ -38,3 +39,4 @@ node_modules/
 *.ts.map
 *.zip
 *.tar.gz
+images_backup/

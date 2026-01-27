@@ -137,7 +137,7 @@
             text-align: center;
         }
         footer p { color: #ccc; margin-bottom: 10px; }
-        footer .copyright { font-size: 12px; color: #888; }
+        footer .copyright { font-size: 12px; color: #888; margin-top: 30px; }
         footer .character-image {
             max-width: 120px;
             max-height: 120px;
@@ -145,6 +145,22 @@
             height: auto;
             margin: 20px auto;
             display: block;
+        }
+        footer nav {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 25px 0 15px 0;
+            flex-wrap: wrap;
+        }
+        footer nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        footer nav a:hover {
+            color: var(--white);
         }
 
         @media (max-width: 768px) {
@@ -166,6 +182,8 @@
         <nav>
             <a href="index.html">ホーム</a>
             <a href="about.html">URICOとは</a>
+            <a href="difference.html">一括査定との違い</a>
+            <a href="company/">運営会社</a>
             <a href="#">お問い合わせ</a>
         </nav>
     </header>
@@ -224,6 +242,13 @@
     <footer>
         <img src="./images/urico_face.png" alt="URICO キャラクター" class="character-image" />
         <p>関西最大級の不動産売却マッチングサービス</p>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="about.html">URICOとは</a>
+            <a href="difference.html">一括査定との違い</a>
+            <a href="company/">運営会社</a>
+            <a href="#">お問い合わせ</a>
+        </nav>
         <p class="copyright">&copy; 2026 URICO All Rights Reserved.</p>
     </footer>
 </body>

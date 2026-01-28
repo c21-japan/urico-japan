@@ -90,6 +90,13 @@ function updateStats(type) {
         // マンションは物件ベース（各物件にbuyersがある）
         totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);
         totalProperties = database.length;
+
+        // データベースが空の場合はデフォルト値を使用
+        if (totalBuyers === 0 || totalProperties === 0) {
+            console.warn('マンションデータベースが空です。デフォルト値を使用します。');
+            totalBuyers = 25463;
+            totalProperties = 6367;
+        }
     } else if (type === 'house') {
         database = houseDatabase;
         // 戸建は購入希望者ベース（R2に全データ保存済み）

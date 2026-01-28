@@ -538,7 +538,323 @@
             </div>
             <button class="contact-btn" onclick="window.open('https://form.run/@urico-kansai', '_blank')">📞 この希望者に物件を紹介する</button>
         </div>
+                <div class="buyer-supplement-modern">
+            <div class="supplement-header">
+                <h2 class="supplement-main-title">
+                    掲載情報<span class="highlight-text">だけではない</span>、URICOの強み
+                </h2>
+                <p class="supplement-subtitle">
+                    このページの購入希望者に加えて、<strong>掲載されていない購入希望者</strong>もご紹介できる可能性があります
+                </p>
+            </div>
+
+            <div class="three-column-grid">
+                <!-- 左列: 業界の現状 -->
+                <div class="info-card">
+                    <div class="card-icon">💼</div>
+                    <h3 class="card-title">業界の現状</h3>
+                    <p class="card-text">
+                        不動産業界では、高齢化やIT対応の難しさ、日常業務の多忙などにより、購入希望者情報をシステムに登録できていない会社が多数存在します。
+                    </p>
+                </div>
+
+                <!-- 中央列: URICOの取り組み -->
+                <div class="info-card featured">
+                    <div class="card-icon">🤝</div>
+                    <h3 class="card-title">URICOの取り組み</h3>
+                    <p class="card-text">
+                        関西1,629社の提携・加盟会社と日常的に連携。掲載外の購入希望者についても、条件が合致する場合は個別ヒアリングのうえご紹介します。
+                    </p>
+                </div>
+
+                <!-- 右列: あなたのメリット -->
+                <div class="info-card">
+                    <div class="card-icon">✨</div>
+                    <h3 class="card-title">あなたのメリット</h3>
+                    <p class="card-text">
+                        サイト掲載情報に加え、未掲載の購入希望者も紹介される可能性。より多くのマッチング機会を提供します。
+                    </p>
+                </div>
+            </div>
+
+            <div class="flow-visual">
+                <div class="flow-item">
+                    <div class="flow-box">
+                        <span class="flow-label">掲載中の購入希望者</span>
+                    </div>
+                </div>
+                <div class="flow-plus">+</div>
+                <div class="flow-item">
+                    <div class="flow-box secondary">
+                        <span class="flow-label">掲載外の情報<br><small>（提携先から個別確認）</small></span>
+                    </div>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-item">
+                    <div class="flow-box result">
+                        <span class="flow-label">より多くの<br>マッチング機会</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notice-box">
+                <svg class="notice-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+                </svg>
+                <p>掲載外の購入希望者情報は、個別確認が必要となるため必ずご紹介できるわけではございません。条件が合致する場合のみのご案内となります。</p>
+            </div>
         </div>
     </div>
+
+    <style>
+        .buyer-supplement-modern {
+            margin: 4rem auto;
+            max-width: 1200px;
+            padding: 3rem 2rem;
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+        }
+
+        .supplement-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .supplement-main-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .highlight-text {
+            color: #667eea;
+            position: relative;
+            display: inline-block;
+        }
+
+        .highlight-text::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+
+        .supplement-subtitle {
+            font-size: 1.1rem;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .supplement-subtitle strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        /* 3列グリッドレイアウト */
+        .three-column-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .info-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #cbd5e0, #cbd5e0);
+            transition: background 0.3s ease;
+        }
+
+        .info-card.featured::before {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.15);
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        /* フロー図 */
+        .flow-visual {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .flow-item {
+            flex: 0 0 auto;
+        }
+
+        .flow-box {
+            padding: 1.5rem 2rem;
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+
+        .flow-box.secondary {
+            border-color: #cbd5e0;
+            background: #f7fafc;
+        }
+
+        .flow-box.result {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            color: white;
+        }
+
+        .flow-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.2);
+        }
+
+        .flow-label {
+            font-size: 1rem;
+            font-weight: 600;
+            display: block;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .flow-label small {
+            font-size: 0.8rem;
+            font-weight: 400;
+            opacity: 0.8;
+        }
+
+        .flow-plus {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .flow-arrow {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        /* 注意書き */
+        .notice-box {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            border-radius: 8px;
+        }
+
+        .notice-icon {
+            width: 24px;
+            height: 24px;
+            color: #f59e0b;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .notice-box p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #78350f;
+            line-height: 1.7;
+        }
+
+        /* レスポンシブ対応 */
+        @media (max-width: 1024px) {
+            .three-column-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .flow-visual {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .flow-plus,
+            .flow-arrow {
+                transform: rotate(90deg);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .buyer-supplement-modern {
+                padding: 2rem 1.5rem;
+                margin: 2rem auto;
+            }
+
+            .supplement-main-title {
+                font-size: 1.5rem;
+            }
+
+            .supplement-subtitle {
+                font-size: 1rem;
+            }
+
+            .info-card {
+                padding: 1.5rem;
+            }
+
+            .card-icon {
+                font-size: 2.5rem;
+            }
+
+            .card-title {
+                font-size: 1.1rem;
+            }
+
+            .flow-box {
+                padding: 1rem 1.5rem;
+            }
+        }
+    </style>
+
+
 </body>
 </html>

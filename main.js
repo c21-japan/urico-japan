@@ -1,6 +1,7 @@
 // データベースをインポート
 import { MANSION_DB } from './mansion_db.js';
-// HOUSE_DB と LAND_DB は Cloudflare R2 から動的に読み込むため、ここではインポートしない
+import { HOUSE_DB } from './house_db.js';
+import { LAND_DB } from './land_db.js';
 
 // グローバルエラーハンドラー
 window.addEventListener('error', (event) => {
@@ -37,12 +38,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.log('MANSION_DB:', typeof MANSION_DB, Array.isArray(MANSION_DB) ? MANSION_DB.length : 'N/A');
 
         mansionDatabase = MANSION_DB || [];
-        // houseDatabase と landDatabase は空配列で初期化（Cloudflare R2 から動的に取得）
-        houseDatabase = [];
-        landDatabase = [];
+        houseDatabase = HOUSE_DB || [];
+        landDatabase = LAND_DB || [];
 
         console.log('読み込まれたマンション数:', mansionDatabase.length);
-        console.log('戸建・土地データ: Cloudflare R2から動的取得');
+        console.log('読み込まれた戸建数:', houseDatabase.length);
+        console.log('読み込まれた土地数:', landDatabase.length);
 
         if (mansionDatabase.length === 0) {
             console.error('警告: マンションデータベースが空です。データファイルを確認してください。');
@@ -91,16 +92,14 @@ function updateStats(type) {
         totalProperties = database.length;
     } else if (type === 'house') {
         database = houseDatabase;
-        // 戸建は購入希望者ベース（Cloudflare R2から動的取得）
-        // 全60万件のデータがR2に格納されている
-        totalBuyers = 586633; // house_db.js の全データ件数
+        // 戸建は購入希望者ベース（R2に全データ保存済み）
+        totalBuyers = 586633; // R2に保存されている全戸建購入希望者数
         // 対応物件数 = 5府県の町名・大字の総計（19,322）
         totalProperties = 19322;
     } else if (type === 'land') {
         database = landDatabase;
-        // 土地は購入希望者ベース（Cloudflare R2から動的取得）
-        // 全60万件のデータがR2に格納されている
-        totalBuyers = 589655; // land_db.js の全データ件数
+        // 土地は購入希望者ベース（R2に全データ保存済み）
+        totalBuyers = 589655; // R2に保存されている全土地購入希望者数
         // 対応物件数 = 5府県の町名・大字の総計（19,322）
         totalProperties = 19322;
     } else {

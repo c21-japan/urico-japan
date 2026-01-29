@@ -5,961 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>URICO | 不動産売却一括査定 - 関西最大級の購入希望者マッチング</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <style>
-        :root {
-            --primary-color: #FF6B6B;
-            --secondary-color: #4ECDC4;
-            --dark-color: #2C3E50;
-            --light-color: #F7F9F9;
-            --white: #FFFFFF;
-            --shadow: 0 4px 15px rgba(0,0,0,0.1);
-            --text-primary: #1a1a1a;
-            --text-secondary: #666;
-            --text-muted: #999;
-            --border-color: #e0e0e0;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: 'Noto Sans JP', sans-serif;
-            color: var(--dark-color);
-            background-color: var(--light-color);
-            line-height: 1.6;
-        }
-
-        .campaign-banner {
-            background-color: #FF4757;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            font-size: 16px;
-            font-weight: 700;
-            position: sticky;
-            top: 0;
-            z-index: 1001;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-    
-        header {
-            background: var(--white);
-            padding: 15px 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 40px;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-    
-        @media (max-width: 768px) {
-            header { 
-                position: static; /* スマホでは固定しない */
-            }
-            .campaign-banner { 
-                font-size: 14px;
-                position: static; /* スマホでは固定しない */
-            }
-        }
-
-        /* 画像スライダー */
-        .image-slider {
-            width: 100%;
-            overflow-x: auto;
-            overflow-y: hidden;
-            scroll-behavior: smooth;
-            -webkit-overflow-scrolling: touch;
-            scrollbar-width: none; /* Firefox */
-            -ms-overflow-style: none; /* IE and Edge */
-        }
-
-        .image-slider::-webkit-scrollbar {
-            display: none; /* Chrome, Safari, Opera */
-        }
-
-        .slider-container {
-            display: flex;
-            gap: 0;
-            width: max-content;
-        }
-
-        .slider-image {
-            width: 100vw;
-            height: auto;
-            object-fit: cover;
-            flex-shrink: 0;
-            display: block;
-        }
-
-        @media (max-width: 768px) {
-            .slider-image { width: 100vw; }
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            text-decoration: none;
-            font-size: 24px;
-            font-weight: 700;
-            color: var(--primary-color);
-        }
-
-        .logo img { height: 40px; }
-
-        nav { display: flex; gap: 20px; align-items: center; }
-        nav a { text-decoration: none; color: var(--dark-color); font-weight: 500; transition: color 0.3s; }
-        nav a:hover { color: var(--primary-color); }
-
-        .hero {
-            padding: 80px 5%;
-            text-align: center;
-            background: linear-gradient(135deg, #FFF5F5 0%, #FFFFFF 100%);
-        }
-
-        .hero h1 { font-size: 42px; margin-bottom: 20px; color: var(--dark-color); }
-        .hero h1 span { color: var(--primary-color); }
-        .hero p { font-size: 18px; color: #666; margin-bottom: 40px; }
-
-        .stats-container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-bottom: 60px;
-            flex-wrap: wrap;
-        }
-
-        .stat-card {
-            background: var(--white);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: var(--shadow);
-            min-width: 250px;
-            text-align: center;
-        }
-
-        .stat-card .number { font-size: 36px; font-weight: 700; color: var(--primary-color); display: block; margin-bottom: 5px; }
-        .stat-card .label { font-size: 14px; color: #888; }
-
-        .search-section { max-width: 800px; margin: 0 auto; position: relative; padding: 0 20px; }
-
-        .search-tabs { display: flex; justify-content: center; margin-bottom: 20px; }
-
-        .tab-button {
-            padding: 15px 30px;
-            font-size: 18px;
-            font-weight: 700;
-            cursor: pointer;
-            border: none;
-            background: #e0e0e0;
-            color: #555;
-            transition: background-color 0.3s, color 0.3s;
-            border-radius: 10px 10px 0 0;
-            margin: 0 2px;
-        }
-
-        .tab-button.active {
-            background: var(--white);
-            color: var(--primary-color);
-            box-shadow: var(--shadow);
-            z-index: 1;
-        }
-
-        .tab-content {
-            background: var(--white);
-            padding: 30px;
-            border-radius: 0 10px 10px 10px;
-            box-shadow: var(--shadow);
-            margin-top: -1px;
-        }
-
-        .search-box { display: flex; gap: 10px; margin-bottom: 10px; position: relative; }
-        .search-input { flex: 1; border: 1px solid #ddd; padding: 15px; font-size: 16px; outline: none; border-radius: 8px; }
-        .search-btn { background: var(--primary-color); color: var(--white); border: none; padding: 15px 30px; border-radius: 8px; font-weight: 700; cursor: pointer; transition: opacity 0.3s; white-space: nowrap; }
-        .search-btn:hover { opacity: 0.9; }
-
-        .suggestions {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background: var(--white);
-            border: 1px solid #ddd;
-            border-radius: 0 0 10px 10px;
-            max-height: 300px;
-            overflow-y: auto;
-            display: none;
-            z-index: 100;
-            box-shadow: var(--shadow);
-        }
-
-        .suggestion-item {
-            padding: 12px 20px;
-            border-bottom: 1px solid #f0f0f0;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: background-color 0.2s;
-        }
-
-        .suggestion-item:hover { background-color: #f9f9f9; }
-        .mansion-name { font-weight: 500; }
-        .buyer-count { font-size: 12px; color: var(--primary-color); background: #FFF0F0; padding: 2px 8px; border-radius: 4px; }
-
-        .form-group { margin-bottom: 20px; }
-        label { display: block; font-weight: 700; margin-bottom: 8px; color: var(--dark-color); }
-        select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; background-color: var(--white); transition: border-color 0.3s; }
-        select:focus { border-color: var(--primary-color); outline: none; }
-
-        button.search-btn-fullwidth {
-            width: 100%;
-            background-color: var(--primary-color);
-            color: var(--white);
-            border: none;
-            padding: 15px;
-            font-size: 20px;
-            font-weight: 700;
-            border-radius: 10px;
-            cursor: pointer;
-            box-shadow: var(--shadow);
-            transition: background-color 0.3s;
-        }
-        button.search-btn-fullwidth:hover { background-color: #e65555; }
-
-        .search-method-buttons { display: flex; gap: 15px; margin-bottom: 30px; justify-content: center; }
-
-        .method-btn {
-            flex: 1;
-            padding: 18px 30px;
-            font-size: 18px;
-            font-weight: 700;
-            cursor: pointer;
-            border: 3px solid var(--primary-color);
-            background: var(--white);
-            color: var(--primary-color);
-            border-radius: 10px;
-            transition: all 0.3s;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        .method-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .method-btn.active { background: var(--primary-color); color: var(--white); box-shadow: 0 4px 15px rgba(255,107,107,0.4); }
-
-        /* ========== 業務用モーダル（シンプルUI） ========== */
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            z-index: 2000;
-            overflow-y: auto;
-        }
-
-        .modal.active { 
-            display: flex; 
-            align-items: flex-start; 
-            justify-content: center; 
-            padding: 40px 20px; 
-        }
-
-        .modal-content {
-            background: #fff;
-            border-radius: 4px;
-            max-width: 720px;
-            width: 100%;
-            max-height: 90vh;
-            overflow-y: auto;
-            box-shadow: 0 2px 20px rgba(0,0,0,0.15);
-        }
-
-        /* モーダルヘッダー：シンプル白背景 */
-        .modal-header {
-            padding: 20px 24px;
-            background: #fff;
-            border-bottom: 1px solid var(--border-color);
-            position: sticky;
-            top: 0;
-            z-index: 10;
-        }
-
-        .modal-header h2 { 
-            font-size: 18px; 
-            font-weight: 600; 
-            color: var(--text-primary);
-            margin: 0;
-        }
-        
-        .modal-header p { 
-            font-size: 13px;
-            color: var(--text-secondary);
-            margin-top: 4px;
-        }
-
-        .modal-close {
-            position: absolute;
-            top: 16px;
-            right: 16px;
-            background: none;
-            border: 1px solid var(--border-color);
-            color: var(--text-secondary);
-            width: 32px;
-            height: 32px;
-            border-radius: 4px;
-            font-size: 18px;
-            cursor: pointer;
-            transition: background 0.2s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .modal-close:hover { 
-            background: #f5f5f5; 
-        }
-
-        .modal-body { 
-            padding: 0; 
-            background: #fafafa;
-        }
-
-        /* 購入希望者ブロック：シンプル情報表示 */
-        .buyer-block {
-            background: #fff;
-            border-bottom: 1px solid var(--border-color);
-            padding: 20px 24px;
-        }
-
-        .buyer-block:last-child {
-            border-bottom: none;
-        }
-
-        .buyer-block-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 16px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        .buyer-number {
-            font-size: 12px;
-            font-weight: 600;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .buyer-price-value {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-
-        /* 情報テーブル：ラベル＋値 構造 */
-        .buyer-info-table {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px 24px;
-        }
-
-        .buyer-info-row {
-            display: flex;
-            flex-direction: column;
-            gap: 2px;
-        }
-
-        .buyer-info-label {
-            font-size: 11px;
-            font-weight: 600;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.3px;
-        }
-
-        .buyer-info-value {
-            font-size: 13px;
-            font-weight: 400;
-            color: var(--text-primary);
-            line-height: 1.5;
-        }
-
-        /* CTAボタン：控えめ */
-        .buyer-action {
-            margin-top: 16px;
-            padding-top: 16px;
-            border-top: 1px solid #f0f0f0;
-        }
-
-        .contact-buyer-btn {
-            display: inline-block;
-            padding: 8px 16px;
-            background: #f5f5f5;
-            color: var(--text-secondary);
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            font-size: 12px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .contact-buyer-btn:hover { 
-            background: #eee;
-            color: var(--text-primary);
-        }
-
-        /* NG条件は目立たせる */
-        .buyer-info-row.ng-row .buyer-info-value {
-            font-weight: 500;
-        }
-
-        footer {
-            background: var(--dark-color);
-            color: var(--white);
-            padding: 40px 5%;
-            margin-top: 80px;
-            text-align: center;
-        }
-        footer p { color: #ccc; margin-bottom: 10px; }
-        footer .copyright { font-size: 12px; color: #888; margin-top: 30px; }
-        footer .character-image {
-            max-width: 120px;
-            max-height: 120px;
-            width: auto;
-            height: auto;
-            margin: 20px auto;
-            display: block;
-        }
-        footer nav {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin: 25px 0 15px 0;
-            flex-wrap: wrap;
-        }
-        footer nav a {
-            color: #ccc;
-            text-decoration: none;
-            font-size: 14px;
-            transition: color 0.3s;
-        }
-        footer nav a:hover {
-            color: var(--white);
-        }
-
-        /* スマホ用固定フッター */
-        .mobile-fixed-footer {
-            display: none; /* デフォルトは非表示 */
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 9999;
-            background: rgba(50, 50, 50, 0.5);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            padding: 4px 10px 6px 10px;
-            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
-        }
-
-        .footer-message {
-            text-align: center;
-            color: #fff;
-            font-size: 11px;
-            font-weight: 700;
-            margin-bottom: 4px;
-            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-        }
-
-        .footer-buttons {
-            display: flex;
-            gap: 6px;
-        }
-
-        .footer-btn {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 4px;
-            padding: 6px 8px;
-            border-radius: 8px;
-            font-size: 12px;
-            font-weight: 700;
-            text-decoration: none;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .footer-btn:active {
-            transform: scale(0.96);
-        }
-
-        .footer-btn-mail {
-            background: linear-gradient(135deg, #ff8c00, #ff6600);
-            box-shadow: 0 4px 15px rgba(255, 102, 0, 0.4);
-        }
-
-        .footer-btn-mail:hover {
-            background: linear-gradient(135deg, #ff9922, #ff7711);
-        }
-
-        .footer-btn-tel {
-            background: linear-gradient(135deg, #0088ff, #0066cc);
-            box-shadow: 0 4px 15px rgba(0, 102, 204, 0.4);
-        }
-
-        .footer-btn-tel:hover {
-            background: linear-gradient(135deg, #1199ff, #0077dd);
-        }
-
-        .footer-btn-icon {
-            font-size: 14px;
-        }
-
-        .footer-note {
-            text-align: center;
-            color: #fff;
-            font-size: 9px;
-            margin-top: 3px;
-            opacity: 0.8;
-        }
-
-        /* 売却費用シミュレーター */
-        .simulator-box {
-            background: linear-gradient(135deg, var(--white), #FFF5F5);
-            padding: 40px;
-            border-radius: 20px;
-            max-width: 700px;
-            margin: 0 auto;
-            font-family: 'Noto Sans JP', sans-serif;
-            color: var(--text-primary);
-            box-shadow: var(--shadow);
-        }
-        
-        .sim-title {
-            text-align: center;
-            font-size: 28px;
-            font-weight: 700;
-            color: var(--primary-color);
-            margin-bottom: 30px;
-            border-bottom: 3px solid var(--primary-color);
-            padding-bottom: 15px;
-        }
-        
-        .sim-control-group {
-            margin-bottom: 30px;
-        }
-        
-        .sim-label {
-            display: block;
-            font-size: 16px;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: var(--dark-color);
-        }
-        
-        .sim-slider {
-            width: 100%;
-            height: 10px;
-            border-radius: 5px;
-            background: var(--border-color);
-            outline: none;
-            -webkit-appearance: none;
-        }
-        
-        .sim-slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            background: var(--primary-color);
-            cursor: pointer;
-            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
-            transition: transform 0.2s;
-        }
-        
-        .sim-slider::-webkit-slider-thumb:hover {
-            transform: scale(1.1);
-        }
-        
-        .sim-slider::-moz-range-thumb {
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            background: var(--primary-color);
-            cursor: pointer;
-            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
-            border: none;
-        }
-        
-        .sim-value {
-            text-align: center;
-            font-size: 32px;
-            font-weight: 700;
-            color: var(--primary-color);
-            margin-top: 15px;
-        }
-        
-        .sim-result-box {
-            background: var(--white);
-            border-radius: 15px;
-            padding: 30px;
-            margin-top: 30px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-        
-        .sim-result-title {
-            text-align: center;
-            font-size: 20px;
-            font-weight: 700;
-            margin-bottom: 25px;
-            color: var(--dark-color);
-        }
-        
-        .sim-result-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 18px;
-            margin-bottom: 12px;
-            background: var(--light-color);
-            border-radius: 10px;
-            border-left: 4px solid var(--secondary-color);
-        }
-        
-        .sim-result-item-label {
-            font-weight: 600;
-            font-size: 15px;
-            color: var(--dark-color);
-        }
-        
-        .sim-result-item-value {
-            font-weight: 700;
-            font-size: 20px;
-            color: var(--primary-color);
-        }
-        
-        .sim-result-note {
-            font-size: 12px;
-            color: var(--text-muted);
-            margin-top: 5px;
-        }
-        
-        .sim-result-total {
-            padding: 25px;
-            background: linear-gradient(135deg, var(--primary-color), #FF8E8E);
-            color: var(--white);
-            border-radius: 10px;
-            font-size: 24px;
-            text-align: center;
-            font-weight: 700;
-            margin-top: 20px;
-            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
-        }
-        
-        .sim-message-box {
-            margin-top: 30px;
-            padding: 25px;
-            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(78, 205, 196, 0.1));
-            border: 2px solid var(--primary-color);
-            border-radius: 15px;
-            text-align: center;
-        }
-        
-        .sim-tax-note {
-            margin-top: 25px;
-            padding: 20px;
-            background: rgba(78, 205, 196, 0.1);
-            border-left: 4px solid var(--secondary-color);
-            font-size: 14px;
-            line-height: 1.8;
-            color: var(--text-primary);
-        }
-
-        /* お客様の声セクション */
-        .voices-container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-        
-        .voices-header {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-        
-        .voices-header h2 {
-            font-size: 36px;
-            font-weight: 700;
-            color: var(--dark-color);
-            margin-bottom: 15px;
-        }
-        
-        .voices-header p {
-            font-size: 18px;
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-        }
-        
-        .voices-badge {
-            display: inline-block;
-            background: var(--primary-color);
-            color: var(--white);
-            padding: 10px 30px;
-            border-radius: 30px;
-            font-weight: 700;
-            font-size: 14px;
-        }
-        
-        .voices-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-            margin-bottom: 60px;
-        }
-        
-        .voice-card {
-            background: var(--white);
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            transition: all 0.3s ease;
-            border: 1px solid var(--border-color);
-        }
-        
-        .voice-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-        }
-        
-        .voice-card-header {
-            background: linear-gradient(135deg, var(--primary-color), #FF8E8E);
-            padding: 20px;
-            color: var(--white);
-        }
-        
-        .voice-location {
-            font-size: 16px;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        
-        .voice-specs {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 10px;
-        }
-        
-        .voice-spec {
-            background: rgba(255,255,255,0.25);
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 500;
-        }
-        
-        .voice-card-body {
-            padding: 25px;
-        }
-        
-        .voice-top-section {
-            display: flex;
-            gap: 20px;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        
-        .voice-image-container {
-            flex-shrink: 0;
-            position: relative;
-        }
-        
-        .voice-image {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid var(--secondary-color);
-        }
-        
-        .balloon-icon {
-            position: absolute;
-            top: -10px;
-            right: -10px;
-            width: 35px;
-            height: 35px;
-        }
-        
-        .voice-content {
-            flex: 1;
-        }
-        
-        .voice-text {
-            font-size: 14px;
-            line-height: 1.8;
-            color: var(--text-primary);
-            position: relative;
-            padding-left: 25px;
-        }
-        
-        .voice-text::before {
-            content: '"';
-            position: absolute;
-            left: 0;
-            top: -8px;
-            font-size: 40px;
-            color: var(--primary-color);
-            font-weight: 900;
-            line-height: 1;
-        }
-        
-        .voice-graph {
-            margin-top: 20px;
-            padding: 15px;
-            background: var(--light-color);
-            border-radius: 10px;
-        }
-        
-        .voice-graph img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        
-        .voice-person-info {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-top: 15px;
-            padding-top: 15px;
-            border-top: 1px dashed var(--border-color);
-        }
-        
-        .person-occupation {
-            background: rgba(78, 205, 196, 0.1);
-            color: var(--secondary-color);
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 600;
-        }
-        
-        .person-age {
-            color: var(--text-secondary);
-            font-size: 14px;
-        }
-        
-        .voices-cta-section {
-            text-align: center;
-            padding: 50px 20px;
-            background: linear-gradient(135deg, var(--light-color), var(--white));
-            margin-top: 50px;
-            border-radius: 20px;
-        }
-        
-        .voices-cta-section h3 {
-            font-size: 24px;
-            color: var(--dark-color);
-            margin-bottom: 15px;
-            font-weight: 700;
-        }
-        
-        .voices-cta-section p {
-            color: var(--text-secondary);
-            margin-bottom: 30px;
-            font-size: 16px;
-        }
-        
-        .voices-cta-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        
-        .voices-cta-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            padding: 18px 40px;
-            border-radius: 50px;
-            font-size: 16px;
-            font-weight: 700;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            box-shadow: var(--shadow);
-        }
-        
-        .voices-cta-btn-kodate {
-            background: linear-gradient(135deg, var(--secondary-color), #5ED4C4);
-            color: var(--white);
-        }
-        
-        .voices-cta-btn-kodate:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(78, 205, 196, 0.4);
-        }
-        
-        .voices-cta-btn-tochi {
-            background: linear-gradient(135deg, var(--primary-color), #FF8E8E);
-            color: var(--white);
-        }
-        
-        .voices-cta-btn-tochi:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
-        }
-        
-        .voices-cta-btn svg {
-            width: 24px;
-            height: 24px;
-        }
-
-        @media (max-width: 768px) {
-            /* フッター分のスペースを確保 */
-            .modal-body {
-                padding-bottom: 50px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 28px; }
-            .stats-container { gap: 15px; }
-            .stat-card { min-width: 100%; padding: 20px; }
-            header { flex-direction: column; gap: 15px; }
-            nav { font-size: 14px; }
-            .tab-button { padding: 10px 15px; font-size: 16px; }
-            .search-box { flex-direction: column; }
-            .buyer-info-table { grid-template-columns: 1fr; }
-            .modal-content { margin: 20px; }
-            .simulator-box { padding: 25px 20px; }
-            .sim-title { font-size: 22px; }
-            .sim-value { font-size: 26px; }
-            .sim-result-item { flex-direction: column; align-items: flex-start; gap: 8px; }
-            .sim-result-item-value { font-size: 18px; }
-            .voices-grid { grid-template-columns: 1fr; gap: 20px; }
-            .voice-card-header { padding: 15px; }
-            .voice-location { font-size: 14px; }
-            .voice-specs { gap: 5px; }
-            .voice-spec { font-size: 11px; padding: 4px 10px; }
-            .voice-card-body { padding: 20px; }
-            .voice-image { width: 80px; height: 80px; }
-            .balloon-icon { width: 28px; height: 28px; }
-            .voice-text { font-size: 13px; line-height: 1.7; }
-            .voice-graph { padding: 10px; margin-top: 15px; }
-            .voices-cta-section h3 { font-size: 20px; }
-            .voices-cta-btn { padding: 15px 30px; font-size: 14px; }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="campaign-banner">
@@ -973,6 +19,7 @@
             <a href="index.html">ホーム</a>
             <a href="about.html">URICOとは</a>
             <a href="difference.html">一括査定との違い</a>
+            <a href="faq/">よくある質問</a>
             <a href="company/">運営会社</a>
             <a href="#">お問い合わせ</a>
         </nav>
@@ -980,10 +27,16 @@
 
     <div class="image-slider" id="imageSlider">
         <div class="slider-container">
-            <img src="./images/1.png" alt="スライダー画像1" class="slider-image">
-            <img src="./images/2.png" alt="スライダー画像2" class="slider-image">
-            <img src="./images/3.png" alt="スライダー画像3" class="slider-image">
-            <img src="./images/4.png" alt="スライダー画像4" class="slider-image">
+            <img src="./images/1.jpg" alt="スライダー画像1" class="slider-image">
+            <img src="./images/2.jpg" alt="スライダー画像2" class="slider-image">
+            <img src="./images/3.jpg" alt="スライダー画像3" class="slider-image">
+            <img src="./images/4.jpg" alt="スライダー画像4" class="slider-image">
+            <img src="./images/5.jpg" alt="スライダー画像5" class="slider-image">
+            <img src="./images/6.jpg" alt="スライダー画像6" class="slider-image">
+            <img src="./images/7.jpg" alt="スライダー画像7" class="slider-image">
+            <img src="./images/8.jpg" alt="スライダー画像8" class="slider-image">
+            <img src="./images/9.jpg" alt="スライダー画像9" class="slider-image">
+            <img src="./images/10.jpg" alt="スライダー画像10" class="slider-image">
         </div>
     </div>
 
@@ -994,16 +47,32 @@
 
     <section class="stats-container">
         <div class="stat-card">
-            <span class="number" id="statBuyers">-</span>
+            <span class="number" id="statBuyers">25,463</span>
             <span class="label">購入希望者数</span>
         </div>
         <div class="stat-card">
-            <span class="number" id="statProperties">-</span>
+            <span class="number" id="statProperties">6,367</span>
             <span class="label">対応物件数</span>
         </div>
         <div class="stat-card">
             <span class="number" id="statSuccessRate">72.4%</span>
             <span class="label">成約率</span>
+        </div>
+    </section>
+
+    <!-- お祝い金CTA -->
+    <section class="gift-cta-section">
+        <div class="gift-cta-card">
+            <div class="gift-cta-badge">🎉 成約特典</div>
+            <h2 class="gift-cta-title">
+                売却成立で<br>お祝い金 <span class="gift-cta-amount">最大50万円</span>
+            </h2>
+            <p class="gift-cta-subtitle">
+                物件価格に応じて、仲介手数料（税抜）の20%（上限50万円）をプレゼント
+            </p>
+            <a href="gift.html" class="gift-cta-button">
+                お祝い金 最大50万円プレゼント
+            </a>
         </div>
     </section>
 
@@ -1024,24 +93,92 @@
         </div>
 
         <!-- 戸建タブ -->
-        <form id="tab-house" class="tab-content" style="display:none;">
+        <div id="tab-house" class="tab-content" style="display:none;">
             <div class="search-method-buttons">
                 <button type="button" class="method-btn" id="house-method-station">駅から探す</button>
                 <button type="button" class="method-btn active" id="house-method-area">エリアから探す</button>
             </div>
             
-            <div id="house-station-search" style="display:none;">
-                <div class="form-group">
-                    <label for="house-railway">路線会社名</label>
-                    <select id="house-railway"><option value="">選択してください</option></select>
+            <div id="house-station-search" class="search-section" style="display:none;">
+                <!-- 第1路線会社（必須） -->
+                <div class="railway-group railway-primary">
+                    <h3 class="railway-title">
+                        <span class="required-badge">必須</span>
+                        第1路線会社
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="house-railway1-company" class="form-select" required>
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="house-railway1-line" class="form-select" disabled required>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="house-railway1-station" class="form-select" disabled required>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="house-line">沿線名</label>
-                    <select id="house-line" disabled><option value="">先に路線会社名を選択してください</option></select>
+
+                <!-- 第2路線会社の開閉ボタン -->
+                <div class="railway-toggle">
+                    <button type="button" id="house-railway2-toggle" class="btn-toggle">
+                        <span class="icon-plus">+</span>
+                        第2路線会社を追加
+                    </button>
                 </div>
-                <div class="form-group">
-                    <label for="house-station">駅名</label>
-                    <select id="house-station" disabled><option value="">先に沿線名を選択してください</option></select>
+
+                <!-- 第2路線会社（任意・初期非表示） -->
+                <div id="house-railway2-group" class="railway-group railway-secondary" style="display: none;">
+                    <h3 class="railway-title">
+                        <span class="optional-badge">任意</span>
+                        第2路線会社
+                        <button type="button" class="btn-close-railway" onclick="closeRailway('house', 2)">
+                            <span class="icon-minus">−</span>
+                            閉じる
+                        </button>
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="house-railway2-company" class="form-select">
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="house-railway2-line" class="form-select" disabled>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="house-railway2-station" class="form-select" disabled>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 第3路線会社の開閉ボタン -->
+                <div id="house-railway3-toggle-wrapper" class="railway-toggle" style="display: none;">
+                    <button type="button" id="house-railway3-toggle" class="btn-toggle">
+                        <span class="icon-plus">+</span>
+                        第3路線会社を追加
+                    </button>
+                </div>
+
+                <!-- 第3路線会社（任意・初期非表示） -->
+                <div id="house-railway3-group" class="railway-group railway-secondary" style="display: none;">
+                    <h3 class="railway-title">
+                        <span class="optional-badge">任意</span>
+                        第3路線会社
+                        <button type="button" class="btn-close-railway" onclick="closeRailway('house', 3)">
+                            <span class="icon-minus">−</span>
+                            閉じる
+                        </button>
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="house-railway3-company" class="form-select">
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="house-railway3-line" class="form-select" disabled>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="house-railway3-station" class="form-select" disabled>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             
@@ -1054,30 +191,102 @@
                     <label for="house-city">市区町村</label>
                     <select id="house-city" disabled><option value="">先に都道府県を選択してください</option></select>
                 </div>
+                <div class="form-group">
+                    <label for="house-town">町名・大字</label>
+                    <select id="house-town" disabled><option value="">先に市区町村を選択してください</option></select>
+                </div>
             </div>
-            
-            <button type="submit" class="search-btn-fullwidth">戸建を検索</button>
-        </form>
+
+            <button type="button" class="search-btn-fullwidth" onclick="searchHouse()">戸建を検索</button>
+        </div>
 
         <!-- 土地タブ -->
-        <form id="tab-land" class="tab-content" style="display:none;">
+        <div id="tab-land" class="tab-content" style="display:none;">
             <div class="search-method-buttons">
                 <button type="button" class="method-btn" id="land-method-station">駅から探す</button>
                 <button type="button" class="method-btn active" id="land-method-area">エリアから探す</button>
             </div>
             
-            <div id="land-station-search" style="display:none;">
-                <div class="form-group">
-                    <label for="land-railway">路線会社名</label>
-                    <select id="land-railway"><option value="">選択してください</option></select>
+            <div id="land-station-search" class="search-section" style="display:none;">
+                <!-- 第1路線会社（必須） -->
+                <div class="railway-group railway-primary">
+                    <h3 class="railway-title">
+                        <span class="required-badge">必須</span>
+                        第1路線会社
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="land-railway1-company" class="form-select" required>
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="land-railway1-line" class="form-select" disabled required>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="land-railway1-station" class="form-select" disabled required>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="land-line">沿線名</label>
-                    <select id="land-line" disabled><option value="">先に路線会社名を選択してください</option></select>
+
+                <!-- 第2路線会社の開閉ボタン -->
+                <div class="railway-toggle">
+                    <button type="button" id="land-railway2-toggle" class="btn-toggle">
+                        <span class="icon-plus">+</span>
+                        第2路線会社を追加
+                    </button>
                 </div>
-                <div class="form-group">
-                    <label for="land-station">駅名</label>
-                    <select id="land-station" disabled><option value="">先に沿線名を選択してください</option></select>
+
+                <!-- 第2路線会社（任意・初期非表示） -->
+                <div id="land-railway2-group" class="railway-group railway-secondary" style="display: none;">
+                    <h3 class="railway-title">
+                        <span class="optional-badge">任意</span>
+                        第2路線会社
+                        <button type="button" class="btn-close-railway" onclick="closeRailway('land', 2)">
+                            <span class="icon-minus">−</span>
+                            閉じる
+                        </button>
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="land-railway2-company" class="form-select">
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="land-railway2-line" class="form-select" disabled>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="land-railway2-station" class="form-select" disabled>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 第3路線会社の開閉ボタン -->
+                <div id="land-railway3-toggle-wrapper" class="railway-toggle" style="display: none;">
+                    <button type="button" id="land-railway3-toggle" class="btn-toggle">
+                        <span class="icon-plus">+</span>
+                        第3路線会社を追加
+                    </button>
+                </div>
+
+                <!-- 第3路線会社（任意・初期非表示） -->
+                <div id="land-railway3-group" class="railway-group railway-secondary" style="display: none;">
+                    <h3 class="railway-title">
+                        <span class="optional-badge">任意</span>
+                        第3路線会社
+                        <button type="button" class="btn-close-railway" onclick="closeRailway('land', 3)">
+                            <span class="icon-minus">−</span>
+                            閉じる
+                        </button>
+                    </h3>
+                    <div class="railway-selects">
+                        <select id="land-railway3-company" class="form-select">
+                            <option value="">路線会社を選択</option>
+                        </select>
+                        <select id="land-railway3-line" class="form-select" disabled>
+                            <option value="">沿線を選択</option>
+                        </select>
+                        <select id="land-railway3-station" class="form-select" disabled>
+                            <option value="">駅を選択</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             
@@ -1090,10 +299,14 @@
                     <label for="land-city">市区町村</label>
                     <select id="land-city" disabled><option value="">先に都道府県を選択してください</option></select>
                 </div>
+                <div class="form-group">
+                    <label for="land-town">町名・大字</label>
+                    <select id="land-town" disabled><option value="">先に市区町村を選択してください</option></select>
+                </div>
             </div>
-            
-            <button type="submit" class="search-btn-fullwidth">土地を検索</button>
-        </form>
+
+            <button type="button" class="search-btn-fullwidth" onclick="searchLand()">土地を検索</button>
+        </div>
     </section>
 
     <!-- 購入希望者詳細モーダル（業務用シンプルUI） -->
@@ -1138,7 +351,7 @@
                         <div class="sim-result-item-label">② 登記費用（税込）</div>
                         <div class="sim-result-note">※抵当権や共有名義等により変動あり</div>
                     </div>
-                    <div class="sim-result-item-value" id="registry-result">約3〜6万円</div>
+                    <div class="sim-result-item-value" id="registry-result">約6万円</div>
                 </div>
                 
                 <div class="sim-result-item">
@@ -1150,7 +363,8 @@
                 </div>
                 
                 <div class="sim-result-total">
-                    概算合計: <span id="total-result">約109万6,000円〜112万6,000円</span>
+                    <div class="sim-result-total-label">概算合計</div>
+                    <div class="sim-result-total-value" id="total-result">約112万6,000円</div>
                 </div>
             </div>
 
@@ -1170,77 +384,6 @@
                 </p>
             </div>
         </div>
-
-        <script>
-            const sellPriceSlider = document.getElementById('sell-price');
-            const sellPriceVal = document.getElementById('sell-price-val');
-            const feeResult = document.getElementById('fee-result');
-            const registryResult = document.getElementById('registry-result');
-            const stampResult = document.getElementById('stamp-result');
-            const totalResult = document.getElementById('total-result');
-
-            function calcBrokerageFee(priceMan) {
-                const price = priceMan * 10000;
-                let fee = 0;
-                
-                if (price <= 2000000) {
-                    fee = price * 0.05;
-                } else if (price <= 4000000) {
-                    fee = price * 0.04 + 20000;
-                } else {
-                    fee = price * 0.03 + 60000;
-                }
-                
-                return Math.floor(fee * 1.1);
-            }
-
-            function calcStampDuty(priceMan) {
-                const price = priceMan * 10000;
-                
-                if (price <= 1000000) return 500;
-                if (price <= 5000000) return 1000;
-                if (price <= 10000000) return 5000;
-                if (price <= 50000000) return 10000;
-                if (price <= 100000000) return 30000;
-                if (price <= 500000000) return 60000;
-                if (price <= 1000000000) return 160000;
-                return 320000;
-            }
-
-            function formatMoney(yen) {
-                if (yen >= 10000) {
-                    const man = Math.floor(yen / 10000);
-                    const remainder = yen % 10000;
-                    if (remainder === 0) {
-                        return man.toLocaleString() + '万円';
-                    } else {
-                        return man.toLocaleString() + '万' + remainder.toLocaleString() + '円';
-                    }
-                }
-                return yen.toLocaleString() + '円';
-            }
-
-            function updateCalculation() {
-                const priceMan = parseInt(sellPriceSlider.value);
-                sellPriceVal.textContent = priceMan.toLocaleString();
-                
-                const fee = calcBrokerageFee(priceMan);
-                feeResult.textContent = formatMoney(fee);
-                
-                registryResult.textContent = '約3〜6万円';
-                
-                const stamp = calcStampDuty(priceMan);
-                stampResult.textContent = formatMoney(stamp);
-                
-                const totalMin = fee + 30000 + stamp;
-                const totalMax = fee + 60000 + stamp;
-                
-                totalResult.textContent = '約' + formatMoney(totalMin) + '〜' + formatMoney(totalMax);
-            }
-
-            sellPriceSlider.addEventListener('input', updateCalculation);
-            updateCalculation();
-        </script>
     </section>
 
     <!-- お客様の声セクション -->
@@ -1265,7 +408,7 @@
                     <div class="voice-card-body">
                         <div class="voice-top-section">
                             <div class="voice-image-container">
-                                <img src="./images/voice1.jpeg" alt="お客様の声1" class="voice-image">
+                                <img src="./images/voice1.png" alt="お客様の声1" class="voice-image">
                                 <img src="./images/balloon.png" alt="" class="balloon-icon">
                             </div>
                             <div class="voice-content">
@@ -1294,7 +437,7 @@
                     <div class="voice-card-body">
                         <div class="voice-top-section">
                             <div class="voice-image-container">
-                                <img src="./images/voice2.jpeg" alt="お客様の声2" class="voice-image">
+                                <img src="./images/voice2.png" alt="お客様の声2" class="voice-image">
                                 <img src="./images/balloon.png" alt="" class="balloon-icon">
                             </div>
                             <div class="voice-content">
@@ -1323,7 +466,7 @@
                     <div class="voice-card-body">
                         <div class="voice-top-section">
                             <div class="voice-image-container">
-                                <img src="./images/voice3.jpeg" alt="お客様の声3" class="voice-image">
+                                <img src="./images/voice3.png" alt="お客様の声3" class="voice-image">
                                 <img src="./images/balloon.png" alt="" class="balloon-icon">
                             </div>
                             <div class="voice-content">
@@ -1352,7 +495,7 @@
                     <div class="voice-card-body">
                         <div class="voice-top-section">
                             <div class="voice-image-container">
-                                <img src="./images/voice4.jpeg" alt="お客様の声4" class="voice-image">
+                                <img src="./images/voice4.png" alt="お客様の声4" class="voice-image">
                                 <img src="./images/balloon.png" alt="" class="balloon-icon">
                             </div>
                             <div class="voice-content">
@@ -1381,7 +524,7 @@
                     <div class="voice-card-body">
                         <div class="voice-top-section">
                             <div class="voice-image-container">
-                                <img src="./images/voice5.jpeg" alt="お客様の声5" class="voice-image">
+                                <img src="./images/voice5.png" alt="お客様の声5" class="voice-image">
                                 <img src="./images/balloon.png" alt="" class="balloon-icon">
                             </div>
                             <div class="voice-content">
@@ -1410,7 +553,7 @@
                     <div class="voice-card-body">
                         <div class="voice-top-section">
                             <div class="voice-image-container">
-                                <img src="./images/voice6.jpeg" alt="お客様の声6" class="voice-image">
+                                <img src="./images/voice6.png" alt="お客様の声6" class="voice-image">
                                 <img src="./images/balloon.png" alt="" class="balloon-icon">
                             </div>
                             <div class="voice-content">
@@ -1439,7 +582,7 @@
                     <div class="voice-card-body">
                         <div class="voice-top-section">
                             <div class="voice-image-container">
-                                <img src="./images/voice7.jpeg" alt="お客様の声7" class="voice-image">
+                                <img src="./images/voice7.png" alt="お客様の声7" class="voice-image">
                                 <img src="./images/balloon.png" alt="" class="balloon-icon">
                             </div>
                             <div class="voice-content">
@@ -1468,7 +611,7 @@
                     <div class="voice-card-body">
                         <div class="voice-top-section">
                             <div class="voice-image-container">
-                                <img src="./images/voice8.jpeg" alt="お客様の声8" class="voice-image">
+                                <img src="./images/voice8.png" alt="お客様の声8" class="voice-image">
                                 <img src="./images/balloon.png" alt="" class="balloon-icon">
                             </div>
                             <div class="voice-content">
@@ -1530,703 +673,14 @@
             <a href="index.html">ホーム</a>
             <a href="about.html">URICOとは</a>
             <a href="difference.html">一括査定との違い</a>
+            <a href="faq/">よくある質問</a>
             <a href="company/">運営会社</a>
             <a href="#">お問い合わせ</a>
         </nav>
         <p class="copyright">&copy; 2026 URICO All Rights Reserved.</p>
     </footer>
 
-<script type="module">
-// データベースをインポート
-import { MANSION_DB } from './mansion_db.js';
-import { HOUSE_DB } from './house_db.js';
-import { LAND_DB } from './land_db.js';
-
-// グローバル変数
-let railwayData = {};
-let areaData = {};
-let mansionDatabase = [];
-let houseDatabase = [];
-let landDatabase = [];
-let currentType = 'mansion'; // 現在の物件タイプ
-
-const statsData = {
-    mansion: { title: "＼マンションを探している購入希望者を<span>検索／</span>", rate: "72.4%" },
-    house: { title: "＼戸建を探している購入希望者を<span>検索／</span>", rate: "79.5%" },
-    land: { title: "＼土地を探している購入希望者を<span>検索／</span>", rate: "81.4%" }
-};
-
-// 初期化
-document.addEventListener('DOMContentLoaded', async () => {
-    mansionDatabase = MANSION_DB;
-    houseDatabase = HOUSE_DB;
-    landDatabase = LAND_DB;
-    console.log('読み込まれたマンション数:', mansionDatabase.length);
-    console.log('読み込まれた戸建数:', houseDatabase.length);
-    console.log('読み込まれた土地数:', landDatabase.length);
-    const totalBuyers = mansionDatabase.reduce((sum, m) => sum + (m.buyers?.length || 0), 0);
-    console.log('読み込まれた購入希望者数:', totalBuyers);
-    updateStats('mansion');
-    await loadExternalData();
-    setupSearchMethodToggle('house');
-    setupSearchMethodToggle('land');
-    setup3TierRailwaySelect('house');
-    setup3TierRailwaySelect('land');
-    initializeTabSwitching();
-    initializeMansionSearch();
-    initializeHouseSearch();
-    initializeLandSearch();
-    initializeImageSlider();
-});
-
-function updateStats(type) {
-    currentType = type;
-    let database, totalBuyers, totalProperties;
-    
-    if (type === 'mansion') {
-        database = mansionDatabase;
-    } else if (type === 'house') {
-        database = houseDatabase;
-    } else if (type === 'land') {
-        database = landDatabase;
-    } else {
-        database = mansionDatabase;
-    }
-    
-    totalBuyers = database.reduce((sum, item) => sum + (item.buyers?.length || 0), 0);
-    totalProperties = database.length;
-    animateNumber('statBuyers', totalBuyers);
-    animateNumber('statProperties', totalProperties);
-    document.getElementById('heroSubtitle').textContent = 
-        `関西1,629社の不動産会社で探している${totalBuyers.toLocaleString()}組の購入希望者データベースから最適な買主を見つけます`;
-}
-
-function animateNumber(elementId, targetNumber) {
-    const el = document.getElementById(elementId);
-    if (!el) return;
-    let current = 0;
-    const increment = Math.ceil(targetNumber / 50);
-    const timer = setInterval(() => {
-        current += increment;
-        if (current >= targetNumber) {
-            current = targetNumber;
-            clearInterval(timer);
-        }
-        el.textContent = current.toLocaleString();
-    }, 30);
-}
-
-// 購入希望者詳細モーダル表示（業務用シンプルUI）
-window.showBuyerDetails = function(itemName, type = null) {
-    const itemType = type || currentType;
-    let database, item;
-    
-    if (itemType === 'house') {
-        database = houseDatabase;
-        item = database.find(i => i.name === itemName || i.address === itemName);
-    } else if (itemType === 'land') {
-        database = landDatabase;
-        item = database.find(i => i.name === itemName || i.address === itemName);
-    } else {
-        database = mansionDatabase;
-        item = database.find(i => i.name === itemName);
-    }
-    
-    if (!item) return;
-    
-    const modal = document.getElementById('buyerModal');
-    const title = document.getElementById('modalTitle');
-    const subtitle = document.getElementById('modalSubtitle');
-    const cards = document.getElementById('buyerCards');
-    
-    const displayName = item.name || item.address || '物件情報';
-    if (title) title.textContent = displayName;
-    if (subtitle) subtitle.textContent = `購入希望者 ${(item.buyers || []).length}件`;
-    
-    if (cards) {
-        cards.innerHTML = (item.buyers || []).map((b, idx) => `
-            <div class="buyer-block">
-                <div class="buyer-block-header">
-                    <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                    <span class="buyer-price-value">${b.price || '価格応相談'}</span>
-                </div>
-                <div class="buyer-info-table">
-                    <div class="buyer-info-row">
-                        <span class="buyer-info-label">家族構成</span>
-                        <span class="buyer-info-value">${b.family || '-'}</span>
-                    </div>
-                    <div class="buyer-info-row">
-                        <span class="buyer-info-label">年齢</span>
-                        <span class="buyer-info-value">${b.age || '-'}</span>
-                    </div>
-                    <div class="buyer-info-row">
-                        <span class="buyer-info-label">職業</span>
-                        <span class="buyer-info-value">${b.occupation || '-'}</span>
-                    </div>
-                    <div class="buyer-info-row">
-                        <span class="buyer-info-label">購入時期</span>
-                        <span class="buyer-info-value">${b.timing || '-'}</span>
-                    </div>
-                    <div class="buyer-info-row">
-                        <span class="buyer-info-label">購入方法</span>
-                        <span class="buyer-info-value">${b.method || '-'}</span>
-                    </div>
-                    <div class="buyer-info-row">
-                        <span class="buyer-info-label">購入理由</span>
-                        <span class="buyer-info-value">${b.reason || '-'}</span>
-                    </div>
-                    <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
-                        <span class="buyer-info-label">NG条件</span>
-                        <span class="buyer-info-value">${b.ng || '特になし'}</span>
-                    </div>
-                </div>
-                <div class="buyer-action">
-                    <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
-                </div>
-            </div>
-        `).join('');
-    }
-    
-    modal.classList.add('active');
-    
-    // スマホ用フッターを表示
-    const footer = document.getElementById('buyerFooter');
-    if (footer && window.innerWidth <= 768) {
-        footer.style.display = 'block';
-    }
-};
-
-window.closeModal = function() {
-    document.getElementById('buyerModal')?.classList.remove('active');
-    
-    // スマホ用フッターを非表示
-    const footer = document.getElementById('buyerFooter');
-    if (footer) {
-        footer.style.display = 'none';
-    }
-};
-
-window.contactBuyer = function(buyerId) {
-    window.location.href = 'https://form.run/@urico-kansai';
-};
-
-async function loadExternalData() {
-    try {
-        const [railwayRes, areaRes] = await Promise.all([
-            fetch('./railway_data.json'),
-            fetch('./area_data.json')
-        ]);
-        railwayData = await railwayRes.json();
-        areaData = await areaRes.json();
-        initializeRailwaySelects('house');
-        initializeRailwaySelects('land');
-        initializeAreaSelects('house');
-        initializeAreaSelects('land');
-    } catch (error) {
-        console.error('データの読み込みに失敗しました:', error);
-    }
-}
-
-function initializeRailwaySelects(prefix) {
-    const railwaySelect = document.getElementById(`${prefix}-railway`);
-    if (!railwaySelect) return;
-    railwaySelect.innerHTML = '<option value="">選択してください</option>';
-    Object.keys(railwayData).forEach(company => {
-        const option = document.createElement('option');
-        option.value = company;
-        option.textContent = company;
-        railwaySelect.appendChild(option);
-    });
-}
-
-function setupSearchMethodToggle(prefix) {
-    const stationBtn = document.getElementById(`${prefix}-method-station`);
-    const areaBtn = document.getElementById(`${prefix}-method-area`);
-    const stationSearch = document.getElementById(`${prefix}-station-search`);
-    const areaSearch = document.getElementById(`${prefix}-area-search`);
-    if (!stationBtn || !areaBtn) return;
-    stationBtn.addEventListener('click', () => {
-        stationBtn.classList.add('active');
-        areaBtn.classList.remove('active');
-        stationSearch.style.display = 'block';
-        areaSearch.style.display = 'none';
-    });
-    areaBtn.addEventListener('click', () => {
-        areaBtn.classList.add('active');
-        stationBtn.classList.remove('active');
-        areaSearch.style.display = 'block';
-        stationSearch.style.display = 'none';
-    });
-}
-
-function setup3TierRailwaySelect(prefix) {
-    const railwaySelect = document.getElementById(`${prefix}-railway`);
-    const lineSelect = document.getElementById(`${prefix}-line`);
-    const stationSelect = document.getElementById(`${prefix}-station`);
-    if (!railwaySelect || !lineSelect || !stationSelect) return;
-    railwaySelect.addEventListener('change', () => {
-        const company = railwaySelect.value;
-        lineSelect.innerHTML = '<option value="">選択してください</option>';
-        stationSelect.innerHTML = '<option value="">先に沿線名を選択してください</option>';
-        stationSelect.disabled = true;
-        if (company && railwayData[company]) {
-            lineSelect.disabled = false;
-            Object.keys(railwayData[company]).forEach(line => {
-                const option = document.createElement('option');
-                option.value = line;
-                option.textContent = line;
-                lineSelect.appendChild(option);
-            });
-        } else {
-            lineSelect.disabled = true;
-        }
-    });
-    lineSelect.addEventListener('change', () => {
-        const company = railwaySelect.value;
-        const line = lineSelect.value;
-        stationSelect.innerHTML = '<option value="">選択してください</option>';
-        if (company && line && railwayData[company][line]) {
-            stationSelect.disabled = false;
-            railwayData[company][line].forEach(station => {
-                const option = document.createElement('option');
-                option.value = station;
-                option.textContent = station;
-                stationSelect.appendChild(option);
-            });
-        } else {
-            stationSelect.disabled = true;
-        }
-    });
-}
-
-function initializeAreaSelects(prefix) {
-    const prefSelect = document.getElementById(`${prefix}-prefecture`);
-    const citySelect = document.getElementById(`${prefix}-city`);
-    if (!prefSelect || !citySelect) return;
-    prefSelect.innerHTML = '<option value="">選択してください</option>';
-    Object.keys(areaData).forEach(pref => {
-        const option = document.createElement('option');
-        option.value = pref;
-        option.textContent = pref;
-        prefSelect.appendChild(option);
-    });
-    prefSelect.addEventListener('change', () => {
-        const selectedPref = prefSelect.value;
-        citySelect.innerHTML = '<option value="">先に都道府県を選択してください</option>';
-        citySelect.disabled = true;
-        if (selectedPref && areaData[selectedPref]) {
-            citySelect.innerHTML = '<option value="">選択してください</option>';
-            areaData[selectedPref].forEach(city => {
-                const option = document.createElement('option');
-                option.value = city;
-                option.textContent = city;
-                citySelect.appendChild(option);
-            });
-            citySelect.disabled = false;
-        }
-    });
-}
-
-function initializeTabSwitching() {
-    const tabs = document.querySelectorAll('.search-tabs button');
-    const contents = {
-        mansion: document.getElementById('tab-mansion'),
-        house: document.getElementById('tab-house'),
-        land: document.getElementById('tab-land'),
-    };
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            const selectedType = tab.id.replace('tab-', '').replace('-btn', '');
-            tabs.forEach(t => {
-                const isSelected = (t === tab);
-                t.classList.toggle('active', isSelected);
-                t.setAttribute('aria-selected', isSelected ? 'true' : 'false');
-            });
-            Object.entries(contents).forEach(([key, element]) => {
-                if (!element) return;
-                element.style.display = (key === selectedType) ? 'block' : 'none';
-            });
-            updateStats(selectedType);
-            const data = statsData[selectedType];
-            if (data) {
-                document.getElementById('heroTitle').innerHTML = data.title;
-                document.getElementById('statSuccessRate').textContent = data.rate;
-            }
-        });
-    });
-}
-
-function initializeMansionSearch() {
-    const inputMansion = document.getElementById('searchInputMansion');
-    const suggestionsMansion = document.getElementById('suggestionsMansion');
-    if (!inputMansion || !suggestionsMansion) return;
-    inputMansion.addEventListener('input', () => {
-        const query = inputMansion.value.toLowerCase();
-        suggestionsMansion.innerHTML = '';
-        if (query.length < 1) {
-            suggestionsMansion.style.display = 'none';
-            return;
-        }
-        const filtered = mansionDatabase
-            .filter(m => (m.name || '').toLowerCase().includes(query))
-            .slice(0, 10);
-        if (filtered.length > 0) {
-            filtered.forEach(mansion => {
-                const item = document.createElement('div');
-                item.classList.add('suggestion-item');
-                item.innerHTML = `
-                    <span class="mansion-name">${mansion.name}</span>
-                    <span class="buyer-count">${(mansion.buyers || []).length}組</span>
-                `;
-                item.addEventListener('click', () => {
-                    inputMansion.value = mansion.name;
-                    suggestionsMansion.style.display = 'none';
-                    showBuyerDetails(mansion.name);
-                });
-                suggestionsMansion.appendChild(item);
-            });
-            suggestionsMansion.style.display = 'block';
-        } else {
-            suggestionsMansion.style.display = 'none';
-        }
-    });
-    document.getElementById('searchButtonMansion').addEventListener('click', () => {
-        const mansionName = inputMansion.value.trim();
-        if (mansionName) {
-            const mansion = mansionDatabase.find(m => 
-                (m.name || '').toLowerCase().includes(mansionName.toLowerCase())
-            );
-            if (mansion) {
-                showBuyerDetails(mansion.name);
-            } else {
-                alert('該当するマンションが見つかりません。無料査定でお探しします。');
-            }
-        } else {
-            alert('マンション名を入力してください。');
-        }
-    });
-    inputMansion.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            document.getElementById('searchButtonMansion').click();
-        }
-    });
-    document.addEventListener('click', (e) => {
-        if (!e.target.closest('.search-box')) {
-            suggestionsMansion.style.display = 'none';
-        }
-    });
-}
-
-function initializeHouseSearch() {
-    const form = document.getElementById('tab-house');
-    if (!form) return;
-    form.addEventListener('submit', async e => {
-        e.preventDefault();
-        const pref = document.getElementById('house-prefecture').value.trim();
-        const city = document.getElementById('house-city').value.trim();
-        const railway = document.getElementById('house-railway').value.trim();
-        const line = document.getElementById('house-line').value.trim();
-        const station = document.getElementById('house-station').value.trim();
-        
-        let jsonPath = '';
-        
-        // エリア検索
-        if (pref && city) {
-            // パスを構築: data/house/area/{prefecture}/{city}.json
-            jsonPath = `./data/house/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
-        } 
-        // 駅検索
-        else if (railway && station) {
-            // パスを構築: data/house/station/{railway}/{line}/{station}.json
-            jsonPath = `./data/house/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
-        } else {
-            alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
-            return;
-        }
-        
-        try {
-            // JSONファイルを読み込む
-            const response = await fetch(jsonPath);
-            if (!response.ok) {
-                throw new Error('ファイルが見つかりません');
-            }
-            const buyers = await response.json();
-            
-            if (!buyers || buyers.length === 0) {
-                alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する戸建の購入希望者は見つかりませんでした。`);
-                return;
-            }
-            
-            // モーダルを表示
-            const modal = document.getElementById('buyerModal');
-            const title = document.getElementById('modalTitle');
-            const subtitle = document.getElementById('modalSubtitle');
-            const cards = document.getElementById('buyerCards');
-            
-            if (title) title.textContent = `${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} の戸建`;
-            if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
-            
-            if (cards) {
-                cards.innerHTML = buyers.map((b, idx) => `
-                    <div class="buyer-block">
-                        <div class="buyer-block-header">
-                            <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                            <span class="buyer-price-value">${b.price || '価格応相談'}</span>
-                        </div>
-                        <div class="buyer-info-table">
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">家族構成</span>
-                                <span class="buyer-info-value">${b.family || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">年齢</span>
-                                <span class="buyer-info-value">${b.age || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">職業</span>
-                                <span class="buyer-info-value">${b.occupation || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入時期</span>
-                                <span class="buyer-info-value">${b.timing || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入方法</span>
-                                <span class="buyer-info-value">${b.method || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入理由</span>
-                                <span class="buyer-info-value">${b.reason || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
-                                <span class="buyer-info-label">NG条件</span>
-                                <span class="buyer-info-value">${b.ng || '特になし'}</span>
-                            </div>
-                        </div>
-                        <div class="buyer-action">
-                            <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
-                        </div>
-                    </div>
-                `).join('');
-            }
-            
-            modal.classList.add('active');
-            
-            // スマホ用フッターを表示
-            const footer = document.getElementById('buyerFooter');
-            if (footer && window.innerWidth <= 768) {
-                footer.style.display = 'block';
-            }
-        } catch (error) {
-            console.error('データ読み込みエラー:', error);
-            alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する戸建の購入希望者は見つかりませんでした。`);
-        }
-    });
-}
-
-function initializeLandSearch() {
-    const form = document.getElementById('tab-land');
-    if (!form) return;
-    form.addEventListener('submit', async e => {
-        e.preventDefault();
-        const pref = document.getElementById('land-prefecture').value.trim();
-        const city = document.getElementById('land-city').value.trim();
-        const railway = document.getElementById('land-railway').value.trim();
-        const line = document.getElementById('land-line').value.trim();
-        const station = document.getElementById('land-station').value.trim();
-        
-        let jsonPath = '';
-        
-        // エリア検索
-        if (pref && city) {
-            // パスを構築: data/land/area/{prefecture}/{city}.json
-            jsonPath = `./data/land/area/${encodeURIComponent(pref)}/${encodeURIComponent(city)}.json`;
-        } 
-        // 駅検索
-        else if (railway && station) {
-            // パスを構築: data/land/station/{railway}/{line}/{station}.json
-            jsonPath = `./data/land/station/${encodeURIComponent(railway)}/${encodeURIComponent(line)}/${encodeURIComponent(station)}.json`;
-        } else {
-            alert('都道府県と市区町村、または路線会社名と駅名を選択してください。');
-            return;
-        }
-        
-        try {
-            // JSONファイルを読み込む
-            const response = await fetch(jsonPath);
-            if (!response.ok) {
-                throw new Error('ファイルが見つかりません');
-            }
-            const buyers = await response.json();
-            
-            if (!buyers || buyers.length === 0) {
-                alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する土地の購入希望者は見つかりませんでした。`);
-                return;
-            }
-            
-            // モーダルを表示
-            const modal = document.getElementById('buyerModal');
-            const title = document.getElementById('modalTitle');
-            const subtitle = document.getElementById('modalSubtitle');
-            const cards = document.getElementById('buyerCards');
-            
-            if (title) title.textContent = `${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} の土地`;
-            if (subtitle) subtitle.textContent = `購入希望者 ${buyers.length}件`;
-            
-            if (cards) {
-                cards.innerHTML = buyers.map((b, idx) => `
-                    <div class="buyer-block">
-                        <div class="buyer-block-header">
-                            <span class="buyer-number">購入希望者 #${idx + 1}</span>
-                            <span class="buyer-price-value">${b.price || '価格応相談'}</span>
-                        </div>
-                        <div class="buyer-info-table">
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">家族構成</span>
-                                <span class="buyer-info-value">${b.family || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">年齢</span>
-                                <span class="buyer-info-value">${b.age || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">職業</span>
-                                <span class="buyer-info-value">${b.occupation || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入時期</span>
-                                <span class="buyer-info-value">${b.timing || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入方法</span>
-                                <span class="buyer-info-value">${b.method || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row">
-                                <span class="buyer-info-label">購入理由</span>
-                                <span class="buyer-info-value">${b.reason || '-'}</span>
-                            </div>
-                            <div class="buyer-info-row ng-row" style="grid-column: 1 / -1;">
-                                <span class="buyer-info-label">NG条件</span>
-                                <span class="buyer-info-value">${b.ng || '特になし'}</span>
-                            </div>
-                        </div>
-                        <div class="buyer-action">
-                            <button class="contact-buyer-btn" onclick="contactBuyer(${idx})">この購入希望者を紹介してほしい</button>
-                        </div>
-                    </div>
-                `).join('');
-            }
-            
-            modal.classList.add('active');
-            
-            // スマホ用フッターを表示
-            const footer = document.getElementById('buyerFooter');
-            if (footer && window.innerWidth <= 768) {
-                footer.style.display = 'block';
-            }
-        } catch (error) {
-            console.error('データ読み込みエラー:', error);
-            alert(`${pref && city ? `${pref} ${city}` : `${railway} ${line} ${station}`} に対応する土地の購入希望者は見つかりませんでした。`);
-        }
-    });
-}
-
-// 画像スライダー初期化
-function initializeImageSlider() {
-    const slider = document.getElementById('imageSlider');
-    if (!slider) return;
-    
-    let currentIndex = 0;
-    let autoSlideInterval;
-    let isUserScrolling = false;
-    let scrollTimeout;
-    const images = slider.querySelectorAll('.slider-image');
-    const totalImages = images.length;
-    const slideWidth = window.innerWidth;
-    
-    // 自動スライド関数
-    function autoSlide() {
-        if (isUserScrolling) return;
-        
-        currentIndex = (currentIndex + 1) % totalImages;
-        slider.scrollTo({
-            left: currentIndex * slideWidth,
-            behavior: 'smooth'
-        });
-    }
-    
-    // 自動スライド開始
-    function startAutoSlide() {
-        autoSlideInterval = setInterval(autoSlide, 5000);
-    }
-    
-    // 自動スライド停止
-    function stopAutoSlide() {
-        clearInterval(autoSlideInterval);
-    }
-    
-    // スクロール位置から現在のインデックスを計算
-    function updateCurrentIndex() {
-        const scrollLeft = slider.scrollLeft;
-        currentIndex = Math.round(scrollLeft / slideWidth);
-    }
-    
-    // ユーザーがスクロールしているか検知
-    slider.addEventListener('scroll', () => {
-        isUserScrolling = true;
-        clearTimeout(scrollTimeout);
-        
-        // スクロールが止まってから1秒後に自動スライドを再開
-        scrollTimeout = setTimeout(() => {
-            isUserScrolling = false;
-            updateCurrentIndex();
-            startAutoSlide();
-        }, 1000);
-        
-        stopAutoSlide();
-    });
-    
-    // タッチ/マウス操作の検知
-    let isInteracting = false;
-    slider.addEventListener('touchstart', () => {
-        isInteracting = true;
-        stopAutoSlide();
-    });
-    
-    slider.addEventListener('touchend', () => {
-        setTimeout(() => {
-            isInteracting = false;
-            updateCurrentIndex();
-            startAutoSlide();
-        }, 1000);
-    });
-    
-    slider.addEventListener('mousedown', () => {
-        isInteracting = true;
-        stopAutoSlide();
-    });
-    
-    slider.addEventListener('mouseup', () => {
-        setTimeout(() => {
-            isInteracting = false;
-            updateCurrentIndex();
-            startAutoSlide();
-        }, 1000);
-    });
-    
-    // ウィンドウリサイズ時の処理
-    window.addEventListener('resize', () => {
-        const newSlideWidth = window.innerWidth;
-        slider.scrollTo({
-            left: currentIndex * newSlideWidth,
-            behavior: 'auto'
-        });
-    });
-    
-    // 初期化
-    startAutoSlide();
-}
-</script>
+<script type="module" src="main.js"></script>
 
 </body>
 </html>

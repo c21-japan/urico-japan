@@ -1,5 +1,4 @@
-export const MANSION_DB_PART = 
-const MANSION_DB_PART = [
+export const MANSION_DB_PART = [
   {
     "name": "南門真ハイライフ",
     "address": "",

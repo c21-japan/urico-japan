@@ -1,3 +1,4 @@
+export const MANSION_DB_PART = 
 [
   {
     "name": "コスモハイツ石橋",
